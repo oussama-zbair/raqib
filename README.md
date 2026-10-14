@@ -1,99 +1,79 @@
-# Raqib — رقيب
+<div align="center">
 
-> **Votre veilleur des concours publics** · *رقيبك في المباريات العمومية* · *Your public-exam watchman*
+<img src="web/public/logo.svg" width="96" alt="Raqib" />
 
-**Raqib** (Arabic **رقيب**, "the watchman / the vigilant one") is a smart, zero-cost
-automated platform that acts as a personal watchman for Moroccan public-sector
-competitions (*concours de recrutement* / *مباريات التوظيف*).
+# Raqib · رقيب
 
-The name says what it does: Raqib watches every concours so you never miss your CIN on a
-convocation list.
+**Votre veilleur des concours publics marocains**
+*رقيبك في المباريات العمومية · Your public-exam watchman*
 
-It ingests announcements from official portals, ministry sites, and community feeds,
-filters them to a candidate's exact profile (grade + specialty, FR/AR), and — critically —
-monitors tracked exams to alert a candidate the second their **CIN** appears on a
-convocation or results PDF.
+[![Ouvrir le bot](https://img.shields.io/badge/Telegram-%40RaqibBot-229ED9?logo=telegram&logoColor=white)](https://t.me/RaqibBot)
+![License](https://img.shields.io/badge/license-MIT-0E7C66)
+![FR](https://img.shields.io/badge/🇫🇷-Français-blue)
+![AR](https://img.shields.io/badge/🇲🇦-العربية-C1272D)
 
-## Why
+</div>
 
-The hardest part of a Moroccan concours often isn't the exam — it's the fragmented,
-late, and noisy information. After you apply, there is no email notification: the
-administration silently uploads a scanned PDF of *candidats convoqués*, and if you don't
-catch it and find your CIN, exam center, and seat within 48–72h, you miss your chance.
-This platform solves that.
+---
 
-## Architecture (all on always-free tiers)
+## 🎯 Le problème
 
-| Concern | Runtime | Why |
-|--------|---------|-----|
-| Scraping, PDF roll-call, digests | **Python** on **GitHub Actions** (cron) | Stateless, periodic, heavy libs (pdfplumber, Telethon) |
-| Interactive Telegram bot | **TypeScript** on **Supabase Edge Function** (webhook) | Sub-second button responses, no 24/7 server |
-| Admin/status dashboard | **Nuxt (Vue)** on **Cloudflare Pages** | Read-only, unmetered free bandwidth |
-| Shared state | **Supabase Postgres** | Single free DB for all runtimes |
-| Ambiguous/scanned extraction | **Google Gemini Flash** (free tier) | Fallback only, to conserve quota |
+Au Maroc, le plus dur dans un concours public n'est souvent pas l'examen — c'est
+l'information. Les annonces sont éparpillées sur `emploi-public.ma`, des dizaines de
+canaux Telegram, et les portails de chaque ministère. On manque un concours parce qu'on
+apprend son existence **après le délai de dépôt**. Et après l'inscription, aucune
+notification : l'administration met en ligne un PDF scanné de *candidats convoqués*, et si
+on ne repère pas son **CIN** dans les 48–72h, on perd sa chance.
+
+## 👁️ La solution
+
+**Raqib** (رقيب, « le veilleur ») surveille en continu tous les portails, filtre selon
+votre profil exact (grade + spécialité, en FR et AR), et vous alerte sur Telegram :
+
+1. **Dès qu'un nouveau concours** correspond à votre profil — à temps pour déposer.
+2. **Dès que votre CIN apparaît** sur une liste de convoqués — avec centre, salle et
+   n° de table extraits automatiquement.
+
+Le tout **gratuitement**, bilingue, dans un simple bot Telegram.
+
+👉 **[Commencer sur @RaqibBot](https://t.me/RaqibBot)**
+
+## ✨ Fonctionnalités
+
+- 🔔 **Alertes ciblées** — uniquement les concours qui matchent votre grade et votre spécialité
+- 🌍 **Bilingue FR / AR** — interface et correspondance dans les deux langues
+- 🤖 **IA intégrée** — un modèle d'IA lit les PDF scannés et le texte non structuré que l'analyse classique rate
+- 📄 **Détection de CIN** — recherche automatique de votre CIN dans les listes de convoqués
+- 📌 **Suivi en un clic** — suivez un concours et laissez Raqib surveiller sa convocation
+- 🔒 **CIN chiffré** — votre numéro est chiffré au repos, déchiffré uniquement le temps de la recherche
+
+## 🛠️ Stack technique
+
+| Composant | Technologie |
+|-----------|-------------|
+| Bot Telegram | TypeScript · Supabase Edge Function |
+| Collecte & analyse | Python · GitHub Actions (cron) |
+| Site vitrine | Nuxt (Vue 3) · Cloudflare Pages |
+| Base de données | Supabase (PostgreSQL) |
+| IA (fallback) | Google Gemini |
 
 ```
-backend/   Python — scrapers, matcher, PDF engine, notifier, cron jobs
-bot/       TypeScript — Telegram webhook (Supabase Edge Function)
-web/       Nuxt — read-only admin/status dashboard
-db/        SQL — Supabase schema + seeds
-docs/      Architecture & setup docs
-.github/   GitHub Actions cron workflows
-.kiro/     Kiro spec (requirements / design / tasks)
+backend/   Python — scrapers, matching bilingue, moteur PDF, notifications, cron
+bot/       TypeScript — bot Telegram (Supabase Edge Function)
+web/       Nuxt — site vitrine bilingue (FR/AR)
+db/        SQL — schéma Supabase
 ```
 
-## Core flow
+## 🔒 Confidentialité
 
-1. **Onboard** in the Telegram bot: name (FR/AR), CIN, target grade(s), specialty(ies).
-2. **Ingest** cron scrapes sources → extracts (Gemini fallback) → normalizes → dedups
-   into canonical competitions.
-3. **Match** each competition to profiles by FR/AR grade + specialty, with negative
-   filtering of off-target roles.
-4. **Digest** pushes only matched, verified competitions to each candidate with a
-   `📌 Suivre ce concours` button.
-5. **Monitor** tracked competitions; when a convocation/result PDF drops, roll-call the
-   candidate's CIN and send an urgent alert with centre / salle / table.
+Le CIN est une donnée sensible. Il est **chiffré au repos** (Fernet) et déchiffré
+**uniquement en mémoire** le temps de rechercher votre nom dans un PDF de convocation.
+Il n'est jamais exposé publiquement.
 
-## Getting started
+---
 
-See [`docs/SETUP.md`](docs/SETUP.md) for full setup. Quick pointers:
+<div align="center">
 
-- `db/schema.sql` — run in the Supabase SQL editor.
-- `backend/` — `pip install -r requirements.txt`, copy `.env.example` → `.env`.
-- `bot/` — deploy as a Supabase Edge Function, set the Telegram webhook.
-- `web/` — `npm install && npm run dev`, deploy to Cloudflare Pages.
+Fait avec ❤️ pour les candidats marocains · [@RaqibBot](https://t.me/RaqibBot)
 
-## Privacy
-
-CIN is sensitive. It is stored **encrypted at rest** (Fernet) and decrypted **only in
-memory** during PDF roll-call. The admin dashboard never receives CIN values.
-
-## Status
-
-MVP scaffold. `emploi-public.ma` is the first ingestion source; ministry portals and
-Telegram/aggregator feeds are added behind the same `Scraper` interface.
-
-## Brand
-
-**Raqib** (رقيب) — "the watchman". The name is the promise: it watches every concours so
-you never miss your CIN on a list.
-
-**Palette**
-
-| Role | Hex | Use |
-|------|-----|-----|
-| Zellij Green (primary) | `#0E7C66` / `#12987C` | logo, buttons, links |
-| Night (base) | `#0B1220` | dark UI background |
-| Saffron (accent) | `#F4B740` | highlights, the watching eye, CTAs |
-| Atlas Red (alert) | `#D64545` | urgent convocation alerts |
-| Text | `#E8EDF7` | on dark |
-
-**Logo** — a Moroccan 8-point *khatam* star (Zellij Green) with a saffron eye in the
-negative space. Assets: [`web/public/logo.svg`](web/public/logo.svg) (full),
-[`web/public/favicon.svg`](web/public/favicon.svg) (small sizes / Telegram avatar).
-
-**Suggested handles** (verify availability before claiming): GitHub `raqib`,
-Telegram bot `@RaqibBot`, domain `raqib.ma`.
-
-**Taglines** — FR: *Votre veilleur des concours publics* · AR: *رقيبك في المباريات العمومية*
-· EN: *Your public-exam watchman*.
+</div>

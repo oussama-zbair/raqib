@@ -41,6 +41,10 @@ yarn-error.log*
 .temp/
 supabase/.temp/
 
+# ---- Internal planning & private deploy notes (not published) ----
+.kiro/
+.private/
+
 # ---- Editor / OS ----
 .DS_Store
 Thumbs.db
