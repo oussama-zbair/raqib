@@ -1,6 +1,7 @@
 <div align="center">
+<div align="center">
 
-<img src="web/public/logo.svg" width="96" alt="Raqib" />
+<img src="web/public/logo.png" width="104" alt="Raqib" />
 
 # Raqib · رقيب
 
@@ -8,9 +9,9 @@
 *رقيبك في المباريات العمومية · Your public-exam watchman*
 
 [![Ouvrir le bot](https://img.shields.io/badge/Telegram-%40RaqibBot-229ED9?logo=telegram&logoColor=white)](https://t.me/RaqibBot)
-![License](https://img.shields.io/badge/license-MIT-0E7C66)
-![FR](https://img.shields.io/badge/🇫🇷-Français-blue)
-![AR](https://img.shields.io/badge/🇲🇦-العربية-C1272D)
+![License](https://img.shields.io/badge/license-MIT-2563EB)
+![FR](https://img.shields.io/badge/Fran%C3%A7ais-FR-22D3A8)
+![AR](https://img.shields.io/badge/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9-AR-2563EB)
 
 </div>
 
