@@ -1,0 +1,138 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "competitions": "Concours",
+    "sources": "Sources",
+    "openBot": "Ouvrir le bot"
+  },
+  "hero": {
+    "badge": "Zéro coût · Open source · Bilingue FR / AR",
+    "title": "Ne manquez plus jamais un concours.",
+    "subtitle": "Raqib surveille tous les portails officiels, ministères et canaux communautaires, et vous alerte dès qu'un nouveau concours correspond à votre profil — assez tôt pour déposer votre dossier avant le délai.",
+    "tagline": "رقيبك في المباريات العمومية · Votre veilleur des concours publics",
+    "ctaPrimary": "Commencer sur Telegram",
+    "ctaSecondary": "Voir comment ça marche",
+    "trust": "Repérez chaque opportunité à temps · Puis Raqib surveille votre convocation"
+  },
+  "problem": {
+    "title": "La problématique",
+    "subtitle": "Le plus dur dans un concours marocain, ce n'est souvent pas l'examen — c'est l'information.",
+    "cards": {
+      "missed": {
+        "title": "Le concours manqué",
+        "text": "Un ministère ou un office publie un nouveau concours pour votre profil — et vous l'apprenez une fois le délai de dépôt dépassé. L'opportunité est perdue avant même d'avoir commencé."
+      },
+      "fragmented": {
+        "title": "Information éparpillée",
+        "text": "emploi-public.ma, dizaines de canaux Telegram, Alwadifa, et chaque ministère publie sur son propre portail. Une chasse quotidienne épuisante."
+      },
+      "misleading": {
+        "title": "Reposts trompeurs",
+        "text": "Les canaux tiers republient en retard, résument mal, ou omettent la spécialité exacte. « Bac+5 » cache parfois « génie civil uniquement »."
+      },
+      "silent": {
+        "title": "La convocation silencieuse",
+        "text": "Après l'inscription, aucun e-mail. Un mardi, l'administration met en ligne un PDF scanné de 120 pages sans prévenir personne."
+      },
+      "window": {
+        "title": "La fenêtre de 48–72h",
+        "text": "Si vous ne repérez pas ce PDF, n'y trouvez pas votre CIN et votre centre à temps, vous perdez votre chance entièrement."
+      }
+    }
+  },
+  "flow": {
+    "title": "Comment Raqib vous aide",
+    "subtitle": "Deux étapes : d'abord ne manquer aucun concours à déposer, puis surveiller votre convocation.",
+    "stage1": "Étape 1 · Trouver & déposer à temps",
+    "stage2": "Étape 2 · Après votre inscription",
+    "steps": {
+      "onboard": { "title": "Profil", "text": "Nom (FR/AR), CIN, grade et spécialité — configurés en une minute dans le bot." },
+      "ingest": { "title": "Collecte", "text": "Raqib scrute tous les portails en continu et déduplique les annonces." },
+      "match": { "title": "Filtrage", "text": "Seuls les concours qui correspondent exactement à votre grade et votre spécialité." },
+      "digest": { "title": "Alerte concours", "text": "Chaque nouvelle opportunité vous est poussée à temps : administration, postes, délai, lien de dépôt." },
+      "monitor": { "title": "Suivi convocation", "text": "Une fois inscrit, dès qu'un PDF de convoqués paraît, votre CIN est recherché automatiquement." }
+    }
+  },
+  "convocation": {
+    "title": "Le parcours, dans votre poche",
+    "subtitle": "Étape 1 : Raqib repère un nouveau concours et vous laisse le suivre en un clic. Étape 2 : une fois inscrit, dès que votre CIN apparaît sur la liste, vous le savez à la seconde.",
+    "newTitle": "NOUVEAU CONCOURS POUR VOTRE PROFIL",
+    "newAdminValue": "Ministère de l'Inclusion Économique",
+    "newPost": "Poste",
+    "newPostValue": "Ingénieur d'État 1er Grade (Génie Logiciel)",
+    "newSeats": "Postes",
+    "newSeatsValue": "12",
+    "newDeadline": "Date limite",
+    "newDeadlineValue": "30 Septembre 2026",
+    "newTrack": "📌 Suivre ce concours",
+    "newApply": "📎 Déposer le dossier",
+    "trackedBadge": "✓ Concours suivi — en attente de convocation",
+    "alertTitle": "CONVOCATION OFFICIELLE TROUVÉE !",
+    "admin": "Administration",
+    "adminValue": "Ministère de l'Inclusion Économique",
+    "post": "Poste",
+    "postValue": "Ingénieur d'État 1er Grade (Génie Logiciel)",
+    "candidate": "Candidat",
+    "candidateValue": "Amine Bennani (CIN : AB123456)",
+    "centre": "Centre d'examen",
+    "centreValue": "Faculté des Sciences Juridiques, Souissi - Rabat",
+    "room": "Salle / Amphi",
+    "roomValue": "Amphi C",
+    "table": "N° de Table",
+    "tableValue": "142",
+    "date": "Date de l'épreuve",
+    "dateValue": "Dimanche 12 Octobre à 08:00",
+    "download": "Télécharger la liste complète (PDF)"
+  },
+  "sources": {
+    "title": "Sources surveillées",
+    "subtitle": "Le portail central, les ministères et les agrégateurs — recoupés et dédupliqués.",
+    "central": "Portail central",
+    "ministries": "Ministères & offices",
+    "community": "Canaux communautaires"
+  },
+  "ai": {
+    "badge": "🤖 Propulsé par l'IA",
+    "title": "L'IA lit ce que les autres ratent",
+    "subtitle": "Beaucoup d'annonces sont des PDF scannés ou du texte désordonné. Là où l'analyse classique échoue, Raqib fait appel à un modèle d'IA (Gemini) pour comprendre l'annonce et en extraire l'essentiel.",
+    "points": {
+      "extract": { "title": "Extraction structurée", "text": "Administration, grade, spécialité, diplôme requis, délai, nombre de postes et lien de dépôt — extraits même d'un PDF scanné." },
+      "bilingual": { "title": "Compréhension bilingue", "text": "L'IA lit le français et l'arabe, et reconnaît les intitulés de grade et de filière dans les deux langues." },
+      "fallback": { "title": "Utilisée avec parcimonie", "text": "L'IA n'intervient qu'en dernier recours, quand l'analyse déterministe ne suffit pas — pour rester rapide, précis et gratuit." }
+    }
+  },
+  "built": {
+    "title": "Construit pour durer, gratuitement",
+    "subtitle": "Une seule instance partagée pour toute la communauté. Le coût ne grandit pas avec le nombre d'utilisateurs.",
+    "points": {
+      "shared": { "title": "Multi-utilisateurs partagé", "text": "Le scraping est mutualisé : 10 ou 10 000 utilisateurs, la même collecte." },
+      "free": { "title": "Infrastructure zéro coût", "text": "GitHub Actions, Supabase, Telegram et Cloudflare — tous en offre gratuite." },
+      "privacy": { "title": "CIN chiffré", "text": "Votre CIN est chiffré au repos et déchiffré uniquement en mémoire, le temps de la recherche." }
+    }
+  },
+  "footer": {
+    "tagline": "Votre veilleur des concours publics marocains.",
+    "product": "Produit",
+    "resources": "Ressources",
+    "language": "Langue",
+    "github": "Code source",
+    "status": "Statut des sources",
+    "privacy": "Confidentialité",
+    "rights": "Projet communautaire open-source.",
+    "privacyNote": "Raqib est une instance partagée. Votre CIN est chiffré au repos et n'est jamais exposé au tableau de bord public."
+  },
+  "status": {
+    "overviewTitle": "Vue d'ensemble",
+    "overviewSub": "Raqib · votre veilleur des concours publics marocains.",
+    "competitions": "Concours",
+    "activeTracking": "Suivis actifs",
+    "healthySources": "Sources saines",
+    "earlySignals": "Signaux précoces",
+    "lifecycle": "Cycle de vie des concours"
+  },
+  "error": {
+    "title": "Page introuvable",
+    "text": "La page que vous cherchez n'existe pas ou a été déplacée.",
+    "back": "Retour à l'accueil"
+  }
+}

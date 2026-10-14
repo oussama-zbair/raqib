@@ -1,0 +1,33 @@
+name: Monitor convocations
+
+# For each tracked competition, poll for convocation/result PDFs and roll-call the CIN.
+on:
+  schedule:
+    - cron: "*/30 * * * *" # every 30 minutes (convocations are time-critical)
+  workflow_dispatch: {}
+
+concurrency:
+  group: monitor
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: backend/requirements.txt
+      - run: pip install -r requirements.txt
+      - name: Run monitor
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          CIN_ENCRYPTION_KEY: ${{ secrets.CIN_ENCRYPTION_KEY }}
+        run: python -m app.jobs.monitor

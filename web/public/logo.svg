@@ -1,0 +1,32 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Raqib logo">
+  <defs>
+    <linearGradient id="rqGreen" x1="96" y1="96" x2="416" y2="416" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#12987C"/>
+      <stop offset="1" stop-color="#0E7C66"/>
+    </linearGradient>
+    <radialGradient id="rqEye" cx="0.5" cy="0.45" r="0.6">
+      <stop stop-color="#F8CE6B"/>
+      <stop offset="1" stop-color="#F4B740"/>
+    </radialGradient>
+  </defs>
+
+  <!-- rounded night backdrop -->
+  <rect width="512" height="512" rx="112" fill="#0B1220"/>
+
+  <!-- Moroccan 8-point star (khatam): two overlapping squares -->
+  <g transform="translate(256 256)">
+    <g fill="url(#rqGreen)">
+      <rect x="-150" y="-150" width="300" height="300" rx="26"/>
+      <rect x="-150" y="-150" width="300" height="300" rx="26" transform="rotate(45)"/>
+    </g>
+
+    <!-- negative-space eye: white almond over the star center -->
+    <path d="M -132 0 C -60 -78, 60 -78, 132 0 C 60 78, -60 78, -132 0 Z" fill="#0B1220"/>
+    <path d="M -112 0 C -52 -62, 52 -62, 112 0 C 52 62, -52 62, -112 0 Z" fill="#E8EDF7"/>
+
+    <!-- saffron iris + pupil (the "watching") -->
+    <circle cx="0" cy="0" r="52" fill="url(#rqEye)"/>
+    <circle cx="0" cy="0" r="24" fill="#0B1220"/>
+    <circle cx="15" cy="-15" r="9" fill="#E8EDF7" opacity="0.9"/>
+  </g>
+</svg>

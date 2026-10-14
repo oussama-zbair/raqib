@@ -1,0 +1,18 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Raqib">
+  <defs>
+    <linearGradient id="fg" x1="12" y1="12" x2="52" y2="52" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#12987C"/>
+      <stop offset="1" stop-color="#0E7C66"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="#0B1220"/>
+  <g transform="translate(32 32)">
+    <g fill="url(#fg)">
+      <rect x="-20" y="-20" width="40" height="40" rx="5"/>
+      <rect x="-20" y="-20" width="40" height="40" rx="5" transform="rotate(45)"/>
+    </g>
+    <path d="M -16 0 C -7 -10, 7 -10, 16 0 C 7 10, -7 10, -16 0 Z" fill="#E8EDF7"/>
+    <circle cx="0" cy="0" r="7" fill="#F4B740"/>
+    <circle cx="0" cy="0" r="3.2" fill="#0B1220"/>
+  </g>
+</svg>

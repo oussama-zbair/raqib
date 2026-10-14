@@ -1,0 +1,49 @@
+# ============================================================
+# Raqib — git ignore
+# ============================================================
+
+# ---- Secrets (NEVER commit) ----
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+*.key
+fernet.key
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+
+# ---- Node / Nuxt / Bot ----
+node_modules/
+.output/
+.nuxt/
+.nitro/
+.cache/
+dist/
+.wrangler/
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# ---- Supabase CLI ----
+.branches/
+.temp/
+supabase/.temp/
+
+# ---- Editor / OS ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
