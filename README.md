@@ -1,5 +1,4 @@
 <div align="center">
-<div align="center">
 
 <img src="web/public/logo.png" width="104" alt="Raqib" />
 
