@@ -3,7 +3,7 @@
   <svg viewBox="0 0 560 460" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Raqib filtre le bruit des sources et vous alerte">
     <defs>
       <linearGradient id="hgGreen" x1="0" y1="0" x2="1" y2="1">
-        <stop stop-color="#12987C" /><stop offset="1" stop-color="#0E7C66" />
+        <stop stop-color="#5EEAD4" /><stop offset="1" stop-color="#2563EB" />
       </linearGradient>
       <radialGradient id="hgEye" cx="0.5" cy="0.45" r="0.6">
         <stop stop-color="#F8CE6B" /><stop offset="1" stop-color="#F4B740" />
@@ -43,14 +43,14 @@
 
     <!-- the alert card (the one that matters) -->
     <g transform="translate(400 96)">
-      <rect x="0" y="0" width="150" height="108" rx="12" fill="#14233a" stroke="#0E7C66" />
-      <rect x="0" y="0" width="4" height="108" rx="2" fill="#D64545" />
-      <circle cx="20" cy="20" r="7" fill="#D64545" />
+      <rect x="0" y="0" width="150" height="108" rx="12" fill="#14233a" stroke="#22d3a8" />
+      <rect x="0" y="0" width="4" height="108" rx="2" fill="#f43f5e" />
+      <circle cx="20" cy="20" r="7" fill="#f43f5e" />
       <rect x="34" y="15" width="96" height="6" rx="3" fill="#F4B740" />
       <rect x="14" y="40" width="120" height="5" rx="2.5" fill="#3a4a68" />
       <rect x="14" y="54" width="104" height="5" rx="2.5" fill="#3a4a68" />
       <rect x="14" y="68" width="70" height="5" rx="2.5" fill="#2c3a56" />
-      <rect x="14" y="86" width="60" height="12" rx="6" fill="rgba(18,152,124,0.25)" stroke="#0E7C66" />
+      <rect x="14" y="86" width="60" height="12" rx="6" fill="rgba(34,211,168,0.25)" stroke="#22d3a8" />
     </g>
 
     <!-- rejected/off-target node (dimmed, X) -->

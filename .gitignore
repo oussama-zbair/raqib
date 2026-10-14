@@ -44,6 +44,7 @@ supabase/.temp/
 # ---- Internal planning & private deploy notes (not published) ----
 .kiro/
 .private/
+brand-explore/
 
 # ---- Editor / OS ----
 .DS_Store

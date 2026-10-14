@@ -1,35 +1,29 @@
 <svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="og-bg" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#0B1220"/><stop offset="1" stop-color="#0d1930"/>
+      <stop stop-color="#0A0F1E"/><stop offset="1" stop-color="#0d1430"/>
     </linearGradient>
-    <linearGradient id="og-green" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#12987C"/><stop offset="1" stop-color="#0E7C66"/>
+    <linearGradient id="og-g" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#5EEAD4"/><stop offset="1" stop-color="#2563EB"/>
     </linearGradient>
-    <radialGradient id="og-eye" cx="0.5" cy="0.45" r="0.6">
-      <stop stop-color="#F8CE6B"/><stop offset="1" stop-color="#F4B740"/>
-    </radialGradient>
   </defs>
   <rect width="1200" height="630" fill="url(#og-bg)"/>
-  <circle cx="1050" cy="120" r="360" fill="#12987C" opacity="0.08"/>
+  <circle cx="1060" cy="110" r="360" fill="#2563EB" opacity="0.10"/>
+  <circle cx="120" cy="560" r="280" fill="#5EEAD4" opacity="0.06"/>
 
-  <!-- logo star -->
-  <g transform="translate(210 315)">
-    <g fill="url(#og-green)">
-      <rect x="-90" y="-90" width="180" height="180" rx="18"/>
-      <rect x="-90" y="-90" width="180" height="180" rx="18" transform="rotate(45)"/>
-    </g>
-    <path d="M -80 0 C -36 -46, 36 -46, 80 0 C 36 46, -36 46, -80 0 Z" fill="#0B1220"/>
-    <path d="M -66 0 C -30 -38, 30 -38, 66 0 C 30 38, -30 38, -66 0 Z" fill="#E8EDF7"/>
-    <circle cx="0" cy="0" r="30" fill="url(#og-eye)"/>
-    <circle cx="0" cy="0" r="14" fill="#0B1220"/>
-    <circle cx="8" cy="-8" r="5" fill="#E8EDF7" opacity="0.9"/>
+  <!-- R mark -->
+  <g transform="translate(210 315) scale(1.5)">
+    <path d="M -58 -96 L -58 96" stroke="url(#og-g)" stroke-width="30" stroke-linecap="round"/>
+    <path d="M -58 -96 L 10 -96 A 56 56 0 0 1 10 16 L -58 16" fill="none" stroke="url(#og-g)" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M -10 16 L 60 96" stroke="url(#og-g)" stroke-width="30" stroke-linecap="round"/>
+    <circle cx="-16" cy="-40" r="28" fill="#0A0F1E"/>
+    <path transform="translate(-16 -40)" fill="none" stroke="#F4B740" stroke-width="3.5" stroke-linejoin="round" d="M 0 -22 L 5 -12.2 L 15.6 -15.6 L 12.2 -5 L 22 0 L 12.2 5 L 15.6 15.6 L 5 12.2 L 0 22 L -5 12.2 L -15.6 15.6 L -12.2 5 L -22 0 L -12.2 -5 L -15.6 -15.6 L -5 -12.2 Z"/>
+    <circle cx="-16" cy="-40" r="5" fill="#F4B740"/>
   </g>
 
-  <text x="380" y="270" font-family="Inter, sans-serif" font-size="86" font-weight="800" fill="#E8EDF7">Raqib <tspan fill="#93a1bd" font-size="54">رقيب</tspan></text>
-  <text x="382" y="345" font-family="Inter, sans-serif" font-size="34" font-weight="600" fill="#12987C">Votre veilleur des concours publics</text>
-  <text x="382" y="410" font-family="Inter, sans-serif" font-size="26" fill="#93a1bd">Ne manquez plus jamais un concours à déposer.</text>
-  <text x="382" y="452" font-family="Inter, sans-serif" font-size="26" fill="#93a1bd">Puis Raqib surveille votre convocation.</text>
-
-  <rect x="382" y="500" width="320" height="6" rx="3" fill="url(#og-green)"/>
+  <text x="400" y="275" font-family="Inter, sans-serif" font-size="92" font-weight="800" fill="#E8EDF7">Raqib <tspan fill="#93a1bd" font-size="56">رقيب</tspan></text>
+  <text x="402" y="350" font-family="Inter, sans-serif" font-size="34" font-weight="600" fill="#22D3A8">Votre veilleur des concours publics</text>
+  <text x="402" y="414" font-family="Inter, sans-serif" font-size="26" fill="#93a1bd">Ne manquez plus jamais un concours à déposer.</text>
+  <text x="402" y="456" font-family="Inter, sans-serif" font-size="26" fill="#93a1bd">Puis Raqib surveille votre convocation.</text>
+  <rect x="402" y="500" width="320" height="6" rx="3" fill="url(#og-g)"/>
 </svg>

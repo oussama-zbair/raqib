@@ -1,0 +1,36 @@
+<svg width="1080" height="1920" viewBox="0 0 1080 1920" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="stbg" x1="0" y1="0" x2="0.6" y2="1">
+      <stop stop-color="#0A0F1E"/><stop offset="1" stop-color="#0e1733"/>
+    </linearGradient>
+    <linearGradient id="stg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#5EEAD4"/><stop offset="1" stop-color="#2563EB"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1920" fill="url(#stbg)"/>
+  <circle cx="880" cy="300" r="460" fill="#2563EB" opacity="0.12"/>
+  <circle cx="180" cy="1500" r="380" fill="#5EEAD4" opacity="0.06"/>
+
+  <g transform="translate(540 620) scale(2.1)">
+    <path d="M -58 -96 L -58 96" stroke="url(#stg)" stroke-width="30" stroke-linecap="round"/>
+    <path d="M -58 -96 L 10 -96 A 56 56 0 0 1 10 16 L -58 16" fill="none" stroke="url(#stg)" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M -10 16 L 60 96" stroke="url(#stg)" stroke-width="30" stroke-linecap="round"/>
+    <circle cx="-16" cy="-40" r="28" fill="#0A0F1E"/>
+    <path transform="translate(-16 -40)" fill="none" stroke="#F4B740" stroke-width="3.5" stroke-linejoin="round" d="M 0 -22 L 5 -12.2 L 15.6 -15.6 L 12.2 -5 L 22 0 L 12.2 5 L 15.6 15.6 L 5 12.2 L 0 22 L -5 12.2 L -15.6 15.6 L -12.2 5 L -22 0 L -12.2 -5 L -15.6 -15.6 L -5 -12.2 Z"/>
+    <circle cx="-16" cy="-40" r="5" fill="#F4B740"/>
+  </g>
+
+  <text x="540" y="1020" text-anchor="middle" font-family="Inter, sans-serif" font-size="128" font-weight="800" fill="#E8EDF7">Raqib · رقيب</text>
+  <text x="540" y="1120" text-anchor="middle" font-family="Inter, sans-serif" font-size="46" font-weight="700" fill="#22D3A8">Ne manquez plus jamais un concours</text>
+
+  <g font-family="Inter, sans-serif" fill="#cbd5ea" font-size="40">
+    <text x="200" y="1300">✓ Alertes ciblées (FR / AR)</text>
+    <text x="200" y="1380">✓ Détection de votre CIN sur les convocations</text>
+    <text x="200" y="1460">✓ 100% gratuit, sur Telegram</text>
+  </g>
+
+  <g transform="translate(540 1620)">
+    <rect x="-220" y="0" width="440" height="88" rx="44" fill="url(#stg)"/>
+    <text x="0" y="58" text-anchor="middle" font-family="Inter, sans-serif" font-size="40" font-weight="800" fill="#06121f">t.me/RaqibBot</text>
+  </g>
+</svg>

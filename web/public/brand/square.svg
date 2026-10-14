@@ -1,0 +1,31 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sqbg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0A0F1E"/><stop offset="1" stop-color="#0e1733"/>
+    </linearGradient>
+    <linearGradient id="sqg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#5EEAD4"/><stop offset="1" stop-color="#2563EB"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#sqbg)"/>
+  <circle cx="900" cy="180" r="420" fill="#2563EB" opacity="0.12"/>
+  <circle cx="160" cy="920" r="320" fill="#5EEAD4" opacity="0.07"/>
+
+  <!-- R mark -->
+  <g transform="translate(540 400) scale(1.9)">
+    <path d="M -58 -96 L -58 96" stroke="url(#sqg)" stroke-width="30" stroke-linecap="round"/>
+    <path d="M -58 -96 L 10 -96 A 56 56 0 0 1 10 16 L -58 16" fill="none" stroke="url(#sqg)" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M -10 16 L 60 96" stroke="url(#sqg)" stroke-width="30" stroke-linecap="round"/>
+    <circle cx="-16" cy="-40" r="28" fill="#0A0F1E"/>
+    <path transform="translate(-16 -40)" fill="none" stroke="#F4B740" stroke-width="3.5" stroke-linejoin="round" d="M 0 -22 L 5 -12.2 L 15.6 -15.6 L 12.2 -5 L 22 0 L 12.2 5 L 15.6 15.6 L 5 12.2 L 0 22 L -5 12.2 L -15.6 15.6 L -12.2 5 L -22 0 L -12.2 -5 L -15.6 -15.6 L -5 -12.2 Z"/>
+    <circle cx="-16" cy="-40" r="5" fill="#F4B740"/>
+  </g>
+
+  <text x="540" y="720" text-anchor="middle" font-family="Inter, sans-serif" font-size="104" font-weight="800" fill="#E8EDF7">Raqib <tspan fill="#93a1bd" font-size="64">رقيب</tspan></text>
+  <text x="540" y="790" text-anchor="middle" font-family="Inter, sans-serif" font-size="38" font-weight="600" fill="#22D3A8">Votre veilleur des concours publics</text>
+  <text x="540" y="852" text-anchor="middle" font-family="Inter, sans-serif" font-size="30" fill="#93a1bd">رقيبك في المباريات العمومية</text>
+  <g transform="translate(540 930)">
+    <rect x="-150" y="0" width="300" height="64" rx="32" fill="url(#sqg)"/>
+    <text x="0" y="42" text-anchor="middle" font-family="Inter, sans-serif" font-size="30" font-weight="700" fill="#06121f">@RaqibBot</text>
+  </g>
+</svg>

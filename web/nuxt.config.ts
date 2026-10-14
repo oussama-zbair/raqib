@@ -48,7 +48,7 @@ export default defineNuxtConfig({
           content:
             "Raqib (رقيب) surveille les concours publics marocains et vous alerte dès qu'une nouvelle opportunité correspond à votre profil — à temps pour déposer votre dossier. Puis il suit votre convocation.",
         },
-        { name: "theme-color", content: "#0E7C66" },
+        { name: "theme-color", content: "#2563EB" },
         // Open Graph / social
         { property: "og:title", content: "Raqib — votre veilleur des concours publics" },
         {
