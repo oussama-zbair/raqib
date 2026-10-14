@@ -7,7 +7,7 @@
 **Votre veilleur des concours publics marocains**
 *رقيبك في المباريات العمومية · Your public-exam watchman*
 
-[![Ouvrir le bot](https://img.shields.io/badge/Telegram-%40RaqibBot-229ED9?logo=telegram&logoColor=white)](https://t.me/RaqibBot)
+[![Ouvrir le bot](https://img.shields.io/badge/Telegram-%40RaqibMaBot-229ED9?logo=telegram&logoColor=white)](https://t.me/RaqibMaBot)
 ![License](https://img.shields.io/badge/license-MIT-2563EB)
 ![FR](https://img.shields.io/badge/Fran%C3%A7ais-FR-22D3A8)
 ![AR](https://img.shields.io/badge/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9-AR-2563EB)
@@ -36,7 +36,7 @@ votre profil exact (grade + spécialité, en FR et AR), et vous alerte sur Teleg
 
 Le tout **gratuitement**, bilingue, dans un simple bot Telegram.
 
-👉 **[Commencer sur @RaqibBot](https://t.me/RaqibBot)**
+👉 **[Commencer sur @RaqibMaBot](https://t.me/RaqibMaBot)**
 
 ## ✨ Fonctionnalités
 
@@ -74,6 +74,6 @@ Il n'est jamais exposé publiquement.
 
 <div align="center">
 
-Fait avec ❤️ pour les candidats marocains · [@RaqibBot](https://t.me/RaqibBot)
+Fait avec ❤️ pour les candidats marocains · [@RaqibMaBot](https://t.me/RaqibMaBot)
 
 </div>

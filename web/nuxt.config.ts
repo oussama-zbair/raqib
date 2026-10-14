@@ -28,7 +28,7 @@ export default defineNuxtConfig({
     public: {
       supabaseUrl: process.env.NUXT_PUBLIC_SUPABASE_URL ?? "",
       supabaseAnonKey: process.env.NUXT_PUBLIC_SUPABASE_ANON_KEY ?? "",
-      telegramBotUrl: process.env.NUXT_PUBLIC_TELEGRAM_BOT_URL ?? "https://t.me/RaqibBot",
+      telegramBotUrl: process.env.NUXT_PUBLIC_TELEGRAM_BOT_URL ?? "https://t.me/RaqibMaBot",
       githubUrl: process.env.NUXT_PUBLIC_GITHUB_URL ?? "https://github.com/oussama-zbair/raqib",
     },
   },
