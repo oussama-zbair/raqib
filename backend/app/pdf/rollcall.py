@@ -22,6 +22,7 @@ import pdfplumber
 
 from app.config import get_settings
 from app.db.models import RollCallHit, RollCallMiss
+from app.matching.normalizer import normalize_text
 
 # --- field label patterns (FR + AR) used to pull seat details from a row/context ---
 # --- seat-detail extraction ---
@@ -114,6 +115,28 @@ def _extract_seat_details(context: str) -> dict[str, str | None]:
     }
 
 
+def _name_tokens(name: str | None) -> list[str]:
+    """Normalized, order-independent tokens of a name (FR or AR).
+
+    Uses the shared bilingual normalizer (strips FR accents + AR diacritics, unifies
+    alef/ya variants, lowercases). Short tokens (<2 chars) are dropped to avoid noise.
+    """
+    if not name:
+        return []
+    return [tok for tok in normalize_text(name).split() if len(tok) >= 2]
+
+
+def _name_in_line(tokens: list[str], line_norm: str) -> bool:
+    """A name matches a line if ALL its significant tokens appear in that line.
+
+    Order-independent (handles "Nom Prénom" vs "Prénom Nom") and tolerant of extra
+    columns. Requires at least 2 tokens so a single common first name can't false-match.
+    """
+    if len(tokens) < 2:
+        return False
+    return all(tok in line_norm for tok in tokens)
+
+
 def inspect_lines(
     lines: list[str],
     candidates: list[dict[str, str]],
@@ -121,28 +144,41 @@ def inspect_lines(
 ) -> list[RollCallHit | RollCallMiss]:
     """Core matcher over already-extracted lines (unit-testable, no I/O).
 
-    ``candidates`` is a list of ``{"cin": "...", "full_name": "..."}`` dicts (CIN plain,
-    decrypted in memory by the caller).
+    Each candidate is ``{"cin", "full_name_fr"?, "full_name_ar"?, "full_name"?}``.
+    A candidate matches a line by **CIN OR full name (FR or AR)** — many administrations
+    publish convocation lists by name, sometimes without the CIN, and in either language.
     """
     results: list[RollCallHit | RollCallMiss] = []
-    # Precompute a normalized copy of each line for CIN search.
-    norm_lines = [(ln, normalize_cin(ln)) for ln in lines]
+    # Precompute normalized copies of each line: one for CIN (digits/letters only) and
+    # one for name matching (bilingual normalized text).
+    norm = [(ln, normalize_cin(ln), normalize_text(ln)) for ln in lines]
 
     for cand in candidates:
-        cin = cand["cin"]
-        cin_n = normalize_cin(cin)
+        cin = cand.get("cin", "")
+        cin_n = normalize_cin(cin) if cin else ""
+        name_fr = cand.get("full_name_fr") or cand.get("full_name")
+        name_ar = cand.get("full_name_ar")
+        tokens_fr = _name_tokens(name_fr)
+        tokens_ar = _name_tokens(name_ar)
+
         hit_line: str | None = None
         idx = -1
-        for i, (raw, norm) in enumerate(norm_lines):
-            if cin_n and cin_n in norm:
-                hit_line, idx = raw, i
+        matched_by: str | None = None
+        for i, (raw, cin_line, text_line) in enumerate(norm):
+            if cin_n and len(cin_n) >= 5 and cin_n in cin_line:
+                hit_line, idx, matched_by = raw, i, "cin"
+                break
+            if _name_in_line(tokens_fr, text_line):
+                hit_line, idx, matched_by = raw, i, "name_fr"
+                break
+            if _name_in_line(tokens_ar, text_line):
+                hit_line, idx, matched_by = raw, i, "name_ar"
                 break
 
         if hit_line is None:
             results.append(RollCallMiss(cin=cin, pdf_url=pdf_url))
             continue
 
-        # Build context from the hit line plus neighbors (details may wrap lines).
         lo = max(0, idx - 1)
         hi = min(len(lines), idx + 2)
         context = "  ".join(lines[lo:hi])
@@ -150,12 +186,13 @@ def inspect_lines(
         results.append(
             RollCallHit(
                 cin=cin,
-                full_name=cand.get("full_name"),
+                full_name=name_fr or name_ar,
                 centre=details["centre"],
                 salle=details["salle"],
                 table=details["table"],
                 exam_date=details["exam_date"],
                 pdf_url=pdf_url,
+                matched_by=matched_by,
             )
         )
     return results

@@ -32,7 +32,7 @@ def _telegram_id(db: SupabaseClient, user_id: int) -> int | None:
 def _profile(db: SupabaseClient, user_id: int) -> dict | None:
     rows = db.select(
         "profiles",
-        columns="cin_encrypted,full_name_fr",
+        columns="cin_encrypted,full_name_fr,full_name_ar",
         filters={"user_id": f"eq.{user_id}"},
         limit=1,
     )
@@ -60,12 +60,19 @@ def run() -> None:
 
             prof = _profile(db, t["user_id"])
             chat_id = _telegram_id(db, t["user_id"])
-            if not prof or not prof.get("cin_encrypted") or chat_id is None:
+            # Need at least one identifier (CIN or a name) and a chat to notify.
+            has_cin = bool(prof and prof.get("cin_encrypted"))
+            has_name = bool(prof and (prof.get("full_name_fr") or prof.get("full_name_ar")))
+            if not prof or chat_id is None or not (has_cin or has_name):
                 continue
 
-            # Decrypt CIN in memory only, at roll-call time.
-            cin = decrypt_cin(prof["cin_encrypted"])
-            candidates = [{"cin": cin, "full_name": prof.get("full_name_fr") or ""}]
+            # Decrypt CIN in memory only, at roll-call time (if present).
+            cin = decrypt_cin(prof["cin_encrypted"]) if has_cin else ""
+            candidates = [{
+                "cin": cin,
+                "full_name_fr": prof.get("full_name_fr") or "",
+                "full_name_ar": prof.get("full_name_ar") or "",
+            }]
 
             try:
                 results = inspect_pdf(pdf_url, candidates)

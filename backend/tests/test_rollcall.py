@@ -52,3 +52,55 @@ def test_rollcall_multiple_candidates():
     missed = [r for r in results if not r.found]
     assert len(found) == 2
     assert len(missed) == 1
+
+
+# --- name-based matching (some lists have no CIN, or only names) ---
+
+# A name-only list (no CIN column), French names.
+LINES_NAME_FR = [
+    "Liste des convoqués - épreuve orale",
+    "N°  Nom et Prénom  Centre  Salle",
+    "1  Bennani Amine  Faculté Souissi Rabat  Amphi C",
+    "2  Alaoui Sara  Faculté Souissi Rabat  Amphi B",
+]
+
+# Arabic name list.
+LINES_NAME_AR = [
+    "لائحة المدعوين للاختبار الكتابي",
+    "الاسم الكامل  المركز  القاعة",
+    "أمين بناني  كلية السويسي الرباط  المدرج ج",
+    "سارة العلوي  كلية السويسي الرباط  المدرج ب",
+]
+
+
+def test_match_by_name_fr_when_no_cin():
+    # CIN not on the list; match by FR full name (order-independent).
+    results = inspect_lines(
+        LINES_NAME_FR,
+        [{"cin": "AB123456", "full_name_fr": "Amine Bennani"}],
+    )
+    assert results[0].found is True
+    assert results[0].matched_by == "name_fr"
+
+
+def test_match_by_name_ar():
+    results = inspect_lines(
+        LINES_NAME_AR,
+        [{"cin": "", "full_name_ar": "أمين بناني"}],
+    )
+    assert results[0].found is True
+    assert results[0].matched_by == "name_ar"
+
+
+def test_cin_preferred_over_name():
+    results = inspect_lines(
+        LINES,
+        [{"cin": "AB123456", "full_name_fr": "Amine Bennani"}],
+    )
+    assert results[0].matched_by == "cin"
+
+
+def test_single_common_firstname_does_not_false_match():
+    # Only one token ("Amine") must NOT match — needs >= 2 name tokens.
+    results = inspect_lines(LINES_NAME_FR, [{"cin": "", "full_name_fr": "Amine"}])
+    assert results[0].found is False

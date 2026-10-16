@@ -475,3 +475,66 @@ html[dir="rtl"] .tg-time { text-align: left; }
   border: 1px solid var(--border);
 }
 .positioning::selection { background: var(--brand); color: #06121f; }
+
+/* ============================================================
+   Problématique — pain timeline (grid-based, RTL-safe)
+   One spine on the inline-start edge, all cards on the same side.
+   This is symmetric and mirrors cleanly for RTL (no left/right hacks).
+   ============================================================ */
+.timeline {
+  position: relative; max-width: 780px; margin: 0 auto; padding: 10px 0;
+}
+/* spine sits on the inline-start edge (left in FR, right in AR) */
+.timeline-spine {
+  position: absolute; inset-block: 0; inset-inline-start: 27px; width: 3px;
+  background: linear-gradient(180deg, var(--brand), var(--brand-2) 55%, var(--red));
+  border-radius: 3px; opacity: 0.5;
+}
+
+.tl-item {
+  position: relative; display: grid;
+  grid-template-columns: 56px 1fr; gap: 20px; align-items: start;
+  padding: 14px 0;
+}
+
+/* glowing node on the spine */
+.tl-node {
+  width: 56px; height: 56px; border-radius: 16px;
+  display: grid; place-items: center; z-index: 2;
+  background: linear-gradient(135deg, color-mix(in srgb, var(--brand) 22%, var(--surface)), var(--surface));
+  border: 1px solid color-mix(in srgb, var(--brand) 45%, var(--border));
+  box-shadow: 0 0 0 6px color-mix(in srgb, var(--bg) 70%, transparent),
+              0 10px 24px color-mix(in srgb, var(--brand) 18%, transparent);
+}
+.tl-node :deep(.ic), .tl-node .ic { width: 30px; height: 30px; }
+
+.tl-card {
+  position: relative;
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: 16px; padding: 20px 22px 18px;
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+/* subtle connector from node to card */
+.tl-card::before {
+  content: ""; position: absolute; top: 26px; inset-inline-start: -20px;
+  width: 20px; height: 2px; background: color-mix(in srgb, var(--brand) 40%, var(--border));
+}
+.tl-card:hover {
+  transform: translateY(-3px);
+  border-color: color-mix(in srgb, var(--brand) 45%, var(--border));
+  box-shadow: var(--shadow);
+}
+.tl-step {
+  position: absolute; top: -14px; inset-inline-end: 20px;
+  font-size: 34px; font-weight: 800; letter-spacing: -1px;
+  color: transparent; -webkit-text-stroke: 1.5px color-mix(in srgb, var(--brand) 55%, transparent);
+  opacity: 0.55;
+}
+.tl-card h3 { margin: 10px 0 8px; font-size: 18px; }
+.tl-card p { margin: 0; color: var(--muted); font-size: 14.5px; line-height: 1.65; }
+
+@media (max-width: 560px) {
+  .tl-item { grid-template-columns: 48px 1fr; gap: 16px; }
+  .tl-node { width: 48px; height: 48px; border-radius: 14px; }
+  .timeline-spine { inset-inline-start: 23px; }
+}

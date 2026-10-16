@@ -94,18 +94,29 @@ const communitySources = [
       <p class="positioning reveal">{{ t("hero.positioning") }}</p>
     </section>
 
-    <!-- PROBLEM -->
+    <!-- PROBLEM — pain timeline -->
     <section class="container section">
       <div class="section-head reveal">
         <span class="eyebrow">Raqib</span>
         <h2>{{ t("problem.title") }}</h2>
         <p>{{ t("problem.subtitle") }}</p>
       </div>
-      <div class="card-grid">
-        <div v-for="(p, i) in problems" :key="p" class="pcard reveal" :style="{ '--i': i }">
-          <div class="ic-chip"><Icon :name="problemIcons[p]" /></div>
-          <h3>{{ t(`problem.cards.${p}.title`) }}</h3>
-          <p>{{ t(`problem.cards.${p}.text`) }}</p>
+      <div class="timeline">
+        <div class="timeline-spine"></div>
+        <div
+          v-for="(p, i) in problems"
+          :key="p"
+          class="tl-item reveal"
+          :style="{ '--i': i }"
+        >
+          <div class="tl-node">
+            <Icon :name="problemIcons[p]" />
+          </div>
+          <div class="tl-card">
+            <span class="tl-step">{{ String(i + 1).padStart(2, '0') }}</span>
+            <h3>{{ t(`problem.cards.${p}.title`) }}</h3>
+            <p>{{ t(`problem.cards.${p}.text`) }}</p>
+          </div>
         </div>
       </div>
     </section>

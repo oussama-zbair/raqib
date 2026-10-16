@@ -127,6 +127,7 @@ class RollCallHit(BaseModel):
     table: str | None = None
     exam_date: str | None = None
     pdf_url: str | None = None
+    matched_by: str | None = None  # 'cin' | 'name_fr' | 'name_ar'
 
 
 class RollCallMiss(BaseModel):

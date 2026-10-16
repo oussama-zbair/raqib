@@ -4,7 +4,9 @@
 
 export default defineNuxtConfig({
   compatibilityDate: "2025-01-01",
-  devtools: { enabled: true },
+  // Devtools off: it added ~7s to dev startup (NUXT_B8014) and isn't needed. Re-enable
+  // temporarily with `devtools: { enabled: true }` if you want the in-browser panel.
+  devtools: { enabled: false },
   modules: ["@nuxtjs/i18n"],
   css: ["~/assets/css/main.css"],
 

@@ -31,8 +31,8 @@ on ne repère pas son **CIN** dans les 48–72h, on perd sa chance.
 votre profil exact (grade + spécialité, en FR et AR), et vous alerte sur Telegram :
 
 1. **Dès qu'un nouveau concours** correspond à votre profil — à temps pour déposer.
-2. **Dès que votre CIN apparaît** sur une liste de convoqués — avec centre, salle et
-   n° de table extraits automatiquement.
+2. **Dès que votre CIN ou votre nom (FR/AR) apparaît** sur une liste de convoqués —
+   avec centre, salle et n° de table extraits automatiquement.
 
 Le tout **gratuitement**, bilingue, dans un simple bot Telegram.
 
@@ -43,7 +43,7 @@ Le tout **gratuitement**, bilingue, dans un simple bot Telegram.
 - 🔔 **Alertes ciblées** — uniquement les concours qui matchent votre grade et votre spécialité
 - 🌍 **Bilingue FR / AR** — interface et correspondance dans les deux langues
 - 🤖 **IA intégrée** — un modèle d'IA lit les PDF scannés et le texte non structuré que l'analyse classique rate
-- 📄 **Détection de CIN** — recherche automatique de votre CIN dans les listes de convoqués
+- 📄 **Détection CIN & nom** — recherche automatique de votre CIN ou de votre nom (FR/AR) dans les listes de convoqués
 - 📌 **Suivi en un clic** — suivez un concours et laissez Raqib surveiller sa convocation
 - 🔒 **CIN chiffré** — votre numéro est chiffré au repos, déchiffré uniquement le temps de la recherche
 

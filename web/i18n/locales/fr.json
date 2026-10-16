@@ -13,7 +13,7 @@
     "ctaPrimary": "Commencer sur Telegram",
     "ctaSecondary": "Voir comment ça marche",
     "trust": "Repérez chaque opportunité à temps · Puis Raqib surveille votre convocation",
-    "positioning": "Les autres annuaires vous montrent les concours. Raqib trouve les vôtres, repère votre CIN sur les listes, et vous prépare à réussir."
+    "positioning": "Les autres annuaires vous montrent les concours. Raqib trouve les vôtres, repère votre CIN ou votre nom sur les listes, et vous prépare à réussir."
   },
   "problem": {
     "title": "La problématique",
@@ -51,12 +51,12 @@
       "ingest": { "title": "Collecte", "text": "Raqib scrute tous les portails en continu et déduplique les annonces." },
       "match": { "title": "Filtrage", "text": "Seuls les concours qui correspondent exactement à votre grade et votre spécialité." },
       "digest": { "title": "Alerte concours", "text": "Chaque nouvelle opportunité vous est poussée à temps : administration, postes, délai, lien de dépôt." },
-      "monitor": { "title": "Suivi convocation", "text": "Une fois inscrit, dès qu'un PDF de convoqués paraît, votre CIN est recherché automatiquement." }
+      "monitor": { "title": "Suivi convocation", "text": "Une fois inscrit, dès qu'un PDF de convoqués paraît, Raqib y cherche votre CIN ou votre nom (FR/AR) automatiquement." }
     }
   },
   "convocation": {
     "title": "Le parcours, dans votre poche",
-    "subtitle": "Étape 1 : Raqib repère un nouveau concours et vous laisse le suivre en un clic. Étape 2 : une fois inscrit, dès que votre CIN apparaît sur la liste, vous le savez à la seconde.",
+    "subtitle": "Étape 1 : Raqib repère un nouveau concours et vous laisse le suivre en un clic. Étape 2 : une fois inscrit, dès que votre CIN ou votre nom apparaît sur la liste, vous le savez à la seconde.",
     "newTitle": "NOUVEAU CONCOURS POUR VOTRE PROFIL",
     "newAdminValue": "Ministère de l'Inclusion Économique",
     "newPost": "Poste",
@@ -87,7 +87,7 @@
   },
   "sources": {
     "title": "Sources surveillées",
-    "subtitle": "Le portail central, les ministères et les agrégateurs — recoupés et dédupliqués.",
+    "subtitle": "Le portail central d'abord, puis les ministères et les agrégateurs — recoupés et dédupliqués, ajoutés progressivement.",
     "central": "Portail central",
     "ministries": "Ministères & offices",
     "community": "Canaux communautaires"
