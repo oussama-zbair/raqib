@@ -30,8 +30,8 @@ on ne repère pas son **CIN** dans les 48–72h, on perd sa chance.
 **Raqib** (رقيب, « le veilleur ») surveille en continu tous les portails, filtre selon
 votre profil exact (grade + spécialité, en FR et AR), et vous alerte sur Telegram :
 
-1. **Dès qu'un nouveau concours** correspond à votre profil — à temps pour déposer.
-2. **Dès que votre CIN ou votre nom (FR/AR) apparaît** sur une liste de convoqués —
+1. **Dès qu'un nouveau concours** correspond à votre profil à temps pour déposer.
+2. **Dès que votre CIN ou votre nom (FR/AR) apparaît** sur une liste de convoqués
    avec centre, salle et n° de table extraits automatiquement.
 
 Le tout **gratuitement**, bilingue, dans un simple bot Telegram.
