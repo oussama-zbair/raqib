@@ -463,3 +463,15 @@ html[dir="rtl"] .tg-time { text-align: left; }
 .ai-head { text-align: center; max-width: 720px; margin: 0 auto; }
 .ai-head h2 { font-size: clamp(24px, 4vw, 34px); margin: 16px 0 12px; letter-spacing: -0.5px; }
 .ai-head p { color: var(--muted); font-size: 16.5px; line-height: 1.65; margin: 0; }
+.ai-note { text-align: center; color: var(--muted); font-size: 13px; margin: 22px auto 0; max-width: 640px; opacity: 0.85; }
+
+/* Positioning thesis strip (hero → problem) */
+.positioning {
+  max-width: 860px; margin: 8px auto 0; text-align: center;
+  font-size: clamp(18px, 2.6vw, 24px); font-weight: 700; line-height: 1.5;
+  color: var(--text); letter-spacing: -0.3px;
+  padding: 22px 28px; border-radius: 18px;
+  background: linear-gradient(180deg, color-mix(in srgb, var(--brand) 7%, var(--surface)), var(--surface));
+  border: 1px solid var(--border);
+}
+.positioning::selection { background: var(--brand); color: #06121f; }

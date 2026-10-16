@@ -12,7 +12,8 @@
     "tagline": "رقيبك في المباريات العمومية · Votre veilleur des concours publics",
     "ctaPrimary": "Commencer sur Telegram",
     "ctaSecondary": "Voir comment ça marche",
-    "trust": "Repérez chaque opportunité à temps · Puis Raqib surveille votre convocation"
+    "trust": "Repérez chaque opportunité à temps · Puis Raqib surveille votre convocation",
+    "positioning": "Les autres annuaires vous montrent les concours. Raqib trouve les vôtres, repère votre CIN sur les listes, et vous prépare à réussir."
   },
   "problem": {
     "title": "La problématique",
@@ -92,14 +93,15 @@
     "community": "Canaux communautaires"
   },
   "ai": {
-    "badge": "🤖 Propulsé par l'IA",
-    "title": "L'IA lit ce que les autres ratent",
-    "subtitle": "Beaucoup d'annonces sont des PDF scannés ou du texte désordonné. Là où l'analyse classique échoue, Raqib fait appel à un modèle d'IA (Gemini) pour comprendre l'annonce et en extraire l'essentiel.",
+    "badge": "🤖 Coach IA — bientôt",
+    "title": "Les autres vous aident à postuler. Raqib vous aide à réussir.",
+    "subtitle": "Trouver le concours n'est que la moitié du chemin. Une fois inscrit, le coach IA de Raqib vous prépare à l'épreuve — en français et en arabe, gratuitement.",
     "points": {
-      "extract": { "title": "Extraction structurée", "text": "Administration, grade, spécialité, diplôme requis, délai, nombre de postes et lien de dépôt — extraits même d'un PDF scanné." },
-      "bilingual": { "title": "Compréhension bilingue", "text": "L'IA lit le français et l'arabe, et reconnaît les intitulés de grade et de filière dans les deux langues." },
-      "fallback": { "title": "Utilisée avec parcimonie", "text": "L'IA n'intervient qu'en dernier recours, quand l'analyse déterministe ne suffit pas — pour rester rapide, précis et gratuit." }
-    }
+      "eligibility": { "title": "Éligibilité & format", "text": "L'IA vous explique si vous êtes éligible, les épreuves, les coefficients et la durée — pour ce concours précis." },
+      "qcm": { "title": "QCM d'entraînement", "text": "Des questions de culture générale, droit administratif et spécialité, adaptées au grade et à la filière du concours." },
+      "oral": { "title": "Oral blanc", "text": "Un entretien simulé avec les questions typiques de l'administration visée, et un retour sur vos réponses." }
+    },
+    "note": "L'IA lit aussi les annonces en PDF scanné (FR/AR) que l'analyse classique ne sait pas traiter. Contenu d'entraînement indicatif, non officiel."
   },
   "built": {
     "title": "Construit pour durer, gratuitement",

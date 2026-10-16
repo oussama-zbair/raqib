@@ -30,11 +30,11 @@ const builtIcons: Record<string, string> = {
   privacy: "shield",
 };
 
-const aiPoints = ["extract", "bilingual", "fallback"];
+const aiPoints = ["eligibility", "qcm", "oral"];
 const aiIcons: Record<string, string> = {
-  extract: "ai",
-  bilingual: "match",
-  fallback: "shield",
+  eligibility: "shield",
+  qcm: "ai",
+  oral: "digest",
 };
 
 const convocationRows = [
@@ -87,6 +87,11 @@ const communitySources = [
           <HeroArt />
         </div>
       </div>
+    </section>
+
+    <!-- POSITIONING -->
+    <section class="container">
+      <p class="positioning reveal">{{ t("hero.positioning") }}</p>
     </section>
 
     <!-- PROBLEM -->
@@ -255,6 +260,7 @@ const communitySources = [
             <p>{{ t(`ai.points.${p}.text`) }}</p>
           </div>
         </div>
+        <p class="ai-note">{{ t("ai.note") }}</p>
       </div>
     </section>
 
