@@ -18,7 +18,7 @@
 
 ## 🎯 Le problème
 
-Au Maroc, le plus dur dans un concours public n'est souvent pas l'examen — c'est
+Au Maroc, le plus dur dans un concours public n'est souvent pas l'examen c'est
 l'information. Les annonces sont éparpillées sur `emploi-public.ma`, des dizaines de
 canaux Telegram, et les portails de chaque ministère. On manque un concours parce qu'on
 apprend son existence **après le délai de dépôt**. Et après l'inscription, aucune
