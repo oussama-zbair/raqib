@@ -15,8 +15,8 @@ from app.db.models import (
 )
 from app.matching.normalizer import (
     canonical_hash,
-    normalize_grade,
-    normalize_specialty,
+    classify_family,
+    classify_level,
 )
 
 
@@ -31,8 +31,9 @@ def raw_to_competition(
     """
     text = f"{raw.title or ''} {raw.text or ''}"
     admin = (fields.administration if fields else None) or (raw.title or "")[:200]
-    grade = (fields.grade if fields else None) or normalize_grade(text)
-    specialty = (fields.specialty if fields else None) or normalize_specialty(text)
+    # grade column holds the LEVEL key, specialty column holds the FAMILY key.
+    grade = (fields.grade if fields else None) or classify_level(text)
+    specialty = (fields.specialty if fields else None) or classify_family(text)
     deadline = fields.deadline if fields else None
 
     ch = canonical_hash(admin, grade, deadline)

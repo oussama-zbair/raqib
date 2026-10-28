@@ -1,9 +1,12 @@
 name: Ingest concours
 
 # Scrape sources, normalize + dedup, upsert competitions, match profiles, queue digests.
+#
+# NOTE: the scheduled trigger is disabled until Supabase + secrets are configured.
+# Re-enable by uncommenting the `schedule` block once the project is deployed.
 on:
-  schedule:
-    - cron: "0 */3 * * *" # every 3 hours
+  # schedule:
+  #   - cron: "0 */3 * * *" # every 3 hours
   workflow_dispatch: {}
 
 concurrency:
@@ -13,6 +16,7 @@ concurrency:
 jobs:
   ingest:
     runs-on: ubuntu-latest
+    if: ${{ vars.RAQIB_DEPLOYED == 'true' }}
     defaults:
       run:
         working-directory: backend

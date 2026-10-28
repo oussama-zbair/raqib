@@ -1,9 +1,12 @@
 name: Send daily digest
 
 # Deliver each candidate's matched competitions once per day.
+#
+# NOTE: the scheduled trigger is disabled until Supabase + secrets are configured.
+# Re-enable by uncommenting the `schedule` block once the project is deployed.
 on:
-  schedule:
-    - cron: "0 7 * * *" # 07:00 UTC (~08:00 Morocco)
+  # schedule:
+  #   - cron: "0 7 * * *" # 07:00 UTC (~08:00 Morocco)
   workflow_dispatch: {}
 
 concurrency:
@@ -13,6 +16,7 @@ concurrency:
 jobs:
   digest:
     runs-on: ubuntu-latest
+    if: ${{ vars.RAQIB_DEPLOYED == 'true' }}
     defaults:
       run:
         working-directory: backend

@@ -20,10 +20,11 @@ def _raw(**kw) -> RawAnnouncement:
     return RawAnnouncement(**base)
 
 
-def test_raw_to_competition_infers_grade_specialty():
+def test_raw_to_competition_infers_level_family():
     comp = raw_to_competition(_raw())
-    assert comp.grade == "ingenieur_etat_1er_grade"
-    assert comp.specialty == "genie_logiciel"
+    # grade column = LEVEL key, specialty column = FAMILY key
+    assert comp.grade == "master_ingenieur"
+    assert comp.specialty == "informatique"
     assert comp.canonical_hash
 
 

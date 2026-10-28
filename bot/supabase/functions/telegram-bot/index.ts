@@ -61,8 +61,8 @@ const S = {
 
 function profileSummary(locale: Locale, p: ProfileRow): string {
   const none = t(locale, "profile.none");
-  const grades = (p.target_grades ?? []).map(labelForGrade).join(", ") || none;
-  const specs = (p.target_specialties ?? []).map(labelForSpecialty).join(", ") || none;
+  const grades = (p.target_grades ?? []).map((k) => labelForGrade(k, locale)).join(", ") || none;
+  const specs = (p.target_specialties ?? []).map((k) => labelForSpecialty(k, locale)).join(", ") || none;
   return [
     t(locale, "profile.title"),
     "",
@@ -239,7 +239,7 @@ async function handleCallback(
   if (data.startsWith("grade:")) {
     const key = data.slice(6);
     await updateProfile(user.id, { target_grades: [key], onboarding_state: "AWAIT_SPECIALTY" });
-    await answerCallbackQuery(cbId, labelForGrade(key));
+    await answerCallbackQuery(cbId, labelForGrade(key, locale));
     await editMessageText(chatId, messageId, t(locale, "onb.askSpecialty"), specialtyKeyboard(locale, []));
     return;
   }

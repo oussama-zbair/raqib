@@ -2,7 +2,7 @@
 
 import type { InlineButton } from "./telegram.ts";
 import { t, type Locale } from "./i18n.ts";
-import { GRADE_OPTIONS, SPECIALTY_OPTIONS } from "./taxonomy.ts";
+import { LEVEL_OPTIONS, FAMILY_OPTIONS } from "./taxonomy.ts";
 import type { ProfileRow } from "./db.ts";
 
 export function mainMenu(locale: Locale, isOwner: boolean): InlineButton[][] {
@@ -23,23 +23,23 @@ export function backRow(locale: Locale): InlineButton[] {
   return [{ text: t(locale, "menu.back"), callback_data: "menu" }];
 }
 
+// "grade" = LEVEL axis (single choice, callback grade:<key> kept for compatibility)
 export function gradeButtons(locale: Locale): InlineButton[][] {
-  const rows = GRADE_OPTIONS.map((o) => [
-    { text: o.labelFr, callback_data: `grade:${o.key}` },
+  return LEVEL_OPTIONS.map((o) => [
+    { text: locale === "ar" ? o.labelAr : o.labelFr, callback_data: `grade:${o.key}` },
   ]);
-  return rows;
 }
 
-export function specialtyButtons(selected: string[]): InlineButton[][] {
-  const rows = SPECIALTY_OPTIONS.map((o) => [{
-    text: (selected.includes(o.key) ? "✅ " : "▫️ ") + o.labelFr,
+// "spec" = FAMILY axis (multi-select, callback spec:<key> kept for compatibility)
+export function specialtyButtons(locale: Locale, selected: string[]): InlineButton[][] {
+  return FAMILY_OPTIONS.map((o) => [{
+    text: (selected.includes(o.key) ? "✅ " : "▫️ ") + (locale === "ar" ? o.labelAr : o.labelFr),
     callback_data: `spec:${o.key}`,
   }]);
-  return rows;
 }
 
 export function specialtyKeyboard(locale: Locale, selected: string[]): InlineButton[][] {
-  const rows = specialtyButtons(selected);
+  const rows = specialtyButtons(locale, selected);
   rows.push([{ text: t(locale, "onb.finish"), callback_data: "spec_done" }]);
   return rows;
 }

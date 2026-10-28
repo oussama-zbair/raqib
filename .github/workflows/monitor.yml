@@ -1,9 +1,12 @@
 name: Monitor convocations
 
 # For each tracked competition, poll for convocation/result PDFs and roll-call the CIN.
+#
+# NOTE: the scheduled trigger is disabled until Supabase + secrets are configured.
+# Re-enable by uncommenting the `schedule` block once the project is deployed.
 on:
-  schedule:
-    - cron: "*/30 * * * *" # every 30 minutes (convocations are time-critical)
+  # schedule:
+  #   - cron: "*/30 * * * *" # every 30 minutes (convocations are time-critical)
   workflow_dispatch: {}
 
 concurrency:
@@ -13,6 +16,8 @@ concurrency:
 jobs:
   monitor:
     runs-on: ubuntu-latest
+    # Skip the whole job if the project is not configured yet (no Supabase secret).
+    if: ${{ vars.RAQIB_DEPLOYED == 'true' }}
     defaults:
       run:
         working-directory: backend

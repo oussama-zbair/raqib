@@ -1,4 +1,15 @@
-"""Match a competition to a candidate profile (FR/AR), with negative filtering."""
+"""Match a competition to a candidate profile (FR/AR), across all concours families.
+
+Model:
+- A competition is classified into a FAMILY (field) and a LEVEL (diploma/grade).
+- A profile stores target families + target levels (stored in the existing
+  ``target_specialties`` and ``target_grades`` columns respectively, to avoid a DB
+  migration; semantically they are families and levels now).
+- A competition matches if its family is among the profile's families AND its level is
+  among the profile's levels (each axis only enforced when the profile constrains it).
+- Low-level support roles (agent de service, adjoint, ...) are rejected unless the
+  profile opts in via ``include_off_target``.
+"""
 
 from __future__ import annotations
 
@@ -6,8 +17,8 @@ from dataclasses import dataclass, field
 
 from app.db.models import Competition, Profile
 from app.matching.normalizer import (
-    normalize_grade,
-    normalize_specialty,
+    classify_family,
+    classify_level,
     normalize_text,
 )
 from app.matching.taxonomy import NEGATIVE_TERMS
@@ -29,17 +40,18 @@ def _has_negative_term(text_norm: str) -> str | None:
     return None
 
 
-def matches_profile(competition: Competition, profile: Profile) -> MatchResult:
-    """Decide whether a competition is relevant to a candidate.
+def _profile_families(profile: Profile) -> list[str]:
+    # families live in target_specialties (kept for DB compatibility)
+    return profile.target_specialties or []
 
-    Rules:
-    - The competition's grade must be one of the profile's target grades.
-    - The competition's specialty must be one of the profile's target specialties.
-    - Off-target/sub-bac+5 postings are rejected UNLESS the profile opts in via
-      ``include_off_target``.
-    - Grade/specialty can come from already-normalized competition fields, or be
-      inferred from the competition text (title + raw) as a fallback.
-    """
+
+def _profile_levels(profile: Profile) -> list[str]:
+    # levels live in target_grades (kept for DB compatibility)
+    return profile.target_grades or []
+
+
+def matches_profile(competition: Competition, profile: Profile) -> MatchResult:
+    """Decide whether a competition is relevant to a candidate."""
     reasons: list[str] = []
 
     haystack = normalize_text(
@@ -58,38 +70,35 @@ def matches_profile(competition: Competition, profile: Profile) -> MatchResult:
         )
     )
 
-    # Negative filtering (default on).
+    # Negative filtering (default on): low-level support roles.
     if not profile.include_off_target:
         neg = _has_negative_term(haystack)
         if neg:
             return MatchResult(False, [f"rejected: negative term '{neg}'"])
 
-    # Resolve competition grade & specialty (prefer explicit fields, else infer).
-    comp_grade = normalize_grade(competition.grade) or normalize_grade(haystack)
-    comp_specialty = normalize_specialty(competition.specialty) or normalize_specialty(
-        haystack
-    )
+    # Classify the competition (prefer explicit fields, else infer from text).
+    comp_family = classify_family(competition.specialty) or classify_family(haystack)
+    comp_level = classify_level(competition.grade) or classify_level(haystack)
 
-    # Grade check.
-    if profile.target_grades:
-        if comp_grade and comp_grade in profile.target_grades:
-            reasons.append(f"grade match: {comp_grade}")
+    want_families = _profile_families(profile)
+    want_levels = _profile_levels(profile)
+
+    # Family axis.
+    if want_families:
+        if comp_family and comp_family in want_families:
+            reasons.append(f"family match: {comp_family}")
         else:
             return MatchResult(
-                False, [f"grade mismatch (comp={comp_grade}, want={profile.target_grades})"]
+                False, [f"family mismatch (comp={comp_family}, want={want_families})"]
             )
 
-    # Specialty check.
-    if profile.target_specialties:
-        if comp_specialty and comp_specialty in profile.target_specialties:
-            reasons.append(f"specialty match: {comp_specialty}")
+    # Level axis.
+    if want_levels:
+        if comp_level and comp_level in want_levels:
+            reasons.append(f"level match: {comp_level}")
         else:
             return MatchResult(
-                False,
-                [
-                    f"specialty mismatch (comp={comp_specialty}, "
-                    f"want={profile.target_specialties})"
-                ],
+                False, [f"level mismatch (comp={comp_level}, want={want_levels})"]
             )
 
-    return MatchResult(True, reasons or ["profile has no grade/specialty constraints"])
+    return MatchResult(True, reasons or ["profile has no family/level constraints"])

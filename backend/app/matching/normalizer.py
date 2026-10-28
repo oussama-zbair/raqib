@@ -14,8 +14,8 @@ from datetime import date
 from dateutil import parser as date_parser
 
 from app.matching.taxonomy import (
-    GRADE_SYNONYMS,
-    SPECIALTY_SYNONYMS,
+    FAMILY_SYNONYMS,
+    LEVEL_SYNONYMS,
 )
 
 # Arabic diacritics (harakat) + tatweel to strip.
@@ -44,20 +44,38 @@ def normalize_text(text: str | None) -> str:
 
 
 def _match_canonical(text_norm: str, table: dict[str, list[str]]) -> str | None:
-    """Return the canonical key whose synonym appears in the normalized text."""
+    """Return the canonical key whose synonym appears in the normalized text.
+
+    Longer synonyms are tried first so a specific term ("genie logiciel") wins over a
+    broad one ("genie") when both could match.
+    """
+    best_key: str | None = None
+    best_len = -1
     for key, synonyms in table.items():
         for syn in synonyms:
-            if normalize_text(syn) in text_norm:
-                return key
-    return None
+            syn_n = normalize_text(syn)
+            if syn_n and syn_n in text_norm and len(syn_n) > best_len:
+                best_key, best_len = key, len(syn_n)
+    return best_key
 
 
+def classify_family(text: str | None) -> str | None:
+    """Classify text into a concours FAMILY (field/domain)."""
+    return _match_canonical(normalize_text(text), FAMILY_SYNONYMS)
+
+
+def classify_level(text: str | None) -> str | None:
+    """Classify text into a concours LEVEL (diploma/grade)."""
+    return _match_canonical(normalize_text(text), LEVEL_SYNONYMS)
+
+
+# Backward-compatible aliases (old names used across the codebase/tests).
 def normalize_grade(text: str | None) -> str | None:
-    return _match_canonical(normalize_text(text), GRADE_SYNONYMS)
+    return classify_level(text)
 
 
 def normalize_specialty(text: str | None) -> str | None:
-    return _match_canonical(normalize_text(text), SPECIALTY_SYNONYMS)
+    return classify_family(text)
 
 
 def normalize_admin(text: str | None) -> str:
