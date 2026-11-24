@@ -96,6 +96,8 @@ def test_post_layout_matches_wadifa():
         "📅 تاريخ الاختبار الكتابي: 10/01/2027",
         "🔗 اضغط هنا للتفاصيل: https://e/9",
         "",
+        "#???????? #IT",
+        "",
         "📢 t.me/RaqibEmploi",
     ]
 
@@ -172,6 +174,7 @@ def _run(tmp_path, scrapers, sent, **kw):
 
 def test_job_posts_once_dedups_and_survives_a_failing_source(tmp_path, monkeypatch):
     monkeypatch.setenv("TELEGRAM_CHANNEL_ID", "@RaqibEmploi")
+    monkeypatch.setenv("PUBLISH_IT_ONLY", "true")
     monkeypatch.setenv("TELEGRAM_BOT_TOKEN", "x")
     from app.config import get_settings
 
@@ -251,3 +254,32 @@ def test_state_is_saved_after_each_send_when_a_later_send_fails(tmp_path, monkey
     again = _run(tmp_path, scrapers, sent)
     assert again["posts"] == 1 and len(sent) == 1  # only the undelivered one is sent
     get_settings.cache_clear()
+
+def test_default_mode_posts_every_concours_and_tags_only_it(tmp_path, monkeypatch):
+    monkeypatch.setenv("TELEGRAM_CHANNEL_ID", "@RaqibEmploi")
+    monkeypatch.setenv("TELEGRAM_BOT_TOKEN", "x")
+    monkeypatch.delenv("PUBLISH_IT_ONLY", raising=False)
+    from app.config import get_settings
+    get_settings.cache_clear()
+    monkeypatch.setattr("time.sleep", lambda s: None)
+    nonit = _wadifa().model_copy(update={"specialty": "???? ?????", "grade": "????",
+                                         "reference_code": "C 1/26", "source_url": "https://w/2",
+                                         "detail_url": "https://w/2"})
+    expired = nonit.model_copy(update={"reference_code": "C 2/26", "source_url": "https://w/3",
+                                       "detail_url": "https://w/3", "deadline": date(2020, 1, 1)})
+    scrapers = [_FakeScraper("wadifapublic.ma", [_wadifa(), nonit, expired])]
+    sent: list = []
+    first = _run(tmp_path, scrapers, sent)
+    assert first["posts"] == 2  # IT + non-IT, expired one skipped
+    texts = [s[0] for s in sent]
+    assert sum("#IT" in x for x in texts) == 1
+    assert _run(tmp_path, scrapers, sent)["posts"] == 0
+    get_settings.cache_clear()
+
+
+def test_convocation_and_result_items_are_not_announcements():
+    from app.jobs.publish_channel import _is_announcement
+    base = _wadifa()
+    assert _is_announcement(base)
+    for title in ("Liste des Convoqués Concours ONCF", "Résultats du concours X", "نتائج مباراة توظيف"):
+        assert not _is_announcement(base.model_copy(update={"title": title}))

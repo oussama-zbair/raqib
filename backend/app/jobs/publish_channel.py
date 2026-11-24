@@ -11,12 +11,14 @@ from __future__ import annotations
 
 import argparse
 import logging
+import re
 import sys
 import time
+from datetime import date
 from pathlib import Path
 
 from app.config import get_settings
-from app.db.models import RawAnnouncement
+from app.db.models import CompetitionStage, RawAnnouncement
 from app.jobs.dedup import dedup_items, merge_group
 from app.jobs.posted_state import DEFAULT_STATE_PATH, PostedState
 from app.matching.it_filter import is_it_related, log_rejected
@@ -45,6 +47,20 @@ DETAIL_DELAY_SECONDS = 1.0
 _SEP = "-" * 40
 
 
+_NOT_AN_ANNOUNCEMENT = re.compile(
+    r"liste\s+des\s+convoqu|candidats?\s+convoqu|convocation|r[eé]sultats?\b|liste\s+(principale|d.attente)"
+    r"|لائحة|لوائح|نتائج|المدعوين|الناجحين|المقبولين",
+    re.IGNORECASE,
+)
+
+
+def _is_announcement(it: RawAnnouncement) -> bool:
+    """Convocation lists and results are not job announcements (later stage)."""
+    if it.stage != CompetitionStage.AVIS:
+        return False
+    return not _NOT_AN_ANNOUNCEMENT.search(it.title or "")
+
+
 def _scrape(scrapers: list[Scraper]) -> tuple[list[RawAnnouncement], dict[str, str]]:
     """Fetch every source in isolation. Returns items and a per-source status."""
     items: list[RawAnnouncement] = []
@@ -65,7 +81,10 @@ def _scrape(scrapers: list[Scraper]) -> tuple[list[RawAnnouncement], dict[str, s
 
 
 def _select_it(
-    items: list[RawAnnouncement], state: PostedState, scrapers: list[Scraper]
+    items: list[RawAnnouncement],
+    state: PostedState,
+    scrapers: list[Scraper],
+    it_only: bool = False,
 ) -> tuple[list[RawAnnouncement], list[RawAnnouncement]]:
     """Return (IT items to consider, items already posted by URL).
 
@@ -80,6 +99,12 @@ def _select_it(
         if state.knows_url(it.source_url) or (it.detail_url and state.knows_url(it.detail_url)):
             if it.source_url not in state.rejected:
                 known_posted.append(it)
+            continue
+        if not _is_announcement(it):
+            state.reject(it.source_url)
+            continue
+        if it.deadline and it.deadline < date.today():
+            state.reject(it.source_url)  # deadline passed, never post
             continue
         fresh.append(it)
 
@@ -99,14 +124,14 @@ def _select_it(
                     log.info("detail fetch gave nothing for %s, will retry next run", it.source_url)
                     continue
                 ok, reason = is_it_related(enriched)
-            if not ok:
+            if not ok and it_only:
                 log_rejected(enriched, reason)
                 state.reject(it.source_url)
                 continue
             if enrich and not fetched:
                 enriched = enrich(it, client)
                 time.sleep(DETAIL_DELAY_SECONDS)
-            log.info("IT item [%s] %s (%s)", it.source_name, it.title, reason)
+            log.info("%s item [%s] %s (%s)", "IT" if ok else "other", it.source_name, it.title, reason)
             selected.append(enriched)
     return selected, known_posted
 
@@ -129,7 +154,7 @@ def run(
 
     state = PostedState(state_path)
     items, status = _scrape(scrapers)
-    selected, known_posted = _select_it(items, state, scrapers)
+    selected, known_posted = _select_it(items, state, scrapers, it_only=settings.publish_it_only)
 
     new_posts: list[RawAnnouncement] = []
     updates: list[tuple[dict, RawAnnouncement, dict]] = []
@@ -190,7 +215,7 @@ def run(
 
 
 def main(argv: list[str] | None = None) -> None:
-    parser = argparse.ArgumentParser(description="Publish new IT concours to the Telegram channel.")
+    parser = argparse.ArgumentParser(description="Publish new concours to the Telegram channel.")
     parser.add_argument("--dry-run", action="store_true", help="print posts instead of sending")
     parser.add_argument("--state", type=Path, default=DEFAULT_STATE_PATH, help="posted state file")
     parser.add_argument(

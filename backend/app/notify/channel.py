@@ -14,12 +14,13 @@ from datetime import date
 import httpx
 
 from app.db.models import RawAnnouncement
-from app.matching.it_filter import mentions_it
+from app.matching.it_filter import is_it_related, mentions_it
 from app.notify.telegram import _post
 
 log = logging.getLogger("channel")
 
 PLACEHOLDER_CHANNEL = "@RaqibEmploi"  # only used to print the footer in dry runs
+IT_HASHTAGS = "#???????? #IT"
 EXAM_TBD = "سيتم الإعلان عنه لاحقا"
 SEND_INTERVAL_SECONDS = 3.5  # about 17 messages per minute
 CAPTION_LIMIT = 1024
@@ -76,6 +77,8 @@ def format_channel_post(
         lines.append(f"⏳ آخر أجل للتسجيل: {_fmt_date(ann.deadline)}")
     lines.append(f"📅 تاريخ الاختبار الكتابي: {_fmt_date(ann.exam_date) or EXAM_TBD}")
     lines.append(f"🔗 اضغط هنا للتفاصيل: {html.escape(best_link(ann), quote=False)}")
+    if is_it_related(ann)[0]:
+        lines += ["", IT_HASHTAGS]
     footer = channel_footer(channel_id)
     if footer:
         lines += ["", footer]

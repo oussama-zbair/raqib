@@ -34,6 +34,9 @@ class Settings(BaseSettings):
     # CIN encryption (Fernet key)
     cin_encryption_key: str = ""
 
+    # Publisher: false = post every concours (IT ones get a hashtag), true = IT only
+    publish_it_only: bool = False
+
     # Scraping
     http_user_agent: str = "RaqibBot/0.1 (+https://t.me/RaqibEmploi; https://github.com/oussama-zbair/raqib)"
     request_timeout_seconds: int = 30

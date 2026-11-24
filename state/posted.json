@@ -59,41 +59,5 @@
       "posted_at": "2026-11-24T21:24:54+00:00"
     }
   ],
-  "rejected": {
-    "https://www.emploi-public.ma/fr/concours/details/6e348f23-624f-4bc8-b7cd-049507d4c8f8": "2026-11-24",
-    "https://www.emploi-public.ma/fr/concours/details/452b86be-aaab-4f8d-aa06-cf054908b8ca": "2026-11-24",
-    "https://www.emploi-public.ma/fr/concours/details/b69d525c-df85-47d0-b9fc-ed1f3e891f34": "2026-11-24",
-    "https://www.emploi-public.ma/fr/concours/details/4fe77b06-0d8f-4386-a08a-63f0c7878849": "2026-11-24",
-    "https://www.emploi-public.ma/fr/concours/details/254a4ccc-b3d1-43d0-8b7d-a23d818766b2": "2026-11-24",
-    "https://www.emploi-public.ma/fr/concours/details/06f2df84-0753-47a3-95b9-4aa040df8c72": "2026-11-24",
-    "https://www.emploi-public.ma/fr/concours/details/b7f02f9d-4b66-4dcd-8365-f3b1001009c1": "2026-11-24",
-    "https://www.emploi-public.ma/fr/concours/details/f13bac44-60cc-4ed5-897a-905111afbeb2": "2026-11-24",
-    "https://www.emploi-public.ma/fr/concours/details/90f5f2af-bcbb-4d5e-b770-cc2c89290993": "2026-11-24",
-    "https://www.emploi-public.ma/fr/concours/details/5c0ff238-2b8c-4b7e-ad90-f8a5bc8d7523": "2026-11-24",
-    "https://www.emploi-public.ma/fr/concours/details/4cdf863d-a52c-4bf9-bf51-d214092a9c08": "2026-11-24",
-    "https://www.emploi-public.ma/fr/concours/details/8c0990e7-09ce-4dcb-b765-b9ad810cefb5": "2026-11-24",
-    "https://www.emploi-public.ma/fr/concours/details/bc819c35-294c-4f6e-bcb7-6ab471454c51": "2026-11-24",
-    "https://www.emploi-public.ma/fr/concours/details/965c72f0-c5df-4a41-abe8-19287fb24ac2": "2026-11-24",
-    "https://www.emploi-public.ma/fr/concours/details/b2542f15-9180-4680-9a40-56cab838599c": "2026-11-24",
-    "https://www.emploi-public.ma/fr/concours/details/c1856307-e18c-4053-8079-1efd4ebd63dd": "2026-11-24",
-    "https://www.emploi-public.ma/fr/concours/details/03905d86-bfa2-4e5f-9173-f46289658267": "2026-11-24",
-    "https://www.emploi-public.ma/fr/concours/details/96a8aed2-a1e6-438f-bf45-556e8168bbcf": "2026-11-24",
-    "https://www.emploi-public.ma/fr/concours/details/635d1ad9-b421-4ef4-b5ef-6cf021ba412a": "2026-11-24",
-    "https://www.wadifapublic.ma/ar/الوظيفة-العمومية/المؤسسات-العمومية/c44906-26/جامعة-القاضي-عياض-متصرف-من-مباراة-توظيف": "2026-11-24",
-    "https://www.wadifapublic.ma/ar/الوظيفة-العمومية/المؤسسات-العمومية/c44905-26/جامعة-القاضي-عياض-متصرف-من-مباراة-توظيف": "2026-11-24",
-    "https://www.wadifapublic.ma/ar/الوظيفة-العمومية/خدمات-الدولة/c44903-26/وزارة-الصحة-والحماية-طبيب-من-مباراة-توظيف": "2026-11-24",
-    "https://www.wadifapublic.ma/ar/الوظيفة-العمومية/خدمات-الدولة/c44901-26/وزارة-الصحة-والحماية-متصرف-من-مباراة-توظيف": "2026-11-24",
-    "https://www.wadifapublic.ma/ar/الوظيفة-العمومية/خدمات-الدولة/c44892-26/وزارة-الصحة-والحماية-متصرف-من-مباراة-توظيف": "2026-11-24",
-    "https://www.wadifapublic.ma/ar/الوظيفة-العمومية/خدمات-الدولة/c44890-26/شركة-المنشآت-الرياضية-تقني-تيار-مباراة-توظيف": "2026-11-24",
-    "https://www.wadifapublic.ma/ar/الوظيفة-العمومية/خدمات-الدولة/c44893-26/شركة-المنشآت-الرياضية-تقني-التيار-مباراة-توظيف": "2026-11-24",
-    "https://www.wadifapublic.ma/ar/الوظيفة-العمومية/خدمات-الدولة/c44887-26/وزارة-الصحة-والحماية-تقني-من-مباراة-توظيف": "2026-11-24",
-    "https://www.wadifapublic.ma/ar/الوظيفة-العمومية/خدمات-الدولة/c44889-26/شركة-المنشآت-الرياضية-تقني-تيار-مباراة-توظيف": "2026-11-24",
-    "https://www.wadifapublic.ma/ar/الوظيفة-العمومية/خدمات-الدولة/c44886-26/وزارة-الصحة-والحماية-مساعد-تقني-مباراة-توظيف": "2026-11-24",
-    "https://www.dreamjob.ma/emploi-public/concours-de-recrutement-tanger-region-sport-2026-6-postes/": "2026-11-24",
-    "https://www.dreamjob.ma/emploi-public/concours-de-recrutement-ministere-de-la-sante-2027-370-postes/": "2026-11-24",
-    "https://www.dreamjob.ma/emploi-public/concours-de-recrutement-ministere-de-la-sante-2027-160-postes/": "2026-11-24",
-    "https://www.dreamjob.ma/emploi-public/concours-de-recrutement-sonacos-2026-2-postes/": "2026-11-24",
-    "https://www.dreamjob.ma/emploi-public/resultats-concours/liste-des-convoques-concours-srm-draa-tafilalet-2026-140-postes/": "2026-11-24",
-    "https://www.dreamjob.ma/emploi-public/concours-de-recrutement-sonarges-2026-5-operateurs-de-maintenance-des-pelouses/": "2026-11-24"
-  }
+  "rejected": {}
 }
