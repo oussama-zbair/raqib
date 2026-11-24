@@ -24,6 +24,8 @@ class Settings(BaseSettings):
 
     # Telegram
     telegram_bot_token: str = ""
+    # Public channel the publisher posts to, as an @username (not a secret): @RaqibEmploi
+    telegram_channel_id: str = ""
 
     # Gemini
     gemini_api_key: str = ""
@@ -33,7 +35,7 @@ class Settings(BaseSettings):
     cin_encryption_key: str = ""
 
     # Scraping
-    http_user_agent: str = "ConcoursWatcher/0.1"
+    http_user_agent: str = "RaqibBot/0.1 (+https://t.me/RaqibEmploi; https://github.com/oussama-zbair/raqib)"
     request_timeout_seconds: int = 30
 
     # Telethon (optional, later phase)

@@ -173,6 +173,53 @@ GRADE_SYNONYMS: dict[str, list[str]] = LEVEL_SYNONYMS
 SPECIALTY_SYNONYMS: dict[str, list[str]] = FAMILY_SYNONYMS
 
 
+# ============================================================
+# IT / software engineering filter (channel publisher)
+# ============================================================
+# Loose on purpose (see plan/README.md, Risks): rejected items are logged so the lists can
+# be tuned. Matching runs on normalize_text() output.
+# IT_PHRASES match as substrings (long, unambiguous stems).
+IT_PHRASES: list[str] = [
+    # FR
+    "informatique", "informaticien", "genie logiciel", "ingenierie logicielle",
+    "developpement logiciel", "developpement digital", "developpement web",
+    "developpement mobile", "developpeur", "systeme d'information", "systemes d'information",
+    "systemes et reseaux", "reseaux et systemes", "reseaux informatiques",
+    "reseaux et telecommunications", "reseaux et telecoms", "administrateur systeme",
+    "administration systeme", "telecommunications", "telecoms", "cybersecurite",
+    "securite informatique", "securite des systemes", "intelligence artificielle",
+    "big data", "data science", "data scientist", "data engineer", "science des donnees",
+    "sciences des donnees", "ingenierie des donnees", "analyse de donnees",
+    "base de donnees", "bases de donnees", "transformation digitale",
+    "transformation numerique", "technologies de l'information", "technologie de l'information",
+    "multimedia et web", "devops", "cloud computing",
+    # EN
+    "software", "computer science", "information technology", "web developer",
+    "network engineer", "cybersecurity",
+    # AR (normalize_text folds alef variants and strips diacritics)
+    "معلوميات", "اعلاميات", "المعلوميات", "الاعلاميات", "مبرمج", "برمجة", "البرمجيات",
+    "هندسة البرمجيات", "تطوير المعلوميات", "نظم المعلومات", "انظمة المعلومات",
+    "نظام المعلومات", "تكنولوجيا المعلومات", "تقنيات المعلومات", "امن المعلومات",
+    "الامن السيبراني", "الامن المعلوماتي", "الذكاء الاصطناعي", "علوم البيانات",
+    "هندسة البيانات", "البيانات الضخمة", "تحليل البيانات", "قواعد البيانات",
+    "قواعد المعطيات", "الشبكات والاتصالات", "الشبكات المعلوماتية", "الشبكات والنظم",
+    "الاتصالات السلكية", "التحول الرقمي", "الرقمنة", "التنمية الرقمية", "تطوير رقمي",
+    "التطوير الرقمي",
+]
+# IT_WORDS must match as whole words (short tokens that would otherwise hit unrelated text).
+IT_WORDS: list[str] = [
+    "data", "ia", "ai", "web", "reseaux", "network", "networks", "cloud", "digital",
+    "numerique", "devs", "dev", "programmeur", "analyste programmeur",
+    "الشبكات", "رقمي",
+]
+# Whole-word tokens that look IT but are not (checked on the matched word's context).
+IT_EXCLUDE_PHRASES: list[str] = [
+    "reseaux d'eau", "reseau d'eau", "reseaux d'assainissement", "reseaux routiers",
+    "reseaux electriques", "reseau electrique", "reseaux d'electricite",
+    "شبكات الماء", "شبكات الطرق", "شبكات التطهير",
+]
+
+
 def all_family_keys() -> list[str]:
     return list(FAMILY_SYNONYMS.keys())
 

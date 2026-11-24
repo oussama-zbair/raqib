@@ -1,41 +1,47 @@
-"""Offline test of the emploi-public.ma listing parser (no network)."""
-
+﻿"""Offline tests of the emploi-public.ma parser, run against saved real pages."""
 from __future__ import annotations
 
+from datetime import date
+from pathlib import Path
+
 from app.db.models import CompetitionStage
-from app.scrapers.emploi_public import parse_listing_html
+from app.scrapers.emploi_public import parse_detail_html, parse_listing_html
 
-SAMPLE_FR = """
-<html><body>
-<table>
-  <tr><td>
-    <a href="/fr/annonce.aspx?id=101">Avis de concours Ingénieur d'État Génie Logiciel - Ministère de la Justice</a>
-    <span>Délai: 12/10/2026 — 5 postes</span>
-  </td></tr>
-  <tr><td>
-    <a href="/files/convocation-123.pdf">Liste des candidats convoqués à l'épreuve écrite</a>
-  </td></tr>
-</table>
-<a href="#">Suivant</a>
-<a href="javascript:void(0)">Menu</a>
-</body></html>
-"""
+FIX = Path(__file__).parent / "fixtures" / "emploi_public"
 
 
-def test_parse_extracts_listing_and_pdf():
-    rows = parse_listing_html(SAMPLE_FR, "/fr/annonces.aspx", CompetitionStage.AVIS)
-    assert len(rows) == 2  # nav (#) and javascript links are skipped
-
-    listing = rows[0]
-    assert "Génie Logiciel" in listing.title
-    assert listing.lang == "fr"
-    assert listing.source_url.startswith("https://www.emploi-public.ma")
-    assert listing.pdf_urls == []
-
-    pdf_row = rows[1]
-    assert pdf_row.pdf_urls and pdf_row.pdf_urls[0].endswith(".pdf")
+def _listing():
+    return parse_listing_html((FIX / "listing.html").read_text(encoding="utf-8"))
 
 
-def test_parse_arabic_lang_detection():
-    rows = parse_listing_html(SAMPLE_FR, "/ar/annonces.aspx", CompetitionStage.AVIS)
-    assert all(r.lang == "ar" for r in rows)
+def test_listing_extracts_cards():
+    rows = _listing()
+    assert len(rows) >= 9
+    first = rows[0]
+    assert first.source_name == "emploi-public.ma"
+    assert first.stage == CompetitionStage.AVIS
+    assert first.source_url == (
+        "https://www.emploi-public.ma/fr/concours/details/a1c6e668-6fb2-470a-818c-6d6b8d5f574d"
+    )
+    assert first.grade == "Administrateur 2ème grade - Echelle 11"
+    assert first.administration.startswith("Ministère de l’Agriculture")
+    assert first.post_count == 38
+    assert first.deadline == date(2026, 12, 15)
+    assert first.exam_date == date(2027, 1, 31)
+    assert first.logo_url.startswith("https://www.emploi-public.ma/backoffice/files/images/")
+    assert len({r.source_url for r in rows}) == len(rows)
+
+
+def test_listing_engineer_card():
+    eng = next(r for r in _listing() if r.grade and r.grade.startswith("Ingénieur d'Etat"))
+    assert eng.post_count == 20
+    assert eng.deadline == date(2026, 12, 28)
+
+
+def test_detail_adds_specialty_and_code():
+    base = _listing()[0]
+    full = parse_detail_html((FIX / "detail.html").read_text(encoding="utf-8"), base)
+    assert full.reference_code == "C 44904/26"
+    assert "Ingénierie des données" in full.specialty
+    assert not full.specialty.startswith("-")
+    assert full.deadline == date(2026, 12, 15)

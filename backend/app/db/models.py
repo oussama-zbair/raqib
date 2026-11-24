@@ -67,6 +67,16 @@ class RawAnnouncement(BaseModel):
     stage: CompetitionStage = CompetitionStage.AVIS
     pdf_urls: list[str] = Field(default_factory=list)
     detail_url: str | None = None
+    # Structured fields parsed from listings or detail pages when the source has them.
+    administration: str | None = None
+    grade: str | None = None
+    specialty: str | None = None  # several specialties are joined with " / "
+    post_count: int | None = None
+    deadline: date | None = None
+    exam_date: date | None = None
+    logo_url: str | None = None
+    reference_code: str | None = None  # e.g. "C 44904/26" (emploi-public.ma concours code)
+    official_url: str | None = None  # link to the official portal page, when known
 
 
 class CompetitionFields(BaseModel):

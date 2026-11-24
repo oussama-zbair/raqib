@@ -1,0 +1,206 @@
+"""Channel publish job (cron): scrape, filter IT, dedup, post to the Telegram channel.
+
+Run: ``python -m app.jobs.publish_channel [--dry-run] [--state PATH] [--save-state]``
+
+* Posted state lives in ``state/posted.json`` (no database).
+* ``--dry-run`` prints the posts instead of sending them and leaves the state file
+  untouched unless ``--save-state`` is given (use it with a temporary ``--state`` file).
+* One failing source never stops the run.
+"""
+from __future__ import annotations
+
+import argparse
+import logging
+import sys
+import time
+from pathlib import Path
+
+from app.config import get_settings
+from app.db.models import RawAnnouncement
+from app.jobs.dedup import dedup_items, merge_group
+from app.jobs.posted_state import DEFAULT_STATE_PATH, PostedState
+from app.matching.it_filter import is_it_related, log_rejected
+from app.notify.channel import (
+    SEND_INTERVAL_SECONDS,
+    channel_footer,
+    format_for_send,
+    format_update_post,
+    send_post,
+)
+from app.scrapers.base import Scraper, make_client
+from app.scrapers.dreamjob_ma import DreamjobScraper
+from app.scrapers.emploi_public import EmploiPublicScraper
+from app.scrapers.wadifapublic_ma import WadifaPublicScraper
+
+logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
+# httpx logs full request URLs at INFO, and Telegram URLs contain the bot token.
+for _noisy in ("httpx", "httpcore"):
+    logging.getLogger(_noisy).setLevel(logging.WARNING)
+log = logging.getLogger("publish_channel")
+
+# bghitkhdem is not scraped yet (no known site URL, see plan/sources-recon.md).
+SCRAPERS: list[Scraper] = [EmploiPublicScraper(), WadifaPublicScraper(), DreamjobScraper()]
+MAX_POSTS_PER_RUN = 15
+DETAIL_DELAY_SECONDS = 1.0
+_SEP = "-" * 40
+
+
+def _scrape(scrapers: list[Scraper]) -> tuple[list[RawAnnouncement], dict[str, str]]:
+    """Fetch every source in isolation. Returns items and a per-source status."""
+    items: list[RawAnnouncement] = []
+    status: dict[str, str] = {}
+    for scraper in scrapers:
+        try:
+            found = scraper.fetch()
+            seen = {i.source_url for i in items}
+            for i in found:  # listing pages can repeat items
+                if i.source_url not in seen:
+                    seen.add(i.source_url)
+                    items.append(i)
+            status[scraper.source_name] = f"ok ({len(found)} items)"
+        except Exception as exc:  # noqa: BLE001
+            log.exception("source %s failed", scraper.source_name)
+            status[scraper.source_name] = f"FAILED ({type(exc).__name__})"
+    return items, status
+
+
+def _select_it(
+    items: list[RawAnnouncement], state: PostedState, scrapers: list[Scraper]
+) -> tuple[list[RawAnnouncement], list[RawAnnouncement]]:
+    """Return (IT items to consider, items already posted by URL).
+
+    Items whose URL is known (posted or rejected earlier) cost nothing. New items are
+    filtered on listing data; those the listing cannot judge (no specialty) are enriched
+    from the detail page first. Items that pass are enriched for exam date and links.
+    """
+    by_source = {s.source_name: s for s in scrapers}
+    fresh: list[RawAnnouncement] = []
+    known_posted: list[RawAnnouncement] = []
+    for it in items:
+        if state.knows_url(it.source_url) or (it.detail_url and state.knows_url(it.detail_url)):
+            if it.source_url not in state.rejected:
+                known_posted.append(it)
+            continue
+        fresh.append(it)
+
+    selected: list[RawAnnouncement] = []
+    with make_client() as client:
+        for it in fresh:
+            scraper = by_source.get(it.source_name)
+            enrich = getattr(scraper, "enrich", None)
+            enriched = it
+            fetched = False
+            ok, reason = is_it_related(it)
+            if not ok and it.specialty is None and enrich and it.source_name != "dreamjob.ma":
+                enriched = enrich(it, client)
+                fetched = True
+                time.sleep(DETAIL_DELAY_SECONDS)
+                if enriched == it:
+                    log.info("detail fetch gave nothing for %s, will retry next run", it.source_url)
+                    continue
+                ok, reason = is_it_related(enriched)
+            if not ok:
+                log_rejected(enriched, reason)
+                state.reject(it.source_url)
+                continue
+            if enrich and not fetched:
+                enriched = enrich(it, client)
+                time.sleep(DETAIL_DELAY_SECONDS)
+            log.info("IT item [%s] %s (%s)", it.source_name, it.title, reason)
+            selected.append(enriched)
+    return selected, known_posted
+
+
+def run(
+    dry_run: bool = False,
+    state_path: Path = DEFAULT_STATE_PATH,
+    save_state: bool = False,
+    scrapers: list[Scraper] | None = None,
+    sender=send_post,
+    max_posts: int = MAX_POSTS_PER_RUN,
+) -> dict:
+    scrapers = scrapers if scrapers is not None else SCRAPERS
+    settings = get_settings()
+    channel = settings.telegram_channel_id.strip()
+    if not dry_run and not (channel and settings.telegram_bot_token):
+        raise SystemExit("TELEGRAM_CHANNEL_ID and TELEGRAM_BOT_TOKEN are required (or use --dry-run)")
+    footer = channel_footer(channel, dry_run=dry_run)
+    footer_channel = channel or ("@RaqibEmploi" if dry_run else "")
+
+    state = PostedState(state_path)
+    items, status = _scrape(scrapers)
+    selected, known_posted = _select_it(items, state, scrapers)
+
+    new_posts: list[RawAnnouncement] = []
+    updates: list[tuple[dict, RawAnnouncement, dict]] = []
+    for group in dedup_items(selected + known_posted):
+        merged = merge_group(group)
+        entry = state.find(merged)
+        if entry is None:
+            if any(g in selected for g in group):
+                new_posts.append(merged)
+            continue
+        for g in group:
+            state.absorb(entry, g)
+        changes = state.changes(entry, merged)
+        if changes:
+            updates.append((entry, merged, changes))
+
+    # Listings are newest first: post oldest first so the channel reads chronologically.
+    new_posts.reverse()
+    sent = 0
+    for ann in new_posts[:max_posts]:
+        text = format_for_send(ann, footer_channel)
+        if dry_run:
+            print(f"{text}\n[button: التفاصيل] [image: {ann.logo_url or 'none'}] "
+                  f"[sources: {ann.source_name}]\n{_SEP}")
+            message_id = None
+        else:
+            message_id = sender(ann, text, channel)
+            time.sleep(SEND_INTERVAL_SECONDS)
+        state.add_posted(ann, message_id)
+        if not dry_run:
+            state.save()  # persist after every send so a later failure never causes a re-post
+        sent += 1
+    if len(new_posts) > max_posts:
+        log.info("%d more items wait for the next run", len(new_posts) - max_posts)
+
+    for entry, ann, changes in updates:
+        text = format_update_post(ann, changes, footer)
+        if dry_run:
+            print(f"{text}\n[reply to message {entry.get('telegram_message_id')}]\n{_SEP}")
+        else:
+            reply_to = entry.get("telegram_message_id")
+            sender(ann, text, channel, reply_to=reply_to, with_button=False)
+            time.sleep(SEND_INTERVAL_SECONDS)
+        state.apply_changes(entry, changes)
+        if not dry_run:
+            state.save()
+
+    if (not dry_run) or save_state:
+        state.save()
+    summary = {
+        "sources": status,
+        "posts": sent,
+        "updates": len(updates),
+        "dry_run": dry_run,
+    }
+    log.info("done: %s", summary)
+    return summary
+
+
+def main(argv: list[str] | None = None) -> None:
+    parser = argparse.ArgumentParser(description="Publish new IT concours to the Telegram channel.")
+    parser.add_argument("--dry-run", action="store_true", help="print posts instead of sending")
+    parser.add_argument("--state", type=Path, default=DEFAULT_STATE_PATH, help="posted state file")
+    parser.add_argument(
+        "--save-state", action="store_true", help="with --dry-run, still write the state file"
+    )
+    args = parser.parse_args(argv)
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8")
+    run(dry_run=args.dry_run, state_path=args.state, save_state=args.save_state)
+
+
+if __name__ == "__main__":
+    main()
