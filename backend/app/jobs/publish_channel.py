@@ -19,7 +19,7 @@ from pathlib import Path
 
 from app.config import get_settings
 from app.db.models import CompetitionStage, RawAnnouncement
-from app.jobs.dedup import dedup_items, merge_group
+from app.jobs.dedup import canonical_url, dedup_items, merge_group
 from app.jobs.posted_state import DEFAULT_STATE_PATH, PostedState
 from app.matching.it_filter import is_it_related, log_rejected
 from app.notify.channel import (
@@ -86,7 +86,9 @@ def _select_stages(
         key = state.stage_key(it)
         if key in picked or state.knows_stage(it):
             continue
-        if (it.feed or it.source_name) not in state.seeded_sources:
+        feed = it.feed or it.source_name
+        # The home page only shows the latest few updates: never old, never seeded.
+        if feed not in state.seeded_sources and not feed.endswith(":home"):
             state.add_stage(it, None, seeded=True)
             continue
         if it.published is not None and it.published < cutoff:
@@ -97,7 +99,7 @@ def _select_stages(
             continue
         picked[key] = it
     for name in {it.feed or it.source_name for it in items}:
-        if name not in state.seeded_sources:
+        if name not in state.seeded_sources and not name.endswith(":home"):
             state.seeded_sources.append(name)
             log.info("first watch of %s stages: recorded without posting", name)
     out: list[RawAnnouncement] = []
@@ -122,6 +124,73 @@ def _why(exc: Exception) -> str:
     if resp is not None:
         return f"HTTP {resp.status_code}"
     return type(exc).__name__
+
+
+TRACKED_PER_RUN = 25  # concours pages re-read per run for new documents
+
+
+def _follow(items: list[RawAnnouncement], state: PostedState) -> None:
+    """Follow every concours we see. Fresh announcements start with a known baseline
+    (no stage document yet); concours first seen through a stage list do not."""
+    for it in items:
+        key = canonical_url(it.source_url)
+        state.track(key, baseline_known=(it.stage == CompetitionStage.AVIS
+                                         and state.knows_url(it.source_url) is False))
+
+
+def _discover(state: PostedState, scrapers: list[Scraper]) -> None:
+    """Once a day: follow every concours whose written exam is recent or upcoming."""
+    today = date.today().isoformat()
+    if state.last_discovery == today:
+        return
+    scraper = next((s for s in scrapers if hasattr(s, "discover_active")), None)
+    if scraper is None:
+        return
+    horizon = date.fromordinal(date.today().toordinal() - 45)
+    with make_client() as client:
+        found = scraper.discover_active(client)
+    for it in found:
+        if it.exam_date and it.exam_date >= horizon:
+            state.track(canonical_url(it.source_url), baseline_known=False)
+    state.last_discovery = today
+    log.info("discovery: %d convocation cards read, %d concours followed",
+             len(found), len(state.tracked))
+
+
+def _tracked_events(
+    state: PostedState, scrapers: list[Scraper], skip: set[str]
+) -> list[RawAnnouncement]:
+    """Re-read followed concours pages; new stage documents become posts.
+
+    On the first read of a concours with no known baseline, its existing documents are
+    recorded without posting (they were published before we followed it).
+    """
+    from app.scrapers.emploi_public import ann_from_detail, stages_on_detail
+
+    scraper = next((s for s in scrapers if hasattr(s, "detail_html")), None)
+    if scraper is None:
+        return []
+    out: list[RawAnnouncement] = []
+    with make_client() as client:
+        for key in state.due_tracked(TRACKED_PER_RUN):
+            uuid = key.split(":", 1)[1]
+            url = f"https://www.emploi-public.ma/ar/تفاصيل/المباريات/{uuid}"
+            html = scraper.detail_html(url, client)
+            time.sleep(DETAIL_DELAY_SECONDS)
+            if html is None:
+                continue
+            first = state.first_check(key)
+            for stage in sorted(stages_on_detail(html), key=lambda s: list(CompetitionStage).index(s)):
+                ann = ann_from_detail(html, url, stage)
+                skey = state.stage_key(ann)
+                if state.knows_stage(ann) or skey in skip:
+                    continue
+                if first:
+                    state.add_stage(ann, None, seeded=True)
+                else:
+                    out.append(ann)
+            state.mark_checked(key)
+    return out
 
 
 def _scrape(scrapers: list[Scraper]) -> tuple[list[RawAnnouncement], dict[str, str]]:
@@ -228,8 +297,15 @@ def run(
     selected, known_posted = _select_it(items, state, scrapers, it_only=settings.publish_it_only)
 
     # Convocations and results first: their dates are close, they cannot wait a run.
+    stage_posts = _select_stages(stage_items, state, scrapers)
+    _follow(items + stage_items, state)
+    try:
+        _discover(state, scrapers)
+    except Exception:  # noqa: BLE001 (a failed deep scan must not stop posting)
+        log.exception("discovery failed")
+    stage_posts += _tracked_events(state, scrapers, {state.stage_key(a) for a in stage_posts})
     sent = 0
-    for ann in _select_stages(stage_items, state, scrapers)[:max_posts]:
+    for ann in stage_posts[:max_posts]:
         text = format_for_send(ann)
         reply_to = state.thread_parent(ann)
         if dry_run:

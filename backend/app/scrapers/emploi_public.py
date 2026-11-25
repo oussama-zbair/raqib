@@ -223,6 +223,95 @@ def parse_ar_listing_html(html: str, stage: CompetitionStage) -> list[RawAnnounc
     return out
 
 
+# ---- home page "latest updates" and detail-page documents --------------------------------
+HOME_PATH = "/ar/"
+_BADGES = [  # order matters: the oral badge also contains "الاستدعاء"
+    ("شفوي", CompetitionStage.CONVOQUES_ORAL),
+    ("شفهي", CompetitionStage.CONVOQUES_ORAL),
+    ("نتيجة", CompetitionStage.RESULTATS),
+    ("نتائج", CompetitionStage.RESULTATS),
+    ("الاستدعاء", CompetitionStage.CONVOQUES),
+    ("الإعلان", CompetitionStage.AVIS),
+]
+# Document paths on a concours page; the oral one first ("list_convoques" is its prefix).
+DOC_STAGES = [
+    ("list_convoques_oral", CompetitionStage.CONVOQUES_ORAL),
+    ("list_resultats", CompetitionStage.RESULTATS),
+    ("list_convoques", CompetitionStage.CONVOQUES),
+]
+
+
+def stage_from_badge(text: str) -> CompetitionStage | None:
+    for word, stage in _BADGES:
+        if word in text:
+            return stage
+    return None
+
+
+def parse_home_latest(html: str) -> list[RawAnnouncement]:
+    """The home page's latest-updates cards (announcements, convocations, results)."""
+    soup = BeautifulSoup(html, "lxml")
+    out: list[RawAnnouncement] = []
+    seen: set[tuple[str, str]] = set()
+    for a in soup.select("a[href]"):
+        if AR_DETAIL_SEGMENT not in unquote(a["href"]):
+            continue
+        badge = a.select_one(".card-type")
+        stage = stage_from_badge(badge.get_text(" ", strip=True)) if badge else None
+        if stage is None or a.select_one(".card-title") is None:
+            continue
+        ann = _parse_ar_card(a, stage)
+        if ann is None or (ann.source_url, stage.value) in seen:
+            continue
+        seen.add((ann.source_url, stage.value))
+        out.append(ann)
+    return out
+
+
+def stages_on_detail(html: str) -> set[CompetitionStage]:
+    """Which stage documents a concours page already offers."""
+    found: set[CompetitionStage] = set()
+    for a in BeautifulSoup(html, "lxml").find_all("a", href=True):
+        href = unquote(a["href"])
+        for key, stage in DOC_STAGES:
+            if f"/{key}/" in href:
+                found.add(stage)
+                break
+    return found
+
+
+def ann_from_detail(html: str, url: str, stage: CompetitionStage) -> RawAnnouncement:
+    """Build a stage post from the concours page alone (no listing card needed)."""
+    soup = BeautifulSoup(html, "lxml")
+    tokens = [" ".join(t.split()) for t in soup.stripped_strings]
+    uuid = concours_uuid(url)
+    admin = _value_after(tokens, "الإدارة المنظمة")
+    logo = None
+    for img in soup.find_all("img", src=True):
+        src = img["src"]
+        if "/images/administrations/" in src or _DEFAULT_LOGO in src:
+            logo = None if _DEFAULT_LOGO in src else urljoin(BASE + "/", src)
+            break  # the first one is the organiser's; later ones belong to "similar" cards
+    base = RawAnnouncement(
+        source_name="emploi-public.ma",
+        source_type=SourceType.PORTAL,
+        source_url=url,
+        detail_url=url,
+        official_url=url,
+        title=_value_after(tokens, "الدرجة :") or "",
+        lang="ar",
+        stage=stage,
+        administration=admin,
+        exam_date=(parse_date(_value_after(tokens, "تاريخ إجراء المباراة"))
+                   if stage == CompetitionStage.CONVOQUES else None),
+        logo_url=logo,
+        city=_city_from_admin(admin),
+        list_pdf_url=f"{AR_DOWNLOAD}/{STAGE_PDF[stage]}/{uuid}" if stage in STAGE_PDF else None,
+        feed="emploi-public.ma:tracked",
+    )
+    return parse_ar_detail_html(html, base)
+
+
 def _clean_spec(token: str) -> str:
     return _SPEC_BULLET.sub("", token.replace("\t", " ")).strip(" ؛;.-")
 
@@ -257,6 +346,12 @@ class EmploiPublicScraper:
     def fetch(self) -> list[RawAnnouncement]:
         results: list[RawAnnouncement] = []
         with make_client() as client:
+            try:  # latest updates first: the fastest signal for convocations and results
+                for ann in parse_home_latest(get_html(client, BASE + HOME_PATH)):
+                    ann.feed = f"{self.source_name}:home"
+                    results.append(ann)
+            except Exception:  # noqa: BLE001 (the listings below still run)
+                pass
             first = True
             for stat in ADMIN_TYPES:
                 for stage, procedure, pages in STAGE_LISTINGS:
@@ -277,6 +372,31 @@ class EmploiPublicScraper:
                         if len(found) < 9:  # last real page (4 featured cards repeat)
                             break
         return results
+
+    def detail_html(self, url: str, client: httpx.Client) -> str | None:
+        try:
+            return get_html(client, url)
+        except Exception:  # noqa: BLE001
+            return None
+
+    def discover_active(self, client: httpx.Client, max_pages: int = 30) -> list[RawAnnouncement]:
+        """Deep scan of the written-convocation listings (once a day).
+
+        Their order is not chronological, so a concours with an upcoming exam can sit on
+        page 16. Every such concours is then followed for its oral list and results.
+        """
+        out: list[RawAnnouncement] = []
+        for stat in ADMIN_TYPES:
+            for page in range(1, max_pages + 1):
+                url = f"{BASE}{AR_LISTING_PATH}?procedure=convocation&stat={stat}&page={page}"
+                try:
+                    found = parse_ar_listing_html(get_html(client, url), CompetitionStage.CONVOQUES)
+                except Exception:  # noqa: BLE001
+                    break
+                out.extend(found)
+                if len(found) < 9:
+                    break
+        return out
 
     def enrich(self, ann: RawAnnouncement, client: httpx.Client | None = None) -> RawAnnouncement:
         """Fetch the detail page; on any failure return ``ann`` unchanged."""

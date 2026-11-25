@@ -40,14 +40,51 @@ class PostedState:
         self.stages: list[dict] = []
         self.rejected: dict[str, str] = {}
         self.seeded_sources: list[str] = []
+        self.tracked: dict[str, dict] = {}
+        self.last_discovery: str | None = None
         if self.path.exists() and self.path.read_text(encoding="utf-8").strip():
             data = json.loads(self.path.read_text(encoding="utf-8"))
             self.posted = data.get("posted", [])
             self.stages = data.get("stages", [])
             self.rejected = data.get("rejected", {})
             self.seeded_sources = data.get("seeded_sources", [])
-        else:
-            self.seeded_sources = []
+            self.tracked = data.get("tracked", {})
+            self.last_discovery = data.get("last_discovery")
+
+    # ---- followed concours (their page is re-read for new documents) ------------------
+    TRACK_DAYS = 200
+    RECHECK_HOURS = 2
+
+    def track(self, key: str, baseline_known: bool) -> None:
+        """Follow a concours. ``baseline_known``: we know it has no stage document yet
+        (a fresh announcement), so anything found later is new and gets posted."""
+        if not key.startswith("ep:") or key in self.tracked:
+            return
+        self.tracked[key] = {
+            "added": date.today().isoformat(),
+            "checked": datetime.now(timezone.utc).isoformat(timespec="seconds")
+            if baseline_known else None,
+        }
+
+    def due_tracked(self, limit: int) -> list[str]:
+        """Concours to re-read now: never checked first, then the oldest check."""
+        cutoff = (datetime.now(timezone.utc) - timedelta(hours=self.RECHECK_HOURS)).isoformat()
+        due = [k for k, v in self.tracked.items() if not v.get("checked") or v["checked"] < cutoff]
+        due.sort(key=lambda k: self.tracked[k].get("checked") or "")
+        return due[:limit]
+
+    def first_check(self, key: str) -> bool:
+        return not self.tracked.get(key, {}).get("checked")
+
+    def mark_checked(self, key: str) -> None:
+        if key in self.tracked:
+            self.tracked[key]["checked"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
+
+    def _expire_tracked(self) -> None:
+        cutoff = (date.today() - timedelta(days=self.TRACK_DAYS)).isoformat()
+        done = {s["key"].split("#")[0] for s in self.stages if s.get("stage") == "RESULTATS"}
+        self.tracked = {k: v for k, v in self.tracked.items()
+                        if v.get("added", "") >= cutoff and k not in done}
 
     # ---- stage posts (convocations, results) ----------------------------------------
     @staticmethod
@@ -163,10 +200,12 @@ class PostedState:
     def save(self) -> None:
         cutoff = (date.today() - timedelta(days=REJECTED_TTL_DAYS)).isoformat()
         self.rejected = {u: d for u, d in self.rejected.items() if d >= cutoff}
+        self._expire_tracked()
         self.path.parent.mkdir(parents=True, exist_ok=True)
         payload = json.dumps(
             {"version": 1, "posted": self.posted, "stages": self.stages,
-             "seeded_sources": self.seeded_sources, "rejected": self.rejected},
+             "seeded_sources": self.seeded_sources, "tracked": self.tracked,
+             "last_discovery": self.last_discovery, "rejected": self.rejected},
             ensure_ascii=False,
             indent=2,
         )
