@@ -18,7 +18,7 @@ from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 from app.db.models import RawAnnouncement
-from app.jobs.dedup import Fingerprint, fingerprint, same_competition
+from app.jobs.dedup import Fingerprint, canonical_url, fingerprint, same_competition, url_keys
 from app.matching.normalizer import normalize_admin, normalize_text
 
 DEFAULT_STATE_PATH = Path(__file__).resolve().parents[3] / "state" / "posted.json"
@@ -39,22 +39,27 @@ class PostedState:
         self.posted: list[dict] = []
         self.stages: list[dict] = []
         self.rejected: dict[str, str] = {}
+        self.seeded_sources: list[str] = []
         if self.path.exists() and self.path.read_text(encoding="utf-8").strip():
             data = json.loads(self.path.read_text(encoding="utf-8"))
             self.posted = data.get("posted", [])
             self.stages = data.get("stages", [])
             self.rejected = data.get("rejected", {})
+            self.seeded_sources = data.get("seeded_sources", [])
+        else:
+            self.seeded_sources = []
 
     # ---- stage posts (convocations, results) ----------------------------------------
     @staticmethod
     def stage_key(ann: RawAnnouncement) -> str:
-        return f"{ann.reference_code or ann.source_url}#{ann.stage.value}"
+        """Stable before and after the detail fetch: the portal id, never the code."""
+        return f"{canonical_url(ann.source_url)}#{ann.stage.value}"
 
     def knows_stage(self, ann: RawAnnouncement) -> bool:
         key = self.stage_key(ann)
         return any(s.get("key") == key for s in self.stages)
 
-    def add_stage(self, ann: RawAnnouncement, message_id: int | None) -> dict:
+    def add_stage(self, ann: RawAnnouncement, message_id: int | None, seeded: bool = False) -> dict:
         entry = {
             "key": self.stage_key(ann),
             "reference_code": ann.reference_code,
@@ -64,19 +69,24 @@ class PostedState:
             "telegram_message_id": message_id,
             "posted_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         }
+        if seeded:
+            entry["seeded"] = True  # already online before we watched: never posted
         self.stages.append(entry)
         return entry
 
     def thread_parent(self, ann: RawAnnouncement) -> int | None:
         """Message to reply to: the latest stage post of this concours, else its announcement."""
         code = ann.reference_code
-        if not code:
-            return None
+        key = canonical_url(ann.source_url)
+
+        def same(entry_code, entry_urls) -> bool:
+            return bool((code and entry_code == code) or key in url_keys(entry_urls))
+
         for s in reversed(self.stages):
-            if s.get("reference_code") == code and s.get("telegram_message_id"):
+            if s.get("telegram_message_id") and same(s.get("reference_code"), [s.get("url")]):
                 return s["telegram_message_id"]
         for e in self.posted:
-            if e.get("reference_code") == code and e.get("telegram_message_id"):
+            if e.get("telegram_message_id") and same(e.get("reference_code"), e.get("urls", [])):
                 return e["telegram_message_id"]
         return None
 
@@ -89,7 +99,7 @@ class PostedState:
             grade_norm=normalize_text(entry.get("grade")),
             deadline=_d(entry.get("deadline")),
             post_count=entry.get("post_count"),
-            urls=set(entry.get("urls", [])),
+            urls=url_keys(entry.get("urls", [])),
         )
 
     def find(self, ann: RawAnnouncement) -> dict | None:
@@ -100,7 +110,13 @@ class PostedState:
         return None
 
     def knows_url(self, url: str) -> bool:
-        return url in self.rejected or any(url in e.get("urls", []) for e in self.posted)
+        if url in self.rejected:
+            return True
+        key = canonical_url(url)
+        return any(key in url_keys(e.get("urls", [])) for e in self.posted)
+
+    def is_rejected(self, url: str) -> bool:
+        return url in self.rejected
 
     # ---- mutations -----------------------------------------------------------
     def add_posted(self, ann: RawAnnouncement, message_id: int | None) -> dict:
@@ -150,7 +166,7 @@ class PostedState:
         self.path.parent.mkdir(parents=True, exist_ok=True)
         payload = json.dumps(
             {"version": 1, "posted": self.posted, "stages": self.stages,
-             "rejected": self.rejected},
+             "seeded_sources": self.seeded_sources, "rejected": self.rejected},
             ensure_ascii=False,
             indent=2,
         )

@@ -363,3 +363,44 @@ def test_convocation_and_result_items_are_not_announcements():
     assert _is_announcement(base)
     for title in ("Liste des Convoqués Concours ONCF", "Résultats du concours X", "نتائج مباراة توظيف"):
         assert not _is_announcement(base.model_copy(update={"title": title}))
+
+
+def test_stages_are_seeded_first_then_posted_as_replies(tmp_path, monkeypatch):
+    from app.db.models import CompetitionStage, SourceType
+    monkeypatch.setenv("TELEGRAM_CHANNEL_ID", "@RaqibEmploi")
+    monkeypatch.setenv("TELEGRAM_BOT_TOKEN", "x")
+    from app.config import get_settings
+    get_settings.cache_clear()
+    monkeypatch.setattr("time.sleep", lambda s: None)
+    uuid = "11111111-2222-3333-4444-555555555555"
+    ar = f"https://www.emploi-public.ma/ar/x/{uuid}"
+
+    def item(stage, **kw):
+        return RawAnnouncement(
+            source_name="emploi-public.ma", source_type=SourceType.PORTAL, source_url=ar,
+            detail_url=ar, official_url=ar, title="t", lang="ar", stage=stage,
+            administration="وزارة الصحة", grade="ممرض", **kw)
+
+    old_conv = item(CompetitionStage.CONVOQUES, exam_date=date(2099, 1, 1))
+    other_uuid = "99999999-2222-3333-4444-555555555555"
+    old_res = old_conv.model_copy(update={
+        "stage": CompetitionStage.RESULTATS,
+        "source_url": f"https://www.emploi-public.ma/ar/x/{other_uuid}"})
+    scrapers = [_FakeScraper("emploi-public.ma", [old_conv, old_res])]
+    sent: list = []
+    first = _run(tmp_path, scrapers, sent)
+    assert first["stage_posts"] == 0 and not sent  # first watch: recorded only
+
+    # The announcement is posted later; then a new oral list for the same concours.
+    state = PostedState(tmp_path / "s.json")
+    state.add_posted(item(CompetitionStage.AVIS, deadline=date(2099, 1, 1)), 555)
+    state.save()
+    oral = item(CompetitionStage.CONVOQUES_ORAL)
+    past = item(CompetitionStage.CONVOQUES, exam_date=date(2020, 1, 1)).model_copy(
+        update={"source_url": "https://www.emploi-public.ma/ar/x/aaaaaaaa-2222-3333-4444-555555555555"})
+    scrapers = [_FakeScraper("emploi-public.ma", [old_conv, old_res, oral, past])]
+    second = _run(tmp_path, scrapers, sent)
+    assert second["stage_posts"] == 1
+    assert sent[0][0].startswith("🎤") and sent[0][1] == 555  # reply to the announcement
+    assert _run(tmp_path, scrapers, sent)["stage_posts"] == 0  # never twice
+    get_settings.cache_clear()

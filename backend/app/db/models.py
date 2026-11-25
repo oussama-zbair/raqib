@@ -81,6 +81,7 @@ class RawAnnouncement(BaseModel):
     city: str | None = None  # posting city when the source gives it
     published: date | None = None  # date the source published this item (or this stage)
     list_pdf_url: str | None = None  # convocation or results list, for stage items
+    feed: str | None = None  # listing this came from, e.g. "emploi-public.ma:collec"
 
 
 class CompetitionFields(BaseModel):

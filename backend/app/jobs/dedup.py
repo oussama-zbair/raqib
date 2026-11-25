@@ -6,8 +6,10 @@ with both the other items of the same run and everything posted earlier.
 """
 from __future__ import annotations
 
+import re
 from dataclasses import dataclass, field
 from datetime import date
+from urllib.parse import unquote
 
 from app.db.models import RawAnnouncement
 from app.matching.normalizer import canonical_hash, normalize_admin, normalize_text
@@ -33,6 +35,21 @@ class Fingerprint:
         return canonical_hash(self.admin_norm, self.grade_norm, self.deadline)
 
 
+_EP_UUID = re.compile(
+    r"emploi-public\.ma/.*?([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})"
+)
+
+
+def canonical_url(url: str) -> str:
+    """emploi-public.ma pages of one concours (FR, AR, any stage) share one id."""
+    m = _EP_UUID.search(unquote(url or ""))
+    return f"ep:{m.group(1)}" if m else url
+
+
+def url_keys(urls) -> set[str]:
+    return {canonical_url(u) for u in urls if u}
+
+
 def fingerprint(ann: RawAnnouncement) -> Fingerprint:
     return Fingerprint(
         reference_code=ann.reference_code,
@@ -40,7 +57,7 @@ def fingerprint(ann: RawAnnouncement) -> Fingerprint:
         grade_norm=normalize_text(ann.grade),
         deadline=ann.deadline,
         post_count=ann.post_count,
-        urls={u for u in (ann.source_url, ann.detail_url, ann.official_url) if u},
+        urls=url_keys((ann.source_url, ann.detail_url, ann.official_url)),
     )
 
 

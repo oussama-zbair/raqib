@@ -40,8 +40,10 @@ for _noisy in ("httpx", "httpcore"):
     logging.getLogger(_noisy).setLevel(logging.WARNING)
 log = logging.getLogger("publish_channel")
 
-# bghitkhdem is not scraped yet (no known site URL, see plan/sources-recon.md).
-SCRAPERS: list[Scraper] = [EmploiPublicScraper(), WadifaPublicScraper(), DreamjobScraper()]
+# wadifapublic.ma and dreamjob.ma answer GitHub's servers with HTTP 403 (bot protection),
+# so they are not in the registry; their scrapers stay for local use and tests.
+SCRAPERS: list[Scraper] = [EmploiPublicScraper()]
+_UNUSED_IN_CI = (WadifaPublicScraper, DreamjobScraper)
 MAX_POSTS_PER_RUN = 15
 DETAIL_DELAY_SECONDS = 1.0
 _SEP = "-" * 40
@@ -61,18 +63,22 @@ def _is_announcement(it: RawAnnouncement) -> bool:
     return not _NOT_AN_ANNOUNCEMENT.search(it.title or "")
 
 
-STAGE_MAX_AGE_DAYS = 2  # never post old convocations or results (first run, backlog)
+STAGE_MAX_AGE_DAYS = 2  # sources with a publication date: never post older stage items
 
 
 def _is_stage_item(it: RawAnnouncement) -> bool:
-    """Stage posts come from sources that tie them to a concours code (wadifapublic.ma)."""
-    return it.stage != CompetitionStage.AVIS and bool(it.reference_code)
+    return it.stage != CompetitionStage.AVIS
 
 
 def _select_stages(
     items: list[RawAnnouncement], state: PostedState, scrapers: list[Scraper]
 ) -> list[RawAnnouncement]:
-    """New, recent stage items, enriched with the list PDF and exam date. Oldest first."""
+    """New stage items (convocations, results), enriched, oldest first.
+
+    The first time a source is watched, every stage item it lists is recorded as seen
+    and nothing is posted: those lists were published before the channel existed.
+    A convocation whose exam date is already past is recorded and skipped.
+    """
     by_source = {s.source_name: s for s in scrapers}
     cutoff = date.fromordinal(date.today().toordinal() - STAGE_MAX_AGE_DAYS)
     picked: dict[str, RawAnnouncement] = {}
@@ -80,9 +86,20 @@ def _select_stages(
         key = state.stage_key(it)
         if key in picked or state.knows_stage(it):
             continue
-        if it.published is None or it.published < cutoff:
+        if (it.feed or it.source_name) not in state.seeded_sources:
+            state.add_stage(it, None, seeded=True)
+            continue
+        if it.published is not None and it.published < cutoff:
+            continue
+        if (it.stage == CompetitionStage.CONVOQUES and it.exam_date
+                and it.exam_date < date.today()):
+            state.add_stage(it, None, seeded=True)
             continue
         picked[key] = it
+    for name in {it.feed or it.source_name for it in items}:
+        if name not in state.seeded_sources:
+            state.seeded_sources.append(name)
+            log.info("first watch of %s stages: recorded without posting", name)
     out: list[RawAnnouncement] = []
     with make_client() as client:
         for it in picked.values():
@@ -91,7 +108,8 @@ def _select_stages(
                 it = enrich(it, client)
                 time.sleep(DETAIL_DELAY_SECONDS)
             out.append(it)
-    out.sort(key=lambda a: a.published or date.today())
+    # Listings are newest first; keep that order reversed so the channel reads in time order.
+    out.reverse()
     return out
 
 
@@ -113,10 +131,12 @@ def _scrape(scrapers: list[Scraper]) -> tuple[list[RawAnnouncement], dict[str, s
     for scraper in scrapers:
         try:
             found = scraper.fetch()
-            seen = {i.source_url for i in items}
-            for i in found:  # listing pages can repeat items
-                if i.source_url not in seen:
-                    seen.add(i.source_url)
+            # Listing pages can repeat items. One concours page serves every stage on
+            # emploi-public.ma, so an item is its URL *and* its stage.
+            seen = {(i.source_url, i.stage) for i in items}
+            for i in found:
+                if (i.source_url, i.stage) not in seen:
+                    seen.add((i.source_url, i.stage))
                     items.append(i)
             status[scraper.source_name] = f"ok ({len(found)} items)"
         except Exception as exc:  # noqa: BLE001

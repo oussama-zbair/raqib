@@ -9,7 +9,7 @@ in wadifapublic.ma URLs and is used for cross-source dedup. robots.txt only bloc
 from __future__ import annotations
 
 import re
-from urllib.parse import urljoin
+from urllib.parse import unquote, urljoin
 
 import httpx
 from bs4 import BeautifulSoup, Tag
@@ -118,29 +118,173 @@ def parse_detail_html(html: str, ann: RawAnnouncement) -> RawAnnouncement:
     return ann.model_copy(update=update)
 
 
+# ---- Arabic pages: all four stages ------------------------------------------------------
+# The listing filter ``procedure`` matches the portal's own timeline:
+# Annonce -> Convocation écrit -> Convocation oral -> Résultats.
+AR_LISTING_PATH = "/ar/قائمة-المباريات"
+AR_DETAIL_SEGMENT = "/تفاصيل/المباريات/"
+AR_DOWNLOAD = BASE + "/ar/تحميل/المباريات"  # linked from buttons only (robots.txt: no fetching)
+STAGE_LISTINGS: list[tuple[CompetitionStage, str, int]] = [
+    (CompetitionStage.AVIS, "avis", MAX_PAGES),
+    (CompetitionStage.CONVOQUES, "convocation", 2),
+    (CompetitionStage.CONVOQUES_ORAL, "oral", 2),
+    (CompetitionStage.RESULTATS, "resultat", 2),
+]
+# The default listing only shows part of the portal: each administration type is its own view.
+ADMIN_TYPES = ["service_etat", "collec", "etab_publics"]
+STAGE_PDF = {
+    CompetitionStage.CONVOQUES: "list_convoques",
+    CompetitionStage.CONVOQUES_ORAL: "list_convoques_oral",
+    CompetitionStage.RESULTATS: "list_resultats",
+}
+_UUID = re.compile(r"[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}")
+# "مباراة لتوظيف X", "لائحة المدعوين لإجراء الاختبار الكتابي لمباراة توظيف X",
+# "لائحة الناجحين في مباراة التوظيف X": the grade is what follows the last "توظيف".
+_AR_TITLE_PREFIX = re.compile(r"^.*?(?:لتوظيف|التوظيف|توظيف)\s+")
+_AR_POSTS = re.compile(r"^(\d+)\s+(?:مناصب|منصب|منصبا)")
+_AR_DEADLINE = "آخر أجل لإيداع ملفات الترشيح"
+_AR_EXAM = "تاريخ إجراء المباراة"
+_DEFAULT_LOGO = "default-image"
+_CITY = re.compile(r"(?:عمالة\s+)?(?:إقليم|عمالة|جماعة)\s+([^\-–()]+)")
+
+
+def concours_uuid(url: str | None) -> str | None:
+    """The portal's concours id, shared by the announcement and all its stages."""
+    m = _UUID.search(url or "")
+    return m.group(0) if m else None
+
+
+def _city_from_admin(admin: str | None) -> str | None:
+    m = _CITY.search(admin or "")
+    return m.group(1).strip() if m else None
+
+
+def _ar_footer(card: Tag) -> dict[str, str]:
+    out: dict[str, str] = {}
+    for div in card.select(".card-footer div"):
+        text = " ".join(div.get_text(" ", strip=True).split())
+        if _AR_POSTS.match(text):
+            out["posts"] = text
+        elif text.startswith(_AR_DEADLINE):
+            out["deadline"] = text
+        elif text.startswith(_AR_EXAM):
+            out["exam"] = text
+    return out
+
+
+def _parse_ar_card(card: Tag, stage: CompetitionStage) -> RawAnnouncement | None:
+    title_el = card.select_one(".card-title")
+    uuid = concours_uuid(card.get("href"))
+    if title_el is None or uuid is None:
+        return None
+    title = " ".join(title_el.get_text(" ", strip=True).split())
+    admin_el = card.select_one(".card-text")
+    administration = " ".join(admin_el.get_text(" ", strip=True).split()) if admin_el else None
+    foot = _ar_footer(card)
+    img = card.find("img")
+    src = img.get("src") if img else None
+    url = urljoin(BASE + "/", card["href"].strip())
+    return RawAnnouncement(
+        source_name="emploi-public.ma",
+        source_type=SourceType.PORTAL,
+        source_url=url,
+        detail_url=url,
+        official_url=url,
+        title=title,
+        text=" | ".join(x for x in (title, administration) if x),
+        lang="ar",
+        stage=stage,
+        administration=administration,
+        grade=_AR_TITLE_PREFIX.sub("", title) or None,
+        post_count=parse_int(foot.get("posts")),
+        deadline=parse_date(foot.get("deadline")),
+        # On oral and result cards this date is the written exam, already past.
+        exam_date=parse_date(foot.get("exam")) if stage in (
+            CompetitionStage.AVIS, CompetitionStage.CONVOQUES) else None,
+        logo_url=urljoin(BASE + "/", src) if src and _DEFAULT_LOGO not in src else None,
+        city=_city_from_admin(administration),
+        list_pdf_url=f"{AR_DOWNLOAD}/{STAGE_PDF[stage]}/{uuid}" if stage in STAGE_PDF else None,
+    )
+
+
+def parse_ar_listing_html(html: str, stage: CompetitionStage) -> list[RawAnnouncement]:
+    """Parse one Arabic listing page (any stage) without network I/O."""
+    soup = BeautifulSoup(html, "lxml")
+    out: list[RawAnnouncement] = []
+    seen: set[str] = set()
+    for card in soup.select("a.card[href]"):
+        if AR_DETAIL_SEGMENT not in unquote(card["href"]):
+            continue
+        ann = _parse_ar_card(card, stage)
+        if ann is None or ann.source_url in seen:
+            continue
+        seen.add(ann.source_url)
+        out.append(ann)
+    return out
+
+
+def _clean_spec(token: str) -> str:
+    return _SPEC_BULLET.sub("", token.replace("\t", " ")).strip(" ؛;.-")
+
+
+def parse_ar_detail_html(html: str, ann: RawAnnouncement) -> RawAnnouncement:
+    """Complete an Arabic item with grade, specialties, post count and concours code."""
+    tokens = [" ".join(t.split()) for t in BeautifulSoup(html, "lxml").stripped_strings]
+    update: dict = {}
+    grade = _value_after(tokens, "الدرجة :")
+    if grade:
+        update["grade"] = grade
+    if "تخصص :" in tokens and "عدد المناصب :" in tokens:
+        a, b = tokens.index("تخصص :"), tokens.index("عدد المناصب :")
+        specs = [s for s in (_clean_spec(t) for t in tokens[a + 1 : b]) if s]
+        if specs:
+            update["specialty"] = " / ".join(specs)
+    if ann.post_count is None:
+        update["post_count"] = parse_int(_value_after(tokens, "عدد المناصب :"))
+    if "رمز المباراة :" in tokens:
+        k = tokens.index("رمز المباراة :")
+        code = " ".join(tokens[k + 1 : k + 3])
+        if re.fullmatch(r"[A-Z] \d+/\d+", code):
+            update["reference_code"] = code
+    if ann.deadline is None:
+        update["deadline"] = parse_date(_value_after(tokens, "آخر أجل لإيداع الترشيحات"))
+    return ann.model_copy(update=update)
+
+
 class EmploiPublicScraper:
     source_name = "emploi-public.ma"
 
     def fetch(self) -> list[RawAnnouncement]:
         results: list[RawAnnouncement] = []
         with make_client() as client:
-            for page in range(1, MAX_PAGES + 1):
-                url = BASE + LISTING_PATH + ("" if page == 1 else f"?page={page}")
-                try:
-                    html = get_html(client, url)
-                except Exception:  # noqa: BLE001 (one page failing must not kill the run)
-                    if page == 1:
-                        raise  # the source is down or blocking us: report it
-                    break
-                results.extend(parse_listing_html(html))
+            first = True
+            for stat in ADMIN_TYPES:
+                for stage, procedure, pages in STAGE_LISTINGS:
+                    for page in range(1, pages + 1):
+                        url = (f"{BASE}{AR_LISTING_PATH}?procedure={procedure}"
+                               f"&stat={stat}&page={page}")
+                        try:
+                            html = get_html(client, url)
+                        except Exception:  # noqa: BLE001 (one page must not kill the run)
+                            if first:
+                                raise  # the source is down or blocking us: report it
+                            break
+                        first = False
+                        found = parse_ar_listing_html(html, stage)
+                        for ann in found:
+                            ann.feed = f"{self.source_name}:{stat}"
+                        results.extend(found)
+                        if len(found) < 9:  # last real page (4 featured cards repeat)
+                            break
         return results
 
     def enrich(self, ann: RawAnnouncement, client: httpx.Client | None = None) -> RawAnnouncement:
         """Fetch the detail page; on any failure return ``ann`` unchanged."""
         own = client is None
         client = client or make_client()
+        parse = parse_ar_detail_html if ann.lang == "ar" else parse_detail_html
         try:
-            return parse_detail_html(get_html(client, ann.detail_url or ann.source_url), ann)
+            return parse(get_html(client, ann.detail_url or ann.source_url), ann)
         except Exception:  # noqa: BLE001
             return ann
         finally:

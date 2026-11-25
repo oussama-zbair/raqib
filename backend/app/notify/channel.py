@@ -97,7 +97,8 @@ class TelegramError(RuntimeError):
 
 def _clean(text: str | None) -> str:
     """Escape for Telegram HTML. No em dash ever reaches a post (sources use them)."""
-    value = (text or "").replace("\u2014", "-").replace("،", "، ")
+    # Sources use em and en dashes as connectors; cards use a plain hyphen.
+    value = (text or "").replace("\u2014", "-").replace(" \u2013 ", " - ").replace("،", "، ")
     value = " ".join(value.split()).rstrip(" .")
     return html.escape(value, quote=False)
 
