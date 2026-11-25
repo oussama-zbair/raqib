@@ -165,6 +165,7 @@
       "deadline": "2026-11-26",
       "exam_date": null,
       "urls": [
+        "https://www.emploi-public.ma/fr/concours/details/a308f369-e882-4c42-871d-acb07d5c6d2e",
         "https://www.emploi-public.ma/fr/concours/details/aa40ad09-1cb6-4408-b1a7-7507ee9673ed"
       ],
       "telegram_message_id": 21,
@@ -207,6 +208,7 @@
       "deadline": "2026-12-02",
       "exam_date": "2027-01-31",
       "urls": [
+        "https://www.emploi-public.ma/fr/concours/details/b7f02f9d-4b66-4dcd-8365-f3b1001009c1",
         "https://www.emploi-public.ma/fr/concours/details/f13bac44-60cc-4ed5-897a-905111afbeb2"
       ],
       "telegram_message_id": 24,
@@ -267,8 +269,56 @@
       ],
       "telegram_message_id": 28,
       "posted_at": "2026-11-25T04:47:00+00:00"
+    },
+    {
+      "id": "C 44622/26",
+      "reference_code": "C 44622/26",
+      "administration": "Ministère de l’Education Nationale, du Préscolaire, de la Formation professionnelle et de la Qualification - Département de l’Education nationale",
+      "grade": "Spécialiste pédagogique 2ème grade",
+      "post_count": 200,
+      "deadline": "2026-11-25",
+      "exam_date": "2026-12-05",
+      "urls": [
+        "https://www.emploi-public.ma/fr/concours/details/b4147b79-25b9-4344-a801-20220a6b5cd4"
+      ],
+      "telegram_message_id": 29,
+      "posted_at": "2026-11-25T17:19:35+00:00"
+    },
+    {
+      "id": "C 44901/26",
+      "reference_code": "C 44901/26",
+      "administration": "Ministère de la Santé et de la Protection sociale",
+      "grade": "Administrateur 2ème grade - Echelle 11",
+      "post_count": 100,
+      "deadline": "2026-12-31",
+      "exam_date": "2027-01-17",
+      "urls": [
+        "https://www.emploi-public.ma/fr/concours/details/452b86be-aaab-4f8d-aa06-cf054908b8ca"
+      ],
+      "telegram_message_id": 30,
+      "posted_at": "2026-11-25T17:19:42+00:00"
+    },
+    {
+      "id": "C 44903/26",
+      "reference_code": "C 44903/26",
+      "administration": "Ministère de la Santé et de la Protection sociale",
+      "grade": "Médecins premier grade - Echelle 11",
+      "post_count": 10,
+      "deadline": "2026-12-10",
+      "exam_date": "2026-12-13",
+      "urls": [
+        "https://www.emploi-public.ma/fr/concours/details/6e348f23-624f-4bc8-b7cd-049507d4c8f8"
+      ],
+      "telegram_message_id": 31,
+      "posted_at": "2026-11-25T17:19:48+00:00"
     }
   ],
   "stages": [],
-  "rejected": {}
+  "rejected": {
+    "https://www.emploi-public.ma/fr/concours/details/03905d86-bfa2-4e5f-9173-f46289658267": "2026-11-25",
+    "https://www.dreamjob.ma/emploi-public/resultats-concours/resultats-definitifs-concours-ministere-de-la-sante-2026-50-postes-a-dakhla-oued-eddahab/": "2026-11-25",
+    "https://www.dreamjob.ma/emploi-public/resultats-concours/resultats-preselection-concours-taalim-session-novembre-2026-17953-postes/": "2026-11-25",
+    "https://www.dreamjob.ma/emploi-public/resultats-concours/liste-des-convoques-ecrit-mobarat-taalim-novembre-2026/": "2026-11-25",
+    "https://www.dreamjob.ma/emploi-public/resultats-concours/resultats-preselection-concours-taalim-novembre-2026/": "2026-11-25"
+  }
 }
