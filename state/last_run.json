@@ -1,17 +1,15 @@
 {
-  "finished_at": "2026-11-25T18:01:29+00:00",
+  "finished_at": "2026-11-25T18:25:10+00:00",
   "sources": {
-    "emploi-public.ma": "ok (31 items)",
-    "wadifapublic.ma": "FAILED (HTTP 403)",
-    "dreamjob.ma": "FAILED (HTTP 403)"
+    "emploi-public.ma": "ok (351 items)"
   },
-  "posts": 0,
+  "posts": 15,
   "stage_posts": 0,
   "updates": 0,
   "dry_run": false,
   "items_by_source_and_stage": {
     "emploi-public.ma": {
-      "AVIS": 23
+      "AVIS": 85
     }
   }
 }
