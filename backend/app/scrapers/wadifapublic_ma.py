@@ -30,15 +30,30 @@ _DEADLINE_LABEL = "آخر أجل"
 _COUNT_SUFFIX = re.compile(r"\s*\(\d+\)\s*$")
 
 
+# Stage listings (allowed by robots.txt, unlike the ``?status=`` filters).
+STAGE_PATHS = ["/ar/استدعاءات-المباريات", "/ar/نتائج-المباريات"]
+
+
 def _stage_from_badge(badge: str) -> CompetitionStage | None:
     """Map the card badge to a stage; None for badges we do not publish (e.g. postponed)."""
-    if badge.strip() == "إعلان":
+    b = badge.strip()
+    if b == "إعلان":
         return CompetitionStage.AVIS
-    if "استدعاء" in badge:
+    if "شفو" in b or "شفه" in b:
+        return CompetitionStage.CONVOQUES_ORAL
+    if "كتاب" in b or "استدعاء" in b:
         return CompetitionStage.CONVOQUES
-    if "نتيج" in badge or "نتائج" in badge:
+    if "نتيج" in b or "نتائج" in b:
         return CompetitionStage.RESULTATS
     return None
+
+
+# Words in the attachment titles of the detail page, per stage.
+_PDF_HINTS = {
+    CompetitionStage.CONVOQUES: ("للكتابي", "الكتابي"),
+    CompetitionStage.CONVOQUES_ORAL: ("للشفوي", "الشفوي", "الشفهي"),
+    CompetitionStage.RESULTATS: ("النتائج", "الناجحين"),
+}
 
 
 def _reference_code(href: str) -> str | None:
@@ -66,6 +81,7 @@ def _parse_card(card: Tag) -> RawAnnouncement | None:
         post_count = parse_int(tokens[i + 2])
         title = tokens[i + 4]
         stage = _stage_from_badge(tokens[i + 5])
+        published = parse_date(tokens[i + 6])
         city = tokens[i + 8]
         grade = tokens[i + 9]
     except IndexError:
@@ -99,6 +115,8 @@ def _parse_card(card: Tag) -> RawAnnouncement | None:
         deadline=deadline,
         logo_url=_logo_url(card),
         reference_code=_reference_code(href),
+        city=city or None,
+        published=published,
     )
 
 
@@ -137,14 +155,38 @@ def _official_link(soup: BeautifulSoup) -> str | None:
     return None
 
 
+def _list_pdf(soup: BeautifulSoup, stage: CompetitionStage) -> str | None:
+    """The convocation or results PDF of this stage (an official emploi-public.ma link)."""
+    hints = _PDF_HINTS.get(stage)
+    if not hints:
+        return None
+    found = None
+    for a in soup.find_all("a", href=True):
+        href = a["href"]
+        if "/redirect?" not in href:
+            continue
+        q = parse_qs(urlparse(href).query)
+        if q.get("type", [""])[0] != "pdf" or not q.get("to"):
+            continue
+        if any(h in a.get_text(" ", strip=True) for h in hints):
+            found = unquote(q["to"][0])  # keep the last match: the newest document
+    return found
+
+
 def parse_detail_html(html: str, ann: RawAnnouncement) -> RawAnnouncement:
     """Return a copy of ``ann`` completed with fields found on the detail page."""
     soup = BeautifulSoup(html, "lxml")
     main = soup.find("main") or soup
     tokens = list(main.stripped_strings)
     update: dict = {}
-
-    exam = parse_date(_value_after(tokens, "تاريخ إجراء المباراة"))
+    if ann.stage != CompetitionStage.AVIS:
+        pdf = _list_pdf(soup, ann.stage)
+        if pdf:
+            update["list_pdf_url"] = pdf
+    exam = parse_date(_value_after(tokens, "تاريخ الاختبار:"))
+    if exam is None and ann.stage != CompetitionStage.CONVOQUES_ORAL:
+        # The card's concours date is the written exam: never show it on an oral post.
+        exam = parse_date(_value_after(tokens, "تاريخ إجراء المباراة"))
     if exam:
         update["exam_date"] = exam
     if ann.post_count is None:
@@ -180,6 +222,14 @@ class WadifaPublicScraper:
                 except Exception:  # noqa: BLE001 (one page failing must not kill the run)
                     break
                 results.extend(parse_listing_html(html))
+            for path in STAGE_PATHS:  # first page only: the newest convocations and results
+                try:
+                    html = get_html(client, BASE + path)
+                except Exception:  # noqa: BLE001
+                    continue
+                results.extend(
+                    a for a in parse_listing_html(html) if a.stage != CompetitionStage.AVIS
+                )
         return results
 
     def enrich(self, ann: RawAnnouncement, client: httpx.Client | None = None) -> RawAnnouncement:

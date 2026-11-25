@@ -61,6 +61,40 @@ def _is_announcement(it: RawAnnouncement) -> bool:
     return not _NOT_AN_ANNOUNCEMENT.search(it.title or "")
 
 
+STAGE_MAX_AGE_DAYS = 2  # never post old convocations or results (first run, backlog)
+
+
+def _is_stage_item(it: RawAnnouncement) -> bool:
+    """Stage posts come from sources that tie them to a concours code (wadifapublic.ma)."""
+    return it.stage != CompetitionStage.AVIS and bool(it.reference_code)
+
+
+def _select_stages(
+    items: list[RawAnnouncement], state: PostedState, scrapers: list[Scraper]
+) -> list[RawAnnouncement]:
+    """New, recent stage items, enriched with the list PDF and exam date. Oldest first."""
+    by_source = {s.source_name: s for s in scrapers}
+    cutoff = date.fromordinal(date.today().toordinal() - STAGE_MAX_AGE_DAYS)
+    picked: dict[str, RawAnnouncement] = {}
+    for it in items:
+        key = state.stage_key(it)
+        if key in picked or state.knows_stage(it):
+            continue
+        if it.published is None or it.published < cutoff:
+            continue
+        picked[key] = it
+    out: list[RawAnnouncement] = []
+    with make_client() as client:
+        for it in picked.values():
+            enrich = getattr(by_source.get(it.source_name), "enrich", None)
+            if enrich:
+                it = enrich(it, client)
+                time.sleep(DETAIL_DELAY_SECONDS)
+            out.append(it)
+    out.sort(key=lambda a: a.published or date.today())
+    return out
+
+
 def _scrape(scrapers: list[Scraper]) -> tuple[list[RawAnnouncement], dict[str, str]]:
     """Fetch every source in isolation. Returns items and a per-source status."""
     items: list[RawAnnouncement] = []
@@ -105,6 +139,10 @@ def _select_it(
             continue
         if it.deadline and it.deadline < date.today():
             state.reject(it.source_url)  # deadline passed, never post
+            continue
+        if not (it.grade or it.deadline):
+            # Too thin for a card (dreamjob feed): kept only to confirm other sources.
+            known_posted.append(it)
             continue
         fresh.append(it)
 
@@ -154,7 +192,26 @@ def run(
 
     state = PostedState(state_path)
     items, status = _scrape(scrapers)
+    stage_items = [it for it in items if _is_stage_item(it)]
+    items = [it for it in items if not _is_stage_item(it)]
     selected, known_posted = _select_it(items, state, scrapers, it_only=settings.publish_it_only)
+
+    # Convocations and results first: their dates are close, they cannot wait a run.
+    sent = 0
+    for ann in _select_stages(stage_items, state, scrapers)[:max_posts]:
+        text = format_for_send(ann)
+        reply_to = state.thread_parent(ann)
+        if dry_run:
+            print(f"{text}\n[button: {ann.list_pdf_url or ann.source_url}] "
+                  f"[reply to: {reply_to}] [image: {ann.logo_url or 'emblem'}]\n{_SEP}")
+            message_id = None
+        else:
+            message_id = sender(ann, text, channel, reply_to=reply_to)
+            time.sleep(SEND_INTERVAL_SECONDS)
+        state.add_stage(ann, message_id)
+        if not dry_run:
+            state.save()
+        sent += 1
 
     new_posts: list[RawAnnouncement] = []
     updates: list[tuple[dict, RawAnnouncement, dict]] = []
@@ -173,12 +230,13 @@ def run(
 
     # Listings are newest first: post oldest first so the channel reads chronologically.
     new_posts.reverse()
-    sent = 0
-    for ann in new_posts[:max_posts]:
+    stage_sent = sent
+    budget = max(0, max_posts - sent)
+    for ann in new_posts[:budget]:
         text = format_for_send(ann, footer_channel)
         if dry_run:
-            print(f"{text}\n[button: التفاصيل] [image: {ann.logo_url or 'none'}] "
-                  f"[sources: {ann.source_name}]\n{_SEP}")
+            print(f"{text}\n[button: {ann.official_url or ann.source_url}] "
+                  f"[image: {ann.logo_url or 'emblem'}] [sources: {ann.source_name}]\n{_SEP}")
             message_id = None
         else:
             message_id = sender(ann, text, channel)
@@ -187,8 +245,8 @@ def run(
         if not dry_run:
             state.save()  # persist after every send so a later failure never causes a re-post
         sent += 1
-    if len(new_posts) > max_posts:
-        log.info("%d more items wait for the next run", len(new_posts) - max_posts)
+    if len(new_posts) > budget:
+        log.info("%d more items wait for the next run", len(new_posts) - budget)
 
     for entry, ann, changes in updates:
         text = format_update_post(ann, changes, footer)
@@ -207,6 +265,7 @@ def run(
     summary = {
         "sources": status,
         "posts": sent,
+        "stage_posts": stage_sent,
         "updates": len(updates),
         "dry_run": dry_run,
     }

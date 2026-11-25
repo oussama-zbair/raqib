@@ -35,7 +35,8 @@ jobs:
           # The bot token is a secret. The channel username is public, not a secret.
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHANNEL_ID: "@RaqibEmploi"
-          DRY_RUN_FLAG: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && '--dry-run' || '' }}
+          # The Cloudflare cron sends dry_run as the string "false", the UI sends a boolean.
+          DRY_RUN_FLAG: ${{ github.event_name == 'workflow_dispatch' && (inputs.dry_run == true || inputs.dry_run == 'true') && '--dry-run' || '' }}
         run: python -m app.jobs.publish_channel $DRY_RUN_FLAG
       - name: Commit posted state
         if: always()
@@ -45,8 +46,18 @@ jobs:
           git add state/posted.json
           if git diff --cached --quiet; then
             echo "No state change"
-          else
-            git commit -m "chore: update posted state"
-            git pull --rebase origin "${GITHUB_REF_NAME}"
-            git push origin "HEAD:${GITHUB_REF_NAME}"
+            exit 0
           fi
+          git commit -m "chore: update posted state"
+          git status --short
+          for attempt in 1 2 3; do
+            if git pull --rebase --autostash origin "${GITHUB_REF_NAME}" \
+               && git push origin "HEAD:${GITHUB_REF_NAME}"; then
+              echo "State committed"
+              exit 0
+            fi
+            echo "Push attempt ${attempt} failed, retrying"
+            sleep $((attempt * 10))
+          done
+          echo "::error::Posted state could not be pushed. The next run may repost."
+          exit 1

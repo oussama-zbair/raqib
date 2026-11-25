@@ -21,7 +21,8 @@ class SourceType(str, Enum):
 
 class CompetitionStage(str, Enum):
     AVIS = "AVIS"
-    CONVOQUES = "CONVOQUES"
+    CONVOQUES = "CONVOQUES"  # invited to the written exam
+    CONVOQUES_ORAL = "CONVOQUES_ORAL"  # invited to the oral exam
     RESULTATS = "RESULTATS"
 
 
@@ -77,6 +78,9 @@ class RawAnnouncement(BaseModel):
     logo_url: str | None = None
     reference_code: str | None = None  # e.g. "C 44904/26" (emploi-public.ma concours code)
     official_url: str | None = None  # link to the official portal page, when known
+    city: str | None = None  # posting city when the source gives it
+    published: date | None = None  # date the source published this item (or this stage)
+    list_pdf_url: str | None = None  # convocation or results list, for stage items
 
 
 class CompetitionFields(BaseModel):

@@ -37,11 +37,48 @@ class PostedState:
     def __init__(self, path: Path = DEFAULT_STATE_PATH):
         self.path = Path(path)
         self.posted: list[dict] = []
+        self.stages: list[dict] = []
         self.rejected: dict[str, str] = {}
         if self.path.exists() and self.path.read_text(encoding="utf-8").strip():
             data = json.loads(self.path.read_text(encoding="utf-8"))
             self.posted = data.get("posted", [])
+            self.stages = data.get("stages", [])
             self.rejected = data.get("rejected", {})
+
+    # ---- stage posts (convocations, results) ----------------------------------------
+    @staticmethod
+    def stage_key(ann: RawAnnouncement) -> str:
+        return f"{ann.reference_code or ann.source_url}#{ann.stage.value}"
+
+    def knows_stage(self, ann: RawAnnouncement) -> bool:
+        key = self.stage_key(ann)
+        return any(s.get("key") == key for s in self.stages)
+
+    def add_stage(self, ann: RawAnnouncement, message_id: int | None) -> dict:
+        entry = {
+            "key": self.stage_key(ann),
+            "reference_code": ann.reference_code,
+            "stage": ann.stage.value,
+            "administration": ann.administration,
+            "url": ann.source_url,
+            "telegram_message_id": message_id,
+            "posted_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        }
+        self.stages.append(entry)
+        return entry
+
+    def thread_parent(self, ann: RawAnnouncement) -> int | None:
+        """Message to reply to: the latest stage post of this concours, else its announcement."""
+        code = ann.reference_code
+        if not code:
+            return None
+        for s in reversed(self.stages):
+            if s.get("reference_code") == code and s.get("telegram_message_id"):
+                return s["telegram_message_id"]
+        for e in self.posted:
+            if e.get("reference_code") == code and e.get("telegram_message_id"):
+                return e["telegram_message_id"]
+        return None
 
     # ---- lookups -------------------------------------------------------------
     @staticmethod
@@ -112,7 +149,8 @@ class PostedState:
         self.rejected = {u: d for u, d in self.rejected.items() if d >= cutoff}
         self.path.parent.mkdir(parents=True, exist_ok=True)
         payload = json.dumps(
-            {"version": 1, "posted": self.posted, "rejected": self.rejected},
+            {"version": 1, "posted": self.posted, "stages": self.stages,
+             "rejected": self.rejected},
             ensure_ascii=False,
             indent=2,
         )

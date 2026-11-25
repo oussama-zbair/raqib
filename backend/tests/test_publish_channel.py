@@ -10,7 +10,6 @@ from app.jobs.dedup import dedup_items, merge_group
 from app.jobs.posted_state import PostedState
 from app.notify.channel import (
     CAPTION_LIMIT,
-    channel_footer,
     format_channel_post,
     format_for_send,
     format_update_post,
@@ -81,49 +80,130 @@ def test_item_without_deadline_matches_on_admin_and_post_count():
     assert len(dedup_items([d2, _emploi()])) == 2
 
 
+
 # ---- channel formatting --------------------------------------------------------------
-def test_post_layout_matches_wadifa():
+def test_card_is_arabic_when_any_source_is_arabic():
     text = format_channel_post(merge_group([_wadifa(), _emploi()]), "@RaqibEmploi")
     assert text.split("\n") == [
-        "🟢 إعلان توظيف جديد",
-        "🏛 Ministère de la Santé",
-        "👥 عدد المناصب: 20",
-        "💼 الدرجة: Ingénieur d'Etat",
-        "🛠 التخصصات المطلوبة:",
-        "🔷 هندسة بيوطبية",
-        "🔷 المعلوميات",
-        "⏳ آخر أجل للتسجيل: 28/12/2026",
-        "📅 تاريخ الاختبار الكتابي: 10/01/2027",
-        "🔗 اضغط هنا للتفاصيل: https://e/9",
+        "🟢 <b>مباراة جديدة</b>",
         "",
-        "#معلوميات #IT",
+        "🏛 <b>وزارة الصحة</b>",
+        "💼 مهندس دولة",
+        "🎓 هندسة بيوطبية · المعلوميات",
+        "👥 20 منصبا",
         "",
-        "📢 t.me/RaqibEmploi",
+        "⏳ آخر أجل: <b>الاثنين 28 دجنبر 2026</b>",
+        "📝 الكتابي: الأحد 10 يناير 2027",
+        "",
+        "#معلوميات #هندسة #مباراة",
     ]
+    assert "http" not in text and "t.me" not in text  # links live in the buttons
 
 
-def test_exam_date_placeholder_footer_and_escaping():
-    ann = _wadifa().model_copy(update={"administration": "A <b> & B \u2014 C"})
-    text = format_channel_post(ann, None)
-    assert "سيتم الإعلان عنه لاحقا" in text
-    assert "t.me" not in text  # footer omitted when TELEGRAM_CHANNEL_ID is unset
-    assert "A &lt;b&gt; &amp; B - C" in text
+def test_card_is_french_when_only_french_exists():
+    text = format_channel_post(_emploi().model_copy(update={"specialty": "Génie logiciel"}))
+    assert text.startswith("🟢 <b>Nouveau concours</b>")
+    assert "⏳ Date limite : <b>lundi 28 décembre 2026</b>" in text
+    assert "👥 20 postes" in text
+    assert "#معلوميات" in text  # tags stay Arabic for one channel-wide search
+
+
+def test_exam_placeholder_and_escaping():
+    ann = _wadifa().model_copy(update={"administration": "وزارة <b> & B \u2014 C"})
+    text = format_channel_post(ann)
+    assert "سيعلن عنه لاحقا" in text
+    assert "وزارة &lt;b&gt; &amp; B - C" in text
     assert "\u2014" not in text
-    assert channel_footer("@RaqibEmploi") == "📢 t.me/RaqibEmploi"
-    assert channel_footer("", dry_run=True) == "📢 t.me/RaqibEmploi"
-    assert channel_footer("") is None
+
+
+def test_arabic_post_count_agreement():
+    from app.notify.channel import fmt_posts
+    assert [fmt_posts(n, "ar") for n in (1, 2, 3, 10, 11, 100)] == [
+        "منصب واحد", "منصبان", "3 مناصب", "10 مناصب", "11 منصبا", "100 منصب"]
+    assert fmt_posts(1, "fr") == "1 poste"
 
 
 def test_caption_fits_and_keeps_it_specialties():
-    specs = " / ".join([f"Droit {i}" for i in range(30)] + ["Génie logiciel"])
-    ann = _wadifa().model_copy(update={"specialty": specs, "administration": "A" * 300})
-    assert "Génie logiciel" in format_channel_post(ann, "@c")
-    assert len(format_for_send(ann, "@RaqibEmploi")) <= CAPTION_LIMIT
+    specs = " / ".join([f"قانون {i}" for i in range(40)] + ["هندسة البرمجيات"])
+    ann = _wadifa().model_copy(update={"specialty": specs, "administration": "وزارة " * 120})
+    assert "هندسة البرمجيات" in format_channel_post(ann)
+    assert len(format_for_send(ann)) <= CAPTION_LIMIT
 
 
 def test_update_post():
-    text = format_update_post(_emploi(), {"deadline": date(2027, 1, 5)}, "📢 t.me/RaqibEmploi")
-    assert "05/01/2027" in text and text.startswith("🔄")
+    text = format_update_post(_emploi(), {"deadline": date(2027, 1, 5)}, None)
+    assert "mardi 5 janvier 2027" in text and text.startswith("🔄")
+
+
+def test_stage_cards_and_tags():
+    from app.db.models import CompetitionStage
+    from app.notify.channel import format_stage_post, keyboard
+    conv = _wadifa().model_copy(update={
+        "stage": CompetitionStage.CONVOQUES, "exam_date": date(2026, 11, 29),
+        "city": "الدار البيضاء", "list_pdf_url": "https://e/list.pdf"})
+    text = format_stage_post(conv)
+    assert text.startswith("📋 <b>لوائح المدعوين لاجتياز الاختبار الكتابي</b>")
+    assert "📅 تاريخ الاختبار: <b>الأحد 29 نونبر 2026</b>" in text
+    assert text.endswith("#استدعاء_الكتابي #الدار_البيضاء")
+    assert keyboard(conv)["inline_keyboard"][0][0] == {
+        "text": "📄 تحميل اللائحة", "url": "https://e/list.pdf"}
+    res = conv.model_copy(update={"stage": CompetitionStage.RESULTATS, "city": "المغرب"})
+    text = format_stage_post(res)
+    assert text.startswith("🏆") and "تهانينا" in text and text.endswith("#نتائج")
+    oral = conv.model_copy(update={"stage": CompetitionStage.CONVOQUES_ORAL})
+    assert format_stage_post(oral).startswith("🎤")
+
+
+def test_field_tags_use_whole_words():
+    from app.matching.domains import field_tags
+    nurse = _wadifa().model_copy(update={"grade": "ممرض من الدرجة الأولى", "specialty": None})
+    assert field_tags(nurse) == ["صحة"]
+    eighth = _wadifa().model_copy(update={"grade": "متصرف من الدرجة الثامنة", "specialty": None})
+    assert field_tags(eighth) == ["إدارة"]  # 'امن' inside 'الثامنة' is not security
+    guard = _emploi().model_copy(update={"grade": "Surveillant pénitentiaire", "specialty": None})
+    assert field_tags(guard) == ["أمن"]
+
+
+def test_sender_uploads_logo_then_falls_back_to_emblem(monkeypatch):
+    from app.notify import channel as ch
+    calls = []
+
+    def fake_request(method, data, files=None):
+        calls.append((method, files["photo"][0] if files else None))
+        if method == "sendPhoto" and files["photo"][0].startswith("logo"):
+            raise ch.TelegramError("sendPhoto", 400, "bad image")
+        return {"ok": True, "result": {"message_id": 77}}
+
+    monkeypatch.setattr(ch, "_request", fake_request)
+    monkeypatch.setattr(ch, "fetch_image", lambda url: ("logo.png", b"x", "image/png"))
+    assert ch.send_post(_wadifa(), "t", "@RaqibEmploi") == 77
+    assert calls == [("sendPhoto", "logo.png"), ("sendPhoto", "morocco.png"),
+                     ("editMessageReplyMarkup", None)]
+
+
+def test_telegram_errors_never_contain_the_token(monkeypatch):
+    from app.notify import channel as ch
+    monkeypatch.setenv("TELEGRAM_BOT_TOKEN", "123:SECRET")
+    from app.config import get_settings
+    get_settings.cache_clear()
+
+    class Resp:
+        status_code = 401
+        def json(self):
+            return {"ok": False, "description": "Unauthorized"}
+
+    class Client:
+        def __init__(self, *a, **k): pass
+        def __enter__(self): return self
+        def __exit__(self, *a): return False
+        def post(self, url, **k): return Resp()
+
+    monkeypatch.setattr(ch.httpx, "Client", Client)
+    try:
+        ch._request("sendMessage", {})
+    except ch.TelegramError as exc:
+        assert "SECRET" not in str(exc) and "401" in str(exc)
+    get_settings.cache_clear()
 
 
 # ---- state ---------------------------------------------------------------------------
@@ -192,7 +272,7 @@ def test_job_posts_once_dedups_and_survives_a_failing_source(tmp_path, monkeypat
     first = _run(tmp_path, scrapers, sent)
     assert first["posts"] == 1  # duplicate merged, non-IT dropped
     assert first["sources"]["dreamjob.ma"].startswith("FAILED")
-    assert "t.me/RaqibEmploi" in sent[0][0]
+    assert sent[0][0].startswith("🟢")
 
     second = _run(tmp_path, scrapers, sent)
     assert second["posts"] == 0 and second["updates"] == 0
@@ -217,7 +297,7 @@ def test_dry_run_sends_nothing_and_keeps_state_unless_asked(tmp_path, capsys, mo
     scrapers = [_FakeScraper("wadifapublic.ma", [_wadifa()])]
     res = _run(tmp_path, scrapers, sent, dry_run=True)
     assert res["posts"] == 1 and not sent
-    assert "📢 t.me/RaqibEmploi" in capsys.readouterr().out  # placeholder footer
+    assert "مباراة جديدة" in capsys.readouterr().out
     assert not (tmp_path / "s.json").exists()
     _run(tmp_path, scrapers, sent, dry_run=True, save_state=True)
     assert _run(tmp_path, scrapers, sent, dry_run=True)["posts"] == 0
@@ -272,7 +352,7 @@ def test_default_mode_posts_every_concours_and_tags_only_it(tmp_path, monkeypatc
     first = _run(tmp_path, scrapers, sent)
     assert first["posts"] == 2  # IT + non-IT, expired one skipped
     texts = [s[0] for s in sent]
-    assert sum("#IT" in x for x in texts) == 1
+    assert sum("#معلوميات" in x for x in texts) == 1
     assert _run(tmp_path, scrapers, sent)["posts"] == 0
     get_settings.cache_clear()
 

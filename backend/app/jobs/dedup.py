@@ -82,10 +82,26 @@ def _rank(ann: RawAnnouncement) -> int:
         return len(SOURCE_PRIORITY)
 
 
+# Facts: the official portal wins.
 _MERGE_FIELDS = (
-    "administration", "grade", "specialty", "post_count", "deadline", "exam_date",
-    "logo_url", "reference_code", "official_url", "title",
+    "post_count", "deadline", "exam_date", "reference_code", "official_url",
+    "published", "list_pdf_url",
 )
+# Wording: taken from one source so a post never mixes French and Arabic. Arabic first
+# (the channel is Arabic), the logo too (wadifapublic.ma logos are the cleanest).
+_TEXT_FIELDS = ("administration", "grade", "specialty", "title", "city", "logo_url")
+TEXT_PRIORITY = ["wadifapublic.ma", "emploi-public.ma", "dreamjob.ma"]
+
+
+def _is_arabic(text: str | None) -> bool:
+    return any("\u0600" <= ch <= "\u06ff" for ch in (text or ""))
+
+
+def _text_rank(ann: RawAnnouncement) -> int:
+    try:
+        return TEXT_PRIORITY.index(ann.source_name)
+    except ValueError:
+        return len(TEXT_PRIORITY)
 
 
 def merge_group(items: list[RawAnnouncement]) -> RawAnnouncement:
@@ -99,6 +115,22 @@ def merge_group(items: list[RawAnnouncement]) -> RawAnnouncement:
             if value not in (None, ""):
                 update[name] = value
                 break
+    by_text = sorted(items, key=_text_rank)
+    wording = next((it for it in by_text if it.administration), by_text[0])
+    arabic = _is_arabic(wording.administration)
+    for name in _TEXT_FIELDS:
+        value = getattr(wording, name)
+        if value in (None, "") and name != "logo_url":
+            # Fill a gap only with text in the same script as the chosen wording.
+            value = next(
+                (getattr(it, name) for it in by_text
+                 if getattr(it, name) and _is_arabic(getattr(it, name)) == arabic),
+                None,
+            )
+        if value in (None, "") and name == "logo_url":
+            value = next((it.logo_url for it in by_text if it.logo_url), None)
+        update[name] = value
+    update["lang"] = "ar" if arabic else "fr"
     # Best link to the official page: an explicit official_url, else the portal's own page.
     if not update.get("official_url"):
         portal = next((it for it in ordered if it.source_name == "emploi-public.ma"), None)
