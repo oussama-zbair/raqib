@@ -3263,6 +3263,56 @@
       "exam_date": null,
       "city": null,
       "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/f5b3dde49d66f60bf0a8ee3728874d49.png"
+    },
+    {
+      "key": "ep:54822069-1e94-4705-8964-f81d8987d880#CONVOQUES",
+      "reference_code": "C 44430/26",
+      "stage": "CONVOQUES",
+      "administration": "جامعة محمد الخامس",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/54822069-1e94-4705-8964-f81d8987d880",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T21:01:59+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:cdda2f24-9751-4129-85a7-220a7716847a#CONVOQUES",
+      "reference_code": "C 44128/26",
+      "stage": "CONVOQUES",
+      "administration": "وزارة الأسرة والتنمية الاجتماعية والمساواة",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/cdda2f24-9751-4129-85a7-220a7716847a",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T21:02:43+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:17f2da87-11bb-4fb4-8b3c-1712f117c3ce#CONVOQUES",
+      "reference_code": "C 44127/26",
+      "stage": "CONVOQUES",
+      "administration": "وزارة الأسرة والتنمية الاجتماعية والمساواة",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/17f2da87-11bb-4fb4-8b3c-1712f117c3ce",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T21:02:48+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:bd7d21e6-ce27-4590-9ae0-ba4755897c51#CONVOQUES",
+      "reference_code": "C 43846/26",
+      "stage": "CONVOQUES",
+      "administration": "وزارة التربية الوطنية والتعليم الأولي والتكوين المهني والتأهيل - قطاع التربية الوطنية",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/bd7d21e6-ce27-4590-9ae0-ba4755897c51",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T21:02:50+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:8cad4f28-8207-43e7-b653-29498a7ed5e0#CONVOQUES",
+      "reference_code": "C 43845/26",
+      "stage": "CONVOQUES",
+      "administration": "وزارة التربية الوطنية والتعليم الأولي والتكوين المهني والتأهيل - قطاع التربية الوطنية",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/8cad4f28-8207-43e7-b653-29498a7ed5e0",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T21:02:57+00:00",
+      "seeded": true
     }
   ],
   "seeded_sources": [
@@ -3597,103 +3647,103 @@
     },
     "ep:54822069-1e94-4705-8964-f81d8987d880": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T21:01:59+00:00"
     },
     "ep:306a68e3-1b0f-4493-a2ec-b9082b3affc0": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T21:02:01+00:00"
     },
     "ep:186b7e52-ca1f-4a8c-a351-ec24ed3e2a72": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T21:02:02+00:00"
     },
     "ep:0ce1c9ce-1d0d-4ee0-a8cb-5b05f5d4e640": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T21:02:04+00:00"
     },
     "ep:284c1fe0-0a78-4892-87df-3e083e6a65d2": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T21:02:06+00:00"
     },
     "ep:e0775437-60f2-4958-9306-7bfe8a1524f4": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T21:02:08+00:00"
     },
     "ep:402b2997-0464-4c79-93c7-c4a918d05b34": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T21:02:12+00:00"
     },
     "ep:04a91581-186c-41d8-82e4-3cea07204037": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T21:02:14+00:00"
     },
     "ep:34f82ed2-c3fa-4496-a8e3-3a1159e4adf3": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T21:02:16+00:00"
     },
     "ep:144317d0-3827-46f6-94c3-a5fbd18b2c85": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T21:02:18+00:00"
     },
     "ep:fb2e5ca9-e80e-4765-afc1-587b15f0ae33": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T21:02:20+00:00"
     },
     "ep:7cf772aa-1a10-4769-8d24-bf2e5d55a471": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T21:02:25+00:00"
     },
     "ep:53e69319-5ad4-41c7-a63a-ae85dbb6094b": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T21:02:27+00:00"
     },
     "ep:932f24ff-71a0-4088-8356-e919e41bd720": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T21:02:29+00:00"
     },
     "ep:58ca2f2e-9b75-404a-909a-8248b29feaed": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T21:02:30+00:00"
     },
     "ep:81e89845-6649-430e-98a2-65a32c048a48": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T21:02:32+00:00"
     },
     "ep:0bc3b58e-cfd7-466e-9023-6faf53a94738": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T21:02:34+00:00"
     },
     "ep:0bcfe0ed-c273-4358-947a-76594b2f2dde": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T21:02:35+00:00"
     },
     "ep:4bce4152-8b28-45d0-b869-c883f18864db": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T21:02:37+00:00"
     },
     "ep:7babf89f-94cb-4f16-8e62-84adf1859961": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T21:02:39+00:00"
     },
     "ep:0d14767d-7b8a-4282-b397-96709c297e37": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T21:02:41+00:00"
     },
     "ep:cdda2f24-9751-4129-85a7-220a7716847a": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T21:02:43+00:00"
     },
     "ep:17f2da87-11bb-4fb4-8b3c-1712f117c3ce": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T21:02:48+00:00"
     },
     "ep:bd7d21e6-ce27-4590-9ae0-ba4755897c51": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T21:02:50+00:00"
     },
     "ep:8cad4f28-8207-43e7-b653-29498a7ed5e0": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T21:02:57+00:00"
     },
     "ep:8056cf15-3c75-4428-a0b1-a75387b069bd": {
       "added": "2026-11-25",
