@@ -35,7 +35,7 @@ export default defineNuxtConfig({
       channelUrl: process.env.NUXT_PUBLIC_CHANNEL_URL ?? "https://t.me/RaqibEmploi",
       discussionUrl: process.env.NUXT_PUBLIC_DISCUSSION_URL ?? "https://t.me/RaqibDiscussion",
       telegramBotUrl: process.env.NUXT_PUBLIC_TELEGRAM_BOT_URL ?? "https://t.me/RaqibMaBot",
-      ownerUrl: process.env.NUXT_PUBLIC_OWNER_URL ?? "https://t.me/owernam18",
+      ownerUrl: process.env.NUXT_PUBLIC_OWNER_URL ?? "https://oussamazbair.engineer",
     },
   },
 

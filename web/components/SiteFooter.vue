@@ -34,7 +34,7 @@ const year = new Date().getFullYear();
     <div class="footer-bottom">
       © {{ year }} Raqib · رقيب · {{ t("footer.rights") }} ·
       🛠 {{ t("footer.madeBy") }}
-      <a :href="config.public.ownerUrl as string" target="_blank" rel="noopener">@owernam18</a>
+      <a :href="config.public.ownerUrl as string" target="_blank" rel="noopener">Oussama Zbair</a>
     </div>
   </footer>
 </template>
