@@ -3633,6 +3633,76 @@
       "telegram_message_id": null,
       "posted_at": "2026-11-25T22:02:34+00:00",
       "seeded": true
+    },
+    {
+      "key": "ep:0443e29b-6afb-4b1e-af67-8cd3d44a1fc5#CONVOQUES",
+      "reference_code": "C 44372/26",
+      "stage": "CONVOQUES",
+      "administration": "جامعة السلطان مولاي سليمان -بني ملال",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/0443e29b-6afb-4b1e-af67-8cd3d44a1fc5",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T22:32:14+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:e612da97-52b0-4d3d-bdda-7ceb60322301#CONVOQUES",
+      "reference_code": "C 44353/26",
+      "stage": "CONVOQUES",
+      "administration": "وكالة المغرب العربي للأنباء",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/e612da97-52b0-4d3d-bdda-7ceb60322301",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T22:32:15+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:f10769e0-9040-4fb3-8529-44d2f5cdf06d#CONVOQUES",
+      "reference_code": "C 44352/26",
+      "stage": "CONVOQUES",
+      "administration": "وكالة المغرب العربي للأنباء",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/f10769e0-9040-4fb3-8529-44d2f5cdf06d",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T22:32:17+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:b9ccfdc6-b71d-48bb-8dd8-fff97d085dcf#CONVOQUES",
+      "reference_code": "C 44248/26",
+      "stage": "CONVOQUES",
+      "administration": "المركز الوطني للبحث العلمي والتقني",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/b9ccfdc6-b71d-48bb-8dd8-fff97d085dcf",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T22:32:19+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:c7461e57-f68d-40f0-a846-6bf8be2b8dda#CONVOQUES",
+      "reference_code": "C 44247/26",
+      "stage": "CONVOQUES",
+      "administration": "المركز الوطني للبحث العلمي والتقني",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/c7461e57-f68d-40f0-a846-6bf8be2b8dda",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T22:32:20+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:0d951947-f970-4e52-97db-2ae203fd450d#CONVOQUES",
+      "reference_code": "C 44246/26",
+      "stage": "CONVOQUES",
+      "administration": "المركز الوطني للبحث العلمي والتقني",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/0d951947-f970-4e52-97db-2ae203fd450d",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T22:32:21+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:df3fe31a-3eb5-4cee-8cbf-7c8f4189f715#CONVOQUES",
+      "reference_code": "C 44245/26",
+      "stage": "CONVOQUES",
+      "administration": "المركز الوطني للبحث العلمي والتقني",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/df3fe31a-3eb5-4cee-8cbf-7c8f4189f715",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T22:32:23+00:00",
+      "seeded": true
     }
   ],
   "seeded_sources": [
@@ -4267,103 +4337,103 @@
     },
     "ep:14d099d9-217c-4f94-9d70-8be1b4df3c45": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T22:31:45+00:00"
     },
     "ep:602870ce-4fcb-4988-a2bf-0416544c2593": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T22:31:47+00:00"
     },
     "ep:61034c2b-a974-4cc1-90b8-367c788a35b6": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T22:31:48+00:00"
     },
     "ep:0b3af62a-75ce-4b24-944f-47fe5d71ea16": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T22:31:49+00:00"
     },
     "ep:7b085baa-992a-4b8b-8b85-4d4899e68acb": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T22:31:51+00:00"
     },
     "ep:5a350128-f31f-4910-8742-d2df3820b2c5": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T22:31:52+00:00"
     },
     "ep:11c741a9-5198-4725-82e7-056a1af1f89d": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T22:31:54+00:00"
     },
     "ep:cb74a0f0-47a3-496c-b0c5-e9732a99a5c0": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T22:31:55+00:00"
     },
     "ep:682a6a85-1861-4cd7-8f81-a6b30c48bfe3": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T22:31:56+00:00"
     },
     "ep:7fe9d224-f765-4c4f-a72e-c535c44ca3b6": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T22:31:57+00:00"
     },
     "ep:2a207228-4dc9-41c6-a16c-690fa6f149b0": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T22:31:59+00:00"
     },
     "ep:3b2eca5e-78f2-401d-8965-a141d9f536a1": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T22:32:03+00:00"
     },
     "ep:f7851d9e-a412-461f-bffe-665556618939": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T22:32:05+00:00"
     },
     "ep:6fc8103f-2db4-48b5-bb8b-2445c227b7e5": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T22:32:06+00:00"
     },
     "ep:1612bf38-ac36-446c-a674-68e56c04bf0d": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T22:32:08+00:00"
     },
     "ep:d89d108e-db1a-47e3-9143-c0a9685bde7d": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T22:32:09+00:00"
     },
     "ep:22b5fc52-a95f-4363-a5ea-62aafa81d272": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T22:32:11+00:00"
     },
     "ep:946447ab-1ef4-49d9-9d9b-7bf246e7cb11": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T22:32:12+00:00"
     },
     "ep:0443e29b-6afb-4b1e-af67-8cd3d44a1fc5": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T22:32:14+00:00"
     },
     "ep:e612da97-52b0-4d3d-bdda-7ceb60322301": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T22:32:15+00:00"
     },
     "ep:f10769e0-9040-4fb3-8529-44d2f5cdf06d": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T22:32:17+00:00"
     },
     "ep:b9ccfdc6-b71d-48bb-8dd8-fff97d085dcf": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T22:32:19+00:00"
     },
     "ep:c7461e57-f68d-40f0-a846-6bf8be2b8dda": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T22:32:20+00:00"
     },
     "ep:0d951947-f970-4e52-97db-2ae203fd450d": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T22:32:21+00:00"
     },
     "ep:df3fe31a-3eb5-4cee-8cbf-7c8f4189f715": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T22:32:23+00:00"
     },
     "ep:085ba9e3-acba-4799-8549-e4dbeb9fd2e1": {
       "added": "2026-11-25",
