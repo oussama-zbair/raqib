@@ -3453,6 +3453,186 @@
       "telegram_message_id": null,
       "posted_at": "2026-11-25T21:31:54+00:00",
       "seeded": true
+    },
+    {
+      "key": "ep:6bd7242f-af63-4676-bd7c-6694f54fca76#CONVOQUES",
+      "reference_code": "C 43970/26",
+      "stage": "CONVOQUES",
+      "administration": "إقليم طاطا - اقا إيغان",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/6bd7242f-af63-4676-bd7c-6694f54fca76",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T22:01:58+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:f0f7647c-2ac9-4001-b8b1-d04b9032483d#CONVOQUES",
+      "reference_code": "C 43563/26",
+      "stage": "CONVOQUES",
+      "administration": "إقليم الصويرة - آيت سعيد",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/f0f7647c-2ac9-4001-b8b1-d04b9032483d",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T22:01:59+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:0c80e502-f212-45fa-8323-950626f1533c#CONVOQUES",
+      "reference_code": "C 43353/26",
+      "stage": "CONVOQUES",
+      "administration": "إقليم وزان - سيدي أحمدالشريف",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/0c80e502-f212-45fa-8323-950626f1533c",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T22:02:01+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:180e1e5d-472d-4cea-a00e-a623beecf83c#CONVOQUES",
+      "reference_code": "C 43352/26",
+      "stage": "CONVOQUES",
+      "administration": "إقليم وزان - سيدي أحمدالشريف",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/180e1e5d-472d-4cea-a00e-a623beecf83c",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T22:02:03+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:9edf419b-a29d-4a96-bd0f-4d2643bfae05#CONVOQUES",
+      "reference_code": "C 43305/26",
+      "stage": "CONVOQUES",
+      "administration": "إقليم الحوز - تيدلي مسفيوة",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/9edf419b-a29d-4a96-bd0f-4d2643bfae05",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T22:02:05+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:467d114e-6936-4e22-b519-10877a5182ae#CONVOQUES",
+      "reference_code": "C 43278/26",
+      "stage": "CONVOQUES",
+      "administration": "إقليم شيشاوة - إمنتانوت",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/467d114e-6936-4e22-b519-10877a5182ae",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T22:02:07+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:300cc312-ec81-48ff-ad12-134584efc6f5#CONVOQUES",
+      "reference_code": "C 43054/26",
+      "stage": "CONVOQUES",
+      "administration": "إقليم النواصر - اولاد عزوز",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/300cc312-ec81-48ff-ad12-134584efc6f5",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T22:02:08+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:bab44ec2-c7f4-4bb6-b1f5-f15a3bf8f042#CONVOQUES",
+      "reference_code": "C 43053/26",
+      "stage": "CONVOQUES",
+      "administration": "إقليم النواصر - اولاد عزوز",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/bab44ec2-c7f4-4bb6-b1f5-f15a3bf8f042",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T22:02:10+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:b0b416ee-bdd7-401f-aeb6-3284ea853aeb#CONVOQUES",
+      "reference_code": "C 43050/26",
+      "stage": "CONVOQUES",
+      "administration": "إقليم النواصر - اولاد عزوز",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/b0b416ee-bdd7-401f-aeb6-3284ea853aeb",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T22:02:12+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:52739f81-2130-4514-9340-cba0bd5c97d1#CONVOQUES",
+      "reference_code": "C 42855/26",
+      "stage": "CONVOQUES",
+      "administration": "إقليم الحوز - ايت حكيم - ايت ازيد",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/52739f81-2130-4514-9340-cba0bd5c97d1",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T22:02:14+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:422ba15b-1bf4-478d-86bb-7c24574cf08c#CONVOQUES",
+      "reference_code": "C 42852/26",
+      "stage": "CONVOQUES",
+      "administration": "إقليم الحوز - ايت حكيم - ايت ازيد",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/422ba15b-1bf4-478d-86bb-7c24574cf08c",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T22:02:16+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:38206db7-5ee0-46e4-9b10-05d895c83393#CONVOQUES",
+      "reference_code": "C 42788/26",
+      "stage": "CONVOQUES",
+      "administration": "إقليم صفرو - العدرج",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/38206db7-5ee0-46e4-9b10-05d895c83393",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T22:02:18+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:868e3413-317f-404b-87cf-66106ddb9417#CONVOQUES",
+      "reference_code": "C 42689/26",
+      "stage": "CONVOQUES",
+      "administration": "إقليم القنيطرة - بنمنصور",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/868e3413-317f-404b-87cf-66106ddb9417",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T22:02:19+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:caba6a56-dfd6-4746-b202-c2948fd8f3d8#CONVOQUES",
+      "reference_code": "C 41836/26",
+      "stage": "CONVOQUES",
+      "administration": "إقليم أزيلال - أزيلال",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/caba6a56-dfd6-4746-b202-c2948fd8f3d8",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T22:02:21+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:3e5a3918-8b45-4002-9bda-97ab584fa13b#CONVOQUES",
+      "reference_code": "C 41823/26",
+      "stage": "CONVOQUES",
+      "administration": "عمالة أكادير اداوتنان - إمسوان",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/3e5a3918-8b45-4002-9bda-97ab584fa13b",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T22:02:23+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:f56c8fab-d508-4f6c-ad30-20098135e116#CONVOQUES",
+      "reference_code": "C 41733/26",
+      "stage": "CONVOQUES",
+      "administration": "إقليم افران",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/f56c8fab-d508-4f6c-ad30-20098135e116",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T22:02:25+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:bf0b1577-5127-4817-88af-f23e4263b51f#CONVOQUES",
+      "reference_code": "C 41730/26",
+      "stage": "CONVOQUES",
+      "administration": "عمالة سلا - عامر",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/bf0b1577-5127-4817-88af-f23e4263b51f",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T22:02:26+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:3dbc3a3e-a777-401e-9fab-27681cb73945#CONVOQUES",
+      "reference_code": "C 41729/26",
+      "stage": "CONVOQUES",
+      "administration": "إقليم افران",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/3dbc3a3e-a777-401e-9fab-27681cb73945",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T22:02:34+00:00",
+      "seeded": true
     }
   ],
   "seeded_sources": [
@@ -3987,103 +4167,103 @@
     },
     "ep:2cc27d4c-f8ff-4986-a4b1-7db7f8d0a6bb": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T22:01:41+00:00"
     },
     "ep:965e9a53-0172-4410-a886-79f1b183190f": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T22:01:43+00:00"
     },
     "ep:db759561-28aa-4ece-9081-35833f01a1f0": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T22:01:49+00:00"
     },
     "ep:36057d05-113f-4f6c-afe3-d760a59704fe": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T22:01:51+00:00"
     },
     "ep:1a9ea884-036a-4f7b-b85c-f9b4042a5393": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T22:01:53+00:00"
     },
     "ep:3ba3a254-4c53-416f-b0cb-18d47ac49f07": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T22:01:55+00:00"
     },
     "ep:a5a3aa1c-8e4e-4b40-8132-c41de0862750": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T22:01:56+00:00"
     },
     "ep:6bd7242f-af63-4676-bd7c-6694f54fca76": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T22:01:58+00:00"
     },
     "ep:f0f7647c-2ac9-4001-b8b1-d04b9032483d": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T22:01:59+00:00"
     },
     "ep:0c80e502-f212-45fa-8323-950626f1533c": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T22:02:01+00:00"
     },
     "ep:180e1e5d-472d-4cea-a00e-a623beecf83c": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T22:02:03+00:00"
     },
     "ep:9edf419b-a29d-4a96-bd0f-4d2643bfae05": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T22:02:05+00:00"
     },
     "ep:467d114e-6936-4e22-b519-10877a5182ae": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T22:02:07+00:00"
     },
     "ep:300cc312-ec81-48ff-ad12-134584efc6f5": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T22:02:08+00:00"
     },
     "ep:bab44ec2-c7f4-4bb6-b1f5-f15a3bf8f042": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T22:02:10+00:00"
     },
     "ep:b0b416ee-bdd7-401f-aeb6-3284ea853aeb": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T22:02:12+00:00"
     },
     "ep:52739f81-2130-4514-9340-cba0bd5c97d1": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T22:02:14+00:00"
     },
     "ep:422ba15b-1bf4-478d-86bb-7c24574cf08c": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T22:02:16+00:00"
     },
     "ep:38206db7-5ee0-46e4-9b10-05d895c83393": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T22:02:18+00:00"
     },
     "ep:868e3413-317f-404b-87cf-66106ddb9417": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T22:02:20+00:00"
     },
     "ep:caba6a56-dfd6-4746-b202-c2948fd8f3d8": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T22:02:21+00:00"
     },
     "ep:3e5a3918-8b45-4002-9bda-97ab584fa13b": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T22:02:23+00:00"
     },
     "ep:f56c8fab-d508-4f6c-ad30-20098135e116": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T22:02:25+00:00"
     },
     "ep:bf0b1577-5127-4817-88af-f23e4263b51f": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T22:02:26+00:00"
     },
     "ep:3dbc3a3e-a777-401e-9fab-27681cb73945": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T22:02:34+00:00"
     },
     "ep:14d099d9-217c-4f94-9d70-8be1b4df3c45": {
       "added": "2026-11-25",
