@@ -3,8 +3,9 @@ name: Publish concours to Telegram channel
 # state/posted.json back to the repo.
 #
 on:
-  schedule:
-    - cron: "*/30 * * * *" # every 30 minutes
+  # Paused: the state commit failed on 2026-11-25, re-enable once fixed.
+  # schedule:
+  #   - cron: "*/30 * * * *" # every 30 minutes
   workflow_dispatch:
     inputs:
       dry_run:

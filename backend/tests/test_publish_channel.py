@@ -96,7 +96,7 @@ def test_post_layout_matches_wadifa():
         "📅 تاريخ الاختبار الكتابي: 10/01/2027",
         "🔗 اضغط هنا للتفاصيل: https://e/9",
         "",
-        "#???????? #IT",
+        "#معلوميات #IT",
         "",
         "📢 t.me/RaqibEmploi",
     ]
@@ -262,7 +262,7 @@ def test_default_mode_posts_every_concours_and_tags_only_it(tmp_path, monkeypatc
     from app.config import get_settings
     get_settings.cache_clear()
     monkeypatch.setattr("time.sleep", lambda s: None)
-    nonit = _wadifa().model_copy(update={"specialty": "???? ?????", "grade": "????",
+    nonit = _wadifa().model_copy(update={"specialty": "الطب العام", "grade": "طبيب",
                                          "reference_code": "C 1/26", "source_url": "https://w/2",
                                          "detail_url": "https://w/2"})
     expired = nonit.model_copy(update={"reference_code": "C 2/26", "source_url": "https://w/3",

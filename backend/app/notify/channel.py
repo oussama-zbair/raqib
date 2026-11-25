@@ -20,7 +20,7 @@ from app.notify.telegram import _post
 log = logging.getLogger("channel")
 
 PLACEHOLDER_CHANNEL = "@RaqibEmploi"  # only used to print the footer in dry runs
-IT_HASHTAGS = "#???????? #IT"
+IT_HASHTAGS = "#معلوميات #IT"
 EXAM_TBD = "سيتم الإعلان عنه لاحقا"
 SEND_INTERVAL_SECONDS = 3.5  # about 17 messages per minute
 CAPTION_LIMIT = 1024
