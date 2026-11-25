@@ -3943,6 +3943,256 @@
       "telegram_message_id": null,
       "posted_at": "2026-11-25T23:02:02+00:00",
       "seeded": true
+    },
+    {
+      "key": "ep:6bc8fbd9-bf4a-4bf0-8b58-2d2b6a617b5a#CONVOQUES",
+      "reference_code": "C 44479/26",
+      "stage": "CONVOQUES",
+      "administration": "جامعة مولاي اسماعيل - مكناس",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/6bc8fbd9-bf4a-4bf0-8b58-2d2b6a617b5a",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T23:31:38+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:ae486d38-6c6c-4abb-b5ec-1e7a7e3a6c03#CONVOQUES",
+      "reference_code": "C 44477/26",
+      "stage": "CONVOQUES",
+      "administration": "جامعة مولاي اسماعيل - مكناس",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/ae486d38-6c6c-4abb-b5ec-1e7a7e3a6c03",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T23:31:39+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:7a776946-dfe5-44a2-beba-7d8ecbdaffa4#CONVOQUES",
+      "reference_code": "C 44475/26",
+      "stage": "CONVOQUES",
+      "administration": "جامعة مولاي اسماعيل - مكناس",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/7a776946-dfe5-44a2-beba-7d8ecbdaffa4",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T23:31:41+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:b267382c-b280-46d9-89e0-5c721f01d1a5#CONVOQUES",
+      "reference_code": "C 44474/26",
+      "stage": "CONVOQUES",
+      "administration": "جامعة مولاي اسماعيل - مكناس",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/b267382c-b280-46d9-89e0-5c721f01d1a5",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T23:31:43+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:19e96452-45d3-4e00-9aa3-6d3ac1243b19#CONVOQUES",
+      "reference_code": "C 44473/26",
+      "stage": "CONVOQUES",
+      "administration": "جامعة مولاي اسماعيل - مكناس",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/19e96452-45d3-4e00-9aa3-6d3ac1243b19",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T23:31:44+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:8cee5548-6428-45f2-9ece-b717e8a2560e#CONVOQUES",
+      "reference_code": "C 44472/26",
+      "stage": "CONVOQUES",
+      "administration": "جامعة مولاي اسماعيل - مكناس",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/8cee5548-6428-45f2-9ece-b717e8a2560e",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T23:31:46+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:4847c594-7bce-46aa-a089-1f5816821d6e#CONVOQUES",
+      "reference_code": "C 44462/26",
+      "stage": "CONVOQUES",
+      "administration": "جامعة سيدي محمد بن عبد الله -فاس-",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/4847c594-7bce-46aa-a089-1f5816821d6e",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T23:31:48+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:347d4c4d-5e89-40a1-b943-a873bb4b1a2f#CONVOQUES",
+      "reference_code": "C 44458/26",
+      "stage": "CONVOQUES",
+      "administration": "جامعة الحسن الثاني - الدارالبيضاء",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/347d4c4d-5e89-40a1-b943-a873bb4b1a2f",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T23:31:50+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:fcfeb568-fdc2-45b5-8cc9-83a163f4098a#CONVOQUES",
+      "reference_code": "C 44457/26",
+      "stage": "CONVOQUES",
+      "administration": "جامعة الحسن الثاني - الدارالبيضاء",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/fcfeb568-fdc2-45b5-8cc9-83a163f4098a",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T23:31:51+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:4e9c39c4-53a2-40d0-95c3-9933f4fe59dd#CONVOQUES",
+      "reference_code": "C 44454/26",
+      "stage": "CONVOQUES",
+      "administration": "جامعة الحسن الثاني - الدارالبيضاء",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/4e9c39c4-53a2-40d0-95c3-9933f4fe59dd",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T23:31:53+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:c0ebe7cd-8a58-4432-8b61-f95d79d40ca5#CONVOQUES",
+      "reference_code": "C 44452/26",
+      "stage": "CONVOQUES",
+      "administration": "جامعة الحسن الثاني - الدارالبيضاء",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/c0ebe7cd-8a58-4432-8b61-f95d79d40ca5",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T23:31:55+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:4eac5b1b-4737-45c8-923c-6e4a218f0803#CONVOQUES",
+      "reference_code": "C 44446/26",
+      "stage": "CONVOQUES",
+      "administration": "جامعة الحسن الثاني - الدارالبيضاء",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/4eac5b1b-4737-45c8-923c-6e4a218f0803",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T23:31:56+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:eda2c2f6-8418-4db5-8b7f-924839442e2d#CONVOQUES",
+      "reference_code": "C 44429/26",
+      "stage": "CONVOQUES",
+      "administration": "الوكالة الوطنية لتقنين الأنشطة المتعلقة بالقنب الهندي",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/eda2c2f6-8418-4db5-8b7f-924839442e2d",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T23:31:57+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:dd160963-efc5-49ee-a64e-019ef3a7191a#CONVOQUES",
+      "reference_code": "C 44394/26",
+      "stage": "CONVOQUES",
+      "administration": "جامعة السلطان مولاي سليمان -بني ملال",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/dd160963-efc5-49ee-a64e-019ef3a7191a",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T23:31:59+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:b140eb77-5e21-423f-8097-bac03a6d3d3d#CONVOQUES",
+      "reference_code": "C 44383/26",
+      "stage": "CONVOQUES",
+      "administration": "جامعة ابن طفيل - القنيطرة",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/b140eb77-5e21-423f-8097-bac03a6d3d3d",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T23:32:01+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:db85a850-5cf3-4175-bfe4-07c1d8fffb6c#CONVOQUES",
+      "reference_code": "C 44381/26",
+      "stage": "CONVOQUES",
+      "administration": "جامعة ابن طفيل - القنيطرة",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/db85a850-5cf3-4175-bfe4-07c1d8fffb6c",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T23:32:03+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:429cde79-8fb6-4675-a990-efbaf79149a0#CONVOQUES",
+      "reference_code": "C 44377/26",
+      "stage": "CONVOQUES",
+      "administration": "وكالة الحوض المائي لدرعة واد نون",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/429cde79-8fb6-4675-a990-efbaf79149a0",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T23:32:07+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:378f8e6a-b532-45ae-826f-3982d2274007#CONVOQUES",
+      "reference_code": "C 44375/26",
+      "stage": "CONVOQUES",
+      "administration": "جامعة السلطان مولاي سليمان -بني ملال",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/378f8e6a-b532-45ae-826f-3982d2274007",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T23:32:09+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:3ceb528c-7cbe-47b0-92b6-7e8fb5b625a8#CONVOQUES",
+      "reference_code": "C 44374/26",
+      "stage": "CONVOQUES",
+      "administration": "جامعة السلطان مولاي سليمان -بني ملال",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/3ceb528c-7cbe-47b0-92b6-7e8fb5b625a8",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T23:32:10+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:e8376ca8-3d3e-4534-9c71-f913def0d584#CONVOQUES",
+      "reference_code": "C 44373/26",
+      "stage": "CONVOQUES",
+      "administration": "جامعة السلطان مولاي سليمان -بني ملال",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/e8376ca8-3d3e-4534-9c71-f913def0d584",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T23:32:12+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:7316222c-27bf-4103-9193-004ee35721b7#CONVOQUES",
+      "reference_code": "C 44371/26",
+      "stage": "CONVOQUES",
+      "administration": "جامعة السلطان مولاي سليمان -بني ملال",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/7316222c-27bf-4103-9193-004ee35721b7",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T23:32:14+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:75ac4d16-a5b2-4eff-b9e8-f78521b4f4ad#CONVOQUES",
+      "reference_code": "C 44370/26",
+      "stage": "CONVOQUES",
+      "administration": "جامعة السلطان مولاي سليمان -بني ملال",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/75ac4d16-a5b2-4eff-b9e8-f78521b4f4ad",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T23:32:15+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:ad0fa54a-0454-44a1-8fe9-85561280f851#CONVOQUES",
+      "reference_code": "C 44358/26",
+      "stage": "CONVOQUES",
+      "administration": "وكالة المغرب العربي للأنباء",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/ad0fa54a-0454-44a1-8fe9-85561280f851",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T23:32:17+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:0a78b284-d7a6-4527-9a25-90998b4842d3#CONVOQUES",
+      "reference_code": "C 44357/26",
+      "stage": "CONVOQUES",
+      "administration": "وكالة المغرب العربي للأنباء",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/0a78b284-d7a6-4527-9a25-90998b4842d3",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T23:32:19+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:68d0e5d7-99c6-44a3-a4d5-c808835eba31#CONVOQUES",
+      "reference_code": "C 44356/26",
+      "stage": "CONVOQUES",
+      "administration": "وكالة المغرب العربي للأنباء",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/68d0e5d7-99c6-44a3-a4d5-c808835eba31",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T23:32:20+00:00",
+      "seeded": true
     }
   ],
   "seeded_sources": [
@@ -4777,103 +5027,103 @@
     },
     "ep:6bc8fbd9-bf4a-4bf0-8b58-2d2b6a617b5a": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T23:31:38+00:00"
     },
     "ep:ae486d38-6c6c-4abb-b5ec-1e7a7e3a6c03": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T23:31:39+00:00"
     },
     "ep:7a776946-dfe5-44a2-beba-7d8ecbdaffa4": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T23:31:41+00:00"
     },
     "ep:b267382c-b280-46d9-89e0-5c721f01d1a5": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T23:31:43+00:00"
     },
     "ep:19e96452-45d3-4e00-9aa3-6d3ac1243b19": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T23:31:44+00:00"
     },
     "ep:8cee5548-6428-45f2-9ece-b717e8a2560e": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T23:31:46+00:00"
     },
     "ep:4847c594-7bce-46aa-a089-1f5816821d6e": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T23:31:48+00:00"
     },
     "ep:347d4c4d-5e89-40a1-b943-a873bb4b1a2f": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T23:31:50+00:00"
     },
     "ep:fcfeb568-fdc2-45b5-8cc9-83a163f4098a": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T23:31:51+00:00"
     },
     "ep:4e9c39c4-53a2-40d0-95c3-9933f4fe59dd": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T23:31:53+00:00"
     },
     "ep:c0ebe7cd-8a58-4432-8b61-f95d79d40ca5": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T23:31:55+00:00"
     },
     "ep:4eac5b1b-4737-45c8-923c-6e4a218f0803": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T23:31:56+00:00"
     },
     "ep:eda2c2f6-8418-4db5-8b7f-924839442e2d": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T23:31:57+00:00"
     },
     "ep:dd160963-efc5-49ee-a64e-019ef3a7191a": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T23:31:59+00:00"
     },
     "ep:b140eb77-5e21-423f-8097-bac03a6d3d3d": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T23:32:01+00:00"
     },
     "ep:db85a850-5cf3-4175-bfe4-07c1d8fffb6c": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T23:32:03+00:00"
     },
     "ep:429cde79-8fb6-4675-a990-efbaf79149a0": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T23:32:07+00:00"
     },
     "ep:378f8e6a-b532-45ae-826f-3982d2274007": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T23:32:09+00:00"
     },
     "ep:3ceb528c-7cbe-47b0-92b6-7e8fb5b625a8": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T23:32:10+00:00"
     },
     "ep:e8376ca8-3d3e-4534-9c71-f913def0d584": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T23:32:12+00:00"
     },
     "ep:7316222c-27bf-4103-9193-004ee35721b7": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T23:32:14+00:00"
     },
     "ep:75ac4d16-a5b2-4eff-b9e8-f78521b4f4ad": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T23:32:15+00:00"
     },
     "ep:ad0fa54a-0454-44a1-8fe9-85561280f851": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T23:32:17+00:00"
     },
     "ep:0a78b284-d7a6-4527-9a25-90998b4842d3": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T23:32:19+00:00"
     },
     "ep:68d0e5d7-99c6-44a3-a4d5-c808835eba31": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T23:32:20+00:00"
     },
     "ep:6c24ae77-3006-472e-b14f-a5cefd0fba01": {
       "added": "2026-11-25",
