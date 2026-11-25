@@ -1,6 +1,5 @@
-// Nuxt config — Raqib public site (landing + read-only status).
-// Deployed to Cloudflare Pages. Uses the Supabase ANON key + RLS so it can only read
-// non-sensitive columns (never CIN).
+// Nuxt config: Raqib public site (landing, concours, source status).
+// Static site on Cloudflare Pages. Data comes from state/public.json (see runtimeConfig).
 
 export default defineNuxtConfig({
   compatibilityDate: "2025-01-01",
@@ -28,35 +27,41 @@ export default defineNuxtConfig({
 
   runtimeConfig: {
     public: {
-      supabaseUrl: process.env.NUXT_PUBLIC_SUPABASE_URL ?? "",
-      supabaseAnonKey: process.env.NUXT_PUBLIC_SUPABASE_ANON_KEY ?? "",
+      // Written by the publish job after every run (every 30 minutes). Read in the browser,
+      // so the site is always current without a rebuild, a server or a database.
+      dataUrl:
+        process.env.NUXT_PUBLIC_DATA_URL ??
+        "https://raw.githubusercontent.com/oussama-zbair/raqib/main/state/public.json",
+      channelUrl: process.env.NUXT_PUBLIC_CHANNEL_URL ?? "https://t.me/RaqibEmploi",
+      discussionUrl: process.env.NUXT_PUBLIC_DISCUSSION_URL ?? "https://t.me/RaqibDiscussion",
       telegramBotUrl: process.env.NUXT_PUBLIC_TELEGRAM_BOT_URL ?? "https://t.me/RaqibMaBot",
-      githubUrl: process.env.NUXT_PUBLIC_GITHUB_URL ?? "https://github.com/oussama-zbair/raqib",
+      ownerUrl: process.env.NUXT_PUBLIC_OWNER_URL ?? "https://t.me/owernam18",
     },
   },
 
   nitro: {
     preset: "cloudflare-pages",
+    prerender: { routes: ["/", "/competitions", "/sources"], crawlLinks: true },
   },
 
   app: {
     head: {
-      title: "Raqib — رقيب · Veilleur des concours publics",
+      title: "Raqib · رقيب · Tous les concours publics au Maroc",
       meta: [
         { charset: "utf-8" },
         { name: "viewport", content: "width=device-width, initial-scale=1" },
         {
           name: "description",
           content:
-            "Raqib (رقيب) surveille les concours publics marocains et vous alerte dès qu'une nouvelle opportunité correspond à votre profil — à temps pour déposer votre dossier. Puis il suit votre convocation.",
+            "Raqib publie chaque concours public marocain dès sa sortie : annonces, convocations écrit et oral, résultats. Source officielle emploi-public.ma, mise à jour toutes les 30 minutes.",
         },
         { name: "theme-color", content: "#2563EB" },
         // Open Graph / social
-        { property: "og:title", content: "Raqib — votre veilleur des concours publics" },
+        { property: "og:title", content: "Raqib · Tous les concours publics au Maroc" },
         {
           property: "og:description",
           content:
-            "Ne manquez plus jamais un concours. Raqib repère chaque nouvelle opportunité à temps pour déposer, puis surveille votre convocation.",
+            "Annonces, convocations et résultats des concours publics marocains, dès leur publication.",
         },
         { property: "og:type", content: "website" },
         { property: "og:image", content: "/og.png" },

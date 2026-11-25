@@ -1,8 +1,6 @@
 <script setup lang="ts">
 const { t } = useI18n();
 const config = useRuntimeConfig();
-const botUrl = config.public.telegramBotUrl as string;
-const githubUrl = config.public.githubUrl as string;
 const year = new Date().getFullYear();
 </script>
 
@@ -22,17 +20,21 @@ const year = new Date().getFullYear();
 
       <div>
         <h5>{{ t("footer.product") }}</h5>
-        <a :href="botUrl" target="_blank" rel="noopener">✈️ {{ t("nav.openBot") }}</a>
         <NuxtLink to="/competitions">{{ t("nav.competitions") }}</NuxtLink>
         <NuxtLink to="/sources">{{ t("footer.status") }}</NuxtLink>
       </div>
 
       <div>
-        <h5>{{ t("footer.resources") }}</h5>
-        <a :href="githubUrl" target="_blank" rel="noopener">{{ t("footer.github") }}</a>
-        <NuxtLink to="/sources">{{ t("footer.status") }}</NuxtLink>
+        <h5>{{ t("footer.community") }}</h5>
+        <a :href="config.public.channelUrl as string" target="_blank" rel="noopener">📢 {{ t("footer.channel") }}</a>
+        <a :href="config.public.discussionUrl as string" target="_blank" rel="noopener">💬 {{ t("footer.discussion") }}</a>
+        <a :href="config.public.telegramBotUrl as string" target="_blank" rel="noopener">🤖 {{ t("nav.openBot") }}</a>
       </div>
     </div>
-    <div class="footer-bottom">© {{ year }} Raqib · رقيب — {{ t("footer.rights") }}</div>
+    <div class="footer-bottom">
+      © {{ year }} Raqib · رقيب · {{ t("footer.rights") }} ·
+      🛠 {{ t("footer.madeBy") }}
+      <a :href="config.public.ownerUrl as string" target="_blank" rel="noopener">@owernam18</a>
+    </div>
   </footer>
 </template>

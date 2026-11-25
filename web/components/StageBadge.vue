@@ -1,13 +1,10 @@
 <script setup lang="ts">
 const props = defineProps<{ stage: string }>();
-const labels: Record<string, string> = {
-  AVIS: "Avis",
-  CONVOQUES: "Convoqués",
-  RESULTATS: "Résultats",
-};
-const cls = props.stage.toLowerCase();
+const { t } = useI18n();
+const cls = computed(() => props.stage.toLowerCase());
+const icon: Record<string, string> = { AVIS: "🟢", CONVOQUES: "📋", CONVOQUES_ORAL: "🎤", RESULTATS: "🏆" };
 </script>
 
 <template>
-  <span class="badge" :class="cls">{{ labels[stage] ?? stage }}</span>
+  <span class="badge stage-badge" :class="cls">{{ icon[stage] ?? "" }} {{ t(`stage.${stage}`) }}</span>
 </template>

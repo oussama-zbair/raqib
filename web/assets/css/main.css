@@ -21,7 +21,7 @@
   --card-grad-2: #182142;
 }
 
-/* Light theme — cool paper + teal/blue, same accents */
+/* Light theme: cool paper + teal/blue, same accents */
 html[data-theme="light"] {
   --bg: #f5f7fc;
   --surface: #ffffff;
@@ -321,7 +321,7 @@ html[dir="rtl"] .tg-bubble--alert { border-left: 1px solid #223354; border-right
 html[dir="rtl"] .tg-time { justify-content: flex-start; }
 html[dir="rtl"] .tg-time { text-align: left; }
 
-/* Sources — grouped logo tiles */
+/* Sources: grouped logo tiles */
 .src-groups { display: grid; gap: 22px; }
 .src-group {
   background: var(--surface); border: 1px solid var(--border); border-radius: 18px; padding: 20px 22px;
@@ -477,7 +477,7 @@ html[dir="rtl"] .tg-time { text-align: left; }
 .positioning::selection { background: var(--brand); color: #06121f; }
 
 /* ============================================================
-   Problématique — pain timeline (grid-based, RTL-safe)
+   Problématique: pain timeline (grid-based, RTL-safe)
    One spine on the inline-start edge, all cards on the same side.
    This is symmetric and mirrors cleanly for RTL (no left/right hacks).
    ============================================================ */
@@ -538,3 +538,60 @@ html[dir="rtl"] .tg-time { text-align: left; }
   .tl-node { width: 48px; height: 48px; border-radius: 14px; }
   .timeline-spine { inset-inline-start: 23px; }
 }
+
+/* ---- concours page ------------------------------------------------------------ */
+.cx-toolbar { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between; margin-top: 8px; }
+.cx-tabs { display: inline-flex; gap: 6px; background: var(--surface); border: 1px solid var(--border); border-radius: 999px; padding: 4px; }
+.cx-tabs button { border: 0; background: transparent; color: var(--muted); font: inherit; font-weight: 600; padding: 8px 16px; border-radius: 999px; cursor: pointer; }
+.cx-tabs button.on { background: var(--brand); color: #fff; }
+.cx-count { display: inline-block; min-width: 22px; margin-inline-start: 6px; padding: 0 6px; border-radius: 999px; background: rgba(255,255,255,0.18); font-size: 12px; }
+.cx-follow { padding: 8px 14px; font-size: 14px; }
+.cx-filters { display: grid; grid-template-columns: 1fr auto auto; gap: 10px; margin: 18px 0 8px; }
+.cx-input, .cx-select { font: inherit; color: var(--text); background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 11px 14px; min-width: 0; }
+.cx-input:focus, .cx-select:focus { outline: 2px solid var(--brand); outline-offset: 1px; }
+.cx-meta { color: var(--muted); font-size: 13px; margin: 6px 0 16px; }
+.cx-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 16px; }
+.cx-card { display: flex; flex-direction: column; gap: 12px; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 18px; box-shadow: var(--shadow); }
+.cx-head { display: flex; gap: 12px; align-items: flex-start; }
+.cx-logo { width: 52px; height: 52px; object-fit: contain; background: #fff; border-radius: 12px; border: 1px solid var(--border); padding: 4px; flex: none; }
+.cx-admin { margin: 0; font-size: 16px; line-height: 1.35; }
+.cx-grade { margin: 4px 0 0; color: var(--muted); font-size: 14px; line-height: 1.4; }
+.cx-spec { margin: 0; font-size: 14px; line-height: 1.5; }
+.cx-facts { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 13px; color: var(--muted); }
+.cx-dates { display: grid; gap: 6px; font-size: 14px; background: var(--surface-2); border-radius: 12px; padding: 10px 12px; }
+.cx-dates .k { color: var(--muted); margin-inline-end: 6px; }
+.cx-dates .v { font-weight: 600; }
+.cx-left { margin-inline-start: 8px; font-size: 12px; padding: 2px 8px; border-radius: 999px; background: rgba(34, 211, 168, 0.15); color: var(--green); }
+.cx-left.urgent { background: rgba(239, 68, 68, 0.15); color: var(--red); }
+.cx-foot { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-top: auto; }
+.cx-tags { display: flex; flex-wrap: wrap; gap: 6px; font-size: 13px; color: var(--brand-2); }
+.cx-btn { padding: 8px 14px; font-size: 14px; white-space: nowrap; }
+@media (max-width: 640px) { .cx-filters { grid-template-columns: 1fr; } }
+
+/* stage timeline (Annonce, écrit, oral, résultats) */
+.stl { display: grid; grid-template-columns: repeat(4, 1fr); list-style: none; margin: 0; padding: 0; }
+.stl-step { position: relative; display: flex; flex-direction: column; align-items: center; gap: 6px; font-size: 11px; color: var(--muted); text-align: center; }
+.stl-step::before { content: ""; position: absolute; top: 6px; inset-inline-start: -50%; width: 100%; height: 2px; background: var(--border); }
+.stl-step:first-child::before { display: none; }
+.stl-step.on::before { background: var(--brand); }
+.stl-dot { position: relative; width: 14px; height: 14px; border-radius: 50%; background: var(--surface); border: 2px solid var(--border); }
+.stl-step.on .stl-dot { background: var(--brand); border-color: var(--brand); }
+.stl-step.on .stl-label { color: var(--text); font-weight: 600; }
+.stage-badge { white-space: nowrap; }
+
+/* sources page */
+.sx-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; }
+.sx-stat { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 16px; display: grid; gap: 4px; }
+.sx-stat b { font-size: 28px; }
+.sx-stat span { color: var(--muted); font-size: 13px; }
+
+/* home additions */
+.journey { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 10px; }
+.journey-step { display: flex; align-items: center; gap: 10px; }
+.journey-step:not(:last-child)::after { content: "→"; color: var(--muted); }
+[dir="rtl"] .journey-step:not(:last-child)::after { content: "←"; }
+.src-note { color: var(--muted); margin: 10px 0 0; line-height: 1.6; font-size: 14px; }
+.soon-tag { display: inline-block; margin-inline-start: 6px; font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 999px; background: rgba(244, 183, 64, 0.18); color: var(--amber); vertical-align: middle; }
+.future-grid { grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+.preview-wrap { justify-content: center; }
+.demo-tags { color: var(--brand-2); }

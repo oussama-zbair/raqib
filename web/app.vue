@@ -1,7 +1,7 @@
 <script setup lang="ts">
 const { t, locale, locales } = useI18n();
 const config = useRuntimeConfig();
-const botUrl = config.public.telegramBotUrl as string;
+const channelUrl = config.public.channelUrl as string;
 
 // Theme cookie, read on the server so the correct theme is set before paint (no flash).
 const theme = useCookie<"dark" | "light">("raqib_theme", { default: () => "dark" });
@@ -35,8 +35,8 @@ useHead({
       <div style="display: flex; align-items: center; gap: 10px">
         <LangToggle />
         <ThemeToggle />
-        <a :href="botUrl" target="_blank" rel="noopener" class="btn btn-primary" style="padding: 8px 16px; font-size: 14px">
-          ✈️ {{ t("nav.openBot") }}
+        <a :href="channelUrl" target="_blank" rel="noopener" class="btn btn-primary" style="padding: 8px 16px; font-size: 14px">
+          ✈️ {{ t("nav.channel") }}
         </a>
       </div>
     </header>

@@ -3,60 +3,86 @@
     "home": "Accueil",
     "competitions": "Concours",
     "sources": "Sources",
-    "openBot": "Ouvrir le bot"
+    "openBot": "Ouvrir le bot",
+    "channel": "Rejoindre la chaîne"
   },
   "hero": {
-    "badge": "Zéro coût · Open source · Bilingue FR / AR",
-    "title": "Ne manquez plus jamais un concours.",
-    "subtitle": "Raqib surveille tous les portails officiels, ministères et canaux communautaires, et vous alerte dès qu'un nouveau concours correspond à votre profil — assez tôt pour déposer votre dossier avant le délai.",
+    "badge": "Gratuit · Source officielle · FR / AR",
+    "title": "Tous les concours publics, dès leur sortie.",
+    "subtitle": "Raqib suit le portail officiel emploi-public.ma toutes les 30 minutes et publie chaque annonce, chaque liste de convoqués et chaque résultat sur sa chaîne Telegram. Ministères, collectivités, établissements publics : tout, au même endroit.",
     "tagline": "رقيبك في المباريات العمومية · Votre veilleur des concours publics",
-    "ctaPrimary": "Commencer sur Telegram",
-    "ctaSecondary": "Voir comment ça marche",
-    "trust": "Repérez chaque opportunité à temps · Puis Raqib surveille votre convocation",
-    "positioning": "Les autres annuaires vous montrent les concours. Raqib trouve les vôtres, repère votre CIN ou votre nom sur les listes, et vous prépare à réussir."
+    "ctaPrimary": "Rejoindre la chaîne Telegram",
+    "ctaSecondary": "Voir les concours ouverts",
+    "live": "{open} concours ouverts · mis à jour {when}",
+    "liveLoading": "Chargement des données en direct…",
+    "positioning": "Les autres annuaires montrent les annonces. Raqib suit chaque concours jusqu'au bout : annonce, convocation à l'écrit, à l'oral, puis résultats."
   },
   "problem": {
-    "title": "La problématique",
-    "subtitle": "Le plus dur dans un concours marocain, ce n'est souvent pas l'examen — c'est l'information.",
+    "title": "Le problème",
+    "subtitle": "Dans un concours marocain, le plus dur est souvent l'information, pas l'examen.",
     "cards": {
       "missed": {
         "title": "Le concours manqué",
-        "text": "Un ministère ou un office publie un nouveau concours pour votre profil — et vous l'apprenez une fois le délai de dépôt dépassé. L'opportunité est perdue avant même d'avoir commencé."
+        "text": "Un nouveau concours sort pour votre profil, et vous l'apprenez après la date limite. L'opportunité est perdue avant d'avoir commencé."
       },
       "fragmented": {
         "title": "Information éparpillée",
-        "text": "emploi-public.ma, dizaines de canaux Telegram, Alwadifa, et chaque ministère publie sur son propre portail. Une chasse quotidienne épuisante."
+        "text": "Portail central, sites des ministères, dizaines de canaux Telegram : chercher chaque jour devient épuisant."
       },
       "misleading": {
-        "title": "Reposts trompeurs",
-        "text": "Les canaux tiers republient en retard, résument mal, ou omettent la spécialité exacte. « Bac+5 » cache parfois « génie civil uniquement »."
+        "title": "Reposts approximatifs",
+        "text": "Les reprises arrivent en retard, résument mal ou oublient la spécialité exacte. Le détail qui compte disparaît."
       },
       "silent": {
         "title": "La convocation silencieuse",
-        "text": "Après l'inscription, aucun e-mail. Un mardi, l'administration met en ligne un PDF scanné de 120 pages sans prévenir personne."
+        "text": "Après l'inscription, aucun e-mail. Un jour, une liste PDF de convoqués est mise en ligne sans prévenir personne."
       },
       "window": {
         "title": "La fenêtre de 48–72h",
-        "text": "Si vous ne repérez pas ce PDF, n'y trouvez pas votre CIN et votre centre à temps, vous perdez votre chance entièrement."
+        "text": "Sans repérer cette liste à temps, impossible de connaître votre centre et votre date d'épreuve. Et la chance est perdue."
       }
     }
   },
-  "flow": {
-    "title": "Comment Raqib vous aide",
-    "subtitle": "Deux étapes : d'abord ne manquer aucun concours à déposer, puis surveiller votre convocation.",
-    "stage1": "Étape 1 · Trouver & déposer à temps",
-    "stage2": "Étape 2 · Après votre inscription",
-    "steps": {
-      "onboard": { "title": "Profil", "text": "Nom (FR/AR), CIN, grade et spécialité — configurés en une minute dans le bot." },
-      "ingest": { "title": "Collecte", "text": "Raqib scrute tous les portails en continu et déduplique les annonces." },
-      "match": { "title": "Filtrage", "text": "Seuls les concours qui correspondent exactement à votre grade et votre spécialité." },
-      "digest": { "title": "Alerte concours", "text": "Chaque nouvelle opportunité vous est poussée à temps : administration, postes, délai, lien de dépôt." },
-      "monitor": { "title": "Suivi convocation", "text": "Une fois inscrit, dès qu'un PDF de convoqués paraît, Raqib y cherche votre CIN ou votre nom (FR/AR) automatiquement." }
+  "now": {
+    "eyebrow": "Disponible aujourd'hui",
+    "title": "Une chaîne qui suit chaque concours de A à Z",
+    "subtitle": "Chaque publication du portail officiel arrive dans la chaîne en moins de 30 minutes, avec le logo de l'administration et le lien officiel.",
+    "points": {
+      "annonces": { "title": "Nouvelles annonces", "text": "Administration, grade, spécialités, nombre de postes, date limite et date de l'écrit." },
+      "convocations": { "title": "Convocations écrit et oral", "text": "Dès qu'une liste de convoqués paraît, elle est publiée en réponse à l'annonce d'origine, avec le PDF officiel." },
+      "resultats": { "title": "Résultats", "text": "Les listes d'admis arrivent dans le même fil : vous suivez un concours du début à la fin." },
+      "official": { "title": "Source officielle", "text": "Les données viennent du portail emploi-public.ma. Hashtags par domaine et par ville pour retrouver vos concours." }
     }
   },
+  "journey": {
+    "title": "Le parcours d'un concours, dans un seul fil",
+    "subtitle": "Les quatre étapes du portail officiel, publiées au fur et à mesure.",
+    "demoNew": "مباراة جديدة",
+    "demoAdmin": "وزارة الصحة والحماية الاجتماعية",
+    "demoGrade": "ممرض من الدرجة الأولى",
+    "demoPosts": "100 منصب",
+    "demoDeadline": "آخر أجل: الأربعاء 10 دجنبر 2026",
+    "demoConv": "لوائح المدعوين لاجتياز الاختبار الكتابي",
+    "demoExam": "تاريخ الاختبار: الأحد 20 دجنبر 2026",
+    "demoDetails": "📄 Détails",
+    "demoShare": "📤 Partager",
+    "demoList": "📄 Télécharger la liste"
+  },
+  "future": {
+    "badge": "Bientôt",
+    "title": "La suite : votre assistant personnel",
+    "subtitle": "La chaîne publie tout. L'assistant Raqib, en préparation, fera le tri pour vous et veillera sur votre propre candidature.",
+    "points": {
+      "profile": { "title": "Profil personnel", "text": "Votre grade, votre spécialité et votre ville, configurés en une minute dans le bot." },
+      "alerts": { "title": "Alertes ciblées", "text": "Uniquement les concours qui correspondent à votre profil, directement en message privé." },
+      "cin": { "title": "Votre nom dans les listes", "text": "Raqib cherche votre CIN ou votre nom (FR/AR) dans chaque liste de convoqués et vous prévient avec votre centre et votre salle." },
+      "coach": { "title": "Coach de préparation IA", "text": "Éligibilité, format des épreuves, QCM d'entraînement et oral blanc, adaptés au concours visé." }
+    },
+    "previewTitle": "Aperçu de l'assistant",
+    "previewSubtitle": "Une maquette de ce qui arrive : l'alerte pour votre profil, puis la convocation trouvée à votre nom.",
+    "note": "Fonctionnalités en développement. Contenu d'entraînement indicatif, non officiel."
+  },
   "convocation": {
-    "title": "Le parcours, dans votre poche",
-    "subtitle": "Étape 1 : Raqib repère un nouveau concours et vous laisse le suivre en un clic. Étape 2 : une fois inscrit, dès que votre CIN ou votre nom apparaît sur la liste, vous le savez à la seconde.",
     "newTitle": "NOUVEAU CONCOURS POUR VOTRE PROFIL",
     "newAdminValue": "Ministère de l'Inclusion Économique",
     "newPost": "Poste",
@@ -64,10 +90,10 @@
     "newSeats": "Postes",
     "newSeatsValue": "12",
     "newDeadline": "Date limite",
-    "newDeadlineValue": "30 Septembre 2026",
+    "newDeadlineValue": "30 septembre 2026",
     "newTrack": "📌 Suivre ce concours",
     "newApply": "📎 Déposer le dossier",
-    "trackedBadge": "✓ Concours suivi — en attente de convocation",
+    "trackedBadge": "✓ Concours suivi, en attente de convocation",
     "alertTitle": "CONVOCATION OFFICIELLE TROUVÉE !",
     "admin": "Administration",
     "adminValue": "Ministère de l'Inclusion Économique",
@@ -76,61 +102,87 @@
     "candidate": "Candidat",
     "candidateValue": "Amine Bennani (CIN : AB123456)",
     "centre": "Centre d'examen",
-    "centreValue": "Faculté des Sciences Juridiques, Souissi - Rabat",
+    "centreValue": "Faculté des Sciences Juridiques, Souissi, Rabat",
     "room": "Salle / Amphi",
     "roomValue": "Amphi C",
-    "table": "N° de Table",
+    "table": "N° de table",
     "tableValue": "142",
     "date": "Date de l'épreuve",
-    "dateValue": "Dimanche 12 Octobre à 08:00",
+    "dateValue": "Dimanche 12 octobre à 08:00",
     "download": "Télécharger la liste complète (PDF)"
   },
   "sources": {
-    "title": "Sources surveillées",
-    "subtitle": "Le portail central d'abord, puis les ministères et les agrégateurs — recoupés et dédupliqués, ajoutés progressivement.",
-    "central": "Portail central",
-    "ministries": "Ministères & offices",
-    "community": "Canaux communautaires"
-  },
-  "ai": {
-    "badge": "🤖 Coach IA — bientôt",
-    "title": "Les autres vous aident à postuler. Raqib vous aide à réussir.",
-    "subtitle": "Trouver le concours n'est que la moitié du chemin. Une fois inscrit, le coach IA de Raqib vous prépare à l'épreuve — en français et en arabe, gratuitement.",
-    "points": {
-      "eligibility": { "title": "Éligibilité & format", "text": "L'IA vous explique si vous êtes éligible, les épreuves, les coefficients et la durée — pour ce concours précis." },
-      "qcm": { "title": "QCM d'entraînement", "text": "Des questions de culture générale, droit administratif et spécialité, adaptées au grade et à la filière du concours." },
-      "oral": { "title": "Oral blanc", "text": "Un entretien simulé avec les questions typiques de l'administration visée, et un retour sur vos réponses." }
-    },
-    "note": "L'IA lit aussi les annonces en PDF scanné (FR/AR) que l'analyse classique ne sait pas traiter. Contenu d'entraînement indicatif, non officiel."
+    "title": "Sources",
+    "subtitle": "Une source officielle aujourd'hui. D'autres seront ajoutées après vérification.",
+    "live": "En service",
+    "liveText": "Toutes les catégories : services de l'État, collectivités territoriales, établissements et entreprises publics.",
+    "soon": "Bientôt",
+    "soonText": "Portails des ministères et offices, concours de l'enseignement, de la sécurité et des grandes entreprises publiques."
   },
   "built": {
-    "title": "Construit pour durer, gratuitement",
-    "subtitle": "Une seule instance partagée pour toute la communauté. Le coût ne grandit pas avec le nombre d'utilisateurs.",
+    "title": "Gratuit, et pensé pour durer",
+    "subtitle": "Une seule collecte partagée pour toute la communauté : le coût ne grandit pas avec le nombre d'abonnés.",
     "points": {
-      "shared": { "title": "Multi-utilisateurs partagé", "text": "Le scraping est mutualisé : 10 ou 10 000 utilisateurs, la même collecte." },
-      "free": { "title": "Infrastructure zéro coût", "text": "GitHub Actions, Supabase, Telegram et Cloudflare — tous en offre gratuite." },
-      "privacy": { "title": "CIN chiffré", "text": "Votre CIN est chiffré au repos et déchiffré uniquement en mémoire, le temps de la recherche." }
+      "shared": { "title": "Collecte partagée", "text": "10 ou 100 000 abonnés : la même collecte, toutes les 30 minutes." },
+      "free": { "title": "Sans frais", "text": "GitHub Actions, Cloudflare et Telegram, en offre gratuite. Aucune publicité." },
+      "privacy": { "title": "Aucune donnée personnelle", "text": "La chaîne ne collecte rien sur vous. L'assistant à venir chiffrera votre CIN." }
     }
+  },
+  "competitions": {
+    "title": "Concours",
+    "subtitle": "Les concours suivis par Raqib, mis à jour toutes les 30 minutes depuis le portail officiel.",
+    "tabOpen": "Concours ouverts",
+    "tabUpdates": "Convocations et résultats",
+    "search": "Rechercher une administration, un grade, une spécialité…",
+    "allFields": "Tous les domaines",
+    "allCities": "Toutes les villes",
+    "count": "{n} résultat | {n} résultats",
+    "posts": "{n} poste | {n} postes",
+    "deadline": "Date limite",
+    "daysLeft": "J-{n}",
+    "today": "Dernier jour",
+    "closed": "Clôturé",
+    "exam": "Écrit",
+    "examTbd": "date à annoncer",
+    "official": "Annonce officielle",
+    "pdf": "Liste (PDF)",
+    "loading": "Chargement…",
+    "error": "Données momentanément indisponibles. Réessayez dans un instant.",
+    "empty": "Aucun concours ne correspond à votre recherche.",
+    "updatedAt": "Dernière mise à jour : {when}",
+    "follow": "Suivez tout en direct sur la chaîne"
+  },
+  "stage": {
+    "AVIS": "Annonce",
+    "CONVOQUES": "Convocation écrit",
+    "CONVOQUES_ORAL": "Convocation oral",
+    "RESULTATS": "Résultats"
+  },
+  "status": {
+    "title": "Sources",
+    "subtitle": "État de la collecte, mis à jour à chaque exécution (toutes les 30 minutes).",
+    "lastRun": "Dernière exécution",
+    "source": "Source",
+    "state": "État",
+    "ok": "En service",
+    "failed": "En échec",
+    "open": "Concours ouverts",
+    "posted": "Annonces publiées",
+    "stagePosts": "Convocations et résultats publiés",
+    "followed": "Concours suivis",
+    "soonTitle": "Sources à venir",
+    "soonText": "D'autres portails seront ajoutés seulement s'ils acceptent la collecte automatisée et apportent des concours absents du portail officiel."
   },
   "footer": {
     "tagline": "Votre veilleur des concours publics marocains.",
     "product": "Produit",
-    "resources": "Ressources",
-    "language": "Langue",
-    "github": "Code source",
-    "status": "Statut des sources",
-    "privacy": "Confidentialité",
-    "rights": "Projet communautaire open-source.",
-    "privacyNote": "Raqib est une instance partagée. Votre CIN est chiffré au repos et n'est jamais exposé au tableau de bord public."
-  },
-  "status": {
-    "overviewTitle": "Vue d'ensemble",
-    "overviewSub": "Raqib · votre veilleur des concours publics marocains.",
-    "competitions": "Concours",
-    "activeTracking": "Suivis actifs",
-    "healthySources": "Sources saines",
-    "earlySignals": "Signaux précoces",
-    "lifecycle": "Cycle de vie des concours"
+    "community": "Communauté",
+    "channel": "Chaîne Telegram",
+    "discussion": "Groupe de discussion",
+    "status": "État des sources",
+    "rights": "Projet indépendant, non affilié à l'administration.",
+    "madeBy": "Développé par",
+    "privacyNote": "Les données affichées sont publiques et proviennent du portail officiel emploi-public.ma."
   },
   "error": {
     "title": "Page introuvable",
