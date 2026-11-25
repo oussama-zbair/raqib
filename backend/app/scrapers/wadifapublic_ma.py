@@ -220,6 +220,8 @@ class WadifaPublicScraper:
                 try:
                     html = get_html(client, url)
                 except Exception:  # noqa: BLE001 (one page failing must not kill the run)
+                    if page == 1:
+                        raise  # the source is down or blocking us: report it
                     break
                 results.extend(parse_listing_html(html))
             for path in STAGE_PATHS:  # first page only: the newest convocations and results

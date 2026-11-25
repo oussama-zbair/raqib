@@ -95,6 +95,17 @@ def _select_stages(
     return out
 
 
+def _why(exc: Exception) -> str:
+    """Short failure reason, e.g. 'HTTP 403' (unwraps tenacity's RetryError)."""
+    last = getattr(exc, "last_attempt", None)
+    if last is not None and last.exception() is not None:
+        exc = last.exception()
+    resp = getattr(exc, "response", None)
+    if resp is not None:
+        return f"HTTP {resp.status_code}"
+    return type(exc).__name__
+
+
 def _scrape(scrapers: list[Scraper]) -> tuple[list[RawAnnouncement], dict[str, str]]:
     """Fetch every source in isolation. Returns items and a per-source status."""
     items: list[RawAnnouncement] = []
@@ -110,7 +121,7 @@ def _scrape(scrapers: list[Scraper]) -> tuple[list[RawAnnouncement], dict[str, s
             status[scraper.source_name] = f"ok ({len(found)} items)"
         except Exception as exc:  # noqa: BLE001
             log.exception("source %s failed", scraper.source_name)
-            status[scraper.source_name] = f"FAILED ({type(exc).__name__})"
+            status[scraper.source_name] = f"FAILED ({_why(exc)})"
     return items, status
 
 
@@ -270,7 +281,27 @@ def run(
         "dry_run": dry_run,
     }
     log.info("done: %s", summary)
+    if not dry_run:
+        _write_last_run(state_path, summary, items)
     return summary
+
+
+def _write_last_run(state_path: Path, summary: dict, items: list[RawAnnouncement]) -> None:
+    """state/last_run.json: what the last real run saw, readable without GitHub logs."""
+    import json
+    from datetime import datetime, timezone
+
+    by_source: dict[str, dict[str, int]] = {}
+    for it in items:
+        s = by_source.setdefault(it.source_name, {})
+        s[it.stage.value] = s.get(it.stage.value, 0) + 1
+    payload = {
+        "finished_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        **summary,
+        "items_by_source_and_stage": by_source,
+    }
+    path = Path(state_path).with_name("last_run.json")
+    path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
 def main(argv: list[str] | None = None) -> None:

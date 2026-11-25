@@ -43,7 +43,7 @@ jobs:
         run: |
           git config user.name "raqib-bot"
           git config user.email "raqib-bot@users.noreply.github.com"
-          git add state/posted.json
+          git add state/posted.json state/last_run.json 2>/dev/null || git add state/posted.json
           if git diff --cached --quiet; then
             echo "No state change"
             exit 0
