@@ -20,7 +20,7 @@ from app.scrapers.dates import parse_date, parse_int
 
 BASE = "https://www.wadifapublic.ma"
 LISTING_PATH = "/ar/الوظيفة-العمومية/مباريات"
-MAX_PAGES = 2  # a light crawler: the first pages hold everything new since the last run
+MAX_PAGES = 3  # a light crawler: the first pages hold everything new since the last run
 
 _DETAIL_HREF = re.compile(r"/c\d+-\d+/")
 _CODE_IN_URL = re.compile(r"/c(\d+)-(\d+)/")

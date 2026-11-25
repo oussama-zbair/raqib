@@ -57,7 +57,218 @@
       ],
       "telegram_message_id": 13,
       "posted_at": "2026-11-24T21:24:54+00:00"
+    },
+    {
+      "id": "C 44623/26",
+      "reference_code": "C 44623/26",
+      "administration": "Ministère de l’Education Nationale, du Préscolaire, de la Formation professionnelle et de la Qualification - Département de l’Education nationale",
+      "grade": "Spécialiste d'économie et administration 2ème grade",
+      "post_count": 559,
+      "deadline": "2026-11-25",
+      "exam_date": "2026-12-05",
+      "urls": [
+        "https://www.emploi-public.ma/fr/concours/details/635d1ad9-b421-4ef4-b5ef-6cf021ba412a"
+      ],
+      "telegram_message_id": 14,
+      "posted_at": "2026-11-25T04:47:00+00:00"
+    },
+    {
+      "id": "C 44624/26",
+      "reference_code": "C 44624/26",
+      "administration": "Ministère de l’Education Nationale, du Préscolaire, de la Formation professionnelle et de la Qualification - Département de l’Education nationale",
+      "grade": "Spécialiste social 2ème grade",
+      "post_count": 1000,
+      "deadline": "2026-11-25",
+      "exam_date": "2026-12-05",
+      "urls": [
+        "https://www.emploi-public.ma/fr/concours/details/96a8aed2-a1e6-438f-bf45-556e8168bbcf"
+      ],
+      "telegram_message_id": 15,
+      "posted_at": "2026-11-25T04:47:00+00:00"
+    },
+    {
+      "id": "C 44689/26",
+      "reference_code": "C 44689/26",
+      "administration": "Délégation générale à l'administration pénitentiaire et à la réinsertion",
+      "grade": "Surveillant pénitentiaire adjoint 2ème grade",
+      "post_count": 120,
+      "deadline": "2026-11-26",
+      "exam_date": "2026-12-06",
+      "urls": [
+        "https://www.emploi-public.ma/fr/concours/details/c1856307-e18c-4053-8079-1efd4ebd63dd"
+      ],
+      "telegram_message_id": 16,
+      "posted_at": "2026-11-25T04:47:00+00:00"
+    },
+    {
+      "id": "C 44691/26",
+      "reference_code": "C 44691/26",
+      "administration": "Délégation générale à l'administration pénitentiaire et à la réinsertion",
+      "grade": "Commandant pénitentiaire adjoint 1er grade",
+      "post_count": 28,
+      "deadline": "2026-11-26",
+      "exam_date": "2026-12-06",
+      "urls": [
+        "https://www.emploi-public.ma/fr/concours/details/b2542f15-9180-4680-9a40-56cab838599c"
+      ],
+      "telegram_message_id": 17,
+      "posted_at": "2026-11-25T04:47:00+00:00"
+    },
+    {
+      "id": "C 44741/26",
+      "reference_code": "C 44741/26",
+      "administration": "Ministère de la justice",
+      "grade": "Commissaire Judiciaire 2ème grade - Echelle 11",
+      "post_count": 100,
+      "deadline": "2026-12-02",
+      "exam_date": "2027-01-31",
+      "urls": [
+        "https://www.emploi-public.ma/fr/concours/details/965c72f0-c5df-4a41-abe8-19287fb24ac2"
+      ],
+      "telegram_message_id": 18,
+      "posted_at": "2026-11-25T04:47:00+00:00"
+    },
+    {
+      "id": "C 44742/26",
+      "reference_code": "C 44742/26",
+      "administration": "Ministère de la justice",
+      "grade": "Commissaire Judiciaire 3ème grade - Echelle 10",
+      "post_count": 30,
+      "deadline": "2026-12-02",
+      "exam_date": "2027-01-17",
+      "urls": [
+        "https://www.emploi-public.ma/fr/concours/details/bc819c35-294c-4f6e-bcb7-6ab471454c51"
+      ],
+      "telegram_message_id": 19,
+      "posted_at": "2026-11-25T04:47:00+00:00"
+    },
+    {
+      "id": "C 44684/26",
+      "reference_code": "C 44684/26",
+      "administration": "Société Rabat Région Emergence",
+      "grade": "Cadre « QHSE » (Qualité, Hygiène, Sécurité, Environnement)",
+      "post_count": 1,
+      "deadline": "2026-11-26",
+      "exam_date": null,
+      "urls": [
+        "https://www.emploi-public.ma/fr/concours/details/ab9f6308-971d-43f6-b095-279d67e78eae"
+      ],
+      "telegram_message_id": 20,
+      "posted_at": "2026-11-25T04:47:00+00:00"
+    },
+    {
+      "id": "C 44679/26",
+      "reference_code": "C 44679/26",
+      "administration": "Univesité Chouaïb Doukkali - El Jadida",
+      "grade": "Technicien de 3ème grade",
+      "post_count": 1,
+      "deadline": "2026-11-26",
+      "exam_date": null,
+      "urls": [
+        "https://www.emploi-public.ma/fr/concours/details/aa40ad09-1cb6-4408-b1a7-7507ee9673ed"
+      ],
+      "telegram_message_id": 21,
+      "posted_at": "2026-11-25T04:47:00+00:00"
+    },
+    {
+      "id": "C 44678/26",
+      "reference_code": "C 44678/26",
+      "administration": "Univesité Chouaïb Doukkali - El Jadida",
+      "grade": "Technicien de 3ème grade",
+      "post_count": 1,
+      "deadline": "2026-11-26",
+      "exam_date": null,
+      "urls": [
+        "https://www.emploi-public.ma/fr/concours/details/a308f369-e882-4c42-871d-acb07d5c6d2e"
+      ],
+      "telegram_message_id": 22,
+      "posted_at": "2026-11-25T04:47:00+00:00"
+    },
+    {
+      "id": "C 44677/26",
+      "reference_code": "C 44677/26",
+      "administration": "Univesité Chouaïb Doukkali - El Jadida",
+      "grade": "administrateur 2eme grade",
+      "post_count": 1,
+      "deadline": "2026-11-26",
+      "exam_date": null,
+      "urls": [
+        "https://www.emploi-public.ma/fr/concours/details/260ea819-855a-4c97-a553-ce9d06b464a5"
+      ],
+      "telegram_message_id": 23,
+      "posted_at": "2026-11-25T04:47:00+00:00"
+    },
+    {
+      "id": "C 44743/26",
+      "reference_code": "C 44743/26",
+      "administration": "Ministère de la justice",
+      "grade": "Rédacteur Judiciaire 3ème grade - Echelle 9",
+      "post_count": 30,
+      "deadline": "2026-12-02",
+      "exam_date": "2027-01-31",
+      "urls": [
+        "https://www.emploi-public.ma/fr/concours/details/f13bac44-60cc-4ed5-897a-905111afbeb2"
+      ],
+      "telegram_message_id": 24,
+      "posted_at": "2026-11-25T04:47:00+00:00"
+    },
+    {
+      "id": "C 44744/26",
+      "reference_code": "C 44744/26",
+      "administration": "Ministère de la justice",
+      "grade": "Rédacteur Judiciaire 4ème grade - Echelle 8",
+      "post_count": 90,
+      "deadline": "2026-12-02",
+      "exam_date": "2027-01-31",
+      "urls": [
+        "https://www.emploi-public.ma/fr/concours/details/b7f02f9d-4b66-4dcd-8365-f3b1001009c1"
+      ],
+      "telegram_message_id": 25,
+      "posted_at": "2026-11-25T04:47:00+00:00"
+    },
+    {
+      "id": "C 44886/26",
+      "reference_code": "C 44886/26",
+      "administration": "Ministère de la Santé et de la Protection sociale",
+      "grade": "Adjoint technique 2ème grade",
+      "post_count": 160,
+      "deadline": "2027-01-28",
+      "exam_date": "2027-02-14",
+      "urls": [
+        "https://www.emploi-public.ma/fr/concours/details/06f2df84-0753-47a3-95b9-4aa040df8c72"
+      ],
+      "telegram_message_id": 26,
+      "posted_at": "2026-11-25T04:47:00+00:00"
+    },
+    {
+      "id": "C 44887/26",
+      "reference_code": "C 44887/26",
+      "administration": "Ministère de la Santé et de la Protection sociale",
+      "grade": "Technicien de 4ème grade - Echelle 8",
+      "post_count": 120,
+      "deadline": "2027-01-28",
+      "exam_date": "2027-02-14",
+      "urls": [
+        "https://www.emploi-public.ma/fr/concours/details/254a4ccc-b3d1-43d0-8b7d-a23d818766b2"
+      ],
+      "telegram_message_id": 27,
+      "posted_at": "2026-11-25T04:47:00+00:00"
+    },
+    {
+      "id": "C 44892/26",
+      "reference_code": "C 44892/26",
+      "administration": "Ministère de la Santé et de la Protection sociale",
+      "grade": "Administrateur 3ème grade - Echelle 10",
+      "post_count": 70,
+      "deadline": "2027-01-13",
+      "exam_date": "2027-01-31",
+      "urls": [
+        "https://www.emploi-public.ma/fr/concours/details/b69d525c-df85-47d0-b9fc-ed1f3e891f34"
+      ],
+      "telegram_message_id": 28,
+      "posted_at": "2026-11-25T04:47:00+00:00"
     }
   ],
+  "stages": [],
   "rejected": {}
 }

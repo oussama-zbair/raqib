@@ -20,7 +20,7 @@ from app.scrapers.dates import parse_date, parse_int
 
 BASE = "https://www.emploi-public.ma"
 LISTING_PATH = "/fr/concours-liste"
-MAX_PAGES = 2  # a light crawler: the first pages hold everything new since the last run
+MAX_PAGES = 3  # a light crawler: the first pages hold everything new since the last run
 
 _TITLE_PREFIX = re.compile(r"^\s*Avis de concours de recrutement de\s+", re.IGNORECASE)
 _SPEC_BULLET = re.compile(r"^[-\s]+")
