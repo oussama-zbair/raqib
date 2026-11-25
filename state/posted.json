@@ -1276,6 +1276,7 @@
       "deadline": "2026-12-25",
       "exam_date": "2027-01-17",
       "urls": [
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/3f6d3934-2b54-4ccb-934e-67ec66e7f762",
         "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/d520bc73-bcf0-4974-af85-7b6af7c7c40f",
         "https://www.emploi-public.ma/ar/تفاصيل/المباريات/d520bc73-bcf0-4974-af85-7b6af7c7c40f"
       ],
@@ -1331,6 +1332,9 @@
       "deadline": "2026-12-11",
       "exam_date": "2026-12-27",
       "urls": [
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/a5b90bf5-4086-434c-b948-8880d9adb947",
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/a7e52309-7e1c-4474-b637-1f5cf0e47b4c",
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/ccb9b405-58f7-453e-bb03-72ff84e5c365",
         "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/d166cff5-6eae-4e33-bca9-65950874b2df"
       ],
       "telegram_message_id": 82,
@@ -1439,7 +1443,8 @@
       "deadline": "2026-12-14",
       "exam_date": "2027-01-17",
       "urls": [
-        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/593d3e98-64cc-4a18-99b5-56564e510a9a"
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/593d3e98-64cc-4a18-99b5-56564e510a9a",
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/8a811d71-5f0c-4516-a54b-cdd421929da1"
       ],
       "telegram_message_id": 88,
       "posted_at": "2026-11-25T19:35:23+00:00",
@@ -3352,27 +3357,27 @@
     },
     "ep:f773dd7f-be02-42b7-a9d8-c941fef7d31e": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T20:01:50+00:00"
     },
     "ep:a2cb3906-dbe1-4465-9762-55f19c4af41e": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T20:01:51+00:00"
     },
     "ep:dfc1abca-45fb-4e42-bf51-d986847ddee4": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T20:01:54+00:00"
     },
     "ep:2ced7c08-b048-4323-9cc5-05e9340e5a9f": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T20:01:56+00:00"
     },
     "ep:06f5fbc2-5fde-438f-8a19-7382965fb536": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T20:01:58+00:00"
     },
     "ep:ccd521a4-dc1f-4976-9bb9-a963ade0c62d": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T20:01:59+00:00"
     },
     "ep:8a811d71-5f0c-4516-a54b-cdd421929da1": {
       "added": "2026-11-25",
@@ -3416,79 +3421,79 @@
     },
     "ep:d520bc73-bcf0-4974-af85-7b6af7c7c40f": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T20:02:02+00:00"
     },
     "ep:37dadd5c-c57f-4614-9954-64521e962629": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T20:02:04+00:00"
     },
     "ep:a7c4e6a7-7c33-4ec3-a00e-97c83892d659": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T20:02:05+00:00"
     },
     "ep:3d0d7c43-34b5-4e4b-ba57-02da6200dbd0": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T20:02:07+00:00"
     },
     "ep:35a928ed-d8e5-4555-8daf-fa89a806a698": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T20:02:08+00:00"
     },
     "ep:c7259a97-09c2-4050-893a-c2226569266d": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T20:02:10+00:00"
     },
     "ep:fc54fad0-7f8e-4e16-9734-e07cfd9b0320": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T20:02:11+00:00"
     },
     "ep:9395f7ae-bc26-4673-ac8b-381dbfa582b1": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T20:02:13+00:00"
     },
     "ep:25522f75-f8e0-4c7c-a1f5-53b57433d5c1": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T20:02:14+00:00"
     },
     "ep:ecd26729-860d-48b6-8e3d-16c755e9437d": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T20:02:16+00:00"
     },
     "ep:cc465af9-684d-4b3c-b8c5-1ea6bf70e876": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T20:02:19+00:00"
     },
     "ep:f623f168-0cf9-4336-abb7-79c4f7fdb778": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T20:02:21+00:00"
     },
     "ep:d45d7653-93e7-4462-8350-86dcfcfa6092": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T20:02:22+00:00"
     },
     "ep:428a558d-ab21-41bd-9da7-b48ef755cccf": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T20:02:24+00:00"
     },
     "ep:ccc1cc19-3e39-4cae-8c5c-6de7158ff8c9": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T20:02:25+00:00"
     },
     "ep:a93e2930-4c39-43c3-80a4-51ea89a89dd2": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T20:02:27+00:00"
     },
     "ep:727f16a1-0ec3-425e-9a91-cd76f1ea1de2": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T20:02:28+00:00"
     },
     "ep:22a1b936-832a-47dd-8c17-14af07658608": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T20:02:30+00:00"
     },
     "ep:94518d05-e341-42c3-9f52-b825943f1ee7": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T20:02:31+00:00"
     },
     "ep:2a4f3d06-e0ac-4bec-a870-6bfb76ebd6cd": {
       "added": "2026-11-25",
