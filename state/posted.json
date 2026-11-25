@@ -11,166 +11,221 @@
       "exam_date": "2027-01-10",
       "urls": [
         "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/4fe77b06-0d8f-4386-a08a-63f0c7878849",
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/4fe77b06-0d8f-4386-a08a-63f0c7878849",
         "https://www.emploi-public.ma/fr/concours/details/4fe77b06-0d8f-4386-a08a-63f0c7878849",
         "https://www.wadifapublic.ma/ar/الوظيفة-العمومية/خدمات-الدولة/c44891-26/وزارة-الصحة-والحماية-مهندس-دولة-مباراة-توظيف"
       ],
       "telegram_message_id": 10,
-      "posted_at": "2026-11-24T21:24:42+00:00"
+      "posted_at": "2026-11-24T21:24:42+00:00",
+      "specialty": "مهندسي",
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/c9bf94bc4284cffddd74b90a9c1eb389.png",
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/4fe77b06-0d8f-4386-a08a-63f0c7878849"
     },
     {
       "id": "C 44690/26",
       "reference_code": "C 44690/26",
-      "administration": "Délégation générale à l'administration pénitentiaire et à la réinsertion",
-      "grade": "Surveillant pénitentiaire chef 2ème grade",
+      "administration": "المندوبية العامة لإدارة السجون وإعادة الإدماج",
+      "grade": "مراقب السجون رئيس من الدرجة الثانية",
       "post_count": 200,
       "deadline": "2026-11-26",
       "exam_date": "2026-12-06",
       "urls": [
         "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/cc2bd7ff-97cf-4de3-9665-4e7c05c3c825",
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/cc2bd7ff-97cf-4de3-9665-4e7c05c3c825",
         "https://www.emploi-public.ma/fr/concours/details/cc2bd7ff-97cf-4de3-9665-4e7c05c3c825"
       ],
       "telegram_message_id": 11,
-      "posted_at": "2026-11-24T21:24:46+00:00"
+      "posted_at": "2026-11-24T21:24:46+00:00",
+      "specialty": "ممرض متعدد التخصصات / ادارة الخدمات الصحية / مساعد طبيب اسنان / مساعد في العلاجات العامة / الكتابة في مجال الطب / تركيب و إصلاح الأجهزة الطبية / التنمية المعلوماتية والرقمية / الأنظمة وشبكات المعلوميات / تقنيات الأمن السيبراني / الاحصاء والاعلاميات التقريرية / المالية والمحاسبة / تدبير المقاولات / الهندسة المدنية / الاشغال الكبرى / الجودة النظافة والسلامة والبيئة",
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/bc19566e1dd5c7fbf245d3d25cc4534b.png",
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/cc2bd7ff-97cf-4de3-9665-4e7c05c3c825"
     },
     {
       "id": "C 44727/26",
       "reference_code": "C 44727/26",
-      "administration": "Haut commissariat au plan",
-      "grade": "Maître de conférences grade A - Echelle 11",
+      "administration": "المندوبية السامية للتخطيط",
+      "grade": "أستاذ محاضر من الدرجة أ - سُلمْ 11",
       "post_count": 3,
       "deadline": "2026-12-04",
       "exam_date": "2026-12-17",
       "urls": [
         "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/bc216516-0478-4fb6-a857-a114988f6cb3",
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/bc216516-0478-4fb6-a857-a114988f6cb3",
         "https://www.emploi-public.ma/fr/concours/details/bc216516-0478-4fb6-a857-a114988f6cb3"
       ],
       "telegram_message_id": 12,
-      "posted_at": "2026-11-24T21:24:50+00:00"
+      "posted_at": "2026-11-24T21:24:50+00:00",
+      "specialty": "المعلوميات – الذكاء الاصطناعي/ علم البيانات / المعلوميات - أمن نظم المعلومات والأمن السيبراني / المعلوميات – هندسة البرمجيات المعلوميات – هندسة البرمجيات",
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/7d3479608322d11b250af1092de93e66.png",
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/bc216516-0478-4fb6-a857-a114988f6cb3"
     },
     {
       "id": "C 44904/26",
       "reference_code": "C 44904/26",
-      "administration": "Ministère de l’Agriculture, de la Pêche maritime et de la Souveraineté alimentaire - Département de l’Agriculture",
-      "grade": "Administrateur 2ème grade - Echelle 11",
+      "administration": "وزارة الفلاحة والصيد البحري والسيادة الغذائية - قطاع الفلاحة",
+      "grade": "متصرف من الدرجة الثانية - سُلمْ 11",
       "post_count": 38,
       "deadline": "2026-12-15",
       "exam_date": "2027-01-31",
       "urls": [
         "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/a1c6e668-6fb2-470a-818c-6d6b8d5f574d",
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/a1c6e668-6fb2-470a-818c-6d6b8d5f574d",
         "https://www.emploi-public.ma/fr/concours/details/a1c6e668-6fb2-470a-818c-6d6b8d5f574d"
       ],
       "telegram_message_id": 13,
-      "posted_at": "2026-11-24T21:24:54+00:00"
+      "posted_at": "2026-11-24T21:24:54+00:00",
+      "specialty": "التدبير الإداري والمالي / التدبير المالي والمحاسباتي / المالية / المحاسبة / الموارد البشرية / التسويق الاستراتيجي / التواصل / القانون الدولي /العلاقات الدولية / هندسة البيانات / البيانات الضخمة / علوم البيانات والنظم التقريرية",
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/6abd5c49765f6ec59e0a746baf405f9f.jpg",
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/a1c6e668-6fb2-470a-818c-6d6b8d5f574d"
     },
     {
       "id": "C 44623/26",
       "reference_code": "C 44623/26",
-      "administration": "Ministère de l’Education Nationale, du Préscolaire, de la Formation professionnelle et de la Qualification - Département de l’Education nationale",
-      "grade": "Spécialiste d'économie et administration 2ème grade",
+      "administration": "وزارة التربية الوطنية والتعليم الأولي والتكوين المهني والتأهيل - قطاع التربية الوطنية",
+      "grade": "مختص الاقتصاد والإدارة من الدرجة الثانية",
       "post_count": 559,
       "deadline": "2026-11-25",
       "exam_date": "2026-12-05",
       "urls": [
         "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/635d1ad9-b421-4ef4-b5ef-6cf021ba412a",
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/635d1ad9-b421-4ef4-b5ef-6cf021ba412a",
         "https://www.emploi-public.ma/fr/concours/details/635d1ad9-b421-4ef4-b5ef-6cf021ba412a"
       ],
       "telegram_message_id": 14,
-      "posted_at": "2026-11-25T04:47:00+00:00"
+      "posted_at": "2026-11-25T04:47:00+00:00",
+      "specialty": "مختص الاقتصاد والإدارة",
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/55ed0324d918f3ff0eb1e670e7356f35.jpg",
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/635d1ad9-b421-4ef4-b5ef-6cf021ba412a"
     },
     {
       "id": "C 44624/26",
       "reference_code": "C 44624/26",
-      "administration": "Ministère de l’Education Nationale, du Préscolaire, de la Formation professionnelle et de la Qualification - Département de l’Education nationale",
-      "grade": "Spécialiste social 2ème grade",
+      "administration": "وزارة التربية الوطنية والتعليم الأولي والتكوين المهني والتأهيل - قطاع التربية الوطنية",
+      "grade": "مختص إجتماعي من الدرجة الثانية",
       "post_count": 1000,
       "deadline": "2026-11-25",
       "exam_date": "2026-12-05",
       "urls": [
         "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/96a8aed2-a1e6-438f-bf45-556e8168bbcf",
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/96a8aed2-a1e6-438f-bf45-556e8168bbcf",
         "https://www.emploi-public.ma/fr/concours/details/96a8aed2-a1e6-438f-bf45-556e8168bbcf"
       ],
       "telegram_message_id": 15,
-      "posted_at": "2026-11-25T04:47:00+00:00"
+      "posted_at": "2026-11-25T04:47:00+00:00",
+      "specialty": "مختص اجتماعي",
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/55ed0324d918f3ff0eb1e670e7356f35.jpg",
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/96a8aed2-a1e6-438f-bf45-556e8168bbcf"
     },
     {
       "id": "C 44689/26",
       "reference_code": "C 44689/26",
-      "administration": "Délégation générale à l'administration pénitentiaire et à la réinsertion",
-      "grade": "Surveillant pénitentiaire adjoint 2ème grade",
+      "administration": "المندوبية العامة لإدارة السجون وإعادة الإدماج",
+      "grade": "مراقب السجون مساعد من الدرجة الثانية",
       "post_count": 120,
       "deadline": "2026-11-26",
       "exam_date": "2026-12-06",
       "urls": [
         "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/c1856307-e18c-4053-8079-1efd4ebd63dd",
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/c1856307-e18c-4053-8079-1efd4ebd63dd",
         "https://www.emploi-public.ma/fr/concours/details/c1856307-e18c-4053-8079-1efd4ebd63dd"
       ],
       "telegram_message_id": 16,
-      "posted_at": "2026-11-25T04:47:00+00:00"
+      "posted_at": "2026-11-25T04:47:00+00:00",
+      "specialty": "جميع الشعب",
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/bc19566e1dd5c7fbf245d3d25cc4534b.png",
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/c1856307-e18c-4053-8079-1efd4ebd63dd"
     },
     {
       "id": "C 44691/26",
       "reference_code": "C 44691/26",
-      "administration": "Délégation générale à l'administration pénitentiaire et à la réinsertion",
-      "grade": "Commandant pénitentiaire adjoint 1er grade",
+      "administration": "المندوبية العامة لإدارة السجون وإعادة الإدماج",
+      "grade": "قائد السجون مساعد من الدرجة الأولى",
       "post_count": 28,
       "deadline": "2026-11-26",
       "exam_date": "2026-12-06",
       "urls": [
         "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/b2542f15-9180-4680-9a40-56cab838599c",
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/b2542f15-9180-4680-9a40-56cab838599c",
         "https://www.emploi-public.ma/fr/concours/details/b2542f15-9180-4680-9a40-56cab838599c"
       ],
       "telegram_message_id": 17,
-      "posted_at": "2026-11-25T04:47:00+00:00"
+      "posted_at": "2026-11-25T04:47:00+00:00",
+      "specialty": "الطب العام",
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/bc19566e1dd5c7fbf245d3d25cc4534b.png",
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/b2542f15-9180-4680-9a40-56cab838599c"
     },
     {
       "id": "C 44741/26",
       "reference_code": "C 44741/26",
-      "administration": "Ministère de la justice",
-      "grade": "Commissaire Judiciaire 2ème grade - Echelle 11",
+      "administration": "وزارة العدل",
+      "grade": "منتذب قضائي من الدرجة الثانية - سُلمْ 11",
       "post_count": 100,
       "deadline": "2026-12-02",
       "exam_date": "2027-01-31",
       "urls": [
         "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/965c72f0-c5df-4a41-abe8-19287fb24ac2",
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/965c72f0-c5df-4a41-abe8-19287fb24ac2",
         "https://www.emploi-public.ma/fr/concours/details/965c72f0-c5df-4a41-abe8-19287fb24ac2"
       ],
       "telegram_message_id": 18,
-      "posted_at": "2026-11-25T04:47:00+00:00"
+      "posted_at": "2026-11-25T04:47:00+00:00",
+      "specialty": "العلوم والتقنيات في مجال البيئة / العلوم القانونية",
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/33f91dce5e8f7ececc33bc4f1aa50aef.png",
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/965c72f0-c5df-4a41-abe8-19287fb24ac2"
     },
     {
       "id": "C 44742/26",
       "reference_code": "C 44742/26",
-      "administration": "Ministère de la justice",
-      "grade": "Commissaire Judiciaire 3ème grade - Echelle 10",
+      "administration": "وزارة العدل",
+      "grade": "منتذب قضائي من الدرجة الثالثة - سُلمْ 10",
       "post_count": 30,
       "deadline": "2026-12-02",
       "exam_date": "2027-01-17",
       "urls": [
         "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/bc819c35-294c-4f6e-bcb7-6ab471454c51",
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/bc819c35-294c-4f6e-bcb7-6ab471454c51",
         "https://www.emploi-public.ma/fr/concours/details/bc819c35-294c-4f6e-bcb7-6ab471454c51"
       ],
       "telegram_message_id": 19,
-      "posted_at": "2026-11-25T04:47:00+00:00"
+      "posted_at": "2026-11-25T04:47:00+00:00",
+      "specialty": "الإعلام والاتصال / العلوم القانونية أو الشريعة أو الشريعة والقانون أو الآداب",
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/33f91dce5e8f7ececc33bc4f1aa50aef.png",
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/bc819c35-294c-4f6e-bcb7-6ab471454c51"
     },
     {
       "id": "C 44684/26",
       "reference_code": "C 44684/26",
-      "administration": "Société Rabat Région Emergence",
+      "administration": "شركة الرباط الجهة الإقلاع",
       "grade": "Cadre « QHSE » (Qualité, Hygiène, Sécurité, Environnement)",
       "post_count": 1,
       "deadline": "2026-11-26",
       "exam_date": null,
       "urls": [
         "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/ab9f6308-971d-43f6-b095-279d67e78eae",
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/ab9f6308-971d-43f6-b095-279d67e78eae",
         "https://www.emploi-public.ma/fr/concours/details/ab9f6308-971d-43f6-b095-279d67e78eae"
       ],
       "telegram_message_id": 20,
-      "posted_at": "2026-11-25T04:47:00+00:00"
+      "posted_at": "2026-11-25T04:47:00+00:00",
+      "specialty": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/579eee41916ee6a9b7aeb1266a60455e.png",
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/ab9f6308-971d-43f6-b095-279d67e78eae"
     },
     {
       "id": "C 44679/26",
       "reference_code": "C 44679/26",
-      "administration": "Univesité Chouaïb Doukkali - El Jadida",
+      "administration": "جامعة شعيب الدكالي - الجديدة",
       "grade": "Technicien de 3ème grade",
       "post_count": 1,
       "deadline": "2026-11-26",
@@ -178,161 +233,216 @@
       "urls": [
         "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/a308f369-e882-4c42-871d-acb07d5c6d2e",
         "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/aa40ad09-1cb6-4408-b1a7-7507ee9673ed",
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/a308f369-e882-4c42-871d-acb07d5c6d2e",
         "https://www.emploi-public.ma/fr/concours/details/a308f369-e882-4c42-871d-acb07d5c6d2e",
         "https://www.emploi-public.ma/fr/concours/details/aa40ad09-1cb6-4408-b1a7-7507ee9673ed"
       ],
       "telegram_message_id": 21,
-      "posted_at": "2026-11-25T04:47:00+00:00"
+      "posted_at": "2026-11-25T04:47:00+00:00",
+      "specialty": "Développement Informatique",
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/25764651a0c2722c5a7e0d5b90de9a74.png",
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/a308f369-e882-4c42-871d-acb07d5c6d2e"
     },
     {
       "id": "C 44678/26",
       "reference_code": "C 44678/26",
-      "administration": "Univesité Chouaïb Doukkali - El Jadida",
+      "administration": "جامعة شعيب الدكالي - الجديدة",
       "grade": "Technicien de 3ème grade",
       "post_count": 1,
       "deadline": "2026-11-26",
       "exam_date": null,
       "urls": [
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/a308f369-e882-4c42-871d-acb07d5c6d2e",
         "https://www.emploi-public.ma/fr/concours/details/a308f369-e882-4c42-871d-acb07d5c6d2e"
       ],
       "telegram_message_id": 22,
-      "posted_at": "2026-11-25T04:47:00+00:00"
+      "posted_at": "2026-11-25T04:47:00+00:00",
+      "specialty": "Développement Informatique",
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/25764651a0c2722c5a7e0d5b90de9a74.png",
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/a308f369-e882-4c42-871d-acb07d5c6d2e"
     },
     {
       "id": "C 44677/26",
       "reference_code": "C 44677/26",
-      "administration": "Univesité Chouaïb Doukkali - El Jadida",
+      "administration": "جامعة شعيب الدكالي - الجديدة",
       "grade": "administrateur 2eme grade",
       "post_count": 1,
       "deadline": "2026-11-26",
       "exam_date": null,
       "urls": [
         "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/260ea819-855a-4c97-a553-ce9d06b464a5",
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/260ea819-855a-4c97-a553-ce9d06b464a5",
         "https://www.emploi-public.ma/fr/concours/details/260ea819-855a-4c97-a553-ce9d06b464a5"
       ],
       "telegram_message_id": 23,
-      "posted_at": "2026-11-25T04:47:00+00:00"
+      "posted_at": "2026-11-25T04:47:00+00:00",
+      "specialty": "Marketing digital",
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/25764651a0c2722c5a7e0d5b90de9a74.png",
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/260ea819-855a-4c97-a553-ce9d06b464a5"
     },
     {
       "id": "C 44743/26",
       "reference_code": "C 44743/26",
-      "administration": "Ministère de la justice",
-      "grade": "Rédacteur Judiciaire 3ème grade - Echelle 9",
+      "administration": "وزارة العدل",
+      "grade": "محرر قضائي من الدرجة الرابعة - سُلمْ 8",
       "post_count": 30,
       "deadline": "2026-12-02",
       "exam_date": "2027-01-31",
       "urls": [
         "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/b7f02f9d-4b66-4dcd-8365-f3b1001009c1",
         "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/f13bac44-60cc-4ed5-897a-905111afbeb2",
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/b7f02f9d-4b66-4dcd-8365-f3b1001009c1",
         "https://www.emploi-public.ma/fr/concours/details/b7f02f9d-4b66-4dcd-8365-f3b1001009c1",
         "https://www.emploi-public.ma/fr/concours/details/f13bac44-60cc-4ed5-897a-905111afbeb2"
       ],
       "telegram_message_id": 24,
-      "posted_at": "2026-11-25T04:47:00+00:00"
+      "posted_at": "2026-11-25T04:47:00+00:00",
+      "specialty": "كتابة الإدارة أو كتابة المكتبيات أو مساعد إداري (تخصص: التدبير) / إصلاح الآلات ذات المحرك أو ميكانيك السيارات أو مرشد في تعليم السياقة",
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/33f91dce5e8f7ececc33bc4f1aa50aef.png",
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/b7f02f9d-4b66-4dcd-8365-f3b1001009c1"
     },
     {
       "id": "C 44744/26",
       "reference_code": "C 44744/26",
-      "administration": "Ministère de la justice",
-      "grade": "Rédacteur Judiciaire 4ème grade - Echelle 8",
+      "administration": "وزارة العدل",
+      "grade": "محرر قضائي من الدرجة الرابعة - سُلمْ 8",
       "post_count": 90,
       "deadline": "2026-12-02",
       "exam_date": "2027-01-31",
       "urls": [
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/b7f02f9d-4b66-4dcd-8365-f3b1001009c1",
         "https://www.emploi-public.ma/fr/concours/details/b7f02f9d-4b66-4dcd-8365-f3b1001009c1"
       ],
       "telegram_message_id": 25,
-      "posted_at": "2026-11-25T04:47:00+00:00"
+      "posted_at": "2026-11-25T04:47:00+00:00",
+      "specialty": "كتابة الإدارة أو كتابة المكتبيات أو مساعد إداري (تخصص: التدبير) / إصلاح الآلات ذات المحرك أو ميكانيك السيارات أو مرشد في تعليم السياقة",
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/33f91dce5e8f7ececc33bc4f1aa50aef.png",
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/b7f02f9d-4b66-4dcd-8365-f3b1001009c1"
     },
     {
       "id": "C 44886/26",
       "reference_code": "C 44886/26",
-      "administration": "Ministère de la Santé et de la Protection sociale",
-      "grade": "Adjoint technique 2ème grade",
+      "administration": "وزارة الصحة والحماية الاجتماعية",
+      "grade": "مساعد تقني من الدرجة الثانية",
       "post_count": 160,
       "deadline": "2027-01-28",
       "exam_date": "2027-02-14",
       "urls": [
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/06f2df84-0753-47a3-95b9-4aa040df8c72",
         "https://www.emploi-public.ma/fr/concours/details/06f2df84-0753-47a3-95b9-4aa040df8c72"
       ],
       "telegram_message_id": 26,
-      "posted_at": "2026-11-25T04:47:00+00:00"
+      "posted_at": "2026-11-25T04:47:00+00:00",
+      "specialty": "مساعد",
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/c9bf94bc4284cffddd74b90a9c1eb389.png",
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/06f2df84-0753-47a3-95b9-4aa040df8c72"
     },
     {
       "id": "C 44887/26",
       "reference_code": "C 44887/26",
-      "administration": "Ministère de la Santé et de la Protection sociale",
-      "grade": "Technicien de 4ème grade - Echelle 8",
+      "administration": "وزارة الصحة والحماية الاجتماعية",
+      "grade": "مساعد تقني من الدرجة الثانية",
       "post_count": 120,
       "deadline": "2027-01-28",
       "exam_date": "2027-02-14",
       "urls": [
         "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/06f2df84-0753-47a3-95b9-4aa040df8c72",
         "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/254a4ccc-b3d1-43d0-8b7d-a23d818766b2",
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/06f2df84-0753-47a3-95b9-4aa040df8c72",
         "https://www.emploi-public.ma/fr/concours/details/254a4ccc-b3d1-43d0-8b7d-a23d818766b2"
       ],
       "telegram_message_id": 27,
-      "posted_at": "2026-11-25T04:47:00+00:00"
+      "posted_at": "2026-11-25T04:47:00+00:00",
+      "specialty": "مساعد",
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/c9bf94bc4284cffddd74b90a9c1eb389.png",
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/06f2df84-0753-47a3-95b9-4aa040df8c72"
     },
     {
       "id": "C 44892/26",
       "reference_code": "C 44892/26",
-      "administration": "Ministère de la Santé et de la Protection sociale",
-      "grade": "Administrateur 3ème grade - Echelle 10",
+      "administration": "وزارة الصحة والحماية الاجتماعية",
+      "grade": "متصرف من الدرجة الثالثة - سُلمْ 10",
       "post_count": 70,
       "deadline": "2027-01-13",
       "exam_date": "2027-01-31",
       "urls": [
         "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/b69d525c-df85-47d0-b9fc-ed1f3e891f34",
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/b69d525c-df85-47d0-b9fc-ed1f3e891f34",
         "https://www.emploi-public.ma/fr/concours/details/b69d525c-df85-47d0-b9fc-ed1f3e891f34"
       ],
       "telegram_message_id": 28,
-      "posted_at": "2026-11-25T04:47:00+00:00"
+      "posted_at": "2026-11-25T04:47:00+00:00",
+      "specialty": "متصرفين",
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/c9bf94bc4284cffddd74b90a9c1eb389.png",
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/b69d525c-df85-47d0-b9fc-ed1f3e891f34"
     },
     {
       "id": "C 44622/26",
       "reference_code": "C 44622/26",
-      "administration": "Ministère de l’Education Nationale, du Préscolaire, de la Formation professionnelle et de la Qualification - Département de l’Education nationale",
-      "grade": "Spécialiste pédagogique 2ème grade",
+      "administration": "وزارة التربية الوطنية والتعليم الأولي والتكوين المهني والتأهيل - قطاع التربية الوطنية",
+      "grade": "مختص تربوي من الدرجة الثانية",
       "post_count": 200,
       "deadline": "2026-11-25",
       "exam_date": "2026-12-05",
       "urls": [
         "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/b4147b79-25b9-4344-a801-20220a6b5cd4",
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/b4147b79-25b9-4344-a801-20220a6b5cd4",
         "https://www.emploi-public.ma/fr/concours/details/b4147b79-25b9-4344-a801-20220a6b5cd4"
       ],
       "telegram_message_id": 29,
-      "posted_at": "2026-11-25T17:19:35+00:00"
+      "posted_at": "2026-11-25T17:19:35+00:00",
+      "specialty": "مختص تربوي - تحضير المختبرات المدرسية / مختص تربوي - الحراسة التربوية والتوثيق",
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/55ed0324d918f3ff0eb1e670e7356f35.jpg",
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/b4147b79-25b9-4344-a801-20220a6b5cd4"
     },
     {
       "id": "C 44901/26",
       "reference_code": "C 44901/26",
-      "administration": "Ministère de la Santé et de la Protection sociale",
-      "grade": "Administrateur 2ème grade - Echelle 11",
+      "administration": "وزارة الصحة والحماية الاجتماعية",
+      "grade": "متصرف من الدرجة الثانية - سُلمْ 11",
       "post_count": 100,
       "deadline": "2026-12-31",
       "exam_date": "2027-01-17",
       "urls": [
         "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/452b86be-aaab-4f8d-aa06-cf054908b8ca",
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/452b86be-aaab-4f8d-aa06-cf054908b8ca",
         "https://www.emploi-public.ma/fr/concours/details/452b86be-aaab-4f8d-aa06-cf054908b8ca"
       ],
       "telegram_message_id": 30,
-      "posted_at": "2026-11-25T17:19:42+00:00"
+      "posted_at": "2026-11-25T17:19:42+00:00",
+      "specialty": "متصرفين",
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/c9bf94bc4284cffddd74b90a9c1eb389.png",
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/452b86be-aaab-4f8d-aa06-cf054908b8ca"
     },
     {
       "id": "C 44903/26",
       "reference_code": "C 44903/26",
-      "administration": "Ministère de la Santé et de la Protection sociale",
-      "grade": "Médecins premier grade - Echelle 11",
+      "administration": "وزارة الصحة والحماية الاجتماعية",
+      "grade": "طبيب من الدرجة الأولى - سُلمْ 11",
       "post_count": 10,
       "deadline": "2026-12-10",
       "exam_date": "2026-12-13",
       "urls": [
         "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/6e348f23-624f-4bc8-b7cd-049507d4c8f8",
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/6e348f23-624f-4bc8-b7cd-049507d4c8f8",
         "https://www.emploi-public.ma/fr/concours/details/6e348f23-624f-4bc8-b7cd-049507d4c8f8"
       ],
       "telegram_message_id": 31,
-      "posted_at": "2026-11-25T17:19:48+00:00"
+      "posted_at": "2026-11-25T17:19:48+00:00",
+      "specialty": "أطباء",
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/c9bf94bc4284cffddd74b90a9c1eb389.png",
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/6e348f23-624f-4bc8-b7cd-049507d4c8f8"
     },
     {
       "id": "C 44863/26",
@@ -343,10 +453,15 @@
       "deadline": "2026-12-08",
       "exam_date": "2026-12-14",
       "urls": [
-        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/7d14171f-3f4e-4913-8cff-f16e39b9849a"
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/7d14171f-3f4e-4913-8cff-f16e39b9849a",
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/7d14171f-3f4e-4913-8cff-f16e39b9849a"
       ],
       "telegram_message_id": 32,
-      "posted_at": "2026-11-25T18:23:39+00:00"
+      "posted_at": "2026-11-25T18:23:39+00:00",
+      "specialty": "Mathématiques appliquées",
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/714fdd3349669c62a0f3611b976b75e6.png",
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/7d14171f-3f4e-4913-8cff-f16e39b9849a"
     },
     {
       "id": "C 44867/26",
@@ -357,10 +472,15 @@
       "deadline": "2026-12-08",
       "exam_date": "2026-12-14",
       "urls": [
-        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/79353bd3-d956-466d-aa34-d1bbf723d14c"
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/79353bd3-d956-466d-aa34-d1bbf723d14c",
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/79353bd3-d956-466d-aa34-d1bbf723d14c"
       ],
       "telegram_message_id": 33,
-      "posted_at": "2026-11-25T18:23:45+00:00"
+      "posted_at": "2026-11-25T18:23:45+00:00",
+      "specialty": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/08f68abd1e320e809cc5adfa735f2633.png",
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/79353bd3-d956-466d-aa34-d1bbf723d14c"
     },
     {
       "id": "C 44872/26",
@@ -371,10 +491,15 @@
       "deadline": "2026-12-07",
       "exam_date": null,
       "urls": [
-        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/9369b688-ddf8-4b7f-83d8-f2d5e22b6a5b"
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/9369b688-ddf8-4b7f-83d8-f2d5e22b6a5b",
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/9369b688-ddf8-4b7f-83d8-f2d5e22b6a5b"
       ],
       "telegram_message_id": 34,
-      "posted_at": "2026-11-25T18:23:50+00:00"
+      "posted_at": "2026-11-25T18:23:50+00:00",
+      "specialty": "هندسة الهيدروليك والبيئة / هندسة العمليات والبيئة / علم الأحياء المائية",
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/ac1e54f1daec53d14282ea503314a756.png",
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/9369b688-ddf8-4b7f-83d8-f2d5e22b6a5b"
     },
     {
       "id": "C 44873/26",
@@ -385,10 +510,15 @@
       "deadline": "2026-12-07",
       "exam_date": null,
       "urls": [
-        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/0408c54b-8315-40d1-9bb2-058785cd9c67"
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/0408c54b-8315-40d1-9bb2-058785cd9c67",
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/0408c54b-8315-40d1-9bb2-058785cd9c67"
       ],
       "telegram_message_id": 35,
-      "posted_at": "2026-11-25T18:23:55+00:00"
+      "posted_at": "2026-11-25T18:23:55+00:00",
+      "specialty": "قيادة وتتبع مهام التفويض في التسيير، وتنسيق الأنشطة، وتتبع الأداء",
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/f71a70d22450130e6f8e5b1beef32586.png",
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/0408c54b-8315-40d1-9bb2-058785cd9c67"
     },
     {
       "id": "C 44874/26",
@@ -399,10 +529,15 @@
       "deadline": "2026-12-07",
       "exam_date": null,
       "urls": [
-        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/cfce9d15-2e4e-4932-b249-2fa4213ab2e3"
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/cfce9d15-2e4e-4932-b249-2fa4213ab2e3",
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/cfce9d15-2e4e-4932-b249-2fa4213ab2e3"
       ],
       "telegram_message_id": 36,
-      "posted_at": "2026-11-25T18:24:00+00:00"
+      "posted_at": "2026-11-25T18:24:00+00:00",
+      "specialty": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/f71a70d22450130e6f8e5b1beef32586.png",
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/cfce9d15-2e4e-4932-b249-2fa4213ab2e3"
     },
     {
       "id": "C 44875/26",
@@ -413,10 +548,15 @@
       "deadline": "2026-12-07",
       "exam_date": null,
       "urls": [
-        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/b01421f9-af17-4620-a6c9-a8d725600478"
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/b01421f9-af17-4620-a6c9-a8d725600478",
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/b01421f9-af17-4620-a6c9-a8d725600478"
       ],
       "telegram_message_id": 37,
-      "posted_at": "2026-11-25T18:24:05+00:00"
+      "posted_at": "2026-11-25T18:24:05+00:00",
+      "specialty": "تطوير البرمجيات، وتصميم الحلول الرقمية، والذكاء الاصطناعي، والابتكار التكنولوجي",
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/f71a70d22450130e6f8e5b1beef32586.png",
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/b01421f9-af17-4620-a6c9-a8d725600478"
     },
     {
       "id": "C 44876/26",
@@ -427,10 +567,15 @@
       "deadline": "2026-12-07",
       "exam_date": null,
       "urls": [
-        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/d16e794d-1b1a-497d-9728-882111d59d56"
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/d16e794d-1b1a-497d-9728-882111d59d56",
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/d16e794d-1b1a-497d-9728-882111d59d56"
       ],
       "telegram_message_id": 38,
-      "posted_at": "2026-11-25T18:24:20+00:00"
+      "posted_at": "2026-11-25T18:24:20+00:00",
+      "specialty": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/8a7b16be6fbc8811787f24f8b2fa95f7.jpg",
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/d16e794d-1b1a-497d-9728-882111d59d56"
     },
     {
       "id": "C 44877/26",
@@ -441,10 +586,15 @@
       "deadline": "2026-12-07",
       "exam_date": null,
       "urls": [
-        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/77890329-8608-4a44-9e02-746e757630a9"
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/77890329-8608-4a44-9e02-746e757630a9",
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/77890329-8608-4a44-9e02-746e757630a9"
       ],
       "telegram_message_id": 39,
-      "posted_at": "2026-11-25T18:24:34+00:00"
+      "posted_at": "2026-11-25T18:24:34+00:00",
+      "specialty": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/8a7b16be6fbc8811787f24f8b2fa95f7.jpg",
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/77890329-8608-4a44-9e02-746e757630a9"
     },
     {
       "id": "C 44878/26",
@@ -455,10 +605,15 @@
       "deadline": "2026-12-08",
       "exam_date": null,
       "urls": [
-        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/ae99de97-e7ea-4962-9d04-c672cae4901e"
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/ae99de97-e7ea-4962-9d04-c672cae4901e",
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/ae99de97-e7ea-4962-9d04-c672cae4901e"
       ],
       "telegram_message_id": 40,
-      "posted_at": "2026-11-25T18:24:39+00:00"
+      "posted_at": "2026-11-25T18:24:39+00:00",
+      "specialty": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/edf924e7f01cc79f6de677a391aa23e9.png",
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/ae99de97-e7ea-4962-9d04-c672cae4901e"
     },
     {
       "id": "C 44881/26",
@@ -469,10 +624,15 @@
       "deadline": "2026-12-10",
       "exam_date": null,
       "urls": [
-        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/0630061a-204a-4b3a-8890-d4a4e37b0ac3"
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/0630061a-204a-4b3a-8890-d4a4e37b0ac3",
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/0630061a-204a-4b3a-8890-d4a4e37b0ac3"
       ],
       "telegram_message_id": 41,
-      "posted_at": "2026-11-25T18:24:44+00:00"
+      "posted_at": "2026-11-25T18:24:44+00:00",
+      "specialty": "الفلاحة / الفلاحة",
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/e78ed0635b6878b1b160eaa2792747e2.png",
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/0630061a-204a-4b3a-8890-d4a4e37b0ac3"
     },
     {
       "id": "C 44882/26",
@@ -483,10 +643,15 @@
       "deadline": "2026-12-10",
       "exam_date": null,
       "urls": [
-        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/1686bc93-11f0-4cca-bf9a-022fcbeada0a"
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/1686bc93-11f0-4cca-bf9a-022fcbeada0a",
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/1686bc93-11f0-4cca-bf9a-022fcbeada0a"
       ],
       "telegram_message_id": 42,
-      "posted_at": "2026-11-25T18:24:50+00:00"
+      "posted_at": "2026-11-25T18:24:50+00:00",
+      "specialty": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/e78ed0635b6878b1b160eaa2792747e2.png",
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/1686bc93-11f0-4cca-bf9a-022fcbeada0a"
     },
     {
       "id": "C 44889/26",
@@ -499,10 +664,15 @@
       "urls": [
         "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/48737302-a809-41b9-a23d-03980d4b9460",
         "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/7ba78629-d145-41b6-b873-e1202bf0e3be",
-        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/aa5a7bf0-c8ed-4221-bff0-de210c2b0d44"
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/aa5a7bf0-c8ed-4221-bff0-de210c2b0d44",
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/48737302-a809-41b9-a23d-03980d4b9460"
       ],
       "telegram_message_id": 43,
-      "posted_at": "2026-11-25T18:24:55+00:00"
+      "posted_at": "2026-11-25T18:24:55+00:00",
+      "specialty": null,
+      "city": null,
+      "logo_url": null,
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/48737302-a809-41b9-a23d-03980d4b9460"
     },
     {
       "id": "C 44890/26",
@@ -513,10 +683,15 @@
       "deadline": "2026-12-08",
       "exam_date": null,
       "urls": [
-        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/48737302-a809-41b9-a23d-03980d4b9460"
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/48737302-a809-41b9-a23d-03980d4b9460",
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/48737302-a809-41b9-a23d-03980d4b9460"
       ],
       "telegram_message_id": 44,
-      "posted_at": "2026-11-25T18:24:59+00:00"
+      "posted_at": "2026-11-25T18:24:59+00:00",
+      "specialty": null,
+      "city": null,
+      "logo_url": null,
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/48737302-a809-41b9-a23d-03980d4b9460"
     },
     {
       "id": "C 44893/26",
@@ -527,10 +702,15 @@
       "deadline": "2026-12-08",
       "exam_date": null,
       "urls": [
-        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/aa5a7bf0-c8ed-4221-bff0-de210c2b0d44"
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/aa5a7bf0-c8ed-4221-bff0-de210c2b0d44",
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/aa5a7bf0-c8ed-4221-bff0-de210c2b0d44"
       ],
       "telegram_message_id": 45,
-      "posted_at": "2026-11-25T18:25:04+00:00"
+      "posted_at": "2026-11-25T18:25:04+00:00",
+      "specialty": null,
+      "city": null,
+      "logo_url": null,
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/aa5a7bf0-c8ed-4221-bff0-de210c2b0d44"
     },
     {
       "id": "C 44905/26",
@@ -541,10 +721,15 @@
       "deadline": "2026-12-09",
       "exam_date": "2026-12-13",
       "urls": [
-        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/b3c92635-30e5-4441-acd3-946a13d390ee"
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/b3c92635-30e5-4441-acd3-946a13d390ee",
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/b3c92635-30e5-4441-acd3-946a13d390ee"
       ],
       "telegram_message_id": 46,
-      "posted_at": "2026-11-25T18:25:10+00:00"
+      "posted_at": "2026-11-25T18:25:10+00:00",
+      "specialty": "Audio visuel",
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/5786a2688347b3c15150c62d771d76a2.png",
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/b3c92635-30e5-4441-acd3-946a13d390ee"
     },
     {
       "id": "C 44906/26",
@@ -555,10 +740,15 @@
       "deadline": "2026-12-09",
       "exam_date": "2026-12-13",
       "urls": [
-        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/acaad732-9dcf-4180-85d5-6bd28e4a2d4e"
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/acaad732-9dcf-4180-85d5-6bd28e4a2d4e",
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/acaad732-9dcf-4180-85d5-6bd28e4a2d4e"
       ],
       "telegram_message_id": 47,
-      "posted_at": "2026-11-25T18:34:23+00:00"
+      "posted_at": "2026-11-25T18:34:23+00:00",
+      "specialty": "Traitement des systèmes",
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/5786a2688347b3c15150c62d771d76a2.png",
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/acaad732-9dcf-4180-85d5-6bd28e4a2d4e"
     },
     {
       "id": "C 44907/26",
@@ -569,10 +759,15 @@
       "deadline": "2026-12-11",
       "exam_date": null,
       "urls": [
-        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/58ea8342-c4b1-490c-a477-3e0789eeba13"
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/58ea8342-c4b1-490c-a477-3e0789eeba13",
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/58ea8342-c4b1-490c-a477-3e0789eeba13"
       ],
       "telegram_message_id": 48,
-      "posted_at": "2026-11-25T18:34:29+00:00"
+      "posted_at": "2026-11-25T18:34:29+00:00",
+      "specialty": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/cb86781eb9877c5437c3bcc717a260fd.png",
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/58ea8342-c4b1-490c-a477-3e0789eeba13"
     },
     {
       "id": "C 44908/26",
@@ -583,10 +778,15 @@
       "deadline": "2026-12-11",
       "exam_date": null,
       "urls": [
-        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/86749b32-9b33-4b81-b090-750550d3ac68"
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/86749b32-9b33-4b81-b090-750550d3ac68",
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/86749b32-9b33-4b81-b090-750550d3ac68"
       ],
       "telegram_message_id": 49,
-      "posted_at": "2026-11-25T18:34:35+00:00"
+      "posted_at": "2026-11-25T18:34:35+00:00",
+      "specialty": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/e78ed0635b6878b1b160eaa2792747e2.png",
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/86749b32-9b33-4b81-b090-750550d3ac68"
     },
     {
       "id": "C 44909/26",
@@ -597,10 +797,15 @@
       "deadline": "2026-12-10",
       "exam_date": null,
       "urls": [
-        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/631f5a37-ce06-43d5-beb2-6bf91e943474"
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/631f5a37-ce06-43d5-beb2-6bf91e943474",
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/631f5a37-ce06-43d5-beb2-6bf91e943474"
       ],
       "telegram_message_id": 50,
-      "posted_at": "2026-11-25T18:34:40+00:00"
+      "posted_at": "2026-11-25T18:34:40+00:00",
+      "specialty": "Microbiologie",
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/25764651a0c2722c5a7e0d5b90de9a74.png",
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/631f5a37-ce06-43d5-beb2-6bf91e943474"
     },
     {
       "id": "C 44910/26",
@@ -611,10 +816,15 @@
       "deadline": "2026-12-11",
       "exam_date": null,
       "urls": [
-        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/bfff7746-dc4c-40be-8f95-b9b0620e9c2d"
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/bfff7746-dc4c-40be-8f95-b9b0620e9c2d",
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/bfff7746-dc4c-40be-8f95-b9b0620e9c2d"
       ],
       "telegram_message_id": 51,
-      "posted_at": "2026-11-25T18:34:45+00:00"
+      "posted_at": "2026-11-25T18:34:45+00:00",
+      "specialty": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/7e35a5a9a42dc8fbfe88b1bfc87a9fd7.png",
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/bfff7746-dc4c-40be-8f95-b9b0620e9c2d"
     },
     {
       "id": "C 44915/26",
@@ -625,10 +835,15 @@
       "deadline": "2026-12-11",
       "exam_date": "2026-12-27",
       "urls": [
-        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/6a2330d4-4733-49c1-bedd-5be861163f0e"
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/6a2330d4-4733-49c1-bedd-5be861163f0e",
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/6a2330d4-4733-49c1-bedd-5be861163f0e"
       ],
       "telegram_message_id": 52,
-      "posted_at": "2026-11-25T18:34:51+00:00"
+      "posted_at": "2026-11-25T18:34:51+00:00",
+      "specialty": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/df3aa502f0c2247e580301b30ebf0403.png",
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/6a2330d4-4733-49c1-bedd-5be861163f0e"
     },
     {
       "id": "C 44919/26",
@@ -639,10 +854,15 @@
       "deadline": "2026-12-11",
       "exam_date": "2026-12-27",
       "urls": [
-        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/53c68856-325f-4537-9f8c-5e9f435afe0d"
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/53c68856-325f-4537-9f8c-5e9f435afe0d",
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/53c68856-325f-4537-9f8c-5e9f435afe0d"
       ],
       "telegram_message_id": 53,
-      "posted_at": "2026-11-25T18:34:56+00:00"
+      "posted_at": "2026-11-25T18:34:56+00:00",
+      "specialty": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/df3aa502f0c2247e580301b30ebf0403.png",
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/53c68856-325f-4537-9f8c-5e9f435afe0d"
     },
     {
       "id": "C 44920/26",
@@ -653,10 +873,15 @@
       "deadline": "2026-12-09",
       "exam_date": "2026-12-13",
       "urls": [
-        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/39901e2f-7969-4c6d-8901-6073f31cab6e"
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/39901e2f-7969-4c6d-8901-6073f31cab6e",
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/39901e2f-7969-4c6d-8901-6073f31cab6e"
       ],
       "telegram_message_id": 54,
-      "posted_at": "2026-11-25T18:35:06+00:00"
+      "posted_at": "2026-11-25T18:35:06+00:00",
+      "specialty": "الهندسة الكهربائية",
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/7f98357120ada647fb25eb960d64625b.png",
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/39901e2f-7969-4c6d-8901-6073f31cab6e"
     },
     {
       "id": "C 44922/26",
@@ -667,10 +892,15 @@
       "deadline": "2026-12-11",
       "exam_date": "2026-12-27",
       "urls": [
-        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/78953495-bf25-4a88-b3c2-19f19616eff1"
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/78953495-bf25-4a88-b3c2-19f19616eff1",
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/78953495-bf25-4a88-b3c2-19f19616eff1"
       ],
       "telegram_message_id": 55,
-      "posted_at": "2026-11-25T18:35:12+00:00"
+      "posted_at": "2026-11-25T18:35:12+00:00",
+      "specialty": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/df3aa502f0c2247e580301b30ebf0403.png",
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/78953495-bf25-4a88-b3c2-19f19616eff1"
     },
     {
       "id": "C 44925/26",
@@ -681,10 +911,15 @@
       "deadline": "2026-12-10",
       "exam_date": "2026-12-17",
       "urls": [
-        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/2a4f3d06-e0ac-4bec-a870-6bfb76ebd6cd"
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/2a4f3d06-e0ac-4bec-a870-6bfb76ebd6cd",
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/2a4f3d06-e0ac-4bec-a870-6bfb76ebd6cd"
       ],
       "telegram_message_id": 56,
-      "posted_at": "2026-11-25T18:35:18+00:00"
+      "posted_at": "2026-11-25T18:35:18+00:00",
+      "specialty": "Biochimie",
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/714fdd3349669c62a0f3611b976b75e6.png",
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/2a4f3d06-e0ac-4bec-a870-6bfb76ebd6cd"
     },
     {
       "id": "C 44926/26",
@@ -695,10 +930,15 @@
       "deadline": "2026-12-10",
       "exam_date": "2026-12-14",
       "urls": [
-        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/94518d05-e341-42c3-9f52-b825943f1ee7"
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/94518d05-e341-42c3-9f52-b825943f1ee7",
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/94518d05-e341-42c3-9f52-b825943f1ee7"
       ],
       "telegram_message_id": 57,
-      "posted_at": "2026-11-25T18:35:26+00:00"
+      "posted_at": "2026-11-25T18:35:26+00:00",
+      "specialty": "Informatique",
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/714fdd3349669c62a0f3611b976b75e6.png",
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/94518d05-e341-42c3-9f52-b825943f1ee7"
     },
     {
       "id": "C 44929/26",
@@ -709,10 +949,15 @@
       "deadline": "2026-12-10",
       "exam_date": null,
       "urls": [
-        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/22a1b936-832a-47dd-8c17-14af07658608"
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/22a1b936-832a-47dd-8c17-14af07658608",
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/22a1b936-832a-47dd-8c17-14af07658608"
       ],
       "telegram_message_id": 58,
-      "posted_at": "2026-11-25T18:35:31+00:00"
+      "posted_at": "2026-11-25T18:35:31+00:00",
+      "specialty": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/7fab93a5b8f9e0b275f8b28172ec33a1.png",
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/22a1b936-832a-47dd-8c17-14af07658608"
     },
     {
       "id": "C 44787/26",
@@ -723,10 +968,15 @@
       "deadline": "2026-12-11",
       "exam_date": "2027-01-03",
       "urls": [
-        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/727f16a1-0ec3-425e-9a91-cd76f1ea1de2"
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/727f16a1-0ec3-425e-9a91-cd76f1ea1de2",
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/727f16a1-0ec3-425e-9a91-cd76f1ea1de2"
       ],
       "telegram_message_id": 59,
-      "posted_at": "2026-11-25T18:35:36+00:00"
+      "posted_at": "2026-11-25T18:35:36+00:00",
+      "specialty": "تقني في ميكانيك السيارات",
+      "city": "سيدي بنور",
+      "logo_url": null,
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/727f16a1-0ec3-425e-9a91-cd76f1ea1de2"
     },
     {
       "id": "C 44800/26",
@@ -737,10 +987,15 @@
       "deadline": "2026-12-04",
       "exam_date": "2027-01-03",
       "urls": [
-        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/a93e2930-4c39-43c3-80a4-51ea89a89dd2"
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/a93e2930-4c39-43c3-80a4-51ea89a89dd2",
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/a93e2930-4c39-43c3-80a4-51ea89a89dd2"
       ],
       "telegram_message_id": 60,
-      "posted_at": "2026-11-25T18:35:41+00:00"
+      "posted_at": "2026-11-25T18:35:41+00:00",
+      "specialty": "الهندسة المدنية",
+      "city": "سيدي إفني",
+      "logo_url": null,
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/a93e2930-4c39-43c3-80a4-51ea89a89dd2"
     },
     {
       "id": "C 44802/26",
@@ -751,10 +1006,15 @@
       "deadline": "2026-12-04",
       "exam_date": "2026-12-27",
       "urls": [
-        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/ccc1cc19-3e39-4cae-8c5c-6de7158ff8c9"
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/ccc1cc19-3e39-4cae-8c5c-6de7158ff8c9",
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/ccc1cc19-3e39-4cae-8c5c-6de7158ff8c9"
       ],
       "telegram_message_id": 61,
-      "posted_at": "2026-11-25T18:35:45+00:00"
+      "posted_at": "2026-11-25T18:35:45+00:00",
+      "specialty": "الهندسة المدنية / التعمير / البناء",
+      "city": "سيدي إفني",
+      "logo_url": null,
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/ccc1cc19-3e39-4cae-8c5c-6de7158ff8c9"
     },
     {
       "id": "C 44827/26",
@@ -765,10 +1025,15 @@
       "deadline": "2026-12-10",
       "exam_date": "2026-12-27",
       "urls": [
-        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/428a558d-ab21-41bd-9da7-b48ef755cccf"
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/428a558d-ab21-41bd-9da7-b48ef755cccf",
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/428a558d-ab21-41bd-9da7-b48ef755cccf"
       ],
       "telegram_message_id": 63,
-      "posted_at": "2026-11-25T19:02:44+00:00"
+      "posted_at": "2026-11-25T19:02:44+00:00",
+      "specialty": "الهندسة المدنية والأشغال الكبرى والاشغال العمومية / الأنظمة والشبكات المعلوماتية وتطوير المعلوميات وصيانة المعلوميات",
+      "city": "وزان",
+      "logo_url": null,
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/428a558d-ab21-41bd-9da7-b48ef755cccf"
     },
     {
       "id": "C 44836/26",
@@ -779,10 +1044,15 @@
       "deadline": "2026-12-11",
       "exam_date": "2026-12-27",
       "urls": [
-        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/d45d7653-93e7-4462-8350-86dcfcfa6092"
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/d45d7653-93e7-4462-8350-86dcfcfa6092",
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/d45d7653-93e7-4462-8350-86dcfcfa6092"
       ],
       "telegram_message_id": 64,
-      "posted_at": "2026-11-25T19:02:49+00:00"
+      "posted_at": "2026-11-25T19:02:49+00:00",
+      "specialty": "الهندسة المدنية / المعلوميات",
+      "city": "الصويرة",
+      "logo_url": null,
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/d45d7653-93e7-4462-8350-86dcfcfa6092"
     },
     {
       "id": "C 44851/26",
@@ -793,10 +1063,15 @@
       "deadline": "2026-12-16",
       "exam_date": "2026-12-27",
       "urls": [
-        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/f623f168-0cf9-4336-abb7-79c4f7fdb778"
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/f623f168-0cf9-4336-abb7-79c4f7fdb778",
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/f623f168-0cf9-4336-abb7-79c4f7fdb778"
       ],
       "telegram_message_id": 65,
-      "posted_at": "2026-11-25T19:02:53+00:00"
+      "posted_at": "2026-11-25T19:02:53+00:00",
+      "specialty": "الاعلاميات",
+      "city": "طاطا",
+      "logo_url": null,
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/f623f168-0cf9-4336-abb7-79c4f7fdb778"
     },
     {
       "id": "C 44853/26",
@@ -807,10 +1082,15 @@
       "deadline": "2026-12-16",
       "exam_date": "2026-12-27",
       "urls": [
-        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/cc465af9-684d-4b3c-b8c5-1ea6bf70e876"
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/cc465af9-684d-4b3c-b8c5-1ea6bf70e876",
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/cc465af9-684d-4b3c-b8c5-1ea6bf70e876"
       ],
       "telegram_message_id": 66,
-      "posted_at": "2026-11-25T19:02:58+00:00"
+      "posted_at": "2026-11-25T19:02:58+00:00",
+      "specialty": "ممرض متعدد التخصصات",
+      "city": "طاطا",
+      "logo_url": null,
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/cc465af9-684d-4b3c-b8c5-1ea6bf70e876"
     },
     {
       "id": "C 44854/26",
@@ -821,10 +1101,15 @@
       "deadline": "2026-12-15",
       "exam_date": "2026-12-27",
       "urls": [
-        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/ecd26729-860d-48b6-8e3d-16c755e9437d"
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/ecd26729-860d-48b6-8e3d-16c755e9437d",
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/ecd26729-860d-48b6-8e3d-16c755e9437d"
       ],
       "telegram_message_id": 67,
-      "posted_at": "2026-11-25T19:03:03+00:00"
+      "posted_at": "2026-11-25T19:03:03+00:00",
+      "specialty": "تطوير المعلوميات - الانظمة المعلوماتية - الشبكات",
+      "city": "شيشاوة",
+      "logo_url": null,
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/ecd26729-860d-48b6-8e3d-16c755e9437d"
     },
     {
       "id": "C 44861/26",
@@ -835,10 +1120,15 @@
       "deadline": "2026-12-18",
       "exam_date": "2027-01-03",
       "urls": [
-        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/25522f75-f8e0-4c7c-a1f5-53b57433d5c1"
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/25522f75-f8e0-4c7c-a1f5-53b57433d5c1",
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/25522f75-f8e0-4c7c-a1f5-53b57433d5c1"
       ],
       "telegram_message_id": 68,
-      "posted_at": "2026-11-25T19:03:08+00:00"
+      "posted_at": "2026-11-25T19:03:08+00:00",
+      "specialty": "الهندسة المدنية الاشغال الكبرى التعمير الاشغال العمومية البناء",
+      "city": "صفرو",
+      "logo_url": null,
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/25522f75-f8e0-4c7c-a1f5-53b57433d5c1"
     },
     {
       "id": "C 44864/26",
@@ -849,10 +1139,15 @@
       "deadline": "2026-12-18",
       "exam_date": "2026-12-27",
       "urls": [
-        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/9395f7ae-bc26-4673-ac8b-381dbfa582b1"
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/9395f7ae-bc26-4673-ac8b-381dbfa582b1",
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/9395f7ae-bc26-4673-ac8b-381dbfa582b1"
       ],
       "telegram_message_id": 69,
-      "posted_at": "2026-11-25T19:03:13+00:00"
+      "posted_at": "2026-11-25T19:03:13+00:00",
+      "specialty": "الهندسة المدنية",
+      "city": "طاطا",
+      "logo_url": null,
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/9395f7ae-bc26-4673-ac8b-381dbfa582b1"
     },
     {
       "id": "C 44866/26",
@@ -863,10 +1158,15 @@
       "deadline": "2026-12-22",
       "exam_date": "2027-01-03",
       "urls": [
-        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/fc54fad0-7f8e-4e16-9734-e07cfd9b0320"
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/fc54fad0-7f8e-4e16-9734-e07cfd9b0320",
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/fc54fad0-7f8e-4e16-9734-e07cfd9b0320"
       ],
       "telegram_message_id": 70,
-      "posted_at": "2026-11-25T19:03:17+00:00"
+      "posted_at": "2026-11-25T19:03:17+00:00",
+      "specialty": "تطوير المعلوميات - الانظمة المعلوماتية - الشبكات",
+      "city": "شيشاوة",
+      "logo_url": null,
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/fc54fad0-7f8e-4e16-9734-e07cfd9b0320"
     },
     {
       "id": "C 44868/26",
@@ -877,10 +1177,15 @@
       "deadline": "2026-12-30",
       "exam_date": "2027-01-31",
       "urls": [
-        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/c7259a97-09c2-4050-893a-c2226569266d"
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/c7259a97-09c2-4050-893a-c2226569266d",
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/c7259a97-09c2-4050-893a-c2226569266d"
       ],
       "telegram_message_id": 71,
-      "posted_at": "2026-11-25T19:03:22+00:00"
+      "posted_at": "2026-11-25T19:03:22+00:00",
+      "specialty": "التنمية المعلوماتية - التطوير القمي / الهندسة المدنية / الميكانيك",
+      "city": "الخميسات",
+      "logo_url": null,
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/c7259a97-09c2-4050-893a-c2226569266d"
     },
     {
       "id": "C 44869/26",
@@ -891,10 +1196,15 @@
       "deadline": "2026-12-30",
       "exam_date": "2027-01-31",
       "urls": [
-        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/35a928ed-d8e5-4555-8daf-fa89a806a698"
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/35a928ed-d8e5-4555-8daf-fa89a806a698",
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/35a928ed-d8e5-4555-8daf-fa89a806a698"
       ],
       "telegram_message_id": 72,
-      "posted_at": "2026-11-25T19:03:38+00:00"
+      "posted_at": "2026-11-25T19:03:38+00:00",
+      "specialty": "الميكانيك",
+      "city": "الخميسات",
+      "logo_url": null,
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/35a928ed-d8e5-4555-8daf-fa89a806a698"
     },
     {
       "id": "C 44870/26",
@@ -905,10 +1215,15 @@
       "deadline": "2027-01-15",
       "exam_date": "2027-01-26",
       "urls": [
-        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/3d0d7c43-34b5-4e4b-ba57-02da6200dbd0"
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/3d0d7c43-34b5-4e4b-ba57-02da6200dbd0",
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/3d0d7c43-34b5-4e4b-ba57-02da6200dbd0"
       ],
       "telegram_message_id": 73,
-      "posted_at": "2026-11-25T19:03:42+00:00"
+      "posted_at": "2026-11-25T19:03:42+00:00",
+      "specialty": "الكهرباء",
+      "city": "برشيد",
+      "logo_url": null,
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/3d0d7c43-34b5-4e4b-ba57-02da6200dbd0"
     },
     {
       "id": "C 44871/26",
@@ -919,10 +1234,15 @@
       "deadline": "2027-01-15",
       "exam_date": "2027-01-26",
       "urls": [
-        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/a7c4e6a7-7c33-4ec3-a00e-97c83892d659"
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/a7c4e6a7-7c33-4ec3-a00e-97c83892d659",
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/a7c4e6a7-7c33-4ec3-a00e-97c83892d659"
       ],
       "telegram_message_id": 74,
-      "posted_at": "2026-11-25T19:03:47+00:00"
+      "posted_at": "2026-11-25T19:03:47+00:00",
+      "specialty": "الكهرباء",
+      "city": "برشيد",
+      "logo_url": null,
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/a7c4e6a7-7c33-4ec3-a00e-97c83892d659"
     },
     {
       "id": "C 44883/26",
@@ -933,10 +1253,15 @@
       "deadline": "2026-12-25",
       "exam_date": "2027-01-17",
       "urls": [
-        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/37dadd5c-c57f-4614-9954-64521e962629"
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/37dadd5c-c57f-4614-9954-64521e962629",
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/37dadd5c-c57f-4614-9954-64521e962629"
       ],
       "telegram_message_id": 75,
-      "posted_at": "2026-11-25T19:03:52+00:00"
+      "posted_at": "2026-11-25T19:03:52+00:00",
+      "specialty": "الهندسة المدنية-الأشغال العمومية",
+      "city": "تازة",
+      "logo_url": null,
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/37dadd5c-c57f-4614-9954-64521e962629"
     },
     {
       "id": "C 44884/26",
@@ -947,10 +1272,15 @@
       "deadline": "2026-12-25",
       "exam_date": "2027-01-17",
       "urls": [
-        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/d520bc73-bcf0-4974-af85-7b6af7c7c40f"
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/d520bc73-bcf0-4974-af85-7b6af7c7c40f",
+        "https://www.emploi-public.ma/ar/تفاصيل/المباريات/d520bc73-bcf0-4974-af85-7b6af7c7c40f"
       ],
       "telegram_message_id": 76,
-      "posted_at": "2026-11-25T19:03:57+00:00"
+      "posted_at": "2026-11-25T19:03:57+00:00",
+      "specialty": "الهندسة المدنية-الأشغال العمومية- الأشغال الكبرى",
+      "city": "تازة",
+      "logo_url": null,
+      "official_url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/d520bc73-bcf0-4974-af85-7b6af7c7c40f"
     }
   ],
   "stages": [
@@ -2709,6 +3039,8 @@
     "emploi-public.ma:collec",
     "emploi-public.ma:service_etat"
   ],
+  "tracked": {},
+  "last_discovery": null,
   "rejected": {
     "https://www.emploi-public.ma/fr/concours/details/03905d86-bfa2-4e5f-9173-f46289658267": "2026-11-25",
     "https://www.dreamjob.ma/emploi-public/resultats-concours/resultats-definitifs-concours-ministere-de-la-sante-2026-50-postes-a-dakhla-oued-eddahab/": "2026-11-25",

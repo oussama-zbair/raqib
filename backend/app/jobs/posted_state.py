@@ -106,6 +106,10 @@ class PostedState:
             "telegram_message_id": message_id,
             "posted_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         }
+        if not seeded:  # posted stages appear on the website
+            entry.update({"grade": ann.grade, "list_pdf_url": ann.list_pdf_url,
+                          "exam_date": _iso(ann.exam_date), "city": ann.city,
+                          "logo_url": ann.logo_url})
         if seeded:
             entry["seeded"] = True  # already online before we watched: never posted
         self.stages.append(entry)
@@ -168,6 +172,11 @@ class PostedState:
             "urls": sorted({u for u in (ann.source_url, ann.detail_url, ann.official_url) if u}),
             "telegram_message_id": message_id,
             "posted_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+            # Shown on the website (state/public.json).
+            "specialty": ann.specialty,
+            "city": ann.city,
+            "logo_url": ann.logo_url,
+            "official_url": ann.official_url or ann.detail_url or ann.source_url,
         }
         self.posted.append(entry)
         return entry

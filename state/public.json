@@ -1,0 +1,1368 @@
+{
+ "updated_at": "2026-11-25T19:03:57+00:00",
+ "channel": "https://t.me/RaqibEmploi",
+ "sources": [
+  {
+   "name": "emploi-public.ma",
+   "url": "https://www.emploi-public.ma",
+   "status": "ok (351 items)"
+  }
+ ],
+ "stats": {
+  "open": 66,
+  "posted_total": 66,
+  "stage_posts_total": 1,
+  "followed": 0
+ },
+ "concours": [
+  {
+   "id": "ep:d520bc73-bcf0-4974-af85-7b6af7c7c40f",
+   "code": "C 44884/26",
+   "administration": "إقليم تازة - تازة",
+   "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
+   "specialty": "الهندسة المدنية-الأشغال العمومية- الأشغال الكبرى",
+   "posts": 3,
+   "deadline": "2026-12-25",
+   "exam_date": "2027-01-17",
+   "city": "تازة",
+   "logo": null,
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/d520bc73-bcf0-4974-af85-7b6af7c7c40f",
+   "tags": [
+    "تقني"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-25T19:03:57+00:00"
+  },
+  {
+   "id": "ep:37dadd5c-c57f-4614-9954-64521e962629",
+   "code": "C 44883/26",
+   "administration": "إقليم تازة - تازة",
+   "grade": "مهندس دولة من الدرجة الأولى - سُلمْ 11",
+   "specialty": "الهندسة المدنية-الأشغال العمومية",
+   "posts": 3,
+   "deadline": "2026-12-25",
+   "exam_date": "2027-01-17",
+   "city": "تازة",
+   "logo": null,
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/37dadd5c-c57f-4614-9954-64521e962629",
+   "tags": [
+    "هندسة"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-25T19:03:52+00:00"
+  },
+  {
+   "id": "ep:a7c4e6a7-7c33-4ec3-a00e-97c83892d659",
+   "code": "C 44871/26",
+   "administration": "إقليم برشيد - برشيد",
+   "grade": "تقني من الدرجة الرابعة - سُلمْ 8",
+   "specialty": "الكهرباء",
+   "posts": 4,
+   "deadline": "2027-01-15",
+   "exam_date": "2027-01-26",
+   "city": "برشيد",
+   "logo": null,
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/a7c4e6a7-7c33-4ec3-a00e-97c83892d659",
+   "tags": [
+    "تقني"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-25T19:03:47+00:00"
+  },
+  {
+   "id": "ep:3d0d7c43-34b5-4e4b-ba57-02da6200dbd0",
+   "code": "C 44870/26",
+   "administration": "إقليم برشيد - برشيد",
+   "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
+   "specialty": "الكهرباء",
+   "posts": 1,
+   "deadline": "2027-01-15",
+   "exam_date": "2027-01-26",
+   "city": "برشيد",
+   "logo": null,
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/3d0d7c43-34b5-4e4b-ba57-02da6200dbd0",
+   "tags": [
+    "تقني"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-25T19:03:42+00:00"
+  },
+  {
+   "id": "ep:35a928ed-d8e5-4555-8daf-fa89a806a698",
+   "code": "C 44869/26",
+   "administration": "إقليم الخميسات - الزحيلكة",
+   "grade": "تقني من الدرجة الرابعة - سُلمْ 8",
+   "specialty": "الميكانيك",
+   "posts": 2,
+   "deadline": "2026-12-30",
+   "exam_date": "2027-01-31",
+   "city": "الخميسات",
+   "logo": null,
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/35a928ed-d8e5-4555-8daf-fa89a806a698",
+   "tags": [
+    "تقني"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-25T19:03:38+00:00"
+  },
+  {
+   "id": "ep:c7259a97-09c2-4050-893a-c2226569266d",
+   "code": "C 44868/26",
+   "administration": "إقليم الخميسات - الزحيلكة",
+   "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
+   "specialty": "التنمية المعلوماتية - التطوير القمي / الهندسة المدنية / الميكانيك",
+   "posts": 4,
+   "deadline": "2026-12-30",
+   "exam_date": "2027-01-31",
+   "city": "الخميسات",
+   "logo": null,
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/c7259a97-09c2-4050-893a-c2226569266d",
+   "tags": [
+    "تقني"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-25T19:03:22+00:00"
+  },
+  {
+   "id": "ep:fc54fad0-7f8e-4e16-9734-e07cfd9b0320",
+   "code": "C 44866/26",
+   "administration": "إقليم شيشاوة - ادويران",
+   "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
+   "specialty": "تطوير المعلوميات - الانظمة المعلوماتية - الشبكات",
+   "posts": 2,
+   "deadline": "2026-12-22",
+   "exam_date": "2027-01-03",
+   "city": "شيشاوة",
+   "logo": null,
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/fc54fad0-7f8e-4e16-9734-e07cfd9b0320",
+   "tags": [
+    "معلوميات",
+    "تقني"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-25T19:03:17+00:00"
+  },
+  {
+   "id": "ep:9395f7ae-bc26-4673-ac8b-381dbfa582b1",
+   "code": "C 44864/26",
+   "administration": "إقليم طاطا - تليت",
+   "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
+   "specialty": "الهندسة المدنية",
+   "posts": 1,
+   "deadline": "2026-12-18",
+   "exam_date": "2026-12-27",
+   "city": "طاطا",
+   "logo": null,
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/9395f7ae-bc26-4673-ac8b-381dbfa582b1",
+   "tags": [
+    "تقني"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-25T19:03:13+00:00"
+  },
+  {
+   "id": "ep:25522f75-f8e0-4c7c-a1f5-53b57433d5c1",
+   "code": "C 44861/26",
+   "administration": "إقليم صفرو - راس تابودة",
+   "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
+   "specialty": "الهندسة المدنية الاشغال الكبرى التعمير الاشغال العمومية البناء",
+   "posts": 1,
+   "deadline": "2026-12-18",
+   "exam_date": "2027-01-03",
+   "city": "صفرو",
+   "logo": null,
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/25522f75-f8e0-4c7c-a1f5-53b57433d5c1",
+   "tags": [
+    "تقني"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-25T19:03:08+00:00"
+  },
+  {
+   "id": "ep:ecd26729-860d-48b6-8e3d-16c755e9437d",
+   "code": "C 44854/26",
+   "administration": "إقليم شيشاوة - مجاط",
+   "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
+   "specialty": "تطوير المعلوميات - الانظمة المعلوماتية - الشبكات",
+   "posts": 2,
+   "deadline": "2026-12-15",
+   "exam_date": "2026-12-27",
+   "city": "شيشاوة",
+   "logo": null,
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/ecd26729-860d-48b6-8e3d-16c755e9437d",
+   "tags": [
+    "معلوميات",
+    "تقني"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-25T19:03:03+00:00"
+  },
+  {
+   "id": "ep:cc465af9-684d-4b3c-b8c5-1ea6bf70e876",
+   "code": "C 44853/26",
+   "administration": "إقليم طاطا - تزونين",
+   "grade": "ممرض من الدرجة الأولى - سُلمْ 10",
+   "specialty": "ممرض متعدد التخصصات",
+   "posts": 1,
+   "deadline": "2026-12-16",
+   "exam_date": "2026-12-27",
+   "city": "طاطا",
+   "logo": null,
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/cc465af9-684d-4b3c-b8c5-1ea6bf70e876",
+   "tags": [
+    "صحة"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-25T19:02:58+00:00"
+  },
+  {
+   "id": "ep:f623f168-0cf9-4336-abb7-79c4f7fdb778",
+   "code": "C 44851/26",
+   "administration": "إقليم طاطا - تزونين",
+   "grade": "تقني من الدرجة الرابعة - سُلمْ 8",
+   "specialty": "الاعلاميات",
+   "posts": 2,
+   "deadline": "2026-12-16",
+   "exam_date": "2026-12-27",
+   "city": "طاطا",
+   "logo": null,
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/f623f168-0cf9-4336-abb7-79c4f7fdb778",
+   "tags": [
+    "معلوميات",
+    "تقني"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-25T19:02:53+00:00"
+  },
+  {
+   "id": "ep:d45d7653-93e7-4462-8350-86dcfcfa6092",
+   "code": "C 44836/26",
+   "administration": "إقليم الصويرة - سيدي عبد الجليل",
+   "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
+   "specialty": "الهندسة المدنية / المعلوميات",
+   "posts": 2,
+   "deadline": "2026-12-11",
+   "exam_date": "2026-12-27",
+   "city": "الصويرة",
+   "logo": null,
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/d45d7653-93e7-4462-8350-86dcfcfa6092",
+   "tags": [
+    "معلوميات",
+    "تقني"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-25T19:02:49+00:00"
+  },
+  {
+   "id": "ep:428a558d-ab21-41bd-9da7-b48ef755cccf",
+   "code": "C 44827/26",
+   "administration": "إقليم وزان - لمجاعرة",
+   "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
+   "specialty": "الهندسة المدنية والأشغال الكبرى والاشغال العمومية / الأنظمة والشبكات المعلوماتية وتطوير المعلوميات وصيانة المعلوميات",
+   "posts": 4,
+   "deadline": "2026-12-10",
+   "exam_date": "2026-12-27",
+   "city": "وزان",
+   "logo": null,
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/428a558d-ab21-41bd-9da7-b48ef755cccf",
+   "tags": [
+    "معلوميات",
+    "تقني"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-25T19:02:44+00:00"
+  },
+  {
+   "id": "ep:ccc1cc19-3e39-4cae-8c5c-6de7158ff8c9",
+   "code": "C 44802/26",
+   "administration": "إقليم سيدي إفني - الاخصاص",
+   "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
+   "specialty": "الهندسة المدنية / التعمير / البناء",
+   "posts": 4,
+   "deadline": "2026-12-04",
+   "exam_date": "2026-12-27",
+   "city": "سيدي إفني",
+   "logo": null,
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/ccc1cc19-3e39-4cae-8c5c-6de7158ff8c9",
+   "tags": [
+    "تقني"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-25T18:35:45+00:00"
+  },
+  {
+   "id": "ep:a93e2930-4c39-43c3-80a4-51ea89a89dd2",
+   "code": "C 44800/26",
+   "administration": "إقليم سيدي إفني - الاخصاص",
+   "grade": "مهندس دولة من الدرجة الأولى - سُلمْ 11",
+   "specialty": "الهندسة المدنية",
+   "posts": 1,
+   "deadline": "2026-12-04",
+   "exam_date": "2027-01-03",
+   "city": "سيدي إفني",
+   "logo": null,
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/a93e2930-4c39-43c3-80a4-51ea89a89dd2",
+   "tags": [
+    "هندسة"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-25T18:35:41+00:00"
+  },
+  {
+   "id": "ep:727f16a1-0ec3-425e-9a91-cd76f1ea1de2",
+   "code": "C 44787/26",
+   "administration": "إقليم سيدي بنور - امطل",
+   "grade": "تقني من الدرجة الرابعة - سُلمْ 8",
+   "specialty": "تقني في ميكانيك السيارات",
+   "posts": 1,
+   "deadline": "2026-12-11",
+   "exam_date": "2027-01-03",
+   "city": "سيدي بنور",
+   "logo": null,
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/727f16a1-0ec3-425e-9a91-cd76f1ea1de2",
+   "tags": [
+    "تقني"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-25T18:35:36+00:00"
+  },
+  {
+   "id": "ep:22a1b936-832a-47dd-8c17-14af07658608",
+   "code": "C 44929/26",
+   "administration": "شركة ورزازات للتهيئة",
+   "grade": "مسؤول اداري ومالي",
+   "specialty": null,
+   "posts": 1,
+   "deadline": "2026-12-10",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/7fab93a5b8f9e0b275f8b28172ec33a1.png",
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/22a1b936-832a-47dd-8c17-14af07658608",
+   "tags": [
+    "إدارة"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-25T18:35:31+00:00"
+  },
+  {
+   "id": "ep:94518d05-e341-42c3-9f52-b825943f1ee7",
+   "code": "C 44926/26",
+   "administration": "جامعة السلطان مولاي سليمان -بني ملال",
+   "grade": "متصرف من الدرجة الثانية - سُلمْ 11",
+   "specialty": "Informatique",
+   "posts": 1,
+   "deadline": "2026-12-10",
+   "exam_date": "2026-12-14",
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/714fdd3349669c62a0f3611b976b75e6.png",
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/94518d05-e341-42c3-9f52-b825943f1ee7",
+   "tags": [
+    "معلوميات",
+    "إدارة"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-25T18:35:26+00:00"
+  },
+  {
+   "id": "ep:2a4f3d06-e0ac-4bec-a870-6bfb76ebd6cd",
+   "code": "C 44925/26",
+   "administration": "جامعة السلطان مولاي سليمان -بني ملال",
+   "grade": "أستاذ محاضر من الدرجة أ - سُلمْ 11",
+   "specialty": "Biochimie",
+   "posts": 1,
+   "deadline": "2026-12-10",
+   "exam_date": "2026-12-17",
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/714fdd3349669c62a0f3611b976b75e6.png",
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/2a4f3d06-e0ac-4bec-a870-6bfb76ebd6cd",
+   "tags": [
+    "تعليم"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-25T18:35:18+00:00"
+  },
+  {
+   "id": "ep:78953495-bf25-4a88-b3c2-19f19616eff1",
+   "code": "C 44922/26",
+   "administration": "المركز السينمائي المغربي",
+   "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
+   "specialty": null,
+   "posts": 1,
+   "deadline": "2026-12-11",
+   "exam_date": "2026-12-27",
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/df3aa502f0c2247e580301b30ebf0403.png",
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/78953495-bf25-4a88-b3c2-19f19616eff1",
+   "tags": [
+    "تقني"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-25T18:35:12+00:00"
+  },
+  {
+   "id": "ep:39901e2f-7969-4c6d-8901-6073f31cab6e",
+   "code": "C 44920/26",
+   "administration": "المدرسة الوطنية العليا للمعادن بالرباط",
+   "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
+   "specialty": "الهندسة الكهربائية",
+   "posts": 1,
+   "deadline": "2026-12-09",
+   "exam_date": "2026-12-13",
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/7f98357120ada647fb25eb960d64625b.png",
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/39901e2f-7969-4c6d-8901-6073f31cab6e",
+   "tags": [
+    "تقني"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-25T18:35:06+00:00"
+  },
+  {
+   "id": "ep:53c68856-325f-4537-9f8c-5e9f435afe0d",
+   "code": "C 44919/26",
+   "administration": "المركز السينمائي المغربي",
+   "grade": "متصرف من الدرجة الثالثة - سُلمْ 10",
+   "specialty": null,
+   "posts": 1,
+   "deadline": "2026-12-11",
+   "exam_date": "2026-12-27",
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/df3aa502f0c2247e580301b30ebf0403.png",
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/53c68856-325f-4537-9f8c-5e9f435afe0d",
+   "tags": [
+    "إدارة"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-25T18:34:56+00:00"
+  },
+  {
+   "id": "ep:6a2330d4-4733-49c1-bedd-5be861163f0e",
+   "code": "C 44915/26",
+   "administration": "المركز السينمائي المغربي",
+   "grade": "متصرف من الدرجة الثانية - سُلمْ 11",
+   "specialty": null,
+   "posts": 1,
+   "deadline": "2026-12-11",
+   "exam_date": "2026-12-27",
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/df3aa502f0c2247e580301b30ebf0403.png",
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/6a2330d4-4733-49c1-bedd-5be861163f0e",
+   "tags": [
+    "إدارة"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-25T18:34:51+00:00"
+  },
+  {
+   "id": "ep:bfff7746-dc4c-40be-8f95-b9b0620e9c2d",
+   "code": "C 44910/26",
+   "administration": "جامعة الحسن الأول - سطات",
+   "grade": "تقني من الدرجة الثالثة كتابة الادارة بكلية العلوم القانونية والسياسية بسطات",
+   "specialty": null,
+   "posts": 1,
+   "deadline": "2026-12-11",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/7e35a5a9a42dc8fbfe88b1bfc87a9fd7.png",
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/bfff7746-dc4c-40be-8f95-b9b0620e9c2d",
+   "tags": [
+    "تقني"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-25T18:34:45+00:00"
+  },
+  {
+   "id": "ep:631f5a37-ce06-43d5-beb2-6bf91e943474",
+   "code": "C 44909/26",
+   "administration": "جامعة شعيب الدكالي - الجديدة",
+   "grade": "أستاذ محاضر لفائدة كلية العلوم بالجديدة",
+   "specialty": "Microbiologie",
+   "posts": 1,
+   "deadline": "2026-12-10",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/25764651a0c2722c5a7e0d5b90de9a74.png",
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/631f5a37-ce06-43d5-beb2-6bf91e943474",
+   "tags": [
+    "تعليم"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-25T18:34:40+00:00"
+  },
+  {
+   "id": "ep:86749b32-9b33-4b81-b090-750550d3ac68",
+   "code": "C 44908/26",
+   "administration": "الشركة الوطنية لتسويق البذور \"سوناكوس\"",
+   "grade": "مساعد أمين مخزن - المركز الجهوي سلا /سيدي قاسم /فاس",
+   "specialty": null,
+   "posts": 3,
+   "deadline": "2026-12-11",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/e78ed0635b6878b1b160eaa2792747e2.png",
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/86749b32-9b33-4b81-b090-750550d3ac68",
+   "tags": [],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-25T18:34:35+00:00"
+  },
+  {
+   "id": "ep:58ea8342-c4b1-490c-a477-3e0789eeba13",
+   "code": "C 44907/26",
+   "administration": "الوكالة الحضرية للراشدية",
+   "grade": "مهندس معماري",
+   "specialty": null,
+   "posts": 1,
+   "deadline": "2026-12-11",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/cb86781eb9877c5437c3bcc717a260fd.png",
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/58ea8342-c4b1-490c-a477-3e0789eeba13",
+   "tags": [
+    "هندسة"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-25T18:34:29+00:00"
+  },
+  {
+   "id": "ep:acaad732-9dcf-4180-85d5-6bd28e4a2d4e",
+   "code": "C 44906/26",
+   "administration": "جامعة القاضي عياض",
+   "grade": "متصرف من الدرجة الثانية - سُلمْ 11",
+   "specialty": "Traitement des systèmes",
+   "posts": 1,
+   "deadline": "2026-12-09",
+   "exam_date": "2026-12-13",
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/5786a2688347b3c15150c62d771d76a2.png",
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/acaad732-9dcf-4180-85d5-6bd28e4a2d4e",
+   "tags": [
+    "إدارة"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-25T18:34:23+00:00"
+  },
+  {
+   "id": "ep:b3c92635-30e5-4441-acd3-946a13d390ee",
+   "code": "C 44905/26",
+   "administration": "جامعة القاضي عياض",
+   "grade": "متصرف من الدرجة الثالثة - سُلمْ 10",
+   "specialty": "Audio visuel",
+   "posts": 1,
+   "deadline": "2026-12-09",
+   "exam_date": "2026-12-13",
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/5786a2688347b3c15150c62d771d76a2.png",
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/b3c92635-30e5-4441-acd3-946a13d390ee",
+   "tags": [
+    "إدارة"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-25T18:25:10+00:00"
+  },
+  {
+   "id": "ep:aa5a7bf0-c8ed-4221-bff0-de210c2b0d44",
+   "code": "C 44893/26",
+   "administration": "شركة المنشآت الرياضية لطنجة ش.م",
+   "grade": "تقني التيار الخفيف والوسائط المتعددة",
+   "specialty": null,
+   "posts": 2,
+   "deadline": "2026-12-08",
+   "exam_date": null,
+   "city": null,
+   "logo": null,
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/aa5a7bf0-c8ed-4221-bff0-de210c2b0d44",
+   "tags": [
+    "تقني"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-25T18:25:04+00:00"
+  },
+  {
+   "id": "ep:48737302-a809-41b9-a23d-03980d4b9460",
+   "code": "C 44890/26",
+   "administration": "شركة المنشآت الرياضية لطنجة ش.م",
+   "grade": "تقني السباكة والتكييف",
+   "specialty": null,
+   "posts": 1,
+   "deadline": "2026-12-08",
+   "exam_date": null,
+   "city": null,
+   "logo": null,
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/48737302-a809-41b9-a23d-03980d4b9460",
+   "tags": [
+    "تقني"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-25T18:24:59+00:00"
+  },
+  {
+   "id": "ep:7ba78629-d145-41b6-b873-e1202bf0e3be",
+   "code": "C 44889/26",
+   "administration": "شركة المنشآت الرياضية لطنجة ش.م",
+   "grade": "تقني تيار قوي",
+   "specialty": null,
+   "posts": 2,
+   "deadline": "2026-12-08",
+   "exam_date": null,
+   "city": null,
+   "logo": null,
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/48737302-a809-41b9-a23d-03980d4b9460",
+   "tags": [
+    "تقني"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-25T18:24:55+00:00"
+  },
+  {
+   "id": "ep:1686bc93-11f0-4cca-bf9a-022fcbeada0a",
+   "code": "C 44882/26",
+   "administration": "الشركة الوطنية لتسويق البذور \"سوناكوس\"",
+   "grade": "تقني زراعي- المركز الجهوي تازة",
+   "specialty": null,
+   "posts": 1,
+   "deadline": "2026-12-10",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/e78ed0635b6878b1b160eaa2792747e2.png",
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/1686bc93-11f0-4cca-bf9a-022fcbeada0a",
+   "tags": [
+    "فلاحة",
+    "تقني"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-25T18:24:50+00:00"
+  },
+  {
+   "id": "ep:0630061a-204a-4b3a-8890-d4a4e37b0ac3",
+   "code": "C 44881/26",
+   "administration": "الشركة الوطنية لتسويق البذور \"سوناكوس\"",
+   "grade": "تقني تجاري- مهندس فلاحي-المركز الجهوي لخميس الزمامرة",
+   "specialty": "الفلاحة / الفلاحة",
+   "posts": 1,
+   "deadline": "2026-12-10",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/e78ed0635b6878b1b160eaa2792747e2.png",
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/0630061a-204a-4b3a-8890-d4a4e37b0ac3",
+   "tags": [
+    "فلاحة",
+    "هندسة"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-25T18:24:44+00:00"
+  },
+  {
+   "id": "ep:ae99de97-e7ea-4962-9d04-c672cae4901e",
+   "code": "C 44878/26",
+   "administration": "الشركة الوطنية لإنجاز وتدبير المنشآت الرياضية",
+   "grade": "عون صيانة العشب الرياضي",
+   "specialty": null,
+   "posts": 5,
+   "deadline": "2026-12-08",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/edf924e7f01cc79f6de677a391aa23e9.png",
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/ae99de97-e7ea-4962-9d04-c672cae4901e",
+   "tags": [],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-25T18:24:39+00:00"
+  },
+  {
+   "id": "ep:77890329-8608-4a44-9e02-746e757630a9",
+   "code": "C 44877/26",
+   "administration": "صندوق الإيداع والتدبير -قطاع الادخار والاحتياط-",
+   "grade": "مكلف باللوجيستيك",
+   "specialty": null,
+   "posts": 1,
+   "deadline": "2026-12-07",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/8a7b16be6fbc8811787f24f8b2fa95f7.jpg",
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/77890329-8608-4a44-9e02-746e757630a9",
+   "tags": [],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-25T18:24:34+00:00"
+  },
+  {
+   "id": "ep:d16e794d-1b1a-497d-9728-882111d59d56",
+   "code": "C 44876/26",
+   "administration": "صندوق الإيداع والتدبير -قطاع الادخار والاحتياط-",
+   "grade": "مكلف بخدمة الزبناء",
+   "specialty": null,
+   "posts": 1,
+   "deadline": "2026-12-07",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/8a7b16be6fbc8811787f24f8b2fa95f7.jpg",
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/d16e794d-1b1a-497d-9728-882111d59d56",
+   "tags": [],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-25T18:24:20+00:00"
+  },
+  {
+   "id": "ep:b01421f9-af17-4620-a6c9-a8d725600478",
+   "code": "C 44875/26",
+   "administration": "صندوق الإيداع والتدبير",
+   "grade": "مهندس في تطوير البرمجيات والذكاء الاصطناعي",
+   "specialty": "تطوير البرمجيات، وتصميم الحلول الرقمية، والذكاء الاصطناعي، والابتكار التكنولوجي",
+   "posts": 1,
+   "deadline": "2026-12-07",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/f71a70d22450130e6f8e5b1beef32586.png",
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/b01421f9-af17-4620-a6c9-a8d725600478",
+   "tags": [
+    "معلوميات",
+    "هندسة"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-25T18:24:05+00:00"
+  },
+  {
+   "id": "ep:cfce9d15-2e4e-4932-b249-2fa4213ab2e3",
+   "code": "C 44874/26",
+   "administration": "صندوق الإيداع والتدبير",
+   "grade": "مكلف بإدارة المشاريع التقنية – التطوير والذكاء الاصطناعي",
+   "specialty": null,
+   "posts": 1,
+   "deadline": "2026-12-07",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/f71a70d22450130e6f8e5b1beef32586.png",
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/cfce9d15-2e4e-4932-b249-2fa4213ab2e3",
+   "tags": [
+    "معلوميات",
+    "تقني"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-25T18:24:00+00:00"
+  },
+  {
+   "id": "ep:0408c54b-8315-40d1-9bb2-058785cd9c67",
+   "code": "C 44873/26",
+   "administration": "صندوق الإيداع والتدبير",
+   "grade": "مكلف بقيادة وتتبع مهام التفويض في التسيير",
+   "specialty": "قيادة وتتبع مهام التفويض في التسيير، وتنسيق الأنشطة، وتتبع الأداء",
+   "posts": 1,
+   "deadline": "2026-12-07",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/f71a70d22450130e6f8e5b1beef32586.png",
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/0408c54b-8315-40d1-9bb2-058785cd9c67",
+   "tags": [],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-25T18:23:55+00:00"
+  },
+  {
+   "id": "ep:9369b688-ddf8-4b7f-83d8-f2d5e22b6a5b",
+   "code": "C 44872/26",
+   "administration": "المختبر العمومي للتجارب والدراسات",
+   "grade": "منصبان (مهندس رئيس مشروع في البيئة وسائق)",
+   "specialty": "هندسة الهيدروليك والبيئة / هندسة العمليات والبيئة / علم الأحياء المائية",
+   "posts": 2,
+   "deadline": "2026-12-07",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/ac1e54f1daec53d14282ea503314a756.png",
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/9369b688-ddf8-4b7f-83d8-f2d5e22b6a5b",
+   "tags": [
+    "هندسة"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-25T18:23:50+00:00"
+  },
+  {
+   "id": "ep:79353bd3-d956-466d-aa34-d1bbf723d14c",
+   "code": "C 44867/26",
+   "administration": "جامعة ابن طفيل - القنيطرة",
+   "grade": "أستاذ محاضر من الدرجة أ - سُلمْ 11",
+   "specialty": null,
+   "posts": 4,
+   "deadline": "2026-12-08",
+   "exam_date": "2026-12-14",
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/08f68abd1e320e809cc5adfa735f2633.png",
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/79353bd3-d956-466d-aa34-d1bbf723d14c",
+   "tags": [
+    "تعليم"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-25T18:23:45+00:00"
+  },
+  {
+   "id": "ep:7d14171f-3f4e-4913-8cff-f16e39b9849a",
+   "code": "C 44863/26",
+   "administration": "جامعة السلطان مولاي سليمان -بني ملال",
+   "grade": "أستاذ محاضر من الدرجة أ - سُلمْ 11",
+   "specialty": "Mathématiques appliquées",
+   "posts": 1,
+   "deadline": "2026-12-08",
+   "exam_date": "2026-12-14",
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/714fdd3349669c62a0f3611b976b75e6.png",
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/7d14171f-3f4e-4913-8cff-f16e39b9849a",
+   "tags": [
+    "تعليم"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-25T18:23:39+00:00"
+  },
+  {
+   "id": "ep:6e348f23-624f-4bc8-b7cd-049507d4c8f8",
+   "code": "C 44903/26",
+   "administration": "وزارة الصحة والحماية الاجتماعية",
+   "grade": "طبيب من الدرجة الأولى - سُلمْ 11",
+   "specialty": "أطباء",
+   "posts": 10,
+   "deadline": "2026-12-10",
+   "exam_date": "2026-12-13",
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/c9bf94bc4284cffddd74b90a9c1eb389.png",
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/6e348f23-624f-4bc8-b7cd-049507d4c8f8",
+   "tags": [
+    "صحة"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-25T17:19:48+00:00"
+  },
+  {
+   "id": "ep:452b86be-aaab-4f8d-aa06-cf054908b8ca",
+   "code": "C 44901/26",
+   "administration": "وزارة الصحة والحماية الاجتماعية",
+   "grade": "متصرف من الدرجة الثانية - سُلمْ 11",
+   "specialty": "متصرفين",
+   "posts": 100,
+   "deadline": "2026-12-31",
+   "exam_date": "2027-01-17",
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/c9bf94bc4284cffddd74b90a9c1eb389.png",
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/452b86be-aaab-4f8d-aa06-cf054908b8ca",
+   "tags": [
+    "إدارة"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-25T17:19:42+00:00"
+  },
+  {
+   "id": "ep:b4147b79-25b9-4344-a801-20220a6b5cd4",
+   "code": "C 44622/26",
+   "administration": "وزارة التربية الوطنية والتعليم الأولي والتكوين المهني والتأهيل - قطاع التربية الوطنية",
+   "grade": "مختص تربوي من الدرجة الثانية",
+   "specialty": "مختص تربوي - تحضير المختبرات المدرسية / مختص تربوي - الحراسة التربوية والتوثيق",
+   "posts": 200,
+   "deadline": "2026-11-25",
+   "exam_date": "2026-12-05",
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/55ed0324d918f3ff0eb1e670e7356f35.jpg",
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/b4147b79-25b9-4344-a801-20220a6b5cd4",
+   "tags": [],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-25T17:19:35+00:00"
+  },
+  {
+   "id": "ep:635d1ad9-b421-4ef4-b5ef-6cf021ba412a",
+   "code": "C 44623/26",
+   "administration": "وزارة التربية الوطنية والتعليم الأولي والتكوين المهني والتأهيل - قطاع التربية الوطنية",
+   "grade": "مختص الاقتصاد والإدارة من الدرجة الثانية",
+   "specialty": "مختص الاقتصاد والإدارة",
+   "posts": 559,
+   "deadline": "2026-11-25",
+   "exam_date": "2026-12-05",
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/55ed0324d918f3ff0eb1e670e7356f35.jpg",
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/635d1ad9-b421-4ef4-b5ef-6cf021ba412a",
+   "tags": [
+    "مالية"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-25T04:47:00+00:00"
+  },
+  {
+   "id": "ep:96a8aed2-a1e6-438f-bf45-556e8168bbcf",
+   "code": "C 44624/26",
+   "administration": "وزارة التربية الوطنية والتعليم الأولي والتكوين المهني والتأهيل - قطاع التربية الوطنية",
+   "grade": "مختص إجتماعي من الدرجة الثانية",
+   "specialty": "مختص اجتماعي",
+   "posts": 1000,
+   "deadline": "2026-11-25",
+   "exam_date": "2026-12-05",
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/55ed0324d918f3ff0eb1e670e7356f35.jpg",
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/96a8aed2-a1e6-438f-bf45-556e8168bbcf",
+   "tags": [],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-25T04:47:00+00:00"
+  },
+  {
+   "id": "ep:c1856307-e18c-4053-8079-1efd4ebd63dd",
+   "code": "C 44689/26",
+   "administration": "المندوبية العامة لإدارة السجون وإعادة الإدماج",
+   "grade": "مراقب السجون مساعد من الدرجة الثانية",
+   "specialty": "جميع الشعب",
+   "posts": 120,
+   "deadline": "2026-11-26",
+   "exam_date": "2026-12-06",
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/bc19566e1dd5c7fbf245d3d25cc4534b.png",
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/c1856307-e18c-4053-8079-1efd4ebd63dd",
+   "tags": [
+    "أمن"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-25T04:47:00+00:00"
+  },
+  {
+   "id": "ep:b2542f15-9180-4680-9a40-56cab838599c",
+   "code": "C 44691/26",
+   "administration": "المندوبية العامة لإدارة السجون وإعادة الإدماج",
+   "grade": "قائد السجون مساعد من الدرجة الأولى",
+   "specialty": "الطب العام",
+   "posts": 28,
+   "deadline": "2026-11-26",
+   "exam_date": "2026-12-06",
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/bc19566e1dd5c7fbf245d3d25cc4534b.png",
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/b2542f15-9180-4680-9a40-56cab838599c",
+   "tags": [
+    "أمن"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-25T04:47:00+00:00"
+  },
+  {
+   "id": "ep:965c72f0-c5df-4a41-abe8-19287fb24ac2",
+   "code": "C 44741/26",
+   "administration": "وزارة العدل",
+   "grade": "منتذب قضائي من الدرجة الثانية - سُلمْ 11",
+   "specialty": "العلوم والتقنيات في مجال البيئة / العلوم القانونية",
+   "posts": 100,
+   "deadline": "2026-12-02",
+   "exam_date": "2027-01-31",
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/33f91dce5e8f7ececc33bc4f1aa50aef.png",
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/965c72f0-c5df-4a41-abe8-19287fb24ac2",
+   "tags": [
+    "قضاء",
+    "تقني"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-25T04:47:00+00:00"
+  },
+  {
+   "id": "ep:bc819c35-294c-4f6e-bcb7-6ab471454c51",
+   "code": "C 44742/26",
+   "administration": "وزارة العدل",
+   "grade": "منتذب قضائي من الدرجة الثالثة - سُلمْ 10",
+   "specialty": "الإعلام والاتصال / العلوم القانونية أو الشريعة أو الشريعة والقانون أو الآداب",
+   "posts": 30,
+   "deadline": "2026-12-02",
+   "exam_date": "2027-01-17",
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/33f91dce5e8f7ececc33bc4f1aa50aef.png",
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/bc819c35-294c-4f6e-bcb7-6ab471454c51",
+   "tags": [
+    "قضاء"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-25T04:47:00+00:00"
+  },
+  {
+   "id": "ep:ab9f6308-971d-43f6-b095-279d67e78eae",
+   "code": "C 44684/26",
+   "administration": "شركة الرباط الجهة الإقلاع",
+   "grade": "Cadre « QHSE » (Qualité, Hygiène, Sécurité, Environnement)",
+   "specialty": null,
+   "posts": 1,
+   "deadline": "2026-11-26",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/579eee41916ee6a9b7aeb1266a60455e.png",
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/ab9f6308-971d-43f6-b095-279d67e78eae",
+   "tags": [],
+   "stages": [
+    "AVIS",
+    "CONVOQUES",
+    "CONVOQUES_ORAL",
+    "RESULTATS"
+   ],
+   "posted_at": "2026-11-25T04:47:00+00:00"
+  },
+  {
+   "id": "ep:aa40ad09-1cb6-4408-b1a7-7507ee9673ed",
+   "code": "C 44679/26",
+   "administration": "جامعة شعيب الدكالي - الجديدة",
+   "grade": "Technicien de 3ème grade",
+   "specialty": "Développement Informatique",
+   "posts": 1,
+   "deadline": "2026-11-26",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/25764651a0c2722c5a7e0d5b90de9a74.png",
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/a308f369-e882-4c42-871d-acb07d5c6d2e",
+   "tags": [
+    "معلوميات",
+    "تقني"
+   ],
+   "stages": [
+    "AVIS",
+    "CONVOQUES",
+    "CONVOQUES_ORAL",
+    "RESULTATS"
+   ],
+   "posted_at": "2026-11-25T04:47:00+00:00"
+  },
+  {
+   "id": "ep:a308f369-e882-4c42-871d-acb07d5c6d2e",
+   "code": "C 44678/26",
+   "administration": "جامعة شعيب الدكالي - الجديدة",
+   "grade": "Technicien de 3ème grade",
+   "specialty": "Développement Informatique",
+   "posts": 1,
+   "deadline": "2026-11-26",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/25764651a0c2722c5a7e0d5b90de9a74.png",
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/a308f369-e882-4c42-871d-acb07d5c6d2e",
+   "tags": [
+    "معلوميات",
+    "تقني"
+   ],
+   "stages": [
+    "AVIS",
+    "CONVOQUES",
+    "CONVOQUES_ORAL",
+    "RESULTATS"
+   ],
+   "posted_at": "2026-11-25T04:47:00+00:00"
+  },
+  {
+   "id": "ep:260ea819-855a-4c97-a553-ce9d06b464a5",
+   "code": "C 44677/26",
+   "administration": "جامعة شعيب الدكالي - الجديدة",
+   "grade": "administrateur 2eme grade",
+   "specialty": "Marketing digital",
+   "posts": 1,
+   "deadline": "2026-11-26",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/25764651a0c2722c5a7e0d5b90de9a74.png",
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/260ea819-855a-4c97-a553-ce9d06b464a5",
+   "tags": [
+    "معلوميات",
+    "إدارة"
+   ],
+   "stages": [
+    "AVIS",
+    "CONVOQUES",
+    "CONVOQUES_ORAL",
+    "RESULTATS"
+   ],
+   "posted_at": "2026-11-25T04:47:00+00:00"
+  },
+  {
+   "id": "ep:f13bac44-60cc-4ed5-897a-905111afbeb2",
+   "code": "C 44743/26",
+   "administration": "وزارة العدل",
+   "grade": "محرر قضائي من الدرجة الرابعة - سُلمْ 8",
+   "specialty": "كتابة الإدارة أو كتابة المكتبيات أو مساعد إداري (تخصص: التدبير) / إصلاح الآلات ذات المحرك أو ميكانيك السيارات أو مرشد في تعليم السياقة",
+   "posts": 30,
+   "deadline": "2026-12-02",
+   "exam_date": "2027-01-31",
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/33f91dce5e8f7ececc33bc4f1aa50aef.png",
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/b7f02f9d-4b66-4dcd-8365-f3b1001009c1",
+   "tags": [
+    "تعليم",
+    "قضاء"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-25T04:47:00+00:00"
+  },
+  {
+   "id": "ep:b7f02f9d-4b66-4dcd-8365-f3b1001009c1",
+   "code": "C 44744/26",
+   "administration": "وزارة العدل",
+   "grade": "محرر قضائي من الدرجة الرابعة - سُلمْ 8",
+   "specialty": "كتابة الإدارة أو كتابة المكتبيات أو مساعد إداري (تخصص: التدبير) / إصلاح الآلات ذات المحرك أو ميكانيك السيارات أو مرشد في تعليم السياقة",
+   "posts": 90,
+   "deadline": "2026-12-02",
+   "exam_date": "2027-01-31",
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/33f91dce5e8f7ececc33bc4f1aa50aef.png",
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/b7f02f9d-4b66-4dcd-8365-f3b1001009c1",
+   "tags": [
+    "تعليم",
+    "قضاء"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-25T04:47:00+00:00"
+  },
+  {
+   "id": "ep:06f2df84-0753-47a3-95b9-4aa040df8c72",
+   "code": "C 44886/26",
+   "administration": "وزارة الصحة والحماية الاجتماعية",
+   "grade": "مساعد تقني من الدرجة الثانية",
+   "specialty": "مساعد",
+   "posts": 160,
+   "deadline": "2027-01-28",
+   "exam_date": "2027-02-14",
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/c9bf94bc4284cffddd74b90a9c1eb389.png",
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/06f2df84-0753-47a3-95b9-4aa040df8c72",
+   "tags": [
+    "تقني"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-25T04:47:00+00:00"
+  },
+  {
+   "id": "ep:06f2df84-0753-47a3-95b9-4aa040df8c72",
+   "code": "C 44887/26",
+   "administration": "وزارة الصحة والحماية الاجتماعية",
+   "grade": "مساعد تقني من الدرجة الثانية",
+   "specialty": "مساعد",
+   "posts": 120,
+   "deadline": "2027-01-28",
+   "exam_date": "2027-02-14",
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/c9bf94bc4284cffddd74b90a9c1eb389.png",
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/06f2df84-0753-47a3-95b9-4aa040df8c72",
+   "tags": [
+    "تقني"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-25T04:47:00+00:00"
+  },
+  {
+   "id": "ep:b69d525c-df85-47d0-b9fc-ed1f3e891f34",
+   "code": "C 44892/26",
+   "administration": "وزارة الصحة والحماية الاجتماعية",
+   "grade": "متصرف من الدرجة الثالثة - سُلمْ 10",
+   "specialty": "متصرفين",
+   "posts": 70,
+   "deadline": "2027-01-13",
+   "exam_date": "2027-01-31",
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/c9bf94bc4284cffddd74b90a9c1eb389.png",
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/b69d525c-df85-47d0-b9fc-ed1f3e891f34",
+   "tags": [
+    "إدارة"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-25T04:47:00+00:00"
+  },
+  {
+   "id": "ep:a1c6e668-6fb2-470a-818c-6d6b8d5f574d",
+   "code": "C 44904/26",
+   "administration": "وزارة الفلاحة والصيد البحري والسيادة الغذائية - قطاع الفلاحة",
+   "grade": "متصرف من الدرجة الثانية - سُلمْ 11",
+   "specialty": "التدبير الإداري والمالي / التدبير المالي والمحاسباتي / المالية / المحاسبة / الموارد البشرية / التسويق الاستراتيجي / التواصل / القانون الدولي /العلاقات الدولية / هندسة البيانات / البيانات الضخمة / علوم البيانات والنظم التقريرية",
+   "posts": 38,
+   "deadline": "2026-12-15",
+   "exam_date": "2027-01-31",
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/6abd5c49765f6ec59e0a746baf405f9f.jpg",
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/a1c6e668-6fb2-470a-818c-6d6b8d5f574d",
+   "tags": [
+    "معلوميات",
+    "مالية"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-24T21:24:54+00:00"
+  },
+  {
+   "id": "ep:bc216516-0478-4fb6-a857-a114988f6cb3",
+   "code": "C 44727/26",
+   "administration": "المندوبية السامية للتخطيط",
+   "grade": "أستاذ محاضر من الدرجة أ - سُلمْ 11",
+   "specialty": "المعلوميات – الذكاء الاصطناعي/ علم البيانات / المعلوميات - أمن نظم المعلومات والأمن السيبراني / المعلوميات – هندسة البرمجيات المعلوميات – هندسة البرمجيات",
+   "posts": 3,
+   "deadline": "2026-12-04",
+   "exam_date": "2026-12-17",
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/7d3479608322d11b250af1092de93e66.png",
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/bc216516-0478-4fb6-a857-a114988f6cb3",
+   "tags": [
+    "معلوميات",
+    "تعليم"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-24T21:24:50+00:00"
+  },
+  {
+   "id": "ep:cc2bd7ff-97cf-4de3-9665-4e7c05c3c825",
+   "code": "C 44690/26",
+   "administration": "المندوبية العامة لإدارة السجون وإعادة الإدماج",
+   "grade": "مراقب السجون رئيس من الدرجة الثانية",
+   "specialty": "ممرض متعدد التخصصات / ادارة الخدمات الصحية / مساعد طبيب اسنان / مساعد في العلاجات العامة / الكتابة في مجال الطب / تركيب و إصلاح الأجهزة الطبية / التنمية المعلوماتية والرقمية / الأنظمة وشبكات المعلوميات / تقنيات الأمن السيبراني / الاحصاء والاعلاميات التقريرية / المالية والمحاسبة / تدبير المقاولات / الهندسة المدنية / الاشغال الكبرى / الجودة النظافة والسلامة والبيئة",
+   "posts": 200,
+   "deadline": "2026-11-26",
+   "exam_date": "2026-12-06",
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/bc19566e1dd5c7fbf245d3d25cc4534b.png",
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/cc2bd7ff-97cf-4de3-9665-4e7c05c3c825",
+   "tags": [
+    "معلوميات",
+    "صحة"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-24T21:24:46+00:00"
+  },
+  {
+   "id": "ep:4fe77b06-0d8f-4386-a08a-63f0c7878849",
+   "code": "C 44891/26",
+   "administration": "وزارة الصحة والحماية الاجتماعية",
+   "grade": "مهندس دولة من الدرجة الأولى - سُلمْ 11",
+   "specialty": "مهندسي",
+   "posts": 20,
+   "deadline": "2026-12-28",
+   "exam_date": "2027-01-10",
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/c9bf94bc4284cffddd74b90a9c1eb389.png",
+   "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/4fe77b06-0d8f-4386-a08a-63f0c7878849",
+   "tags": [
+    "هندسة"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-24T21:24:42+00:00"
+  }
+ ],
+ "updates": [
+  {
+   "id": "ep:7f327bcd-7a8e-478b-a282-c729fcbec86d",
+   "stage": "RESULTATS",
+   "administration": "جامعة محمد الخامس",
+   "grade": null,
+   "exam_date": null,
+   "city": null,
+   "logo": null,
+   "pdf": null,
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/7f327bcd-7a8e-478b-a282-c729fcbec86d",
+   "posted_at": "2026-11-25T19:02:36+00:00"
+  }
+ ]
+}

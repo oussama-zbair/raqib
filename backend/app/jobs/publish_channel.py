@@ -398,6 +398,13 @@ def _write_last_run(state_path: Path, summary: dict, items: list[RawAnnouncement
     }
     path = Path(state_path).with_name("last_run.json")
     path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    try:
+        from app.jobs import public_export
+
+        public_export.write(PostedState(state_path), payload,
+                            Path(state_path).with_name("public.json"))
+    except Exception:  # noqa: BLE001 (the website file must never break posting)
+        log.exception("public.json not written")
 
 
 def main(argv: list[str] | None = None) -> None:
