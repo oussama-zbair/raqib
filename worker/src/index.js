@@ -1,6 +1,9 @@
+import { addStrike, containsBadWord, MAX_STRIKES, MUTE_SECONDS } from "./moderation.js";
+
 // Raqib bot: Cloudflare Worker webhook.
 //  1. Private chat: join-the-channel gate, then a welcome menu ("made by" included).
-//  2. Discussion group: delete messages that contain links, unless sent by an admin.
+//  2. Discussion group: delete links and insults from non-admins. Insults earn strikes:
+//     1st warning, 2nd mute for 24h, 3rd ban (strikes live in the STRIKES KV namespace).
 // Secrets (wrangler secret put): BOT_TOKEN, WEBHOOK_SECRET.
 // Vars (wrangler.toml): CHANNEL (@name), GROUP (@name), OWNER (@name).
 
@@ -147,14 +150,43 @@ async function handleCallback(env, cb, fetchFn) {
   }, fetchFn);
 }
 
+const WARNINGS = {
+  1: "⚠️ {name}، تم حذف رسالتك لاحتوائها على كلمات غير لائقة. تحذير 1/3.",
+  2: "🔇 {name}، تم كتمك لمدة 24 ساعة بسبب تكرار الإساءة. تحذير 2/3.",
+  3: "🚫 {name}، تم حظرك من المجموعة بسبب تكرار الإساءة.",
+};
+
+async function punish(env, message, fetchFn) {
+  const user = message.from;
+  const strikes = Math.min(await addStrike(env, message.chat.id, user.id), MAX_STRIKES);
+  const name = `<a href="tg://user?id=${user.id}">${esc(showName(user))}</a>`;
+  if (strikes === 2) {
+    await tg(env, "restrictChatMember", {
+      chat_id: message.chat.id,
+      user_id: user.id,
+      permissions: { can_send_messages: false },
+      until_date: Math.floor(Date.now() / 1000) + MUTE_SECONDS,
+    }, fetchFn);
+  } else if (strikes >= MAX_STRIKES) {
+    await tg(env, "banChatMember", { chat_id: message.chat.id, user_id: user.id }, fetchFn);
+  }
+  await tg(env, "sendMessage", {
+    chat_id: message.chat.id,
+    text: WARNINGS[strikes].replace("{name}", name),
+    parse_mode: "HTML",
+  }, fetchFn);
+}
+
 async function handleGroupMessage(env, message, fetchFn) {
   if (message.is_automatic_forward || !message.from || message.from.is_bot) return;
   if (message.sender_chat) return; // channel posts mirrored into the group
-  if (!hasLink(message)) return;
+  const insulting = containsBadWord(message.text || message.caption || "");
+  if (!hasLink(message) && !insulting) return;
   if (await isAdmin(env, message.chat.id, message.from.id, fetchFn)) return;
   await tg(env, "deleteMessage", {
     chat_id: message.chat.id, message_id: message.message_id,
   }, fetchFn);
+  if (insulting) await punish(env, message, fetchFn);
 }
 
 export async function handleUpdate(env, update, fetchFn = fetch) {
@@ -162,7 +194,7 @@ export async function handleUpdate(env, update, fetchFn = fetch) {
     if (update.callback_query.message) await handleCallback(env, update.callback_query, fetchFn);
     return;
   }
-  const message = update.message;
+  const message = update.message || update.edited_message;
   if (!message) return;
   if (message.chat.type === "private") {
     if (typeof message.text === "string" && message.text.startsWith("/start")) {

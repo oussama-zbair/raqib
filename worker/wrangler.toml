@@ -1,4 +1,4 @@
-name = "raqib-bot"
+﻿name = "raqib-bot"
 main = "src/index.js"
 compatibility_date = "2025-01-01"
 
@@ -10,3 +10,8 @@ OWNER = "@owernam18"
 # Secrets are NOT stored here. Set them with:
 #   npx wrangler secret put BOT_TOKEN
 #   npx wrangler secret put WEBHOOK_SECRET
+
+# Strike counter for the moderation. Wrangler creates this namespace on first deploy.
+[[kv_namespaces]]
+binding = "STRIKES"
+
