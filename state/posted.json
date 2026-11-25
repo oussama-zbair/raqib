@@ -3313,6 +3313,146 @@
       "telegram_message_id": null,
       "posted_at": "2026-11-25T21:02:57+00:00",
       "seeded": true
+    },
+    {
+      "key": "ep:8056cf15-3c75-4428-a0b1-a75387b069bd#CONVOQUES",
+      "reference_code": "C 43844/26",
+      "stage": "CONVOQUES",
+      "administration": "وزارة التربية الوطنية والتعليم الأولي والتكوين المهني والتأهيل - قطاع التربية الوطنية",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/8056cf15-3c75-4428-a0b1-a75387b069bd",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T21:31:32+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:78213ebc-6540-4ee1-8732-f5b9d4219945#CONVOQUES",
+      "reference_code": "C 43754/26",
+      "stage": "CONVOQUES",
+      "administration": "وزارة الداخلية -المديرية العامة للوقاية المدنية-",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/78213ebc-6540-4ee1-8732-f5b9d4219945",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T21:31:34+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:52e12b8e-9551-4cd5-913c-a6af6b39db73#CONVOQUES",
+      "reference_code": "C 43753/26",
+      "stage": "CONVOQUES",
+      "administration": "وزارة الداخلية -المديرية العامة للوقاية المدنية-",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/52e12b8e-9551-4cd5-913c-a6af6b39db73",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T21:31:36+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:57d80740-6401-4401-88e8-1545790f97b6#CONVOQUES",
+      "reference_code": "C 43559/26",
+      "stage": "CONVOQUES",
+      "administration": "وزارة التشغيل والحوار الاجتماعي",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/57d80740-6401-4401-88e8-1545790f97b6",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T21:31:38+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:258ae7cf-4ace-405f-8c04-4eaa8649eb9d#CONVOQUES",
+      "reference_code": "C 43556/26",
+      "stage": "CONVOQUES",
+      "administration": "وزارة التشغيل والحوار الاجتماعي",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/258ae7cf-4ace-405f-8c04-4eaa8649eb9d",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T21:31:39+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:a1b4a843-7eaa-488b-b9d1-8910a73d24cd#CONVOQUES",
+      "reference_code": "C 43555/26",
+      "stage": "CONVOQUES",
+      "administration": "وزارة التشغيل والحوار الاجتماعي",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/a1b4a843-7eaa-488b-b9d1-8910a73d24cd",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T21:31:41+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:aa36d343-5ddc-4365-9405-9ead81bbf772#CONVOQUES",
+      "reference_code": "C 43552/26",
+      "stage": "CONVOQUES",
+      "administration": "وزارة التشغيل والحوار الاجتماعي",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/aa36d343-5ddc-4365-9405-9ead81bbf772",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T21:31:43+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:ea15f5d2-3657-48c0-83d4-da029a7af7ca#CONVOQUES",
+      "reference_code": "C 43550/26",
+      "stage": "CONVOQUES",
+      "administration": "وزارة التشغيل والحوار الاجتماعي",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/ea15f5d2-3657-48c0-83d4-da029a7af7ca",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T21:31:44+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:b58830b0-ce02-419e-8e0f-9c0a4e6c9483#CONVOQUES",
+      "reference_code": "C 43355/26",
+      "stage": "CONVOQUES",
+      "administration": "وزارة الداخلية -عمالة إقليم جرسيف-",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/b58830b0-ce02-419e-8e0f-9c0a4e6c9483",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T21:31:46+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:567a5bc9-61a3-486f-be9d-21a3919bdcca#CONVOQUES",
+      "reference_code": "C 43113/26",
+      "stage": "CONVOQUES",
+      "administration": "وزارة الفلاحة والصيد البحري والسيادة الغذائية - قطاع الفلاحة",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/567a5bc9-61a3-486f-be9d-21a3919bdcca",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T21:31:48+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:72ed0218-c625-44ef-ad36-0ddf1450d8b7#CONVOQUES",
+      "reference_code": "C 43076/26",
+      "stage": "CONVOQUES",
+      "administration": "وزارة الداخلية -عمالة مراكش-",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/72ed0218-c625-44ef-ad36-0ddf1450d8b7",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T21:31:49+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:1d56279d-bec7-4467-906d-4003286e1a05#CONVOQUES",
+      "reference_code": "C 43049/26",
+      "stage": "CONVOQUES",
+      "administration": "وزارة الاقتصاد والمالية والنجاعة العمومية",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/1d56279d-bec7-4467-906d-4003286e1a05",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T21:31:51+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:1874ae4c-94d6-4af0-9575-a39ede5189ff#CONVOQUES",
+      "reference_code": "C 43043/26",
+      "stage": "CONVOQUES",
+      "administration": "وزارة الداخلية -عمالة إقليم زاكورة-",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/1874ae4c-94d6-4af0-9575-a39ede5189ff",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T21:31:52+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:72d7f4f3-b81d-4f01-b750-c84c9fdb3db1#CONVOQUES",
+      "reference_code": "C 43042/26",
+      "stage": "CONVOQUES",
+      "administration": "وزارة الداخلية -عمالة إقليم زاكورة-",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/72d7f4f3-b81d-4f01-b750-c84c9fdb3db1",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-25T21:31:54+00:00",
+      "seeded": true
     }
   ],
   "seeded_sources": [
@@ -3747,103 +3887,103 @@
     },
     "ep:8056cf15-3c75-4428-a0b1-a75387b069bd": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T21:31:32+00:00"
     },
     "ep:78213ebc-6540-4ee1-8732-f5b9d4219945": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T21:31:34+00:00"
     },
     "ep:52e12b8e-9551-4cd5-913c-a6af6b39db73": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T21:31:36+00:00"
     },
     "ep:57d80740-6401-4401-88e8-1545790f97b6": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T21:31:38+00:00"
     },
     "ep:258ae7cf-4ace-405f-8c04-4eaa8649eb9d": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T21:31:39+00:00"
     },
     "ep:a1b4a843-7eaa-488b-b9d1-8910a73d24cd": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T21:31:41+00:00"
     },
     "ep:aa36d343-5ddc-4365-9405-9ead81bbf772": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T21:31:43+00:00"
     },
     "ep:ea15f5d2-3657-48c0-83d4-da029a7af7ca": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T21:31:44+00:00"
     },
     "ep:b58830b0-ce02-419e-8e0f-9c0a4e6c9483": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T21:31:46+00:00"
     },
     "ep:567a5bc9-61a3-486f-be9d-21a3919bdcca": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T21:31:48+00:00"
     },
     "ep:72ed0218-c625-44ef-ad36-0ddf1450d8b7": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T21:31:49+00:00"
     },
     "ep:1d56279d-bec7-4467-906d-4003286e1a05": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T21:31:51+00:00"
     },
     "ep:1874ae4c-94d6-4af0-9575-a39ede5189ff": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T21:31:52+00:00"
     },
     "ep:72d7f4f3-b81d-4f01-b750-c84c9fdb3db1": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T21:31:54+00:00"
     },
     "ep:eb81bda7-0935-4e27-9662-fad7d3cb4873": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T21:31:56+00:00"
     },
     "ep:670300c7-8ee8-4a98-b883-9c92b662c06a": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T21:31:58+00:00"
     },
     "ep:4deb9ab8-9f0a-43fe-b8a6-167b7c25b6aa": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T21:31:59+00:00"
     },
     "ep:27775c32-083e-4510-a162-7b2349309e2c": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T21:32:01+00:00"
     },
     "ep:70ee84f4-5f92-4822-854f-30b2dd12ed02": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T21:32:03+00:00"
     },
     "ep:9ce0803f-4c7f-477a-8e7d-daa79c016423": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T21:32:04+00:00"
     },
     "ep:ca6f1616-b6ba-40b5-a2b1-3010664a8452": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T21:32:06+00:00"
     },
     "ep:f3395b30-6634-4e20-aa54-c2d42df47ae2": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T21:32:08+00:00"
     },
     "ep:ecd208fa-b1d2-4fb7-bdcd-cf004c9560ec": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T21:32:16+00:00"
     },
     "ep:a0233278-f39a-4636-87b4-192448adbdd8": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T21:32:17+00:00"
     },
     "ep:b98254cb-ba87-4a1f-a640-dbf8cfedb1ef": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-25T21:32:19+00:00"
     },
     "ep:2cc27d4c-f8ff-4986-a4b1-7db7f8d0a6bb": {
       "added": "2026-11-25",
