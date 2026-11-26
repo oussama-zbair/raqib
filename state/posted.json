@@ -1498,6 +1498,7 @@
       "deadline": "2026-11-26",
       "exam_date": null,
       "urls": [
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/2fef0122-6371-4de3-af5f-54385044d832",
         "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/98f8f5aa-a77c-4571-8490-2ecfd8f0404f"
       ],
       "telegram_message_id": 103,
@@ -4933,6 +4934,256 @@
       "telegram_message_id": null,
       "posted_at": "2026-11-26T00:32:04+00:00",
       "seeded": true
+    },
+    {
+      "key": "ep:0a576536-9f2d-4dd4-b995-f12947453d27#CONVOQUES",
+      "reference_code": "C 44167/26",
+      "stage": "CONVOQUES",
+      "administration": "جامعة ابن زهر - أكادير",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/0a576536-9f2d-4dd4-b995-f12947453d27",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T01:01:41+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:66fcbb67-e370-4185-a72b-13bc237ff54d#CONVOQUES",
+      "reference_code": "C 44092/26",
+      "stage": "CONVOQUES",
+      "administration": "المدرسة الوطنية للإدارة",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/66fcbb67-e370-4185-a72b-13bc237ff54d",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T01:01:42+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:3500bc17-f0cd-4535-b1a8-64563c9bb84b#CONVOQUES",
+      "reference_code": "C 44082/26",
+      "stage": "CONVOQUES",
+      "administration": "وكالة التنمية الفلاحية",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/3500bc17-f0cd-4535-b1a8-64563c9bb84b",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T01:01:44+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:ccda0643-f056-4505-857a-545387c793dd#CONVOQUES",
+      "reference_code": "C 44061/26",
+      "stage": "CONVOQUES",
+      "administration": "المكتب الوطني للإستشارة الفلاحية",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/ccda0643-f056-4505-857a-545387c793dd",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T01:01:45+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:e288842e-8cf9-4c0f-9802-09497272b6cb#CONVOQUES",
+      "reference_code": "C 44058/26",
+      "stage": "CONVOQUES",
+      "administration": "الوكالة الحضرية للعيون",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/e288842e-8cf9-4c0f-9802-09497272b6cb",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T01:01:46+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:fcd91f84-157c-4b8b-a4f1-be4ddf86b3c4#CONVOQUES",
+      "reference_code": "C 43999/26",
+      "stage": "CONVOQUES",
+      "administration": "المركز الاستشفائي الجامعي محمد السادس - مراكش",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/fcd91f84-157c-4b8b-a4f1-be4ddf86b3c4",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T01:01:48+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:ae628133-5ade-412c-a124-40ef15efa7fe#CONVOQUES",
+      "reference_code": "C 43998/26",
+      "stage": "CONVOQUES",
+      "administration": "المركز الاستشفائي الجامعي محمد السادس - مراكش",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/ae628133-5ade-412c-a124-40ef15efa7fe",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T01:01:49+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:7a7032e2-84fa-4585-ba70-9f6fcd65fedb#CONVOQUES",
+      "reference_code": "C 43997/26",
+      "stage": "CONVOQUES",
+      "administration": "المركز الاستشفائي الجامعي محمد السادس - مراكش",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/7a7032e2-84fa-4585-ba70-9f6fcd65fedb",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T01:01:50+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:9cbc646f-daf0-4775-9466-4d2d71b6fea2#CONVOQUES",
+      "reference_code": "C 43996/26",
+      "stage": "CONVOQUES",
+      "administration": "المركز الاستشفائي الجامعي محمد السادس - مراكش",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/9cbc646f-daf0-4775-9466-4d2d71b6fea2",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T01:01:51+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:ed885791-6356-4de0-a049-42e8508d1a13#CONVOQUES",
+      "reference_code": "C 43987/26",
+      "stage": "CONVOQUES",
+      "administration": "المسرح الوطني محمد الخامس",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/ed885791-6356-4de0-a049-42e8508d1a13",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T01:01:53+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:e69aff0a-fde0-4f0a-93ed-0d1a59c8007b#CONVOQUES",
+      "reference_code": "C 43983/26",
+      "stage": "CONVOQUES",
+      "administration": "جامعة ابن زهر - أكادير",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/e69aff0a-fde0-4f0a-93ed-0d1a59c8007b",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T01:01:54+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:1f29080a-9776-45c3-87ec-d0d1b6971e27#CONVOQUES",
+      "reference_code": "C 43978/26",
+      "stage": "CONVOQUES",
+      "administration": "الوكالة الوطنية لمحاربة الأمية",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/1f29080a-9776-45c3-87ec-d0d1b6971e27",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T01:01:55+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:5a9ef0cb-794c-40d7-b0ad-a0a5444c4992#CONVOQUES",
+      "reference_code": "C 43977/26",
+      "stage": "CONVOQUES",
+      "administration": "الوكالة الوطنية لمحاربة الأمية",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/5a9ef0cb-794c-40d7-b0ad-a0a5444c4992",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T01:01:57+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:f908d797-9e11-4273-8788-862e58961ab1#CONVOQUES",
+      "reference_code": "C 43943/26",
+      "stage": "CONVOQUES",
+      "administration": "مكتب تنمية التعاون",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/f908d797-9e11-4273-8788-862e58961ab1",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T01:01:58+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:2835f644-995b-4a06-a386-c41338bde62b#CONVOQUES",
+      "reference_code": "C 43942/26",
+      "stage": "CONVOQUES",
+      "administration": "مكتب تنمية التعاون",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/2835f644-995b-4a06-a386-c41338bde62b",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T01:01:59+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:4d34d35f-6ed1-4cbf-876f-5f321cb1f01c#CONVOQUES",
+      "reference_code": "C 43900/26",
+      "stage": "CONVOQUES",
+      "administration": "الوكالة الحضرية لوجدة",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/4d34d35f-6ed1-4cbf-876f-5f321cb1f01c",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T01:02:00+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:62ba6e41-1afa-4ce2-bc08-dec71791cd73#CONVOQUES",
+      "reference_code": "C 43899/26",
+      "stage": "CONVOQUES",
+      "administration": "الوكالة الحضرية لوجدة",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/62ba6e41-1afa-4ce2-bc08-dec71791cd73",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T01:02:02+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:30b2e629-cc74-496f-9d2d-16000ccf5f03#CONVOQUES",
+      "reference_code": "C 43881/26",
+      "stage": "CONVOQUES",
+      "administration": "وكالة الحوض المائي لدرعة واد نون",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/30b2e629-cc74-496f-9d2d-16000ccf5f03",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T01:02:03+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:d9ead746-de62-4818-9c18-aa699cf9f83f#CONVOQUES",
+      "reference_code": "C 43823/26",
+      "stage": "CONVOQUES",
+      "administration": "مؤسسة الأعمال الاجتماعية للأشغال العمومية",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/d9ead746-de62-4818-9c18-aa699cf9f83f",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T01:02:04+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:cc45d14a-e926-49f7-b246-e209c48f8411#CONVOQUES",
+      "reference_code": "C 43809/26",
+      "stage": "CONVOQUES",
+      "administration": "الوكالة المغربية للأمن والسلامة في المجالين النووي والإشعاعي",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/cc45d14a-e926-49f7-b246-e209c48f8411",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T01:02:06+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:56a182a3-1b80-4509-ab6f-c7eccc50ada7#CONVOQUES",
+      "reference_code": "C 43807/26",
+      "stage": "CONVOQUES",
+      "administration": "الوكالة المغربية للأمن والسلامة في المجالين النووي والإشعاعي",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/56a182a3-1b80-4509-ab6f-c7eccc50ada7",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T01:02:07+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:d63baebe-afbb-4ede-9e52-00efec75fbc2#CONVOQUES",
+      "reference_code": "C 43806/26",
+      "stage": "CONVOQUES",
+      "administration": "الوكالة المغربية للأمن والسلامة في المجالين النووي والإشعاعي",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/d63baebe-afbb-4ede-9e52-00efec75fbc2",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T01:02:08+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:4e558e69-ac29-4153-a076-b83e3fa689ff#CONVOQUES",
+      "reference_code": "C 43805/26",
+      "stage": "CONVOQUES",
+      "administration": "الوكالة المغربية للأمن والسلامة في المجالين النووي والإشعاعي",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/4e558e69-ac29-4153-a076-b83e3fa689ff",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T01:02:10+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:1c48b740-191d-4bc2-bdfc-7e5895e3bb08#CONVOQUES",
+      "reference_code": "C 43804/26",
+      "stage": "CONVOQUES",
+      "administration": "الوكالة المغربية للأمن والسلامة في المجالين النووي والإشعاعي",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/1c48b740-191d-4bc2-bdfc-7e5895e3bb08",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T01:02:11+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:8fd2b794-3a72-40e4-a20d-43873b39eeca#CONVOQUES",
+      "reference_code": "C 43796/26",
+      "stage": "CONVOQUES",
+      "administration": "الوكالة الحضرية وإنقاذ فاس",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/8fd2b794-3a72-40e4-a20d-43873b39eeca",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T01:02:12+00:00",
+      "seeded": true
     }
   ],
   "seeded_sources": [
@@ -6067,103 +6318,103 @@
     },
     "ep:0a576536-9f2d-4dd4-b995-f12947453d27": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-26T01:01:41+00:00"
     },
     "ep:66fcbb67-e370-4185-a72b-13bc237ff54d": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-26T01:01:42+00:00"
     },
     "ep:3500bc17-f0cd-4535-b1a8-64563c9bb84b": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-26T01:01:44+00:00"
     },
     "ep:ccda0643-f056-4505-857a-545387c793dd": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-26T01:01:45+00:00"
     },
     "ep:e288842e-8cf9-4c0f-9802-09497272b6cb": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-26T01:01:46+00:00"
     },
     "ep:fcd91f84-157c-4b8b-a4f1-be4ddf86b3c4": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-26T01:01:48+00:00"
     },
     "ep:ae628133-5ade-412c-a124-40ef15efa7fe": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-26T01:01:49+00:00"
     },
     "ep:7a7032e2-84fa-4585-ba70-9f6fcd65fedb": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-26T01:01:50+00:00"
     },
     "ep:9cbc646f-daf0-4775-9466-4d2d71b6fea2": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-26T01:01:51+00:00"
     },
     "ep:ed885791-6356-4de0-a049-42e8508d1a13": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-26T01:01:53+00:00"
     },
     "ep:e69aff0a-fde0-4f0a-93ed-0d1a59c8007b": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-26T01:01:54+00:00"
     },
     "ep:1f29080a-9776-45c3-87ec-d0d1b6971e27": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-26T01:01:55+00:00"
     },
     "ep:5a9ef0cb-794c-40d7-b0ad-a0a5444c4992": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-26T01:01:57+00:00"
     },
     "ep:f908d797-9e11-4273-8788-862e58961ab1": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-26T01:01:58+00:00"
     },
     "ep:2835f644-995b-4a06-a386-c41338bde62b": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-26T01:01:59+00:00"
     },
     "ep:4d34d35f-6ed1-4cbf-876f-5f321cb1f01c": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-26T01:02:00+00:00"
     },
     "ep:62ba6e41-1afa-4ce2-bc08-dec71791cd73": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-26T01:02:02+00:00"
     },
     "ep:30b2e629-cc74-496f-9d2d-16000ccf5f03": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-26T01:02:03+00:00"
     },
     "ep:d9ead746-de62-4818-9c18-aa699cf9f83f": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-26T01:02:04+00:00"
     },
     "ep:cc45d14a-e926-49f7-b246-e209c48f8411": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-26T01:02:06+00:00"
     },
     "ep:56a182a3-1b80-4509-ab6f-c7eccc50ada7": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-26T01:02:07+00:00"
     },
     "ep:d63baebe-afbb-4ede-9e52-00efec75fbc2": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-26T01:02:08+00:00"
     },
     "ep:4e558e69-ac29-4153-a076-b83e3fa689ff": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-26T01:02:10+00:00"
     },
     "ep:1c48b740-191d-4bc2-bdfc-7e5895e3bb08": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-26T01:02:11+00:00"
     },
     "ep:8fd2b794-3a72-40e4-a20d-43873b39eeca": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-26T01:02:12+00:00"
     },
     "ep:4cc13301-a259-4768-8767-f3712f6d4758": {
       "added": "2026-11-25",
