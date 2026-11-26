@@ -2538,6 +2538,24 @@
       "city": null,
       "logo_url": null,
       "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/20afd2fe-99d5-418a-ad4d-8d3df75593b5"
+    },
+    {
+      "id": "C 44759/26",
+      "reference_code": "C 44759/26",
+      "administration": "شركة المنشآت الرياضية للرباط - INSPORA",
+      "grade": "رئيس موقع رياضي (رجل/امرأة)",
+      "post_count": 3,
+      "deadline": "2026-12-03",
+      "exam_date": null,
+      "urls": [
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/812bc9d6-ace9-47c1-905c-09e120da6ae2"
+      ],
+      "telegram_message_id": 202,
+      "posted_at": "2026-11-26T23:03:04+00:00",
+      "specialty": null,
+      "city": null,
+      "logo_url": null,
+      "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/812bc9d6-ace9-47c1-905c-09e120da6ae2"
     }
   ],
   "stages": [
@@ -8700,6 +8718,10 @@
     "ep:78699344-c4d1-4204-ad40-9749cc0563aa": {
       "added": "2026-11-26",
       "checked": "2026-11-26T20:32:18+00:00"
+    },
+    "ep:812bc9d6-ace9-47c1-905c-09e120da6ae2": {
+      "added": "2026-11-26",
+      "checked": "2026-11-26T23:01:56+00:00"
     }
   },
   "last_discovery": "2026-11-26",
