@@ -1626,6 +1626,8 @@
       "deadline": "2026-12-11",
       "exam_date": null,
       "urls": [
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/1e96ae25-71ea-46b8-8867-53ac0ce6201f",
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/72ab927f-ed00-4aa4-a2f0-bd7609355ff1",
         "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/87771aba-7e04-4a17-9562-533af23e2dc1"
       ],
       "telegram_message_id": 121,
@@ -2318,6 +2320,24 @@
       "city": null,
       "logo_url": null,
       "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/1e96ae25-71ea-46b8-8867-53ac0ce6201f"
+    },
+    {
+      "id": "C 44985/26",
+      "reference_code": "C 44985/26",
+      "administration": "صندوق الإيداع والتدبير",
+      "grade": "رئيس مشروع مركز التحليل",
+      "post_count": 1,
+      "deadline": "2026-12-10",
+      "exam_date": null,
+      "urls": [
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/f0c4818a-b0b6-4f52-9d6c-f2bcaeb0e48e"
+      ],
+      "telegram_message_id": 182,
+      "posted_at": "2026-11-26T15:37:53+00:00",
+      "specialty": "تحليل البيانات وذكاء الأعمال وقيادة الأداء",
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/86b56d3d9570a74cdf88941c970c0079.png",
+      "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/f0c4818a-b0b6-4f52-9d6c-f2bcaeb0e48e"
     }
   ],
   "stages": [
@@ -6741,6 +6761,48 @@
       "exam_date": null,
       "city": null,
       "logo_url": null
+    },
+    {
+      "key": "ep:886423e1-2944-452e-9a5c-7e1d4f66b8ce#CONVOQUES",
+      "reference_code": "C 44450/26",
+      "stage": "CONVOQUES",
+      "administration": "الوكالة الحضرية لآسفي",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/886423e1-2944-452e-9a5c-7e1d4f66b8ce",
+      "telegram_message_id": 179,
+      "posted_at": "2026-11-26T15:37:04+00:00",
+      "grade": "إطار في المالية",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques/886423e1-2944-452e-9a5c-7e1d4f66b8ce",
+      "exam_date": "2026-12-04",
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/64280d4f367737d6d772fce221eb7af4.png"
+    },
+    {
+      "key": "ep:a58e30af-7adc-45ff-a3ea-26aeb31e8afb#CONVOQUES",
+      "reference_code": "C 44449/26",
+      "stage": "CONVOQUES",
+      "administration": "الوكالة الحضرية لآسفي",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/a58e30af-7adc-45ff-a3ea-26aeb31e8afb",
+      "telegram_message_id": 180,
+      "posted_at": "2026-11-26T15:37:09+00:00",
+      "grade": "مهندس طوبوغرافي",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques/a58e30af-7adc-45ff-a3ea-26aeb31e8afb",
+      "exam_date": "2026-12-04",
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/64280d4f367737d6d772fce221eb7af4.png"
+    },
+    {
+      "key": "ep:2538c1c9-540a-4b18-9722-da90496dc946#CONVOQUES",
+      "reference_code": "C 44448/26",
+      "stage": "CONVOQUES",
+      "administration": "الوكالة الحضرية لآسفي",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/2538c1c9-540a-4b18-9722-da90496dc946",
+      "telegram_message_id": 181,
+      "posted_at": "2026-11-26T15:37:45+00:00",
+      "grade": "مهندس معماري",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques/2538c1c9-540a-4b18-9722-da90496dc946",
+      "exam_date": "2026-12-04",
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/64280d4f367737d6d772fce221eb7af4.png"
     }
   ],
   "seeded_sources": [
@@ -8228,6 +8290,22 @@
     "ep:3bb8d843-d0f7-4c6a-908a-e305d1ecf79d": {
       "added": "2026-11-26",
       "checked": "2026-11-26T15:14:00+00:00"
+    },
+    "ep:f0c4818a-b0b6-4f52-9d6c-f2bcaeb0e48e": {
+      "added": "2026-11-26",
+      "checked": "2026-11-26T15:34:18+00:00"
+    },
+    "ep:2538c1c9-540a-4b18-9722-da90496dc946": {
+      "added": "2026-11-26",
+      "checked": "2026-11-26T15:35:19+00:00"
+    },
+    "ep:a58e30af-7adc-45ff-a3ea-26aeb31e8afb": {
+      "added": "2026-11-26",
+      "checked": "2026-11-26T15:35:21+00:00"
+    },
+    "ep:886423e1-2944-452e-9a5c-7e1d4f66b8ce": {
+      "added": "2026-11-26",
+      "checked": "2026-11-26T15:35:24+00:00"
     }
   },
   "last_discovery": "2026-11-26",

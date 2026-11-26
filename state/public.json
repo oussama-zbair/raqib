@@ -1,20 +1,43 @@
 {
- "updated_at": "2026-11-26T15:14:42+00:00",
+ "updated_at": "2026-11-26T15:37:53+00:00",
  "channel": "https://t.me/RaqibEmploi",
  "sources": [
   {
    "name": "emploi-public.ma",
    "url": "https://www.emploi-public.ma",
-   "status": "ok (307 items)"
+   "status": "ok (359 items)"
   }
  ],
  "stats": {
-  "open": 120,
-  "posted_total": 123,
-  "stage_posts_total": 39,
-  "followed": 370
+  "open": 121,
+  "posted_total": 124,
+  "stage_posts_total": 42,
+  "followed": 374
  },
  "concours": [
+  {
+   "id": "ep:f0c4818a-b0b6-4f52-9d6c-f2bcaeb0e48e",
+   "code": "C 44985/26",
+   "administration": "صندوق الإيداع والتدبير",
+   "grade": "رئيس مشروع مركز التحليل",
+   "title": "رئيس مشروع مركز التحليل",
+   "family": "رئيس",
+   "scale": null,
+   "specialty": "تحليل البيانات وذكاء الأعمال وقيادة الأداء",
+   "posts": 1,
+   "deadline": "2026-12-10",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/86b56d3d9570a74cdf88941c970c0079.png",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/f0c4818a-b0b6-4f52-9d6c-f2bcaeb0e48e",
+   "tags": [
+    "معلوميات"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-26T15:37:53+00:00"
+  },
   {
    "id": "ep:1e96ae25-71ea-46b8-8867-53ac0ce6201f",
    "code": "C 44981/26",
@@ -1308,7 +1331,7 @@
    "posted_at": "2026-11-25T19:34:32+00:00"
   },
   {
-   "id": "ep:d520bc73-bcf0-4974-af85-7b6af7c7c40f",
+   "id": "ep:3f6d3934-2b54-4ccb-934e-67ec66e7f762",
    "code": "C 44884/26",
    "administration": "إقليم تازة - تازة",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -1377,7 +1400,7 @@
    "posted_at": "2026-11-25T19:03:47+00:00"
   },
   {
-   "id": "ep:3d0d7c43-34b5-4e4b-ba57-02da6200dbd0",
+   "id": "ep:a7c4e6a7-7c33-4ec3-a00e-97c83892d659",
    "code": "C 44870/26",
    "administration": "إقليم برشيد - برشيد",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -1423,7 +1446,7 @@
    "posted_at": "2026-11-25T19:03:38+00:00"
   },
   {
-   "id": "ep:c7259a97-09c2-4050-893a-c2226569266d",
+   "id": "ep:35a928ed-d8e5-4555-8daf-fa89a806a698",
    "code": "C 44868/26",
    "administration": "إقليم الخميسات - الزحيلكة",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -2629,7 +2652,7 @@
    "posted_at": "2026-11-25T04:47:00+00:00"
   },
   {
-   "id": "ep:b7f02f9d-4b66-4dcd-8365-f3b1001009c1",
+   "id": "ep:f13bac44-60cc-4ed5-897a-905111afbeb2",
    "code": "C 44743/26",
    "administration": "وزارة العدل",
    "grade": "محرر قضائي من الدرجة الرابعة - سُلمْ 8",
@@ -2677,7 +2700,7 @@
    "posted_at": "2026-11-25T04:47:00+00:00"
   },
   {
-   "id": "ep:254a4ccc-b3d1-43d0-8b7d-a23d818766b2",
+   "id": "ep:06f2df84-0753-47a3-95b9-4aa040df8c72",
    "code": "C 44886/26",
    "administration": "وزارة الصحة والحماية الاجتماعية",
    "grade": "مساعد تقني من الدرجة الثانية",
@@ -2700,7 +2723,7 @@
    "posted_at": "2026-11-25T04:47:00+00:00"
   },
   {
-   "id": "ep:254a4ccc-b3d1-43d0-8b7d-a23d818766b2",
+   "id": "ep:06f2df84-0753-47a3-95b9-4aa040df8c72",
    "code": "C 44887/26",
    "administration": "وزارة الصحة والحماية الاجتماعية",
    "grade": "مساعد تقني من الدرجة الثانية",
@@ -2842,6 +2865,48 @@
   }
  ],
  "updates": [
+  {
+   "id": "ep:2538c1c9-540a-4b18-9722-da90496dc946",
+   "stage": "CONVOQUES",
+   "administration": "الوكالة الحضرية لآسفي",
+   "grade": "مهندس معماري",
+   "title": "مهندس معماري",
+   "family": "مهندس",
+   "exam_date": "2026-12-04",
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/64280d4f367737d6d772fce221eb7af4.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques/2538c1c9-540a-4b18-9722-da90496dc946",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/2538c1c9-540a-4b18-9722-da90496dc946",
+   "posted_at": "2026-11-26T15:37:45+00:00"
+  },
+  {
+   "id": "ep:a58e30af-7adc-45ff-a3ea-26aeb31e8afb",
+   "stage": "CONVOQUES",
+   "administration": "الوكالة الحضرية لآسفي",
+   "grade": "مهندس طوبوغرافي",
+   "title": "مهندس طوبوغرافي",
+   "family": "مهندس",
+   "exam_date": "2026-12-04",
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/64280d4f367737d6d772fce221eb7af4.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques/a58e30af-7adc-45ff-a3ea-26aeb31e8afb",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/a58e30af-7adc-45ff-a3ea-26aeb31e8afb",
+   "posted_at": "2026-11-26T15:37:09+00:00"
+  },
+  {
+   "id": "ep:886423e1-2944-452e-9a5c-7e1d4f66b8ce",
+   "stage": "CONVOQUES",
+   "administration": "الوكالة الحضرية لآسفي",
+   "grade": "إطار في المالية",
+   "title": "إطار في المالية",
+   "family": "إطار",
+   "exam_date": "2026-12-04",
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/64280d4f367737d6d772fce221eb7af4.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques/886423e1-2944-452e-9a5c-7e1d4f66b8ce",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/886423e1-2944-452e-9a5c-7e1d4f66b8ce",
+   "posted_at": "2026-11-26T15:37:04+00:00"
+  },
   {
    "id": "ep:4b337dfd-a342-45b5-b96c-fefd62b71b49",
    "stage": "RESULTATS",
