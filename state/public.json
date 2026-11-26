@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-26T13:42:31+00:00",
+ "updated_at": "2026-11-26T14:12:30+00:00",
  "channel": "https://t.me/RaqibEmploi",
  "sources": [
   {
@@ -9,12 +9,153 @@
   }
  ],
  "stats": {
-  "open": 107,
-  "posted_total": 110,
+  "open": 113,
+  "posted_total": 116,
   "stage_posts_total": 35,
-  "followed": 355
+  "followed": 361
  },
  "concours": [
+  {
+   "id": "ep:5b04d48a-fc64-4b3c-8368-971ac881c580",
+   "code": "C 44970/26",
+   "administration": "جامعة ابن زهر - أكادير",
+   "grade": "أستاذ محاضر بكلية العلوم و التقنيات بكلميم Informatique, Réseaux et Sécurité Informatique",
+   "title": "أستاذ محاضر",
+   "family": "أستاذ",
+   "scale": null,
+   "specialty": null,
+   "posts": 1,
+   "deadline": "2026-12-12",
+   "exam_date": "2026-12-18",
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/673d4e683bf65fbf906fa190831359e7.png",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/5b04d48a-fc64-4b3c-8368-971ac881c580",
+   "tags": [
+    "معلوميات",
+    "تعليم"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-26T14:12:30+00:00"
+  },
+  {
+   "id": "ep:372f4786-2f3a-40a6-9c36-05f8f02c0060",
+   "code": "C 44969/26",
+   "administration": "جامعة ابن زهر - أكادير",
+   "grade": "أستاذ محاضر بكلية الاقتصاد والتدبير بتزنيت تخصص Economie et gestion",
+   "title": "أستاذ محاضر",
+   "family": "أستاذ",
+   "scale": null,
+   "specialty": null,
+   "posts": 1,
+   "deadline": "2026-12-12",
+   "exam_date": "2026-12-18",
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/673d4e683bf65fbf906fa190831359e7.png",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/372f4786-2f3a-40a6-9c36-05f8f02c0060",
+   "tags": [
+    "تعليم",
+    "مالية"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-26T14:12:21+00:00"
+  },
+  {
+   "id": "ep:9c3a6483-248d-4aa2-af87-b4cbd0cc838f",
+   "code": "C 44967/26",
+   "administration": "جامعة ابن زهر - أكادير",
+   "grade": "أستاذ محاضر بالمدرسة العليا للتكنولوجيا بالداخلة تخصص Informatique",
+   "title": "أستاذ محاضر",
+   "family": "أستاذ",
+   "scale": null,
+   "specialty": null,
+   "posts": 1,
+   "deadline": "2026-12-12",
+   "exam_date": "2026-12-18",
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/673d4e683bf65fbf906fa190831359e7.png",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/9c3a6483-248d-4aa2-af87-b4cbd0cc838f",
+   "tags": [
+    "معلوميات",
+    "تعليم"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-26T14:12:12+00:00"
+  },
+  {
+   "id": "ep:9533bf08-01f6-43d8-a4ec-22554f0dc3e3",
+   "code": "C 44966/26",
+   "administration": "جامعة محمد الأول - وجدة",
+   "grade": "أستاذ محاضر لفائدة المدرسة العليا للتربية والتكوين وجدة.",
+   "title": "أستاذ محاضر",
+   "family": "أستاذ",
+   "scale": null,
+   "specialty": "Hydrogéologie",
+   "posts": 1,
+   "deadline": "2026-12-12",
+   "exam_date": "2026-12-18",
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/8baabd444e8ecb551c7b0e0008439d9e.png",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/9533bf08-01f6-43d8-a4ec-22554f0dc3e3",
+   "tags": [
+    "تعليم"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-26T14:12:07+00:00"
+  },
+  {
+   "id": "ep:e5f5f201-25c8-4872-a1a4-d4f4c0371ad9",
+   "code": "C 44971/26",
+   "administration": "جامعة ابن زهر - أكادير",
+   "grade": "أستاذ محاضر بمعهد مهن الرياضة بأكادير تخصص Langues - Français",
+   "title": "أستاذ محاضر",
+   "family": "أستاذ",
+   "scale": null,
+   "specialty": null,
+   "posts": 1,
+   "deadline": "2026-12-12",
+   "exam_date": "2026-12-18",
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/logo-385.png",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/e5f5f201-25c8-4872-a1a4-d4f4c0371ad9",
+   "tags": [
+    "تعليم"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-26T14:11:58+00:00"
+  },
+  {
+   "id": "ep:8df273a1-db4b-4949-a8dc-efa0deae0da0",
+   "code": "C 44965/26",
+   "administration": "جامعة ابن زهر - أكادير",
+   "grade": "أستاذ محاضر بكلية العلوم القانونية و السياسية بأيت ملول تخصص القانون العام بالعربية",
+   "title": "أستاذ محاضر",
+   "family": "أستاذ",
+   "scale": null,
+   "specialty": null,
+   "posts": 1,
+   "deadline": "2026-12-12",
+   "exam_date": "2026-12-18",
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/logo-385.png",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/8df273a1-db4b-4949-a8dc-efa0deae0da0",
+   "tags": [
+    "تعليم"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-26T14:11:53+00:00"
+  },
   {
    "id": "ep:51011f69-079d-4b2f-ba96-4797334fc162",
    "code": "C 44963/26",
@@ -946,7 +1087,7 @@
    "posted_at": "2026-11-25T19:34:47+00:00"
   },
   {
-   "id": "ep:ccb9b405-58f7-453e-bb03-72ff84e5c365",
+   "id": "ep:d166cff5-6eae-4e33-bca9-65950874b2df",
    "code": "C 44897/26",
    "administration": "إقليم الحاجب - اكوراي",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -1084,7 +1225,7 @@
    "posted_at": "2026-11-25T19:03:47+00:00"
   },
   {
-   "id": "ep:a7c4e6a7-7c33-4ec3-a00e-97c83892d659",
+   "id": "ep:3d0d7c43-34b5-4e4b-ba57-02da6200dbd0",
    "code": "C 44870/26",
    "administration": "إقليم برشيد - برشيد",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -1130,7 +1271,7 @@
    "posted_at": "2026-11-25T19:03:38+00:00"
   },
   {
-   "id": "ep:c7259a97-09c2-4050-893a-c2226569266d",
+   "id": "ep:35a928ed-d8e5-4555-8daf-fa89a806a698",
    "code": "C 44868/26",
    "administration": "إقليم الخميسات - الزحيلكة",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -2336,7 +2477,7 @@
    "posted_at": "2026-11-25T04:47:00+00:00"
   },
   {
-   "id": "ep:b7f02f9d-4b66-4dcd-8365-f3b1001009c1",
+   "id": "ep:f13bac44-60cc-4ed5-897a-905111afbeb2",
    "code": "C 44743/26",
    "administration": "وزارة العدل",
    "grade": "محرر قضائي من الدرجة الرابعة - سُلمْ 8",
