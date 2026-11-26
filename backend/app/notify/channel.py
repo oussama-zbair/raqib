@@ -219,7 +219,23 @@ def format_for_send(ann: RawAnnouncement, channel_id: str | None = None) -> str:
         if len(text) <= CAPTION_LIMIT:
             break
         text = build(ann, channel_id, max_specialties=keep)
-    return text[:CAPTION_LIMIT]
+    # Still too long (huge administration or grade text): shorten those fields, never
+    # the HTML itself. Cutting the HTML can split a tag and Telegram refuses the post.
+    limit = 300
+    while len(text) > CAPTION_LIMIT and limit >= 40:
+        short = ann.model_copy(update={
+            "administration": _shorten(ann.administration, limit),
+            "grade": _shorten(ann.grade, limit),
+        })
+        text = build(short, channel_id, max_specialties=0)
+        limit //= 2
+    return text
+
+
+def _shorten(value: str | None, limit: int) -> str | None:
+    if not value or len(value) <= limit:
+        return value
+    return value[: limit - 1].rstrip() + "…"
 
 
 def format_update_post(ann: RawAnnouncement, changes: dict[str, date], footer: str | None) -> str:

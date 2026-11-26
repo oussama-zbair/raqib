@@ -322,12 +322,8 @@ def test_state_is_saved_after_each_send_when_a_later_send_fails(tmp_path, monkey
             raise RuntimeError("telegram down")
         return 200 + len(calls)
 
-    try:
-        publish_channel.run(state_path=tmp_path / "s.json", scrapers=scrapers, sender=flaky)
-        raised = False
-    except RuntimeError:
-        raised = True
-    assert raised
+    first = publish_channel.run(state_path=tmp_path / "s.json", scrapers=scrapers, sender=flaky)
+    assert first["posts"] == 1 and "telegram down" in first["errors"][0]  # run went on
     saved = json.loads((tmp_path / "s.json").read_text(encoding="utf-8"))
     assert len(saved["posted"]) == 1  # the delivered post is remembered
     sent: list = []
@@ -446,4 +442,64 @@ def test_a_refused_post_is_skipped_retried_then_dropped(tmp_path, monkeypatch):
     except TelegramError:
         raised = True
     assert raised  # a bad token stops the run (red in GitHub)
+    get_settings.cache_clear()
+
+
+def test_long_caption_shortens_fields_and_never_cuts_html():
+    huge = _wadifa().model_copy(update={"administration": "وزارة " * 400, "grade": "تقني " * 400,
+                                        "specialty": " / ".join(f"تخصص {i}" for i in range(80))})
+    text = format_for_send(huge)
+    assert len(text) <= CAPTION_LIMIT
+    assert text.count("<b>") == text.count("</b>")  # every tag is closed
+    assert "…" in text
+
+
+def test_stages_of_one_concours_go_out_in_portal_order(tmp_path, monkeypatch):
+    from app.db.models import CompetitionStage as S
+    monkeypatch.setenv("TELEGRAM_CHANNEL_ID", "@RaqibEmploi")
+    monkeypatch.setenv("TELEGRAM_BOT_TOKEN", "x")
+    from app.config import get_settings
+    get_settings.cache_clear()
+    monkeypatch.setattr("time.sleep", lambda s: None)
+    url = "https://www.emploi-public.ma/ar/x/eeeeeeee-1111-2222-3333-444444444444"
+
+    def item(stage):
+        return RawAnnouncement(source_name="emploi-public.ma", source_type=SourceType.PORTAL,
+                               source_url=url, detail_url=url, title="t", lang="ar", stage=stage,
+                               administration="وكالة", grade="تقني")
+
+    state = PostedState(tmp_path / "s.json")
+    state.seeded_sources.append("emploi-public.ma")
+    state.save()
+    # The listings return results first (as they did on the portal), written list last.
+    scrapers = [_FakeScraper("emploi-public.ma",
+                             [item(S.RESULTATS), item(S.CONVOQUES_ORAL), item(S.CONVOQUES)])]
+    sent: list = []
+    stages: list = []
+
+    def sender(ann, text, channel, reply_to=None, with_button=True):
+        stages.append(ann.stage)
+        sent.append((text, reply_to))
+        return 500 + len(sent)
+
+    publish_channel.run(state_path=tmp_path / "s.json", scrapers=scrapers, sender=sender)
+    assert stages == [S.CONVOQUES, S.CONVOQUES_ORAL, S.RESULTATS]
+    assert [r for _, r in sent] == [None, 501, 502]  # each one replies to the previous
+    get_settings.cache_clear()
+
+
+def test_real_sending_is_refused_outside_github_actions(tmp_path, monkeypatch):
+    monkeypatch.setenv("TELEGRAM_CHANNEL_ID", "@RaqibEmploi")
+    monkeypatch.setenv("TELEGRAM_BOT_TOKEN", "x")
+    monkeypatch.delenv("GITHUB_ACTIONS", raising=False)
+    monkeypatch.delenv("RAQIB_ALLOW_LOCAL_SEND", raising=False)
+    from app.config import get_settings
+    get_settings.cache_clear()
+    try:
+        publish_channel.run(state_path=tmp_path / "s.json", scrapers=[])
+        refused = False
+    except SystemExit as exc:
+        refused = "GitHub Actions" in str(exc)
+    assert refused
+    assert publish_channel.run(state_path=tmp_path / "s.json", scrapers=[], dry_run=True)
     get_settings.cache_clear()

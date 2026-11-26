@@ -275,18 +275,36 @@ def _select_it(
     return selected, known_posted
 
 
+def _may_send_here() -> bool:
+    import os
+
+    return os.environ.get("GITHUB_ACTIONS") == "true" or os.environ.get(
+        "RAQIB_ALLOW_LOCAL_SEND") == "1"
+
+
+def _safe(errors: list[str], step: str, fallback, fn, *args, **kwargs):
+    """Run one step of the job; on any error, record it and return ``fallback``."""
+    try:
+        return fn(*args, **kwargs)
+    except Exception as exc:  # noqa: BLE001
+        log.exception("step %s failed", step)
+        errors.append(f"{step}: {type(exc).__name__}: {str(exc)[:150]}")
+        return fallback
+
+
 def _try_send(sender, state: PostedState, key: str, errors: list[str], *args, **kwargs):
-    """Send one post. A Telegram error skips this post only; it is retried next run.
+    """Send one post. Any error skips this post only; it is retried next run, then
+    dropped after three refusals.
 
     Errors that would hit every post (bad token, bot removed from the channel) stop
     the run instead, so they show up as a red run.
     """
     try:
         message_id = sender(*args, **kwargs)
-    except TelegramError as exc:
-        if exc.status in (401, 403):
+    except Exception as exc:  # noqa: BLE001
+        if isinstance(exc, TelegramError) and exc.status in (401, 403):
             raise
-        errors.append(str(exc)[:200])
+        errors.append(f"{type(exc).__name__}: {str(exc)[:200]}")
         n = state.note_failure(key)
         log.warning("send failed (%d/%d) for %s: %s", n, state.MAX_SEND_FAILURES, key, exc)
         return False, None
@@ -307,25 +325,34 @@ def run(
     channel = settings.telegram_channel_id.strip()
     if not dry_run and not (channel and settings.telegram_bot_token):
         raise SystemExit("TELEGRAM_CHANNEL_ID and TELEGRAM_BOT_TOKEN are required (or use --dry-run)")
+    if not dry_run and sender is send_post and not _may_send_here():
+        # Only the scheduled cloud run may post. A second copy of the job (a laptop, a
+        # forgotten terminal) would read an older state file and post duplicates.
+        raise SystemExit("Real sending only runs in GitHub Actions. Use --dry-run locally, "
+                         "or set RAQIB_ALLOW_LOCAL_SEND=1 if you really mean it.")
     footer = channel_footer(channel, dry_run=dry_run)
     footer_channel = channel or ("@RaqibEmploi" if dry_run else "")
 
     state = PostedState(state_path)
+    errors: list[str] = []
     items, status = _scrape(scrapers)
     stage_items = [it for it in items if _is_stage_item(it)]
     items = [it for it in items if not _is_stage_item(it)]
-    selected, known_posted = _select_it(items, state, scrapers, it_only=settings.publish_it_only)
 
-    # Convocations and results first: their dates are close, they cannot wait a run.
-    stage_posts = _select_stages(stage_items, state, scrapers)
-    _follow(items + stage_items, state)
-    try:
-        _discover(state, scrapers)
-    except Exception:  # noqa: BLE001 (a failed deep scan must not stop posting)
-        log.exception("discovery failed")
-    stage_posts += _tracked_events(state, scrapers, {state.stage_key(a) for a in stage_posts})
+    # Every step below is isolated: one failing step is recorded and the run goes on.
+    selected, known_posted = _safe(
+        errors, "select announcements", ([], []),
+        _select_it, items, state, scrapers, it_only=settings.publish_it_only)
+    stage_posts = _safe(errors, "select stages", [], _select_stages, stage_items, state, scrapers)
+    _safe(errors, "follow", None, _follow, items + stage_items, state)
+    _safe(errors, "discovery", None, _discover, state, scrapers)
+    stage_posts += _safe(errors, "tracked concours", [], _tracked_events, state, scrapers,
+                         {state.stage_key(a) for a in stage_posts})
+    # One concours can reach several stages in one run: post them in the portal's order
+    # (written list, then oral list, then results) so each one replies to the previous.
+    order = list(CompetitionStage)
+    stage_posts.sort(key=lambda a: order.index(a.stage))
     sent = 0
-    errors: list[str] = []
     for ann in stage_posts[:max_posts]:
         text = format_for_send(ann)
         reply_to = state.thread_parent(ann)

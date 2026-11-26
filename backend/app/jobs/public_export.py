@@ -14,6 +14,7 @@ from app.db.models import CompetitionStage, RawAnnouncement, SourceType
 from app.jobs.dedup import canonical_url, url_keys
 from app.jobs.posted_state import PostedState
 from app.matching.domains import field_tags
+from app.matching.job_title import job_family, job_title, scale_of
 
 KEEP_CLOSED_DAYS = 30  # closed concours stay listed this long (their stages still matter)
 UPDATES_DAYS = 30
@@ -48,6 +49,9 @@ def build(state: PostedState, last_run: dict) -> dict:
             "code": e.get("reference_code"),
             "administration": e.get("administration"),
             "grade": e.get("grade"),
+            "title": job_title(e.get("grade")),
+            "family": job_family(job_title(e.get("grade"))),
+            "scale": scale_of(e.get("grade")),
             "specialty": e.get("specialty"),
             "posts": e.get("post_count"),
             "deadline": e.get("deadline"),
@@ -68,6 +72,8 @@ def build(state: PostedState, last_run: dict) -> dict:
             "stage": s["stage"],
             "administration": s.get("administration"),
             "grade": s.get("grade"),
+            "title": job_title(s.get("grade")),
+            "family": job_family(job_title(s.get("grade"))),
             "exam_date": s.get("exam_date"),
             "city": s.get("city"),
             "logo": s.get("logo_url"),
