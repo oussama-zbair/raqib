@@ -24,6 +24,7 @@ from app.jobs.posted_state import DEFAULT_STATE_PATH, PostedState
 from app.matching.it_filter import is_it_related, log_rejected
 from app.notify.channel import (
     SEND_INTERVAL_SECONDS,
+    TelegramError,
     channel_footer,
     format_for_send,
     format_update_post,
@@ -274,6 +275,25 @@ def _select_it(
     return selected, known_posted
 
 
+def _try_send(sender, state: PostedState, key: str, errors: list[str], *args, **kwargs):
+    """Send one post. A Telegram error skips this post only; it is retried next run.
+
+    Errors that would hit every post (bad token, bot removed from the channel) stop
+    the run instead, so they show up as a red run.
+    """
+    try:
+        message_id = sender(*args, **kwargs)
+    except TelegramError as exc:
+        if exc.status in (401, 403):
+            raise
+        errors.append(str(exc)[:200])
+        n = state.note_failure(key)
+        log.warning("send failed (%d/%d) for %s: %s", n, state.MAX_SEND_FAILURES, key, exc)
+        return False, None
+    state.clear_failure(key)
+    return True, message_id
+
+
 def run(
     dry_run: bool = False,
     state_path: Path = DEFAULT_STATE_PATH,
@@ -305,16 +325,24 @@ def run(
         log.exception("discovery failed")
     stage_posts += _tracked_events(state, scrapers, {state.stage_key(a) for a in stage_posts})
     sent = 0
+    errors: list[str] = []
     for ann in stage_posts[:max_posts]:
         text = format_for_send(ann)
         reply_to = state.thread_parent(ann)
+        key = state.stage_key(ann)
         if dry_run:
             print(f"{text}\n[button: {ann.list_pdf_url or ann.source_url}] "
                   f"[reply to: {reply_to}] [image: {ann.logo_url or 'emblem'}]\n{_SEP}")
             message_id = None
         else:
-            message_id = sender(ann, text, channel, reply_to=reply_to)
+            ok, message_id = _try_send(sender, state, key, errors,
+                                       ann, text, channel, reply_to=reply_to)
             time.sleep(SEND_INTERVAL_SECONDS)
+            if not ok:
+                if state.gave_up(key):
+                    state.add_stage(ann, None, seeded=True)  # never retried again
+                state.save()
+                continue
         state.add_stage(ann, message_id)
         if not dry_run:
             state.save()
@@ -341,13 +369,19 @@ def run(
     budget = max(0, max_posts - sent)
     for ann in new_posts[:budget]:
         text = format_for_send(ann, footer_channel)
+        key = canonical_url(ann.source_url)
         if dry_run:
             print(f"{text}\n[button: {ann.official_url or ann.source_url}] "
                   f"[image: {ann.logo_url or 'emblem'}] [sources: {ann.source_name}]\n{_SEP}")
             message_id = None
         else:
-            message_id = sender(ann, text, channel)
+            ok, message_id = _try_send(sender, state, key, errors, ann, text, channel)
             time.sleep(SEND_INTERVAL_SECONDS)
+            if not ok:
+                if state.gave_up(key):
+                    state.reject(ann.source_url)  # never retried again
+                state.save()
+                continue
         state.add_posted(ann, message_id)
         if not dry_run:
             state.save()  # persist after every send so a later failure never causes a re-post
@@ -361,8 +395,11 @@ def run(
             print(f"{text}\n[reply to message {entry.get('telegram_message_id')}]\n{_SEP}")
         else:
             reply_to = entry.get("telegram_message_id")
-            sender(ann, text, channel, reply_to=reply_to, with_button=False)
+            ok, _ = _try_send(sender, state, f"update:{entry.get('id')}", errors,
+                              ann, text, channel, reply_to=reply_to, with_button=False)
             time.sleep(SEND_INTERVAL_SECONDS)
+            if not ok:
+                continue  # the change is detected again next run
         state.apply_changes(entry, changes)
         if not dry_run:
             state.save()
@@ -376,6 +413,8 @@ def run(
         "updates": len(updates),
         "dry_run": dry_run,
     }
+    if errors:
+        summary["errors"] = errors[:10]
     log.info("done: %s", summary)
     if not dry_run:
         _write_last_run(state_path, summary, items)
@@ -417,7 +456,33 @@ def main(argv: list[str] | None = None) -> None:
     args = parser.parse_args(argv)
     if hasattr(sys.stdout, "reconfigure"):
         sys.stdout.reconfigure(encoding="utf-8")
-    run(dry_run=args.dry_run, state_path=args.state, save_state=args.save_state)
+    try:
+        run(dry_run=args.dry_run, state_path=args.state, save_state=args.save_state)
+    except Exception as exc:  # noqa: BLE001
+        if not args.dry_run:
+            _write_crash(args.state, exc)
+        raise
+
+
+def _write_crash(state_path: Path, exc: Exception) -> None:
+    """Record why a run stopped in state/last_run.json (GitHub logs need a login)."""
+    import json
+    from datetime import datetime, timezone
+
+    token = get_settings().telegram_bot_token
+    message = f"{type(exc).__name__}: {exc}"
+    if token:
+        message = message.replace(token, "<token>")
+    path = Path(state_path).with_name("last_run.json")
+    try:
+        previous = json.loads(path.read_text(encoding="utf-8"))
+    except Exception:  # noqa: BLE001
+        previous = {}
+    previous.update({
+        "crashed_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        "crash": message[:400],
+    })
+    path.write_text(json.dumps(previous, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
 if __name__ == "__main__":

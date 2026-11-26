@@ -404,3 +404,46 @@ def test_stages_are_seeded_first_then_posted_as_replies(tmp_path, monkeypatch):
     assert sent[0][0].startswith("🎤") and sent[0][1] == 555  # reply to the announcement
     assert _run(tmp_path, scrapers, sent)["stage_posts"] == 0  # never twice
     get_settings.cache_clear()
+
+
+def test_a_refused_post_is_skipped_retried_then_dropped(tmp_path, monkeypatch):
+    from app.notify.channel import TelegramError
+    monkeypatch.setenv("TELEGRAM_CHANNEL_ID", "@RaqibEmploi")
+    monkeypatch.setenv("TELEGRAM_BOT_TOKEN", "x")
+    from app.config import get_settings
+    get_settings.cache_clear()
+    monkeypatch.setattr("time.sleep", lambda s: None)
+    bad = _wadifa().model_copy(update={"reference_code": "C 2/26", "source_url": "https://w/2",
+                                       "detail_url": "https://w/2", "post_count": 3,
+                                       "administration": "Autre administration"})
+    scrapers = [_FakeScraper("wadifapublic.ma", [_wadifa(), bad])]
+    sent: list = []
+
+    def sender(ann, text, channel, reply_to=None, with_button=True):
+        if ann.reference_code == "C 2/26":
+            raise TelegramError("sendPhoto", 400, "Bad Request: can't parse entities")
+        sent.append(ann.reference_code)
+        return 300 + len(sent)
+
+    def go():
+        return publish_channel.run(state_path=tmp_path / "s.json", scrapers=scrapers, sender=sender)
+
+    first = go()
+    assert first["posts"] == 1 and sent == ["C 44891/26"]  # the good post still went out
+    assert "can't parse entities" in first["errors"][0]
+    assert go()["posts"] == 0 and go()["posts"] == 0  # retried on the next runs
+    assert "errors" not in go()  # dropped after three refusals, never tried again
+    assert sent == ["C 44891/26"]
+
+    def unauthorized(*a, **k):
+        raise TelegramError("sendPhoto", 401, "Unauthorized")
+    fresh = _wadifa().model_copy(update={"reference_code": "C 3/26", "source_url": "https://w/3",
+                                         "detail_url": "https://w/3", "administration": "Troisième"})
+    try:
+        publish_channel.run(state_path=tmp_path / "s.json",
+                            scrapers=[_FakeScraper("wadifapublic.ma", [fresh])], sender=unauthorized)
+        raised = False
+    except TelegramError:
+        raised = True
+    assert raised  # a bad token stops the run (red in GitHub)
+    get_settings.cache_clear()

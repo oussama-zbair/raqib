@@ -42,6 +42,7 @@ class PostedState:
         self.seeded_sources: list[str] = []
         self.tracked: dict[str, dict] = {}
         self.last_discovery: str | None = None
+        self.send_failures: dict[str, int] = {}
         if self.path.exists() and self.path.read_text(encoding="utf-8").strip():
             data = json.loads(self.path.read_text(encoding="utf-8"))
             self.posted = data.get("posted", [])
@@ -50,6 +51,23 @@ class PostedState:
             self.seeded_sources = data.get("seeded_sources", [])
             self.tracked = data.get("tracked", {})
             self.last_discovery = data.get("last_discovery")
+            self.send_failures = data.get("send_failures", {})
+
+    # ---- send failures (a post Telegram refuses is retried, then dropped) -------------
+    MAX_SEND_FAILURES = 3
+
+    def note_failure(self, key: str) -> int:
+        self.send_failures[key] = self.send_failures.get(key, 0) + 1
+        return self.send_failures[key]
+
+    def clear_failure(self, key: str) -> None:
+        self.send_failures.pop(key, None)
+
+    def gave_up(self, key: str) -> bool:
+        if self.send_failures.get(key, 0) >= self.MAX_SEND_FAILURES:
+            self.send_failures.pop(key, None)
+            return True
+        return False
 
     # ---- followed concours (their page is re-read for new documents) ------------------
     TRACK_DAYS = 200
@@ -214,7 +232,8 @@ class PostedState:
         payload = json.dumps(
             {"version": 1, "posted": self.posted, "stages": self.stages,
              "seeded_sources": self.seeded_sources, "tracked": self.tracked,
-             "last_discovery": self.last_discovery, "rejected": self.rejected},
+             "last_discovery": self.last_discovery, "send_failures": self.send_failures,
+             "rejected": self.rejected},
             ensure_ascii=False,
             indent=2,
         )
