@@ -5414,6 +5414,26 @@
       "telegram_message_id": null,
       "posted_at": "2026-11-26T01:31:58+00:00",
       "seeded": true
+    },
+    {
+      "key": "ep:8cce8ed8-8973-49f6-ae36-f75aef0d9d96#CONVOQUES",
+      "reference_code": "C 43077/26",
+      "stage": "CONVOQUES",
+      "administration": "وزارة الأوقاف والشؤون الإسلامية",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/8cce8ed8-8973-49f6-ae36-f75aef0d9d96",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T02:01:51+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:74fa6128-711a-40b7-b71b-5b4388a2d9d4#CONVOQUES",
+      "reference_code": "C 43035/26",
+      "stage": "CONVOQUES",
+      "administration": "وزارة الشؤون الخارجية والتعاون الافريقي والمغاربة المقيمين بالخارج",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/74fa6128-711a-40b7-b71b-5b4388a2d9d4",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T02:01:53+00:00",
+      "seeded": true
     }
   ],
   "seeded_sources": [
