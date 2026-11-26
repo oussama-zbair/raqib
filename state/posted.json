@@ -5434,6 +5434,56 @@
       "telegram_message_id": null,
       "posted_at": "2026-11-26T02:01:53+00:00",
       "seeded": true
+    },
+    {
+      "key": "ep:3d99718c-9c89-43ed-92b5-ec76b2c038b3#CONVOQUES",
+      "reference_code": "C 43034/26",
+      "stage": "CONVOQUES",
+      "administration": "وزارة الشؤون الخارجية والتعاون الافريقي والمغاربة المقيمين بالخارج",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/3d99718c-9c89-43ed-92b5-ec76b2c038b3",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T02:32:03+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:4e64e78f-621d-4e95-a829-a8b22986502a#CONVOQUES",
+      "reference_code": "C 43033/26",
+      "stage": "CONVOQUES",
+      "administration": "وزارة الشؤون الخارجية والتعاون الافريقي والمغاربة المقيمين بالخارج",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/4e64e78f-621d-4e95-a829-a8b22986502a",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T02:32:04+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:bacf792b-04bc-4a4b-a73b-cc69eab17a49#CONVOQUES",
+      "reference_code": "C 43032/26",
+      "stage": "CONVOQUES",
+      "administration": "وزارة الشؤون الخارجية والتعاون الافريقي والمغاربة المقيمين بالخارج",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/bacf792b-04bc-4a4b-a73b-cc69eab17a49",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T02:32:05+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:3d6e4275-fe42-4fa4-b135-22595857f77b#CONVOQUES",
+      "reference_code": "C 43031/26",
+      "stage": "CONVOQUES",
+      "administration": "وزارة الشؤون الخارجية والتعاون الافريقي والمغاربة المقيمين بالخارج",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/3d6e4275-fe42-4fa4-b135-22595857f77b",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T02:32:07+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:f8fd2d0d-5d98-42d7-8229-9924acf1c303#CONVOQUES",
+      "reference_code": "C 43030/26",
+      "stage": "CONVOQUES",
+      "administration": "وزارة الشؤون الخارجية والتعاون الافريقي والمغاربة المقيمين بالخارج",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/f8fd2d0d-5d98-42d7-8229-9924acf1c303",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T02:32:08+00:00",
+      "seeded": true
     }
   ],
   "seeded_sources": [
