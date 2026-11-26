@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-26T20:04:29+00:00",
+ "updated_at": "2026-11-26T20:33:11+00:00",
  "channel": "https://t.me/RaqibEmploi",
  "sources": [
   {
@@ -11,7 +11,7 @@
  "stats": {
   "open": 132,
   "posted_total": 135,
-  "stage_posts_total": 49,
+  "stage_posts_total": 50,
   "followed": 387
  },
  "concours": [
@@ -1511,7 +1511,7 @@
    "posted_at": "2026-11-25T19:34:47+00:00"
   },
   {
-   "id": "ep:a5b90bf5-4086-434c-b948-8880d9adb947",
+   "id": "ep:d166cff5-6eae-4e33-bca9-65950874b2df",
    "code": "C 44897/26",
    "administration": "إقليم الحاجب - اكوراي",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -1580,7 +1580,7 @@
    "posted_at": "2026-11-25T19:34:32+00:00"
   },
   {
-   "id": "ep:3f6d3934-2b54-4ccb-934e-67ec66e7f762",
+   "id": "ep:d520bc73-bcf0-4974-af85-7b6af7c7c40f",
    "code": "C 44884/26",
    "administration": "إقليم تازة - تازة",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -1695,7 +1695,7 @@
    "posted_at": "2026-11-25T19:03:38+00:00"
   },
   {
-   "id": "ep:35a928ed-d8e5-4555-8daf-fa89a806a698",
+   "id": "ep:c7259a97-09c2-4050-893a-c2226569266d",
    "code": "C 44868/26",
    "administration": "إقليم الخميسات - الزحيلكة",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -2320,7 +2320,7 @@
    "posted_at": "2026-11-25T18:24:59+00:00"
   },
   {
-   "id": "ep:aa5a7bf0-c8ed-4221-bff0-de210c2b0d44",
+   "id": "ep:7ba78629-d145-41b6-b873-e1202bf0e3be",
    "code": "C 44889/26",
    "administration": "شركة المنشآت الرياضية لطنجة ش.م",
    "grade": "تقني تيار قوي",
@@ -2820,7 +2820,7 @@
    "posted_at": "2026-11-25T04:47:00+00:00"
   },
   {
-   "id": "ep:aa40ad09-1cb6-4408-b1a7-7507ee9673ed",
+   "id": "ep:a308f369-e882-4c42-871d-acb07d5c6d2e",
    "code": "C 44679/26",
    "administration": "جامعة شعيب الدكالي - الجديدة",
    "grade": "Technicien de 3ème grade",
@@ -2901,7 +2901,7 @@
    "posted_at": "2026-11-25T04:47:00+00:00"
   },
   {
-   "id": "ep:f13bac44-60cc-4ed5-897a-905111afbeb2",
+   "id": "ep:b7f02f9d-4b66-4dcd-8365-f3b1001009c1",
    "code": "C 44743/26",
    "administration": "وزارة العدل",
    "grade": "محرر قضائي من الدرجة الرابعة - سُلمْ 8",
@@ -3114,6 +3114,20 @@
   }
  ],
  "updates": [
+  {
+   "id": "ep:34f82ed2-c3fa-4496-a8e3-3a1159e4adf3",
+   "stage": "RESULTATS",
+   "administration": "وزارة الصحة والحماية الاجتماعية",
+   "grade": "ممرض من الدرجة الأولى - سُلمْ 10",
+   "title": "ممرض",
+   "family": "ممرض",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/eaaec5e6de1d7599e1e7fe015f19d1fd.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_resultats/34f82ed2-c3fa-4496-a8e3-3a1159e4adf3",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/34f82ed2-c3fa-4496-a8e3-3a1159e4adf3",
+   "posted_at": "2026-11-26T20:33:04+00:00"
+  },
   {
    "id": "ep:90f5f2af-bcbb-4d5e-b770-cc2c89290993",
    "stage": "CONVOQUES_ORAL",

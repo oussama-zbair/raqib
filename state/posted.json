@@ -7121,6 +7121,30 @@
       "exam_date": null,
       "city": null,
       "logo_url": null
+    },
+    {
+      "key": "ep:78699344-c4d1-4204-ad40-9749cc0563aa#CONVOQUES",
+      "reference_code": null,
+      "stage": "CONVOQUES",
+      "administration": "وزارة الصحة والحماية الاجتماعية",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/78699344-c4d1-4204-ad40-9749cc0563aa",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T20:32:04+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:34f82ed2-c3fa-4496-a8e3-3a1159e4adf3#RESULTATS",
+      "reference_code": "C 44464/26",
+      "stage": "RESULTATS",
+      "administration": "وزارة الصحة والحماية الاجتماعية",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/34f82ed2-c3fa-4496-a8e3-3a1159e4adf3",
+      "telegram_message_id": 201,
+      "posted_at": "2026-11-26T20:33:04+00:00",
+      "grade": "ممرض من الدرجة الأولى - سُلمْ 10",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_resultats/34f82ed2-c3fa-4496-a8e3-3a1159e4adf3",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/eaaec5e6de1d7599e1e7fe015f19d1fd.png"
     }
   ],
   "seeded_sources": [
@@ -7480,10 +7504,6 @@
     "ep:402b2997-0464-4c79-93c7-c4a918d05b34": {
       "added": "2026-11-25",
       "checked": "2026-11-25T21:02:12+00:00"
-    },
-    "ep:34f82ed2-c3fa-4496-a8e3-3a1159e4adf3": {
-      "added": "2026-11-25",
-      "checked": "2026-11-25T21:02:16+00:00"
     },
     "ep:144317d0-3827-46f6-94c3-a5fbd18b2c85": {
       "added": "2026-11-25",
@@ -8676,6 +8696,10 @@
     "ep:90f5f2af-bcbb-4d5e-b770-cc2c89290993": {
       "added": "2026-11-26",
       "checked": "2026-11-26T18:32:31+00:00"
+    },
+    "ep:78699344-c4d1-4204-ad40-9749cc0563aa": {
+      "added": "2026-11-26",
+      "checked": "2026-11-26T20:32:18+00:00"
     }
   },
   "last_discovery": "2026-11-26",
