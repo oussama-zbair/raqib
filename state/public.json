@@ -1,20 +1,130 @@
 {
- "updated_at": "2026-11-26T14:37:52+00:00",
+ "updated_at": "2026-11-26T15:14:42+00:00",
  "channel": "https://t.me/RaqibEmploi",
  "sources": [
   {
    "name": "emploi-public.ma",
    "url": "https://www.emploi-public.ma",
-   "status": "ok (359 items)"
+   "status": "ok (307 items)"
   }
  ],
  "stats": {
-  "open": 115,
-  "posted_total": 118,
-  "stage_posts_total": 37,
-  "followed": 364
+  "open": 120,
+  "posted_total": 123,
+  "stage_posts_total": 39,
+  "followed": 370
  },
  "concours": [
+  {
+   "id": "ep:1e96ae25-71ea-46b8-8867-53ac0ce6201f",
+   "code": "C 44981/26",
+   "administration": "صورياد القناة الثانية 2M",
+   "grade": "تقني في الإعلاميات",
+   "title": "تقني في الإعلاميات",
+   "family": "تقني",
+   "scale": null,
+   "specialty": null,
+   "posts": 1,
+   "deadline": "2026-12-11",
+   "exam_date": null,
+   "city": null,
+   "logo": null,
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/1e96ae25-71ea-46b8-8867-53ac0ce6201f",
+   "tags": [
+    "معلوميات",
+    "تقني"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-26T15:14:42+00:00"
+  },
+  {
+   "id": "ep:0cea475e-f20a-4376-a7e7-7f0e158076d3",
+   "code": "C 44980/26",
+   "administration": "صورياد القناة الثانية 2M",
+   "grade": "مسؤول الإرسال",
+   "title": "مسؤول الإرسال",
+   "family": "مسؤول",
+   "scale": null,
+   "specialty": null,
+   "posts": 2,
+   "deadline": "2026-12-11",
+   "exam_date": null,
+   "city": null,
+   "logo": null,
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/0cea475e-f20a-4376-a7e7-7f0e158076d3",
+   "tags": [],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-26T15:14:36+00:00"
+  },
+  {
+   "id": "ep:72ab927f-ed00-4aa4-a2f0-bd7609355ff1",
+   "code": "C 44984/26",
+   "administration": "صورياد القناة الثانية 2M",
+   "grade": "تقني متخصص في الاستغلال والصيانة",
+   "title": "تقني متخصص في الاستغلال",
+   "family": "تقني",
+   "scale": null,
+   "specialty": null,
+   "posts": 4,
+   "deadline": "2026-12-11",
+   "exam_date": null,
+   "city": null,
+   "logo": null,
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/72ab927f-ed00-4aa4-a2f0-bd7609355ff1",
+   "tags": [
+    "تقني"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-26T15:14:31+00:00"
+  },
+  {
+   "id": "ep:1f6ad164-7fc0-4ce5-9c34-c2b7e2b3adca",
+   "code": "C 44978/26",
+   "administration": "صورياد القناة الثانية 2M",
+   "grade": "مسؤول الكهرباء",
+   "title": "مسؤول الكهرباء",
+   "family": "مسؤول",
+   "scale": null,
+   "specialty": null,
+   "posts": 1,
+   "deadline": "2026-12-11",
+   "exam_date": null,
+   "city": null,
+   "logo": null,
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/1f6ad164-7fc0-4ce5-9c34-c2b7e2b3adca",
+   "tags": [],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-26T15:14:26+00:00"
+  },
+  {
+   "id": "ep:b91ad574-7872-4073-b9a6-322391c7d3a3",
+   "code": "C 44977/26",
+   "administration": "صورياد القناة الثانية 2M",
+   "grade": "مسؤول تنسيق وإدارة الاستوديو",
+   "title": "مسؤول تنسيق وإدارة الاستوديو",
+   "family": "مسؤول",
+   "scale": null,
+   "specialty": null,
+   "posts": 1,
+   "deadline": "2026-12-11",
+   "exam_date": null,
+   "city": null,
+   "logo": null,
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/b91ad574-7872-4073-b9a6-322391c7d3a3",
+   "tags": [],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-26T15:14:21+00:00"
+  },
   {
    "id": "ep:29522e88-8319-4552-a322-2c83aa39d2e2",
    "code": "C 44976/26",
@@ -815,7 +925,7 @@
    "posted_at": "2026-11-26T10:05:29+00:00"
   },
   {
-   "id": "ep:770a12fe-e1a1-4bb9-8a7d-f6ca4c8152fb",
+   "id": "ep:9c94d268-16e7-4f46-9c9d-b1a429f8ea50",
    "code": "C 44931/26",
    "administration": "جامعة مولاي اسماعيل - مكناس",
    "grade": "أستاذ محاضر من الدرجة أ - سُلمْ 11",
@@ -988,7 +1098,7 @@
    "posted_at": "2026-11-25T19:35:28+00:00"
   },
   {
-   "id": "ep:593d3e98-64cc-4a18-99b5-56564e510a9a",
+   "id": "ep:8a811d71-5f0c-4516-a54b-cdd421929da1",
    "code": "C 44916/26",
    "administration": "إقليم تاونات",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -1198,7 +1308,7 @@
    "posted_at": "2026-11-25T19:34:32+00:00"
   },
   {
-   "id": "ep:3f6d3934-2b54-4ccb-934e-67ec66e7f762",
+   "id": "ep:d520bc73-bcf0-4974-af85-7b6af7c7c40f",
    "code": "C 44884/26",
    "administration": "إقليم تازة - تازة",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -1267,7 +1377,7 @@
    "posted_at": "2026-11-25T19:03:47+00:00"
   },
   {
-   "id": "ep:a7c4e6a7-7c33-4ec3-a00e-97c83892d659",
+   "id": "ep:3d0d7c43-34b5-4e4b-ba57-02da6200dbd0",
    "code": "C 44870/26",
    "administration": "إقليم برشيد - برشيد",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -1938,7 +2048,7 @@
    "posted_at": "2026-11-25T18:24:59+00:00"
   },
   {
-   "id": "ep:7ba78629-d145-41b6-b873-e1202bf0e3be",
+   "id": "ep:48737302-a809-41b9-a23d-03980d4b9460",
    "code": "C 44889/26",
    "administration": "شركة المنشآت الرياضية لطنجة ش.م",
    "grade": "تقني تيار قوي",
@@ -2732,6 +2842,34 @@
   }
  ],
  "updates": [
+  {
+   "id": "ep:4b337dfd-a342-45b5-b96c-fefd62b71b49",
+   "stage": "RESULTATS",
+   "administration": "الوكالة الجهوية لتنفيذ المشاريع لجهة بني ملال - خنيفرة",
+   "grade": "مهندس دولة رئيس مشروع (كلية الطب والصيدلة) و مهندس معماري",
+   "title": "مهندس دولة رئيس مشروع",
+   "family": "مهندس",
+   "exam_date": null,
+   "city": null,
+   "logo": null,
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_resultats/4b337dfd-a342-45b5-b96c-fefd62b71b49",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/4b337dfd-a342-45b5-b96c-fefd62b71b49",
+   "posted_at": "2026-11-26T15:14:13+00:00"
+  },
+  {
+   "id": "ep:3bb8d843-d0f7-4c6a-908a-e305d1ecf79d",
+   "stage": "CONVOQUES_ORAL",
+   "administration": "إقليم افران",
+   "grade": "تقني من الدرجة الرابعة - سُلمْ 8",
+   "title": "تقني",
+   "family": "تقني",
+   "exam_date": null,
+   "city": "افران",
+   "logo": null,
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/3bb8d843-d0f7-4c6a-908a-e305d1ecf79d",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/3bb8d843-d0f7-4c6a-908a-e305d1ecf79d",
+   "posted_at": "2026-11-26T15:14:08+00:00"
+  },
   {
    "id": "ep:64194e96-bc55-4817-8ddd-c9b0e5d0d6d1",
    "stage": "CONVOQUES_ORAL",
