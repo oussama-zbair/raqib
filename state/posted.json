@@ -2446,6 +2446,42 @@
       "city": "بولمان",
       "logo_url": null,
       "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/dc5dba52-bc56-45e1-9d30-504dbf5832eb"
+    },
+    {
+      "id": "C 44941/26",
+      "reference_code": "C 44941/26",
+      "administration": "إقليم بولمان - الرميلة",
+      "grade": "تقني من الدرجة الرابعة - سُلمْ 8",
+      "post_count": 1,
+      "deadline": "2026-12-15",
+      "exam_date": "2027-01-10",
+      "urls": [
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/bd7643c2-1ee8-4a5c-8b93-577068cc6814"
+      ],
+      "telegram_message_id": 195,
+      "posted_at": "2026-11-26T17:04:35+00:00",
+      "specialty": "الاعلاميات أو التنمية المعلوماتية أو الشبكة المعلوماتية",
+      "city": "بولمان",
+      "logo_url": null,
+      "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/bd7643c2-1ee8-4a5c-8b93-577068cc6814"
+    },
+    {
+      "id": "C 44686/26",
+      "reference_code": "C 44686/26",
+      "administration": "أطلس اون لاين/ الخطوط الملكية المغربية",
+      "grade": "مستشار الهاتف",
+      "post_count": 30,
+      "deadline": "2026-11-26",
+      "exam_date": null,
+      "urls": [
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/396f4467-4c09-40c0-b77e-935cc93c3489"
+      ],
+      "telegram_message_id": 196,
+      "posted_at": "2026-11-26T17:04:42+00:00",
+      "specialty": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/6f6e17bf2c2017193a0160f2e2884154.png",
+      "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/396f4467-4c09-40c0-b77e-935cc93c3489"
     }
   ],
   "stages": [
@@ -6977,6 +7013,44 @@
       "exam_date": null,
       "city": null,
       "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/404e0e68e04c1d3f0e6b0e9ffbc1dca6.png"
+    },
+    {
+      "key": "ep:ab562af5-0ec1-4fe8-99a3-48cd82b59676#CONVOQUES",
+      "reference_code": null,
+      "stage": "CONVOQUES",
+      "administration": "وزارة الاقتصاد والمالية والنجاعة العمومية",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/ab562af5-0ec1-4fe8-99a3-48cd82b59676",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T17:02:45+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:d50b9762-6b66-42b3-9d9a-6041fe68f8fa#CONVOQUES",
+      "reference_code": "C 44657/26",
+      "stage": "CONVOQUES",
+      "administration": "جامعة شعيب الدكالي - الجديدة",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/d50b9762-6b66-42b3-9d9a-6041fe68f8fa",
+      "telegram_message_id": 193,
+      "posted_at": "2026-11-26T17:04:20+00:00",
+      "grade": "تقني من الدرجة الثالثة لفائدة كلية العلوم بالجديدة",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques/d50b9762-6b66-42b3-9d9a-6041fe68f8fa",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/logo-349.png"
+    },
+    {
+      "key": "ep:04a91581-186c-41d8-82e4-3cea07204037#RESULTATS",
+      "reference_code": "C 44465/26",
+      "stage": "RESULTATS",
+      "administration": "وزارة الصحة والحماية الاجتماعية",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/04a91581-186c-41d8-82e4-3cea07204037",
+      "telegram_message_id": 194,
+      "posted_at": "2026-11-26T17:04:26+00:00",
+      "grade": "ممرض من الدرجة الأولى - سُلمْ 10",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_resultats/04a91581-186c-41d8-82e4-3cea07204037",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/logo-016.png"
     }
   ],
   "seeded_sources": [
@@ -7336,10 +7410,6 @@
     "ep:402b2997-0464-4c79-93c7-c4a918d05b34": {
       "added": "2026-11-25",
       "checked": "2026-11-25T21:02:12+00:00"
-    },
-    "ep:04a91581-186c-41d8-82e4-3cea07204037": {
-      "added": "2026-11-25",
-      "checked": "2026-11-25T21:02:14+00:00"
     },
     "ep:34f82ed2-c3fa-4496-a8e3-3a1159e4adf3": {
       "added": "2026-11-25",
@@ -8504,6 +8574,22 @@
     "ep:7ff9a694-22c6-43fc-80ec-c5c23da51529": {
       "added": "2026-11-26",
       "checked": "2026-11-26T16:34:08+00:00"
+    },
+    "ep:396f4467-4c09-40c0-b77e-935cc93c3489": {
+      "added": "2026-11-26",
+      "checked": "2026-11-26T17:02:49+00:00"
+    },
+    "ep:bd7643c2-1ee8-4a5c-8b93-577068cc6814": {
+      "added": "2026-11-26",
+      "checked": "2026-11-26T17:02:50+00:00"
+    },
+    "ep:ab562af5-0ec1-4fe8-99a3-48cd82b59676": {
+      "added": "2026-11-26",
+      "checked": "2026-11-26T17:03:07+00:00"
+    },
+    "ep:d50b9762-6b66-42b3-9d9a-6041fe68f8fa": {
+      "added": "2026-11-26",
+      "checked": null
     }
   },
   "last_discovery": "2026-11-26",

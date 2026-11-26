@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-26T16:37:04+00:00",
+ "updated_at": "2026-11-26T17:04:42+00:00",
  "channel": "https://t.me/RaqibEmploi",
  "sources": [
   {
@@ -9,12 +9,57 @@
   }
  ],
  "stats": {
-  "open": 127,
-  "posted_total": 130,
-  "stage_posts_total": 46,
-  "followed": 380
+  "open": 129,
+  "posted_total": 132,
+  "stage_posts_total": 48,
+  "followed": 383
  },
  "concours": [
+  {
+   "id": "ep:396f4467-4c09-40c0-b77e-935cc93c3489",
+   "code": "C 44686/26",
+   "administration": "أطلس اون لاين/ الخطوط الملكية المغربية",
+   "grade": "مستشار الهاتف",
+   "title": "مستشار الهاتف",
+   "family": "مستشار",
+   "scale": null,
+   "specialty": null,
+   "posts": 30,
+   "deadline": "2026-11-26",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/6f6e17bf2c2017193a0160f2e2884154.png",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/396f4467-4c09-40c0-b77e-935cc93c3489",
+   "tags": [],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-26T17:04:42+00:00"
+  },
+  {
+   "id": "ep:bd7643c2-1ee8-4a5c-8b93-577068cc6814",
+   "code": "C 44941/26",
+   "administration": "إقليم بولمان - الرميلة",
+   "grade": "تقني من الدرجة الرابعة - سُلمْ 8",
+   "title": "تقني",
+   "family": "تقني",
+   "scale": 8,
+   "specialty": "الاعلاميات أو التنمية المعلوماتية أو الشبكة المعلوماتية",
+   "posts": 1,
+   "deadline": "2026-12-15",
+   "exam_date": "2027-01-10",
+   "city": "بولمان",
+   "logo": null,
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/bd7643c2-1ee8-4a5c-8b93-577068cc6814",
+   "tags": [
+    "معلوميات",
+    "تقني"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-26T17:04:35+00:00"
+  },
   {
    "id": "ep:dc5dba52-bc56-45e1-9d30-504dbf5832eb",
    "code": "C 44939/26",
@@ -1015,7 +1060,7 @@
    "posted_at": "2026-11-26T11:04:41+00:00"
   },
   {
-   "id": "ep:87771aba-7e04-4a17-9562-533af23e2dc1",
+   "id": "ep:1e96ae25-71ea-46b8-8867-53ac0ce6201f",
    "code": "C 44934/26",
    "administration": "صورياد القناة الثانية 2M",
    "grade": "تقني في الديكور",
@@ -1255,7 +1300,7 @@
    "posted_at": "2026-11-25T19:35:28+00:00"
   },
   {
-   "id": "ep:8a811d71-5f0c-4516-a54b-cdd421929da1",
+   "id": "ep:593d3e98-64cc-4a18-99b5-56564e510a9a",
    "code": "C 44916/26",
    "administration": "إقليم تاونات",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -1396,7 +1441,7 @@
    "posted_at": "2026-11-25T19:34:47+00:00"
   },
   {
-   "id": "ep:ccb9b405-58f7-453e-bb03-72ff84e5c365",
+   "id": "ep:a5b90bf5-4086-434c-b948-8880d9adb947",
    "code": "C 44897/26",
    "administration": "إقليم الحاجب - اكوراي",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -1465,7 +1510,7 @@
    "posted_at": "2026-11-25T19:34:32+00:00"
   },
   {
-   "id": "ep:3f6d3934-2b54-4ccb-934e-67ec66e7f762",
+   "id": "ep:d520bc73-bcf0-4974-af85-7b6af7c7c40f",
    "code": "C 44884/26",
    "administration": "إقليم تازة - تازة",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -2205,7 +2250,7 @@
    "posted_at": "2026-11-25T18:24:59+00:00"
   },
   {
-   "id": "ep:7ba78629-d145-41b6-b873-e1202bf0e3be",
+   "id": "ep:aa5a7bf0-c8ed-4221-bff0-de210c2b0d44",
    "code": "C 44889/26",
    "administration": "شركة المنشآت الرياضية لطنجة ش.م",
    "grade": "تقني تيار قوي",
@@ -2705,7 +2750,7 @@
    "posted_at": "2026-11-25T04:47:00+00:00"
   },
   {
-   "id": "ep:aa40ad09-1cb6-4408-b1a7-7507ee9673ed",
+   "id": "ep:a308f369-e882-4c42-871d-acb07d5c6d2e",
    "code": "C 44679/26",
    "administration": "جامعة شعيب الدكالي - الجديدة",
    "grade": "Technicien de 3ème grade",
@@ -2834,7 +2879,7 @@
    "posted_at": "2026-11-25T04:47:00+00:00"
   },
   {
-   "id": "ep:254a4ccc-b3d1-43d0-8b7d-a23d818766b2",
+   "id": "ep:06f2df84-0753-47a3-95b9-4aa040df8c72",
    "code": "C 44886/26",
    "administration": "وزارة الصحة والحماية الاجتماعية",
    "grade": "مساعد تقني من الدرجة الثانية",
@@ -2857,7 +2902,7 @@
    "posted_at": "2026-11-25T04:47:00+00:00"
   },
   {
-   "id": "ep:254a4ccc-b3d1-43d0-8b7d-a23d818766b2",
+   "id": "ep:06f2df84-0753-47a3-95b9-4aa040df8c72",
    "code": "C 44887/26",
    "administration": "وزارة الصحة والحماية الاجتماعية",
    "grade": "مساعد تقني من الدرجة الثانية",
@@ -2999,6 +3044,34 @@
   }
  ],
  "updates": [
+  {
+   "id": "ep:04a91581-186c-41d8-82e4-3cea07204037",
+   "stage": "RESULTATS",
+   "administration": "وزارة الصحة والحماية الاجتماعية",
+   "grade": "ممرض من الدرجة الأولى - سُلمْ 10",
+   "title": "ممرض",
+   "family": "ممرض",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/logo-016.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_resultats/04a91581-186c-41d8-82e4-3cea07204037",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/04a91581-186c-41d8-82e4-3cea07204037",
+   "posted_at": "2026-11-26T17:04:26+00:00"
+  },
+  {
+   "id": "ep:d50b9762-6b66-42b3-9d9a-6041fe68f8fa",
+   "stage": "CONVOQUES",
+   "administration": "جامعة شعيب الدكالي - الجديدة",
+   "grade": "تقني من الدرجة الثالثة لفائدة كلية العلوم بالجديدة",
+   "title": "تقني",
+   "family": "تقني",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/logo-349.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques/d50b9762-6b66-42b3-9d9a-6041fe68f8fa",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/d50b9762-6b66-42b3-9d9a-6041fe68f8fa",
+   "posted_at": "2026-11-26T17:04:20+00:00"
+  },
   {
    "id": "ep:5a9ef0cb-794c-40d7-b0ad-a0a5444c4992",
    "stage": "CONVOQUES_ORAL",
