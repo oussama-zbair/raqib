@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-26T12:33:52+00:00",
+ "updated_at": "2026-11-26T13:06:46+00:00",
  "channel": "https://t.me/RaqibEmploi",
  "sources": [
   {
@@ -9,12 +9,167 @@
   }
  ],
  "stats": {
-  "open": 93,
-  "posted_total": 96,
-  "stage_posts_total": 32,
-  "followed": 339
+  "open": 101,
+  "posted_total": 104,
+  "stage_posts_total": 34,
+  "followed": 348
  },
  "concours": [
+  {
+   "id": "ep:037922e4-1058-44ff-a382-37ec92c3f211",
+   "code": "C 44958/26",
+   "administration": "صورياد القناة الثانية 2M",
+   "grade": "مهندس الصوت",
+   "specialty": null,
+   "posts": 2,
+   "deadline": "2026-12-11",
+   "exam_date": null,
+   "city": null,
+   "logo": null,
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/037922e4-1058-44ff-a382-37ec92c3f211",
+   "tags": [
+    "هندسة"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-26T13:06:46+00:00"
+  },
+  {
+   "id": "ep:7d32403a-c665-4897-9772-13e69b32b643",
+   "code": "C 44957/26",
+   "administration": "وزارة الصحة والحماية الاجتماعية",
+   "grade": "صيدلي من الدرجة الأولى - سُلمْ 11",
+   "specialty": "صيادلة",
+   "posts": 4,
+   "deadline": "2026-12-18",
+   "exam_date": "2027-01-03",
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/eaaec5e6de1d7599e1e7fe015f19d1fd.png",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/7d32403a-c665-4897-9772-13e69b32b643",
+   "tags": [
+    "صحة"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-26T13:06:41+00:00"
+  },
+  {
+   "id": "ep:9d21f49c-97f2-47af-83e0-33d28ee13922",
+   "code": "C 44956/26",
+   "administration": "وزارة الصحة والحماية الاجتماعية",
+   "grade": "طبيب من الدرجة الأولى - سُلمْ 11",
+   "specialty": "أطباء",
+   "posts": 74,
+   "deadline": "2026-12-18",
+   "exam_date": "2027-01-03",
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/eaaec5e6de1d7599e1e7fe015f19d1fd.png",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/9d21f49c-97f2-47af-83e0-33d28ee13922",
+   "tags": [
+    "صحة"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-26T13:06:35+00:00"
+  },
+  {
+   "id": "ep:2994440b-4a76-49ee-bc58-8b2fe1d54448",
+   "code": "C 44911/26",
+   "administration": "إقليم بولمان - افريطيسة",
+   "grade": "تقني من الدرجة الرابعة - سُلمْ 8",
+   "specialty": "الهندسة المدنية او الاشغال العمومية او الاشغال الكبرى / الاعلاميات التنمية المعلوماتية الشبكة المعلوماتية / التعمير والهندسة المعمارية / كهرباء الصيانة الصناعية أو الكهرباء الصناعية",
+   "posts": 5,
+   "deadline": "2027-01-08",
+   "exam_date": "2027-01-24",
+   "city": "بولمان",
+   "logo": null,
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/2994440b-4a76-49ee-bc58-8b2fe1d54448",
+   "tags": [
+    "معلوميات",
+    "تقني"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-26T13:06:29+00:00"
+  },
+  {
+   "id": "ep:ae786151-fbbd-4e11-acd9-7a8088bd1a30",
+   "code": "C 44955/26",
+   "administration": "صورياد القناة الثانية 2M",
+   "grade": "ممرض",
+   "specialty": null,
+   "posts": 1,
+   "deadline": "2026-12-11",
+   "exam_date": null,
+   "city": null,
+   "logo": null,
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/ae786151-fbbd-4e11-acd9-7a8088bd1a30",
+   "tags": [
+    "صحة"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-26T13:06:24+00:00"
+  },
+  {
+   "id": "ep:5dba2259-2bc7-4bca-aa1d-2950b421c52c",
+   "code": "C 44954/26",
+   "administration": "صورياد القناة الثانية 2M",
+   "grade": "مصمم جرافيك",
+   "specialty": null,
+   "posts": 1,
+   "deadline": "2026-12-11",
+   "exam_date": null,
+   "city": null,
+   "logo": null,
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/5dba2259-2bc7-4bca-aa1d-2950b421c52c",
+   "tags": [],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-26T13:06:18+00:00"
+  },
+  {
+   "id": "ep:135e6972-260c-4257-a7be-8374e337608d",
+   "code": "C 44953/26",
+   "administration": "صورياد القناة الثانية 2M",
+   "grade": "موثّق وأرشيفي قانوني",
+   "specialty": null,
+   "posts": 1,
+   "deadline": "2026-12-11",
+   "exam_date": null,
+   "city": null,
+   "logo": null,
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/135e6972-260c-4257-a7be-8374e337608d",
+   "tags": [],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-26T13:06:13+00:00"
+  },
+  {
+   "id": "ep:634f385b-6af2-4e06-848d-9dab47c80b5e",
+   "code": "C 44952/26",
+   "administration": "صورياد القناة الثانية 2M",
+   "grade": "موثّق",
+   "specialty": null,
+   "posts": 1,
+   "deadline": "2026-12-11",
+   "exam_date": null,
+   "city": null,
+   "logo": null,
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/634f385b-6af2-4e06-848d-9dab47c80b5e",
+   "tags": [],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-26T13:06:08+00:00"
+  },
   {
    "id": "ep:24648e77-7956-4eb2-8c8d-c4f3c502eaf1",
    "code": "C 44951/26",
@@ -278,7 +433,7 @@
    "posted_at": "2026-11-26T10:05:29+00:00"
   },
   {
-   "id": "ep:9c94d268-16e7-4f46-9c9d-b1a429f8ea50",
+   "id": "ep:770a12fe-e1a1-4bb9-8a7d-f6ca4c8152fb",
    "code": "C 44931/26",
    "administration": "جامعة مولاي اسماعيل - مكناس",
    "grade": "أستاذ محاضر من الدرجة أ - سُلمْ 11",
@@ -363,7 +518,7 @@
    "posted_at": "2026-11-26T00:05:38+00:00"
   },
   {
-   "id": "ep:2fef0122-6371-4de3-af5f-54385044d832",
+   "id": "ep:98f8f5aa-a77c-4571-8490-2ecfd8f0404f",
    "code": "C 44716/26",
    "administration": "الوكالة الوطنية للدعم الاجتماعي",
    "grade": "تقني متخصص في البناء",
@@ -430,7 +585,7 @@
    "posted_at": "2026-11-25T19:35:28+00:00"
   },
   {
-   "id": "ep:593d3e98-64cc-4a18-99b5-56564e510a9a",
+   "id": "ep:8a811d71-5f0c-4516-a54b-cdd421929da1",
    "code": "C 44916/26",
    "administration": "إقليم تاونات",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -553,7 +708,7 @@
    "posted_at": "2026-11-25T19:34:47+00:00"
   },
   {
-   "id": "ep:a7e52309-7e1c-4474-b637-1f5cf0e47b4c",
+   "id": "ep:a5b90bf5-4086-434c-b948-8880d9adb947",
    "code": "C 44897/26",
    "administration": "إقليم الحاجب - اكوراي",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -613,7 +768,7 @@
    "posted_at": "2026-11-25T19:34:32+00:00"
   },
   {
-   "id": "ep:3f6d3934-2b54-4ccb-934e-67ec66e7f762",
+   "id": "ep:d520bc73-bcf0-4974-af85-7b6af7c7c40f",
    "code": "C 44884/26",
    "administration": "إقليم تازة - تازة",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -713,7 +868,7 @@
    "posted_at": "2026-11-25T19:03:38+00:00"
   },
   {
-   "id": "ep:c7259a97-09c2-4050-893a-c2226569266d",
+   "id": "ep:35a928ed-d8e5-4555-8daf-fa89a806a698",
    "code": "C 44868/26",
    "administration": "إقليم الخميسات - الزحيلكة",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -1691,7 +1846,7 @@
    "posted_at": "2026-11-25T04:47:00+00:00"
   },
   {
-   "id": "ep:a308f369-e882-4c42-871d-acb07d5c6d2e",
+   "id": "ep:aa40ad09-1cb6-4408-b1a7-7507ee9673ed",
    "code": "C 44679/26",
    "administration": "جامعة شعيب الدكالي - الجديدة",
    "grade": "Technicien de 3ème grade",
@@ -1805,7 +1960,7 @@
    "posted_at": "2026-11-25T04:47:00+00:00"
   },
   {
-   "id": "ep:06f2df84-0753-47a3-95b9-4aa040df8c72",
+   "id": "ep:254a4ccc-b3d1-43d0-8b7d-a23d818766b2",
    "code": "C 44886/26",
    "administration": "وزارة الصحة والحماية الاجتماعية",
    "grade": "مساعد تقني من الدرجة الثانية",
@@ -1825,7 +1980,7 @@
    "posted_at": "2026-11-25T04:47:00+00:00"
   },
   {
-   "id": "ep:06f2df84-0753-47a3-95b9-4aa040df8c72",
+   "id": "ep:254a4ccc-b3d1-43d0-8b7d-a23d818766b2",
    "code": "C 44887/26",
    "administration": "وزارة الصحة والحماية الاجتماعية",
    "grade": "مساعد تقني من الدرجة الثانية",
@@ -1949,6 +2104,30 @@
   }
  ],
  "updates": [
+  {
+   "id": "ep:af01576c-b687-48d7-8b41-0434b035acfb",
+   "stage": "CONVOQUES_ORAL",
+   "administration": "جامعة شعيب الدكالي - الجديدة",
+   "grade": "أستاذ محاضر لفائدة المدرسة الوطنية للتجارة و التسيير بالجديدة",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/538235c11267006838377d4673c17e9d.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/af01576c-b687-48d7-8b41-0434b035acfb",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/af01576c-b687-48d7-8b41-0434b035acfb",
+   "posted_at": "2026-11-26T13:06:00+00:00"
+  },
+  {
+   "id": "ep:0a576536-9f2d-4dd4-b995-f12947453d27",
+   "stage": "CONVOQUES_ORAL",
+   "administration": "جامعة ابن زهر - أكادير",
+   "grade": "تقني من الدرجة الثالثة بكلية العلوم و التقنيات بكلميم Gestion des entreprises",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/logo-385.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/0a576536-9f2d-4dd4-b995-f12947453d27",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/0a576536-9f2d-4dd4-b995-f12947453d27",
+   "posted_at": "2026-11-26T13:05:54+00:00"
+  },
   {
    "id": "ep:c183d8d3-7da6-405f-be4a-0ac85841bcdf",
    "stage": "CONVOQUES",
