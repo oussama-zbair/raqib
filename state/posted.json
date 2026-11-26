@@ -5184,6 +5184,236 @@
       "telegram_message_id": null,
       "posted_at": "2026-11-26T01:02:12+00:00",
       "seeded": true
+    },
+    {
+      "key": "ep:4cc13301-a259-4768-8767-f3712f6d4758#CONVOQUES",
+      "reference_code": "C 43795/26",
+      "stage": "CONVOQUES",
+      "administration": "الوكالة الحضرية وإنقاذ فاس",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/4cc13301-a259-4768-8767-f3712f6d4758",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T01:31:26+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:ce423091-9cb3-4f97-b892-960cd7be61b7#CONVOQUES",
+      "reference_code": "C 43776/26",
+      "stage": "CONVOQUES",
+      "administration": "جامعة سيدي محمد بن عبد الله -فاس-",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/ce423091-9cb3-4f97-b892-960cd7be61b7",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T01:31:27+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:4b2040b4-7556-4e86-8475-5ebf392b84dd#CONVOQUES",
+      "reference_code": "C 43693/26",
+      "stage": "CONVOQUES",
+      "administration": "المركز الوطني للطاقة والعلوم والتقنيات النووية",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/4b2040b4-7556-4e86-8475-5ebf392b84dd",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T01:31:29+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:6ad249cd-06e8-43e3-9e80-1ce7988e795c#CONVOQUES",
+      "reference_code": "C 43423/26",
+      "stage": "CONVOQUES",
+      "administration": "المجموعة الصحية الترابية لجهة طنجة تطوان الحسيمة",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/6ad249cd-06e8-43e3-9e80-1ce7988e795c",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T01:31:30+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:aaff24d9-cbf5-46fa-a36d-f3011911337e#CONVOQUES",
+      "reference_code": "C 43421/26",
+      "stage": "CONVOQUES",
+      "administration": "المجموعة الصحية الترابية لجهة طنجة تطوان الحسيمة",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/aaff24d9-cbf5-46fa-a36d-f3011911337e",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T01:31:31+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:cf147b42-1501-4321-8381-bcfd091da726#CONVOQUES",
+      "reference_code": "C 42919/26",
+      "stage": "CONVOQUES",
+      "administration": "الوكالة الوطنية للتجهيزات العامة",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/cf147b42-1501-4321-8381-bcfd091da726",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T01:31:32+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:90fbe2e0-329d-4898-b339-5d4e0e85f5f8#CONVOQUES",
+      "reference_code": "C 44467/26",
+      "stage": "CONVOQUES",
+      "administration": "وزارة الصحة والحماية الاجتماعية",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/90fbe2e0-329d-4898-b339-5d4e0e85f5f8",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T01:31:44+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:5f66d5b3-6fe7-4e8a-8258-014f3f3022cf#CONVOQUES",
+      "reference_code": "C 44463/26",
+      "stage": "CONVOQUES",
+      "administration": "وزارة الصحة والحماية الاجتماعية",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/5f66d5b3-6fe7-4e8a-8258-014f3f3022cf",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T01:31:45+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:1ca7c692-2941-4aed-8903-a6d7758252d0#CONVOQUES",
+      "reference_code": "C 43687/26",
+      "stage": "CONVOQUES",
+      "administration": "وزارة الداخلية",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/1ca7c692-2941-4aed-8903-a6d7758252d0",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T01:31:47+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:1ca7c692-2941-4aed-8903-a6d7758252d0#CONVOQUES_ORAL",
+      "reference_code": "C 43687/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "وزارة الداخلية",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/1ca7c692-2941-4aed-8903-a6d7758252d0",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T01:31:47+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:163393e4-8773-494e-ba2d-ad108262c366#CONVOQUES",
+      "reference_code": "C 43567/26",
+      "stage": "CONVOQUES",
+      "administration": "وزارة الأسرة والتنمية الاجتماعية والمساواة",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/163393e4-8773-494e-ba2d-ad108262c366",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T01:31:48+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:163393e4-8773-494e-ba2d-ad108262c366#CONVOQUES_ORAL",
+      "reference_code": "C 43567/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "وزارة الأسرة والتنمية الاجتماعية والمساواة",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/163393e4-8773-494e-ba2d-ad108262c366",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T01:31:48+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:610a541b-4cfe-4d44-8cac-c963b740652f#CONVOQUES",
+      "reference_code": "C 43566/26",
+      "stage": "CONVOQUES",
+      "administration": "وزارة الأسرة والتنمية الاجتماعية والمساواة",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/610a541b-4cfe-4d44-8cac-c963b740652f",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T01:31:50+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:610a541b-4cfe-4d44-8cac-c963b740652f#CONVOQUES_ORAL",
+      "reference_code": "C 43566/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "وزارة الأسرة والتنمية الاجتماعية والمساواة",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/610a541b-4cfe-4d44-8cac-c963b740652f",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T01:31:50+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:a25bed63-cd17-4f71-abb9-60827ddb43c0#CONVOQUES",
+      "reference_code": "C 43412/26",
+      "stage": "CONVOQUES",
+      "administration": "وزارة الداخلية -عمالة إقليم طاطا-",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/a25bed63-cd17-4f71-abb9-60827ddb43c0",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T01:31:51+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:27a263ca-68f6-492c-a533-4848ac57d58f#CONVOQUES",
+      "reference_code": "C 43331/26",
+      "stage": "CONVOQUES",
+      "administration": "وزارة الشباب والثقافة والرياضة - قطاع الثقافة",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/27a263ca-68f6-492c-a533-4848ac57d58f",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T01:31:52+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:83a2950e-6639-4d19-9929-905dc8ce645a#CONVOQUES",
+      "reference_code": "C 43323/26",
+      "stage": "CONVOQUES",
+      "administration": "وزارة الفلاحة والصيد البحري والسيادة الغذائية - قطاع الصيد البحري",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/83a2950e-6639-4d19-9929-905dc8ce645a",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T01:31:54+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:78b27d05-3b86-47fc-9356-b0f19b67b73e#CONVOQUES",
+      "reference_code": "C 43260/26",
+      "stage": "CONVOQUES",
+      "administration": "وزارة العدل",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/78b27d05-3b86-47fc-9356-b0f19b67b73e",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T01:31:55+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:78b27d05-3b86-47fc-9356-b0f19b67b73e#CONVOQUES_ORAL",
+      "reference_code": "C 43260/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "وزارة العدل",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/78b27d05-3b86-47fc-9356-b0f19b67b73e",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T01:31:55+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:72da9541-e88d-4bde-929e-f342578c1539#CONVOQUES",
+      "reference_code": "C 43256/26",
+      "stage": "CONVOQUES",
+      "administration": "وزارة الداخلية -عمالة وجدة أنكاد-",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/72da9541-e88d-4bde-929e-f342578c1539",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T01:31:56+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:72da9541-e88d-4bde-929e-f342578c1539#CONVOQUES_ORAL",
+      "reference_code": "C 43256/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "وزارة الداخلية -عمالة وجدة أنكاد-",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/72da9541-e88d-4bde-929e-f342578c1539",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T01:31:56+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:0b660a5c-18e4-42a9-b35a-96cd32f86b53#CONVOQUES",
+      "reference_code": "C 43252/26",
+      "stage": "CONVOQUES",
+      "administration": "وزارة الفلاحة والصيد البحري والسيادة الغذائية - قطاع الصيد البحري",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/0b660a5c-18e4-42a9-b35a-96cd32f86b53",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T01:31:58+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:0b660a5c-18e4-42a9-b35a-96cd32f86b53#CONVOQUES_ORAL",
+      "reference_code": "C 43252/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "وزارة الفلاحة والصيد البحري والسيادة الغذائية - قطاع الصيد البحري",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/0b660a5c-18e4-42a9-b35a-96cd32f86b53",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T01:31:58+00:00",
+      "seeded": true
     }
   ],
   "seeded_sources": [
@@ -6418,31 +6648,31 @@
     },
     "ep:4cc13301-a259-4768-8767-f3712f6d4758": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-26T01:31:26+00:00"
     },
     "ep:ce423091-9cb3-4f97-b892-960cd7be61b7": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-26T01:31:27+00:00"
     },
     "ep:4b2040b4-7556-4e86-8475-5ebf392b84dd": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-26T01:31:29+00:00"
     },
     "ep:6ad249cd-06e8-43e3-9e80-1ce7988e795c": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-26T01:31:30+00:00"
     },
     "ep:aaff24d9-cbf5-46fa-a36d-f3011911337e": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-26T01:31:31+00:00"
     },
     "ep:cf147b42-1501-4321-8381-bcfd091da726": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-26T01:31:32+00:00"
     },
     "ep:87b605bb-dc49-4e5b-be91-0a2cd6cf4ce1": {
       "added": "2026-11-26",
-      "checked": null
+      "checked": "2026-11-26T01:31:34+00:00"
     }
   },
   "last_discovery": "2026-11-26",
