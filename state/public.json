@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-26T09:33:42+00:00",
+ "updated_at": "2026-11-26T10:05:29+00:00",
  "channel": "https://t.me/RaqibEmploi",
  "sources": [
   {
@@ -9,12 +9,32 @@
   }
  ],
  "stats": {
-  "open": 79,
-  "posted_total": 82,
-  "stage_posts_total": 16,
-  "followed": 315
+  "open": 80,
+  "posted_total": 83,
+  "stage_posts_total": 21,
+  "followed": 318
  },
  "concours": [
+  {
+   "id": "ep:770a12fe-e1a1-4bb9-8a7d-f6ca4c8152fb",
+   "code": "C 44932/26",
+   "administration": "جامعة مولاي اسماعيل - مكناس",
+   "grade": "أستاذ محاضر من الدرجة أ - سُلمْ 11",
+   "specialty": "Chimie",
+   "posts": 1,
+   "deadline": "2026-12-12",
+   "exam_date": "2026-12-18",
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/logo-384.png",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/770a12fe-e1a1-4bb9-8a7d-f6ca4c8152fb",
+   "tags": [
+    "تعليم"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-26T10:05:29+00:00"
+  },
   {
    "id": "ep:9c94d268-16e7-4f46-9c9d-b1a429f8ea50",
    "code": "C 44931/26",
@@ -101,7 +121,7 @@
    "posted_at": "2026-11-26T00:05:38+00:00"
   },
   {
-   "id": "ep:98f8f5aa-a77c-4571-8490-2ecfd8f0404f",
+   "id": "ep:2fef0122-6371-4de3-af5f-54385044d832",
    "code": "C 44716/26",
    "administration": "الوكالة الوطنية للدعم الاجتماعي",
    "grade": "تقني متخصص في البناء",
@@ -168,7 +188,7 @@
    "posted_at": "2026-11-25T19:35:28+00:00"
   },
   {
-   "id": "ep:593d3e98-64cc-4a18-99b5-56564e510a9a",
+   "id": "ep:8a811d71-5f0c-4516-a54b-cdd421929da1",
    "code": "C 44916/26",
    "administration": "إقليم تاونات",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -291,7 +311,7 @@
    "posted_at": "2026-11-25T19:34:47+00:00"
   },
   {
-   "id": "ep:a5b90bf5-4086-434c-b948-8880d9adb947",
+   "id": "ep:d166cff5-6eae-4e33-bca9-65950874b2df",
    "code": "C 44897/26",
    "administration": "إقليم الحاجب - اكوراي",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -451,7 +471,7 @@
    "posted_at": "2026-11-25T19:03:38+00:00"
   },
   {
-   "id": "ep:c7259a97-09c2-4050-893a-c2226569266d",
+   "id": "ep:35a928ed-d8e5-4555-8daf-fa89a806a698",
    "code": "C 44868/26",
    "administration": "إقليم الخميسات - الزحيلكة",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -995,7 +1015,7 @@
    "posted_at": "2026-11-25T18:24:59+00:00"
   },
   {
-   "id": "ep:aa5a7bf0-c8ed-4221-bff0-de210c2b0d44",
+   "id": "ep:48737302-a809-41b9-a23d-03980d4b9460",
    "code": "C 44889/26",
    "administration": "شركة المنشآت الرياضية لطنجة ش.م",
    "grade": "تقني تيار قوي",
@@ -1687,6 +1707,66 @@
   }
  ],
  "updates": [
+  {
+   "id": "ep:e5a01ff9-73a9-4b98-b260-59192c9df1f5",
+   "stage": "RESULTATS",
+   "administration": "جامعة محمد الأول - وجدة",
+   "grade": "متصرف من الدرجة الثانية لفائدة كلية العلوم القانونية والسياسية الناضور",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/8baabd444e8ecb551c7b0e0008439d9e.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_resultats/e5a01ff9-73a9-4b98-b260-59192c9df1f5",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/e5a01ff9-73a9-4b98-b260-59192c9df1f5",
+   "posted_at": "2026-11-26T10:05:11+00:00"
+  },
+  {
+   "id": "ep:268f6f9d-e348-4eb6-ab82-2f5e1d778937",
+   "stage": "RESULTATS",
+   "administration": "جامعة محمد الأول - وجدة",
+   "grade": "أستاذ محاضر لفائدة المدرسة العليا للتربية والتكوين وجدة.",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/8baabd444e8ecb551c7b0e0008439d9e.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_resultats/268f6f9d-e348-4eb6-ab82-2f5e1d778937",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/268f6f9d-e348-4eb6-ab82-2f5e1d778937",
+   "posted_at": "2026-11-26T10:05:05+00:00"
+  },
+  {
+   "id": "ep:fae88f08-4b86-4946-8604-343af9cd1ade",
+   "stage": "CONVOQUES_ORAL",
+   "administration": "جامعة محمد الأول - وجدة",
+   "grade": "أستاذ محاضر لفائدة المدرسة الوطنية العليا للصناعة الغذائية والبيوتكنولوجيا بركان",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/8baabd444e8ecb551c7b0e0008439d9e.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/fae88f08-4b86-4946-8604-343af9cd1ade",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/fae88f08-4b86-4946-8604-343af9cd1ade",
+   "posted_at": "2026-11-26T10:05:00+00:00"
+  },
+  {
+   "id": "ep:0f718a81-72b2-43ca-8faa-6398b10a0d1b",
+   "stage": "CONVOQUES_ORAL",
+   "administration": "جامعة محمد الأول - وجدة",
+   "grade": "أستاذ محاضر لفائدة كلية الاقتصاد والتدبير تاوريرت",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/8baabd444e8ecb551c7b0e0008439d9e.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/0f718a81-72b2-43ca-8faa-6398b10a0d1b",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/0f718a81-72b2-43ca-8faa-6398b10a0d1b",
+   "posted_at": "2026-11-26T10:04:54+00:00"
+  },
+  {
+   "id": "ep:91f72561-464a-4dcc-8649-0f085da1a3c3",
+   "stage": "RESULTATS",
+   "administration": "الوكالة الوطنية لتنمية مناطق الواحات وشجر الأركان",
+   "grade": "إطار بالتمثيلية الترابية لورزازات التابعة لمديرية تنمية مناطق الواحات للوكالة الوطنية لتنمية مناطق الواحات وشجر الأركان",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/logo-195.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_resultats/91f72561-464a-4dcc-8649-0f085da1a3c3",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/91f72561-464a-4dcc-8649-0f085da1a3c3",
+   "posted_at": "2026-11-26T10:04:48+00:00"
+  },
   {
    "id": "ep:2fef0122-6371-4de3-af5f-54385044d832",
    "stage": "CONVOQUES",

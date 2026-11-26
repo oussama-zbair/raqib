@@ -1579,6 +1579,24 @@
       "city": null,
       "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/7cbef912d38f0d0b9c33bf3caca9ca89.png",
       "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/9c94d268-16e7-4f46-9c9d-b1a429f8ea50"
+    },
+    {
+      "id": "C 44932/26",
+      "reference_code": "C 44932/26",
+      "administration": "جامعة مولاي اسماعيل - مكناس",
+      "grade": "أستاذ محاضر من الدرجة أ - سُلمْ 11",
+      "post_count": 1,
+      "deadline": "2026-12-12",
+      "exam_date": "2026-12-18",
+      "urls": [
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/770a12fe-e1a1-4bb9-8a7d-f6ca4c8152fb"
+      ],
+      "telegram_message_id": 113,
+      "posted_at": "2026-11-26T10:05:29+00:00",
+      "specialty": "Chimie",
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/logo-384.png",
+      "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/770a12fe-e1a1-4bb9-8a7d-f6ca4c8152fb"
     }
   ],
   "stages": [
@@ -5550,6 +5568,106 @@
       "telegram_message_id": null,
       "posted_at": "2026-11-26T09:33:27+00:00",
       "seeded": true
+    },
+    {
+      "key": "ep:e5a01ff9-73a9-4b98-b260-59192c9df1f5#CONVOQUES",
+      "reference_code": "C 43533/26",
+      "stage": "CONVOQUES",
+      "administration": "جامعة محمد الأول - وجدة",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/e5a01ff9-73a9-4b98-b260-59192c9df1f5",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T10:03:02+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:e5a01ff9-73a9-4b98-b260-59192c9df1f5#CONVOQUES_ORAL",
+      "reference_code": "C 43533/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "جامعة محمد الأول - وجدة",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/e5a01ff9-73a9-4b98-b260-59192c9df1f5",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T10:03:02+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:268f6f9d-e348-4eb6-ab82-2f5e1d778937#CONVOQUES_ORAL",
+      "reference_code": "C 42577/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "جامعة محمد الأول - وجدة",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/268f6f9d-e348-4eb6-ab82-2f5e1d778937",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T10:03:04+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:91f72561-464a-4dcc-8649-0f085da1a3c3#RESULTATS",
+      "reference_code": "C 44022/26",
+      "stage": "RESULTATS",
+      "administration": "الوكالة الوطنية لتنمية مناطق الواحات وشجر الأركان",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/91f72561-464a-4dcc-8649-0f085da1a3c3",
+      "telegram_message_id": 108,
+      "posted_at": "2026-11-26T10:04:48+00:00",
+      "grade": "إطار بالتمثيلية الترابية لورزازات التابعة لمديرية تنمية مناطق الواحات للوكالة الوطنية لتنمية مناطق الواحات وشجر الأركان",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_resultats/91f72561-464a-4dcc-8649-0f085da1a3c3",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/logo-195.png"
+    },
+    {
+      "key": "ep:0f718a81-72b2-43ca-8faa-6398b10a0d1b#CONVOQUES_ORAL",
+      "reference_code": "C 43209/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "جامعة محمد الأول - وجدة",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/0f718a81-72b2-43ca-8faa-6398b10a0d1b",
+      "telegram_message_id": 109,
+      "posted_at": "2026-11-26T10:04:54+00:00",
+      "grade": "أستاذ محاضر لفائدة كلية الاقتصاد والتدبير تاوريرت",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/0f718a81-72b2-43ca-8faa-6398b10a0d1b",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/8baabd444e8ecb551c7b0e0008439d9e.png"
+    },
+    {
+      "key": "ep:fae88f08-4b86-4946-8604-343af9cd1ade#CONVOQUES_ORAL",
+      "reference_code": "C 43204/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "جامعة محمد الأول - وجدة",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/fae88f08-4b86-4946-8604-343af9cd1ade",
+      "telegram_message_id": 110,
+      "posted_at": "2026-11-26T10:05:00+00:00",
+      "grade": "أستاذ محاضر لفائدة المدرسة الوطنية العليا للصناعة الغذائية والبيوتكنولوجيا بركان",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/fae88f08-4b86-4946-8604-343af9cd1ade",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/8baabd444e8ecb551c7b0e0008439d9e.png"
+    },
+    {
+      "key": "ep:268f6f9d-e348-4eb6-ab82-2f5e1d778937#RESULTATS",
+      "reference_code": "C 42577/26",
+      "stage": "RESULTATS",
+      "administration": "جامعة محمد الأول - وجدة",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/268f6f9d-e348-4eb6-ab82-2f5e1d778937",
+      "telegram_message_id": 111,
+      "posted_at": "2026-11-26T10:05:05+00:00",
+      "grade": "أستاذ محاضر لفائدة المدرسة العليا للتربية والتكوين وجدة.",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_resultats/268f6f9d-e348-4eb6-ab82-2f5e1d778937",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/8baabd444e8ecb551c7b0e0008439d9e.png"
+    },
+    {
+      "key": "ep:e5a01ff9-73a9-4b98-b260-59192c9df1f5#RESULTATS",
+      "reference_code": "C 43533/26",
+      "stage": "RESULTATS",
+      "administration": "جامعة محمد الأول - وجدة",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/e5a01ff9-73a9-4b98-b260-59192c9df1f5",
+      "telegram_message_id": 112,
+      "posted_at": "2026-11-26T10:05:11+00:00",
+      "grade": "متصرف من الدرجة الثانية لفائدة كلية العلوم القانونية والسياسية الناضور",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_resultats/e5a01ff9-73a9-4b98-b260-59192c9df1f5",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/8baabd444e8ecb551c7b0e0008439d9e.png"
     }
   ],
   "seeded_sources": [
@@ -6817,6 +6935,18 @@
     "ep:1e33ced8-9041-46db-ab70-478d2aad77cb": {
       "added": "2026-11-26",
       "checked": "2026-11-26T09:32:31+00:00"
+    },
+    "ep:770a12fe-e1a1-4bb9-8a7d-f6ca4c8152fb": {
+      "added": "2026-11-26",
+      "checked": "2026-11-26T10:02:43+00:00"
+    },
+    "ep:fae88f08-4b86-4946-8604-343af9cd1ade": {
+      "added": "2026-11-26",
+      "checked": "2026-11-26T10:03:07+00:00"
+    },
+    "ep:0f718a81-72b2-43ca-8faa-6398b10a0d1b": {
+      "added": "2026-11-26",
+      "checked": "2026-11-26T10:03:09+00:00"
     }
   },
   "last_discovery": "2026-11-26",
