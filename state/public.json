@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-26T12:05:11+00:00",
+ "updated_at": "2026-11-26T12:33:52+00:00",
  "channel": "https://t.me/RaqibEmploi",
  "sources": [
   {
@@ -9,12 +9,88 @@
   }
  ],
  "stats": {
-  "open": 89,
-  "posted_total": 92,
+  "open": 93,
+  "posted_total": 96,
   "stage_posts_total": 32,
-  "followed": 335
+  "followed": 339
  },
  "concours": [
+  {
+   "id": "ep:24648e77-7956-4eb2-8c8d-c4f3c502eaf1",
+   "code": "C 44951/26",
+   "administration": "صورياد القناة الثانية 2M",
+   "grade": "المنسقة العامة للمجلات الإخبارية",
+   "specialty": null,
+   "posts": 1,
+   "deadline": "2026-12-11",
+   "exam_date": null,
+   "city": null,
+   "logo": null,
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/24648e77-7956-4eb2-8c8d-c4f3c502eaf1",
+   "tags": [],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-26T12:33:52+00:00"
+  },
+  {
+   "id": "ep:3fcaf635-0b72-4891-98f1-ed6ccd560de5",
+   "code": "C 44950/26",
+   "administration": "صورياد القناة الثانية 2M",
+   "grade": "مستشار في البرمجة التلفزيونية",
+   "specialty": null,
+   "posts": 1,
+   "deadline": "2026-12-11",
+   "exam_date": null,
+   "city": null,
+   "logo": null,
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/3fcaf635-0b72-4891-98f1-ed6ccd560de5",
+   "tags": [
+    "معلوميات"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-26T12:33:47+00:00"
+  },
+  {
+   "id": "ep:673a767e-628c-43ab-85fd-28006e7c0e31",
+   "code": "C 44949/26",
+   "administration": "صورياد القناة الثانية 2M",
+   "grade": "محاسب",
+   "specialty": null,
+   "posts": 1,
+   "deadline": "2026-12-11",
+   "exam_date": null,
+   "city": null,
+   "logo": null,
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/673a767e-628c-43ab-85fd-28006e7c0e31",
+   "tags": [
+    "مالية"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-26T12:33:43+00:00"
+  },
+  {
+   "id": "ep:c4d887f2-9a01-41a1-9826-97adab55b8af",
+   "code": "C 44948/26",
+   "administration": "صورياد القناة الثانية 2M",
+   "grade": "رئيس المصورين، المكلف بتنسيق فريق الإضاءة",
+   "specialty": null,
+   "posts": 2,
+   "deadline": "2026-12-11",
+   "exam_date": null,
+   "city": null,
+   "logo": null,
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/c4d887f2-9a01-41a1-9826-97adab55b8af",
+   "tags": [],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-26T12:33:38+00:00"
+  },
   {
    "id": "ep:fcdb7488-f38a-4951-8eba-e492c31e8981",
    "code": "C 44945/26",
@@ -354,7 +430,7 @@
    "posted_at": "2026-11-25T19:35:28+00:00"
   },
   {
-   "id": "ep:8a811d71-5f0c-4516-a54b-cdd421929da1",
+   "id": "ep:593d3e98-64cc-4a18-99b5-56564e510a9a",
    "code": "C 44916/26",
    "administration": "إقليم تاونات",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -477,7 +553,7 @@
    "posted_at": "2026-11-25T19:34:47+00:00"
   },
   {
-   "id": "ep:d166cff5-6eae-4e33-bca9-65950874b2df",
+   "id": "ep:a7e52309-7e1c-4474-b637-1f5cf0e47b4c",
    "code": "C 44897/26",
    "administration": "إقليم الحاجب - اكوراي",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -537,7 +613,7 @@
    "posted_at": "2026-11-25T19:34:32+00:00"
   },
   {
-   "id": "ep:d520bc73-bcf0-4974-af85-7b6af7c7c40f",
+   "id": "ep:3f6d3934-2b54-4ccb-934e-67ec66e7f762",
    "code": "C 44884/26",
    "administration": "إقليم تازة - تازة",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -637,7 +713,7 @@
    "posted_at": "2026-11-25T19:03:38+00:00"
   },
   {
-   "id": "ep:35a928ed-d8e5-4555-8daf-fa89a806a698",
+   "id": "ep:c7259a97-09c2-4050-893a-c2226569266d",
    "code": "C 44868/26",
    "administration": "إقليم الخميسات - الزحيلكة",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -1615,7 +1691,7 @@
    "posted_at": "2026-11-25T04:47:00+00:00"
   },
   {
-   "id": "ep:aa40ad09-1cb6-4408-b1a7-7507ee9673ed",
+   "id": "ep:a308f369-e882-4c42-871d-acb07d5c6d2e",
    "code": "C 44679/26",
    "administration": "جامعة شعيب الدكالي - الجديدة",
    "grade": "Technicien de 3ème grade",
