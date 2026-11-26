@@ -5865,6 +5865,54 @@
       "exam_date": "2026-11-29",
       "city": null,
       "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/48fd46eb3d360ebccadcbcff69793732.png"
+    },
+    {
+      "key": "ep:ac2c00c5-b037-4b08-9724-430284d0039b#CONVOQUES",
+      "reference_code": "C 41728/26",
+      "stage": "CONVOQUES",
+      "administration": "إقليم افران",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/ac2c00c5-b037-4b08-9724-430284d0039b",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T11:37:04+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:f63ac64b-42ef-4f35-a766-fe427e22be70#CONVOQUES",
+      "reference_code": "C 41727/26",
+      "stage": "CONVOQUES",
+      "administration": "إقليم افران",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/f63ac64b-42ef-4f35-a766-fe427e22be70",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T11:37:06+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:9edf419b-a29d-4a96-bd0f-4d2643bfae05#RESULTATS",
+      "reference_code": "C 43305/26",
+      "stage": "RESULTATS",
+      "administration": "إقليم الحوز - تيدلي مسفيوة",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/9edf419b-a29d-4a96-bd0f-4d2643bfae05",
+      "telegram_message_id": 124,
+      "posted_at": "2026-11-26T11:37:11+00:00",
+      "grade": "تقني من الدرجة الرابعة - سُلمْ 8",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_resultats/9edf419b-a29d-4a96-bd0f-4d2643bfae05",
+      "exam_date": null,
+      "city": "الحوز",
+      "logo_url": null
+    },
+    {
+      "key": "ep:f63ac64b-42ef-4f35-a766-fe427e22be70#CONVOQUES_ORAL",
+      "reference_code": "C 41727/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "إقليم افران",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/f63ac64b-42ef-4f35-a766-fe427e22be70",
+      "telegram_message_id": 125,
+      "posted_at": "2026-11-26T11:37:19+00:00",
+      "grade": "مهندس دولة من الدرجة الأولى - سُلمْ 11",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/f63ac64b-42ef-4f35-a766-fe427e22be70",
+      "exam_date": null,
+      "city": "افران",
+      "logo_url": null
     }
   ],
   "seeded_sources": [
@@ -6440,10 +6488,6 @@
     "ep:180e1e5d-472d-4cea-a00e-a623beecf83c": {
       "added": "2026-11-25",
       "checked": "2026-11-25T22:02:03+00:00"
-    },
-    "ep:9edf419b-a29d-4a96-bd0f-4d2643bfae05": {
-      "added": "2026-11-25",
-      "checked": "2026-11-25T22:02:05+00:00"
     },
     "ep:467d114e-6936-4e22-b519-10877a5182ae": {
       "added": "2026-11-25",
@@ -7179,7 +7223,27 @@
     },
     "ep:6d02a944-2496-470f-9050-31490790adbd": {
       "added": "2026-11-26",
-      "checked": null
+      "checked": "2026-11-26T11:34:35+00:00"
+    },
+    "ep:b90af7bf-9fc3-4b00-834e-021c3460c9a2": {
+      "added": "2026-11-26",
+      "checked": "2026-11-26T11:34:32+00:00"
+    },
+    "ep:149ff72b-82ba-4a90-b9b0-36cb0c4fd692": {
+      "added": "2026-11-26",
+      "checked": "2026-11-26T11:34:32+00:00"
+    },
+    "ep:86de9f41-0f3d-4649-bf5f-c9afb7af7f52": {
+      "added": "2026-11-26",
+      "checked": "2026-11-26T11:34:32+00:00"
+    },
+    "ep:ac2c00c5-b037-4b08-9724-430284d0039b": {
+      "added": "2026-11-26",
+      "checked": "2026-11-26T11:37:04+00:00"
+    },
+    "ep:f63ac64b-42ef-4f35-a766-fe427e22be70": {
+      "added": "2026-11-26",
+      "checked": "2026-11-26T11:37:07+00:00"
     }
   },
   "last_discovery": "2026-11-26",
