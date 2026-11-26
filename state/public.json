@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-26T09:02:11+00:00",
+ "updated_at": "2026-11-26T09:33:42+00:00",
  "channel": "https://t.me/RaqibEmploi",
  "sources": [
   {
@@ -9,12 +9,53 @@
   }
  ],
  "stats": {
-  "open": 77,
-  "posted_total": 80,
+  "open": 79,
+  "posted_total": 82,
   "stage_posts_total": 16,
-  "followed": 313
+  "followed": 315
  },
  "concours": [
+  {
+   "id": "ep:9c94d268-16e7-4f46-9c9d-b1a429f8ea50",
+   "code": "C 44931/26",
+   "administration": "جامعة مولاي اسماعيل - مكناس",
+   "grade": "أستاذ محاضر من الدرجة أ - سُلمْ 11",
+   "specialty": "Economie",
+   "posts": 1,
+   "deadline": "2026-12-12",
+   "exam_date": "2026-12-18",
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/7cbef912d38f0d0b9c33bf3caca9ca89.png",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/9c94d268-16e7-4f46-9c9d-b1a429f8ea50",
+   "tags": [
+    "تعليم",
+    "مالية"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-26T09:33:42+00:00"
+  },
+  {
+   "id": "ep:1e33ced8-9041-46db-ab70-478d2aad77cb",
+   "code": "C 44930/26",
+   "administration": "جامعة مولاي اسماعيل - مكناس",
+   "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
+   "specialty": "Génie Minier",
+   "posts": 1,
+   "deadline": "2026-12-11",
+   "exam_date": "2026-12-15",
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/7cbef912d38f0d0b9c33bf3caca9ca89.png",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/1e33ced8-9041-46db-ab70-478d2aad77cb",
+   "tags": [
+    "تقني"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-26T09:33:35+00:00"
+  },
   {
    "id": "ep:2fef0122-6371-4de3-af5f-54385044d832",
    "code": "C 44713/26",
@@ -127,7 +168,7 @@
    "posted_at": "2026-11-25T19:35:28+00:00"
   },
   {
-   "id": "ep:8a811d71-5f0c-4516-a54b-cdd421929da1",
+   "id": "ep:593d3e98-64cc-4a18-99b5-56564e510a9a",
    "code": "C 44916/26",
    "administration": "إقليم تاونات",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -250,7 +291,7 @@
    "posted_at": "2026-11-25T19:34:47+00:00"
   },
   {
-   "id": "ep:ccb9b405-58f7-453e-bb03-72ff84e5c365",
+   "id": "ep:a5b90bf5-4086-434c-b948-8880d9adb947",
    "code": "C 44897/26",
    "administration": "إقليم الحاجب - اكوراي",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -370,7 +411,7 @@
    "posted_at": "2026-11-25T19:03:47+00:00"
   },
   {
-   "id": "ep:3d0d7c43-34b5-4e4b-ba57-02da6200dbd0",
+   "id": "ep:a7c4e6a7-7c33-4ec3-a00e-97c83892d659",
    "code": "C 44870/26",
    "administration": "إقليم برشيد - برشيد",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -954,7 +995,7 @@
    "posted_at": "2026-11-25T18:24:59+00:00"
   },
   {
-   "id": "ep:7ba78629-d145-41b6-b873-e1202bf0e3be",
+   "id": "ep:aa5a7bf0-c8ed-4221-bff0-de210c2b0d44",
    "code": "C 44889/26",
    "administration": "شركة المنشآت الرياضية لطنجة ش.م",
    "grade": "تقني تيار قوي",
@@ -1460,7 +1501,7 @@
    "posted_at": "2026-11-25T04:47:00+00:00"
   },
   {
-   "id": "ep:b7f02f9d-4b66-4dcd-8365-f3b1001009c1",
+   "id": "ep:f13bac44-60cc-4ed5-897a-905111afbeb2",
    "code": "C 44743/26",
    "administration": "وزارة العدل",
    "grade": "محرر قضائي من الدرجة الرابعة - سُلمْ 8",
@@ -1502,7 +1543,7 @@
    "posted_at": "2026-11-25T04:47:00+00:00"
   },
   {
-   "id": "ep:06f2df84-0753-47a3-95b9-4aa040df8c72",
+   "id": "ep:254a4ccc-b3d1-43d0-8b7d-a23d818766b2",
    "code": "C 44886/26",
    "administration": "وزارة الصحة والحماية الاجتماعية",
    "grade": "مساعد تقني من الدرجة الثانية",
@@ -1522,7 +1563,7 @@
    "posted_at": "2026-11-25T04:47:00+00:00"
   },
   {
-   "id": "ep:06f2df84-0753-47a3-95b9-4aa040df8c72",
+   "id": "ep:254a4ccc-b3d1-43d0-8b7d-a23d818766b2",
    "code": "C 44887/26",
    "administration": "وزارة الصحة والحماية الاجتماعية",
    "grade": "مساعد تقني من الدرجة الثانية",

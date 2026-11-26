@@ -1543,6 +1543,42 @@
       "city": null,
       "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/88a388b9b43fb306e5dec4d97eaff13c.png",
       "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/2fef0122-6371-4de3-af5f-54385044d832"
+    },
+    {
+      "id": "C 44930/26",
+      "reference_code": "C 44930/26",
+      "administration": "جامعة مولاي اسماعيل - مكناس",
+      "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
+      "post_count": 1,
+      "deadline": "2026-12-11",
+      "exam_date": "2026-12-15",
+      "urls": [
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/1e33ced8-9041-46db-ab70-478d2aad77cb"
+      ],
+      "telegram_message_id": 106,
+      "posted_at": "2026-11-26T09:33:35+00:00",
+      "specialty": "Génie Minier",
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/7cbef912d38f0d0b9c33bf3caca9ca89.png",
+      "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/1e33ced8-9041-46db-ab70-478d2aad77cb"
+    },
+    {
+      "id": "C 44931/26",
+      "reference_code": "C 44931/26",
+      "administration": "جامعة مولاي اسماعيل - مكناس",
+      "grade": "أستاذ محاضر من الدرجة أ - سُلمْ 11",
+      "post_count": 1,
+      "deadline": "2026-12-12",
+      "exam_date": "2026-12-18",
+      "urls": [
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/9c94d268-16e7-4f46-9c9d-b1a429f8ea50"
+      ],
+      "telegram_message_id": 107,
+      "posted_at": "2026-11-26T09:33:42+00:00",
+      "specialty": "Economie",
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/7cbef912d38f0d0b9c33bf3caca9ca89.png",
+      "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/9c94d268-16e7-4f46-9c9d-b1a429f8ea50"
     }
   ],
   "stages": [
@@ -5484,6 +5520,36 @@
       "telegram_message_id": null,
       "posted_at": "2026-11-26T02:32:08+00:00",
       "seeded": true
+    },
+    {
+      "key": "ep:df2631a1-dd1d-4a33-9518-abad163064d8#CONVOQUES",
+      "reference_code": "C 43908/26",
+      "stage": "CONVOQUES",
+      "administration": "إقليم شيشاوة - عين تزيتونت",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/df2631a1-dd1d-4a33-9518-abad163064d8",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T09:33:25+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:b8c37fea-f667-4fc0-b23c-8dc6220a3482#CONVOQUES",
+      "reference_code": "C 43493/26",
+      "stage": "CONVOQUES",
+      "administration": "إقليم صفرو - اولاد مكودو",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/b8c37fea-f667-4fc0-b23c-8dc6220a3482",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T09:33:27+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:b8c37fea-f667-4fc0-b23c-8dc6220a3482#CONVOQUES_ORAL",
+      "reference_code": "C 43493/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "إقليم صفرو - اولاد مكودو",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/b8c37fea-f667-4fc0-b23c-8dc6220a3482",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T09:33:27+00:00",
+      "seeded": true
     }
   ],
   "seeded_sources": [
@@ -6743,6 +6809,14 @@
     "ep:87b605bb-dc49-4e5b-be91-0a2cd6cf4ce1": {
       "added": "2026-11-26",
       "checked": "2026-11-26T01:31:34+00:00"
+    },
+    "ep:9c94d268-16e7-4f46-9c9d-b1a429f8ea50": {
+      "added": "2026-11-26",
+      "checked": "2026-11-26T09:32:31+00:00"
+    },
+    "ep:1e33ced8-9041-46db-ab70-478d2aad77cb": {
+      "added": "2026-11-26",
+      "checked": "2026-11-26T09:32:31+00:00"
     }
   },
   "last_discovery": "2026-11-26",
