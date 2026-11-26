@@ -1571,6 +1571,7 @@
       "deadline": "2026-12-12",
       "exam_date": "2026-12-18",
       "urls": [
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/770a12fe-e1a1-4bb9-8a7d-f6ca4c8152fb",
         "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/9c94d268-16e7-4f46-9c9d-b1a429f8ea50"
       ],
       "telegram_message_id": 107,
@@ -1597,6 +1598,24 @@
       "city": null,
       "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/logo-384.png",
       "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/770a12fe-e1a1-4bb9-8a7d-f6ca4c8152fb"
+    },
+    {
+      "id": "C 44933/26",
+      "reference_code": "C 44933/26",
+      "administration": "صورياد القناة الثانية 2M",
+      "grade": "مشتري",
+      "post_count": 1,
+      "deadline": "2026-12-11",
+      "exam_date": null,
+      "urls": [
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/e5581f88-1243-48b2-b6ff-ae135246c4f6"
+      ],
+      "telegram_message_id": 116,
+      "posted_at": "2026-11-26T10:33:54+00:00",
+      "specialty": null,
+      "city": null,
+      "logo_url": null,
+      "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/e5581f88-1243-48b2-b6ff-ae135246c4f6"
     }
   ],
   "stages": [
@@ -5668,6 +5687,74 @@
       "exam_date": null,
       "city": null,
       "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/8baabd444e8ecb551c7b0e0008439d9e.png"
+    },
+    {
+      "key": "ep:a5751294-dbfb-40fa-b0b9-31d3bf8109d4#CONVOQUES",
+      "reference_code": "C 43379/26",
+      "stage": "CONVOQUES",
+      "administration": "المكتب الوطني للمطارات",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/a5751294-dbfb-40fa-b0b9-31d3bf8109d4",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T10:32:19+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:a5751294-dbfb-40fa-b0b9-31d3bf8109d4#CONVOQUES_ORAL",
+      "reference_code": "C 43379/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "المكتب الوطني للمطارات",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/a5751294-dbfb-40fa-b0b9-31d3bf8109d4",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T10:32:19+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:91f72561-464a-4dcc-8649-0f085da1a3c3#CONVOQUES",
+      "reference_code": "C 44022/26",
+      "stage": "CONVOQUES",
+      "administration": "الوكالة الوطنية لتنمية مناطق الواحات وشجر الأركان",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/91f72561-464a-4dcc-8649-0f085da1a3c3",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T10:32:31+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:91f72561-464a-4dcc-8649-0f085da1a3c3#CONVOQUES_ORAL",
+      "reference_code": "C 44022/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "الوكالة الوطنية لتنمية مناطق الواحات وشجر الأركان",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/91f72561-464a-4dcc-8649-0f085da1a3c3",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T10:32:31+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:7b6a4cae-dfcf-4f8f-9e84-99b9574bb554#CONVOQUES_ORAL",
+      "reference_code": "C 44545/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "جامعة السلطان مولاي سليمان -بني ملال",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/7b6a4cae-dfcf-4f8f-9e84-99b9574bb554",
+      "telegram_message_id": 114,
+      "posted_at": "2026-11-26T10:33:39+00:00",
+      "grade": "أستاذ محاضر من الدرجة أ - سُلمْ 11",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/7b6a4cae-dfcf-4f8f-9e84-99b9574bb554",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/9397644930e285785a8ddfaf3ae517c4.png"
+    },
+    {
+      "key": "ep:a5751294-dbfb-40fa-b0b9-31d3bf8109d4#RESULTATS",
+      "reference_code": "C 43379/26",
+      "stage": "RESULTATS",
+      "administration": "المكتب الوطني للمطارات",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/a5751294-dbfb-40fa-b0b9-31d3bf8109d4",
+      "telegram_message_id": 115,
+      "posted_at": "2026-11-26T10:33:45+00:00",
+      "grade": "دبلوم بكالوريا سنوات 3+ في تدبير الجودة أو ما يعادله",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_resultats/a5751294-dbfb-40fa-b0b9-31d3bf8109d4",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/5fda13303e2f6cd60d1576e90d81687f.jpg"
     }
   ],
   "seeded_sources": [
@@ -6947,6 +7034,14 @@
     "ep:0f718a81-72b2-43ca-8faa-6398b10a0d1b": {
       "added": "2026-11-26",
       "checked": "2026-11-26T10:03:09+00:00"
+    },
+    "ep:e5581f88-1243-48b2-b6ff-ae135246c4f6": {
+      "added": "2026-11-26",
+      "checked": "2026-11-26T10:32:06+00:00"
+    },
+    "ep:7b6a4cae-dfcf-4f8f-9e84-99b9574bb554": {
+      "added": "2026-11-26",
+      "checked": "2026-11-26T10:32:28+00:00"
     }
   },
   "last_discovery": "2026-11-26",

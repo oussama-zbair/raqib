@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-26T10:05:29+00:00",
+ "updated_at": "2026-11-26T10:33:54+00:00",
  "channel": "https://t.me/RaqibEmploi",
  "sources": [
   {
@@ -9,12 +9,30 @@
   }
  ],
  "stats": {
-  "open": 80,
-  "posted_total": 83,
-  "stage_posts_total": 21,
-  "followed": 318
+  "open": 81,
+  "posted_total": 84,
+  "stage_posts_total": 23,
+  "followed": 320
  },
  "concours": [
+  {
+   "id": "ep:e5581f88-1243-48b2-b6ff-ae135246c4f6",
+   "code": "C 44933/26",
+   "administration": "صورياد القناة الثانية 2M",
+   "grade": "مشتري",
+   "specialty": null,
+   "posts": 1,
+   "deadline": "2026-12-11",
+   "exam_date": null,
+   "city": null,
+   "logo": null,
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/e5581f88-1243-48b2-b6ff-ae135246c4f6",
+   "tags": [],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-26T10:33:54+00:00"
+  },
   {
    "id": "ep:770a12fe-e1a1-4bb9-8a7d-f6ca4c8152fb",
    "code": "C 44932/26",
@@ -36,7 +54,7 @@
    "posted_at": "2026-11-26T10:05:29+00:00"
   },
   {
-   "id": "ep:9c94d268-16e7-4f46-9c9d-b1a429f8ea50",
+   "id": "ep:770a12fe-e1a1-4bb9-8a7d-f6ca4c8152fb",
    "code": "C 44931/26",
    "administration": "جامعة مولاي اسماعيل - مكناس",
    "grade": "أستاذ محاضر من الدرجة أ - سُلمْ 11",
@@ -121,7 +139,7 @@
    "posted_at": "2026-11-26T00:05:38+00:00"
   },
   {
-   "id": "ep:2fef0122-6371-4de3-af5f-54385044d832",
+   "id": "ep:98f8f5aa-a77c-4571-8490-2ecfd8f0404f",
    "code": "C 44716/26",
    "administration": "الوكالة الوطنية للدعم الاجتماعي",
    "grade": "تقني متخصص في البناء",
@@ -311,7 +329,7 @@
    "posted_at": "2026-11-25T19:34:47+00:00"
   },
   {
-   "id": "ep:d166cff5-6eae-4e33-bca9-65950874b2df",
+   "id": "ep:ccb9b405-58f7-453e-bb03-72ff84e5c365",
    "code": "C 44897/26",
    "administration": "إقليم الحاجب - اكوراي",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -371,7 +389,7 @@
    "posted_at": "2026-11-25T19:34:32+00:00"
   },
   {
-   "id": "ep:3f6d3934-2b54-4ccb-934e-67ec66e7f762",
+   "id": "ep:d520bc73-bcf0-4974-af85-7b6af7c7c40f",
    "code": "C 44884/26",
    "administration": "إقليم تازة - تازة",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -431,7 +449,7 @@
    "posted_at": "2026-11-25T19:03:47+00:00"
   },
   {
-   "id": "ep:a7c4e6a7-7c33-4ec3-a00e-97c83892d659",
+   "id": "ep:3d0d7c43-34b5-4e4b-ba57-02da6200dbd0",
    "code": "C 44870/26",
    "administration": "إقليم برشيد - برشيد",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -1015,7 +1033,7 @@
    "posted_at": "2026-11-25T18:24:59+00:00"
   },
   {
-   "id": "ep:48737302-a809-41b9-a23d-03980d4b9460",
+   "id": "ep:aa5a7bf0-c8ed-4221-bff0-de210c2b0d44",
    "code": "C 44889/26",
    "administration": "شركة المنشآت الرياضية لطنجة ش.م",
    "grade": "تقني تيار قوي",
@@ -1563,7 +1581,7 @@
    "posted_at": "2026-11-25T04:47:00+00:00"
   },
   {
-   "id": "ep:254a4ccc-b3d1-43d0-8b7d-a23d818766b2",
+   "id": "ep:06f2df84-0753-47a3-95b9-4aa040df8c72",
    "code": "C 44886/26",
    "administration": "وزارة الصحة والحماية الاجتماعية",
    "grade": "مساعد تقني من الدرجة الثانية",
@@ -1583,7 +1601,7 @@
    "posted_at": "2026-11-25T04:47:00+00:00"
   },
   {
-   "id": "ep:254a4ccc-b3d1-43d0-8b7d-a23d818766b2",
+   "id": "ep:06f2df84-0753-47a3-95b9-4aa040df8c72",
    "code": "C 44887/26",
    "administration": "وزارة الصحة والحماية الاجتماعية",
    "grade": "مساعد تقني من الدرجة الثانية",
@@ -1707,6 +1725,30 @@
   }
  ],
  "updates": [
+  {
+   "id": "ep:a5751294-dbfb-40fa-b0b9-31d3bf8109d4",
+   "stage": "RESULTATS",
+   "administration": "المكتب الوطني للمطارات",
+   "grade": "دبلوم بكالوريا سنوات 3+ في تدبير الجودة أو ما يعادله",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/5fda13303e2f6cd60d1576e90d81687f.jpg",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_resultats/a5751294-dbfb-40fa-b0b9-31d3bf8109d4",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/a5751294-dbfb-40fa-b0b9-31d3bf8109d4",
+   "posted_at": "2026-11-26T10:33:45+00:00"
+  },
+  {
+   "id": "ep:7b6a4cae-dfcf-4f8f-9e84-99b9574bb554",
+   "stage": "CONVOQUES_ORAL",
+   "administration": "جامعة السلطان مولاي سليمان -بني ملال",
+   "grade": "أستاذ محاضر من الدرجة أ - سُلمْ 11",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/9397644930e285785a8ddfaf3ae517c4.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/7b6a4cae-dfcf-4f8f-9e84-99b9574bb554",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/7b6a4cae-dfcf-4f8f-9e84-99b9574bb554",
+   "posted_at": "2026-11-26T10:33:39+00:00"
+  },
   {
    "id": "ep:e5a01ff9-73a9-4b98-b260-59192c9df1f5",
    "stage": "RESULTATS",
