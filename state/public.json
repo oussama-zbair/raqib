@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-26T16:08:48+00:00",
+ "updated_at": "2026-11-26T16:37:04+00:00",
  "channel": "https://t.me/RaqibEmploi",
  "sources": [
   {
@@ -9,12 +9,79 @@
   }
  ],
  "stats": {
-  "open": 124,
-  "posted_total": 127,
-  "stage_posts_total": 44,
-  "followed": 377
+  "open": 127,
+  "posted_total": 130,
+  "stage_posts_total": 46,
+  "followed": 380
  },
  "concours": [
+  {
+   "id": "ep:dc5dba52-bc56-45e1-9d30-504dbf5832eb",
+   "code": "C 44939/26",
+   "administration": "إقليم بولمان",
+   "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
+   "title": "تقني",
+   "family": "تقني",
+   "scale": 9,
+   "specialty": "الهندسة المدنية، التعمير،الاشغال الكبرى أو البناء",
+   "posts": 1,
+   "deadline": "2026-12-15",
+   "exam_date": "2027-01-10",
+   "city": "بولمان",
+   "logo": null,
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/dc5dba52-bc56-45e1-9d30-504dbf5832eb",
+   "tags": [
+    "تقني"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-26T16:37:04+00:00"
+  },
+  {
+   "id": "ep:a4641c98-1561-4c6a-b437-1367dadebabc",
+   "code": "C 44924/26",
+   "administration": "عمالة أكادير اداوتنان",
+   "grade": "تقني من الدرجة الرابعة - سُلمْ 8",
+   "title": "تقني",
+   "family": "تقني",
+   "scale": 8,
+   "specialty": "ميكانبك السيارات-كهرباء السيارات-سياقة العربات از اليات الاشغال",
+   "posts": 1,
+   "deadline": "2026-12-18",
+   "exam_date": "2027-01-03",
+   "city": "أكادير اداوتنان",
+   "logo": null,
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/a4641c98-1561-4c6a-b437-1367dadebabc",
+   "tags": [
+    "تقني"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-26T16:36:58+00:00"
+  },
+  {
+   "id": "ep:7ff9a694-22c6-43fc-80ec-c5c23da51529",
+   "code": "C 44989/26",
+   "administration": "بورتنيت ش.م فرع الوكالة الوطنية للموانئ",
+   "grade": "إطار المشتريات و الوسائل العامة",
+   "title": "إطار المشتريات و الوسائل",
+   "family": "إطار",
+   "scale": null,
+   "specialty": null,
+   "posts": 1,
+   "deadline": "2026-12-13",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/logo-399.png",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/7ff9a694-22c6-43fc-80ec-c5c23da51529",
+   "tags": [],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-26T16:36:53+00:00"
+  },
   {
    "id": "ep:ac58a3f5-0868-4453-805a-9317a92452a7",
    "code": "C 44988/26",
@@ -1015,7 +1082,7 @@
    "posted_at": "2026-11-26T10:05:29+00:00"
   },
   {
-   "id": "ep:9c94d268-16e7-4f46-9c9d-b1a429f8ea50",
+   "id": "ep:770a12fe-e1a1-4bb9-8a7d-f6ca4c8152fb",
    "code": "C 44931/26",
    "administration": "جامعة مولاي اسماعيل - مكناس",
    "grade": "أستاذ محاضر من الدرجة أ - سُلمْ 11",
@@ -2138,7 +2205,7 @@
    "posted_at": "2026-11-25T18:24:59+00:00"
   },
   {
-   "id": "ep:aa5a7bf0-c8ed-4221-bff0-de210c2b0d44",
+   "id": "ep:7ba78629-d145-41b6-b873-e1202bf0e3be",
    "code": "C 44889/26",
    "administration": "شركة المنشآت الرياضية لطنجة ش.م",
    "grade": "تقني تيار قوي",
@@ -2932,6 +2999,34 @@
   }
  ],
  "updates": [
+  {
+   "id": "ep:5a9ef0cb-794c-40d7-b0ad-a0a5444c4992",
+   "stage": "CONVOQUES_ORAL",
+   "administration": "الوكالة الوطنية لمحاربة الأمية",
+   "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
+   "title": "تقني",
+   "family": "تقني",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/404e0e68e04c1d3f0e6b0e9ffbc1dca6.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/5a9ef0cb-794c-40d7-b0ad-a0a5444c4992",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/5a9ef0cb-794c-40d7-b0ad-a0a5444c4992",
+   "posted_at": "2026-11-26T16:36:36+00:00"
+  },
+  {
+   "id": "ep:1f29080a-9776-45c3-87ec-d0d1b6971e27",
+   "stage": "CONVOQUES_ORAL",
+   "administration": "الوكالة الوطنية لمحاربة الأمية",
+   "grade": "متصرف من الدرجة الثانية - سُلمْ 11",
+   "title": "متصرف",
+   "family": "متصرف",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/404e0e68e04c1d3f0e6b0e9ffbc1dca6.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/1f29080a-9776-45c3-87ec-d0d1b6971e27",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/1f29080a-9776-45c3-87ec-d0d1b6971e27",
+   "posted_at": "2026-11-26T16:36:27+00:00"
+  },
   {
    "id": "ep:467d114e-6936-4e22-b519-10877a5182ae",
    "stage": "RESULTATS",

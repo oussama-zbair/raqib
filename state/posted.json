@@ -2392,6 +2392,60 @@
       "city": null,
       "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/f6d0d7335b70a8d93d15c4403113695b.png",
       "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/ac58a3f5-0868-4453-805a-9317a92452a7"
+    },
+    {
+      "id": "C 44989/26",
+      "reference_code": "C 44989/26",
+      "administration": "بورتنيت ش.م فرع الوكالة الوطنية للموانئ",
+      "grade": "إطار المشتريات و الوسائل العامة",
+      "post_count": 1,
+      "deadline": "2026-12-13",
+      "exam_date": null,
+      "urls": [
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/7ff9a694-22c6-43fc-80ec-c5c23da51529"
+      ],
+      "telegram_message_id": 190,
+      "posted_at": "2026-11-26T16:36:53+00:00",
+      "specialty": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/logo-399.png",
+      "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/7ff9a694-22c6-43fc-80ec-c5c23da51529"
+    },
+    {
+      "id": "C 44924/26",
+      "reference_code": "C 44924/26",
+      "administration": "عمالة أكادير اداوتنان",
+      "grade": "تقني من الدرجة الرابعة - سُلمْ 8",
+      "post_count": 1,
+      "deadline": "2026-12-18",
+      "exam_date": "2027-01-03",
+      "urls": [
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/a4641c98-1561-4c6a-b437-1367dadebabc"
+      ],
+      "telegram_message_id": 191,
+      "posted_at": "2026-11-26T16:36:58+00:00",
+      "specialty": "ميكانبك السيارات-كهرباء السيارات-سياقة العربات از اليات الاشغال",
+      "city": "أكادير اداوتنان",
+      "logo_url": null,
+      "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/a4641c98-1561-4c6a-b437-1367dadebabc"
+    },
+    {
+      "id": "C 44939/26",
+      "reference_code": "C 44939/26",
+      "administration": "إقليم بولمان",
+      "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
+      "post_count": 1,
+      "deadline": "2026-12-15",
+      "exam_date": "2027-01-10",
+      "urls": [
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/dc5dba52-bc56-45e1-9d30-504dbf5832eb"
+      ],
+      "telegram_message_id": 192,
+      "posted_at": "2026-11-26T16:37:04+00:00",
+      "specialty": "الهندسة المدنية، التعمير،الاشغال الكبرى أو البناء",
+      "city": "بولمان",
+      "logo_url": null,
+      "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/dc5dba52-bc56-45e1-9d30-504dbf5832eb"
     }
   ],
   "stages": [
@@ -6895,6 +6949,34 @@
       "exam_date": null,
       "city": "شيشاوة",
       "logo_url": null
+    },
+    {
+      "key": "ep:1f29080a-9776-45c3-87ec-d0d1b6971e27#CONVOQUES_ORAL",
+      "reference_code": "C 43978/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "الوكالة الوطنية لمحاربة الأمية",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/1f29080a-9776-45c3-87ec-d0d1b6971e27",
+      "telegram_message_id": 188,
+      "posted_at": "2026-11-26T16:36:27+00:00",
+      "grade": "متصرف من الدرجة الثانية - سُلمْ 11",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/1f29080a-9776-45c3-87ec-d0d1b6971e27",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/404e0e68e04c1d3f0e6b0e9ffbc1dca6.png"
+    },
+    {
+      "key": "ep:5a9ef0cb-794c-40d7-b0ad-a0a5444c4992#CONVOQUES_ORAL",
+      "reference_code": "C 43977/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "الوكالة الوطنية لمحاربة الأمية",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/5a9ef0cb-794c-40d7-b0ad-a0a5444c4992",
+      "telegram_message_id": 189,
+      "posted_at": "2026-11-26T16:36:36+00:00",
+      "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/5a9ef0cb-794c-40d7-b0ad-a0a5444c4992",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/404e0e68e04c1d3f0e6b0e9ffbc1dca6.png"
     }
   ],
   "seeded_sources": [
@@ -8410,6 +8492,18 @@
     "ep:f067dfd5-8609-428a-959b-4dae04f014b7": {
       "added": "2026-11-26",
       "checked": "2026-11-26T16:07:46+00:00"
+    },
+    "ep:dc5dba52-bc56-45e1-9d30-504dbf5832eb": {
+      "added": "2026-11-26",
+      "checked": "2026-11-26T16:34:08+00:00"
+    },
+    "ep:a4641c98-1561-4c6a-b437-1367dadebabc": {
+      "added": "2026-11-26",
+      "checked": "2026-11-26T16:34:08+00:00"
+    },
+    "ep:7ff9a694-22c6-43fc-80ec-c5c23da51529": {
+      "added": "2026-11-26",
+      "checked": "2026-11-26T16:34:08+00:00"
     }
   },
   "last_discovery": "2026-11-26",
