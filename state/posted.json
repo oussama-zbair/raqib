@@ -2493,6 +2493,7 @@
       "deadline": "2026-12-17",
       "exam_date": "2026-12-27",
       "urls": [
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/ace1070f-f3a5-46df-947c-0372143baeb4",
         "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/baf06523-83ae-45a3-bb1a-3144e273d7e5"
       ],
       "telegram_message_id": 197,
@@ -2519,6 +2520,24 @@
       "city": "الحوز",
       "logo_url": null,
       "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/ace1070f-f3a5-46df-947c-0372143baeb4"
+    },
+    {
+      "id": "C 44990/26",
+      "reference_code": "C 44990/26",
+      "administration": "جامعة الغرف المغربية للتجارة والصناعة والخدمات",
+      "grade": "متصرف من الدرجة الثانية - سُلمْ 11",
+      "post_count": 4,
+      "deadline": "2026-12-11",
+      "exam_date": null,
+      "urls": [
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/20afd2fe-99d5-418a-ad4d-8d3df75593b5"
+      ],
+      "telegram_message_id": 199,
+      "posted_at": "2026-11-26T18:03:11+00:00",
+      "specialty": "مراقبة التدبير والتدقيق / التسويق والتواصل / التجارة الدولية / المعلوميات والذكاء الإصطناعي",
+      "city": null,
+      "logo_url": null,
+      "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/20afd2fe-99d5-418a-ad4d-8d3df75593b5"
     }
   ],
   "stages": [
@@ -8635,6 +8654,10 @@
     "ep:baf06523-83ae-45a3-bb1a-3144e273d7e5": {
       "added": "2026-11-26",
       "checked": "2026-11-26T17:32:04+00:00"
+    },
+    "ep:20afd2fe-99d5-418a-ad4d-8d3df75593b5": {
+      "added": "2026-11-26",
+      "checked": "2026-11-26T18:01:56+00:00"
     }
   },
   "last_discovery": "2026-11-26",
