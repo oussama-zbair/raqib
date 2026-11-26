@@ -1616,6 +1616,60 @@
       "city": null,
       "logo_url": null,
       "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/e5581f88-1243-48b2-b6ff-ae135246c4f6"
+    },
+    {
+      "id": "C 44934/26",
+      "reference_code": "C 44934/26",
+      "administration": "صورياد القناة الثانية 2M",
+      "grade": "تقني في الديكور",
+      "post_count": 1,
+      "deadline": "2026-12-11",
+      "exam_date": null,
+      "urls": [
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/87771aba-7e04-4a17-9562-533af23e2dc1"
+      ],
+      "telegram_message_id": 121,
+      "posted_at": "2026-11-26T11:04:36+00:00",
+      "specialty": null,
+      "city": null,
+      "logo_url": null,
+      "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/87771aba-7e04-4a17-9562-533af23e2dc1"
+    },
+    {
+      "id": "C 44935/26",
+      "reference_code": "C 44935/26",
+      "administration": "صورياد القناة الثانية 2M",
+      "grade": "مصور فيديو",
+      "post_count": 2,
+      "deadline": "2026-12-11",
+      "exam_date": null,
+      "urls": [
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/78b01302-86ea-4fb1-9556-a3ad8818ced4"
+      ],
+      "telegram_message_id": 122,
+      "posted_at": "2026-11-26T11:04:41+00:00",
+      "specialty": null,
+      "city": null,
+      "logo_url": null,
+      "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/78b01302-86ea-4fb1-9556-a3ad8818ced4"
+    },
+    {
+      "id": "C 44936/26",
+      "reference_code": "C 44936/26",
+      "administration": "صورياد القناة الثانية 2M",
+      "grade": "مصور فيديو متعدد المهام – المكاتب الجهوية",
+      "post_count": 1,
+      "deadline": "2026-12-11",
+      "exam_date": null,
+      "urls": [
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/815255d2-cc4b-47a7-a014-db0782441604"
+      ],
+      "telegram_message_id": 123,
+      "posted_at": "2026-11-26T11:04:45+00:00",
+      "specialty": null,
+      "city": null,
+      "logo_url": null,
+      "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/815255d2-cc4b-47a7-a014-db0782441604"
     }
   ],
   "stages": [
@@ -5755,6 +5809,62 @@
       "exam_date": null,
       "city": null,
       "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/5fda13303e2f6cd60d1576e90d81687f.jpg"
+    },
+    {
+      "key": "ep:6d02a944-2496-470f-9050-31490790adbd#CONVOQUES",
+      "reference_code": "C 44576/26",
+      "stage": "CONVOQUES",
+      "administration": "جامعة الحسن الثاني - الدارالبيضاء",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/6d02a944-2496-470f-9050-31490790adbd",
+      "telegram_message_id": 117,
+      "posted_at": "2026-11-26T11:04:07+00:00",
+      "grade": "توظيف متصرف من الدرجة الثالثة بكلية العلوم القانونية والاقتصادية والاجتماعية عين السبع",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques/6d02a944-2496-470f-9050-31490790adbd",
+      "exam_date": "2026-11-29",
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/logo-386.png"
+    },
+    {
+      "key": "ep:37af20d8-4c62-4ab8-8f9a-0a4fdaa50bc2#CONVOQUES",
+      "reference_code": "C 44451/26",
+      "stage": "CONVOQUES",
+      "administration": "جامعة الحسن الثاني - الدارالبيضاء",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/37af20d8-4c62-4ab8-8f9a-0a4fdaa50bc2",
+      "telegram_message_id": 118,
+      "posted_at": "2026-11-26T11:04:16+00:00",
+      "grade": "متصرف من الدرجة الثانية بكلية العلوم القانونية والاقتصادية والاجتماعية عين الشق",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques/37af20d8-4c62-4ab8-8f9a-0a4fdaa50bc2",
+      "exam_date": "2026-11-29",
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/48fd46eb3d360ebccadcbcff69793732.png"
+    },
+    {
+      "key": "ep:18ddfeee-6114-4dc5-b266-503297e24986#CONVOQUES_ORAL",
+      "reference_code": "C 43973/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "جامعة ابن زهر - أكادير",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/18ddfeee-6114-4dc5-b266-503297e24986",
+      "telegram_message_id": 119,
+      "posted_at": "2026-11-26T11:04:22+00:00",
+      "grade": "أستاذ محاضر بكلية العلوم التطبيقية بورزازات informatique",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/18ddfeee-6114-4dc5-b266-503297e24986",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/673d4e683bf65fbf906fa190831359e7.png"
+    },
+    {
+      "key": "ep:25a54781-06d9-46b2-bde8-c38d754121f6#CONVOQUES",
+      "reference_code": "C 44455/26",
+      "stage": "CONVOQUES",
+      "administration": "جامعة الحسن الثاني - الدارالبيضاء",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/25a54781-06d9-46b2-bde8-c38d754121f6",
+      "telegram_message_id": 120,
+      "posted_at": "2026-11-26T11:04:27+00:00",
+      "grade": "متصرف من الدرجة الثالثة بكلية العلوم القانونية والاقتصادية والاجتماعية عين الشق",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques/25a54781-06d9-46b2-bde8-c38d754121f6",
+      "exam_date": "2026-11-29",
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/48fd46eb3d360ebccadcbcff69793732.png"
     }
   ],
   "seeded_sources": [
@@ -7042,6 +7152,34 @@
     "ep:7b6a4cae-dfcf-4f8f-9e84-99b9574bb554": {
       "added": "2026-11-26",
       "checked": "2026-11-26T10:32:28+00:00"
+    },
+    "ep:815255d2-cc4b-47a7-a014-db0782441604": {
+      "added": "2026-11-26",
+      "checked": "2026-11-26T11:02:52+00:00"
+    },
+    "ep:78b01302-86ea-4fb1-9556-a3ad8818ced4": {
+      "added": "2026-11-26",
+      "checked": "2026-11-26T11:02:52+00:00"
+    },
+    "ep:87771aba-7e04-4a17-9562-533af23e2dc1": {
+      "added": "2026-11-26",
+      "checked": "2026-11-26T11:02:52+00:00"
+    },
+    "ep:25a54781-06d9-46b2-bde8-c38d754121f6": {
+      "added": "2026-11-26",
+      "checked": "2026-11-26T11:02:59+00:00"
+    },
+    "ep:18ddfeee-6114-4dc5-b266-503297e24986": {
+      "added": "2026-11-26",
+      "checked": "2026-11-26T11:03:01+00:00"
+    },
+    "ep:37af20d8-4c62-4ab8-8f9a-0a4fdaa50bc2": {
+      "added": "2026-11-26",
+      "checked": "2026-11-26T11:03:17+00:00"
+    },
+    "ep:6d02a944-2496-470f-9050-31490790adbd": {
+      "added": "2026-11-26",
+      "checked": null
     }
   },
   "last_discovery": "2026-11-26",

@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-26T10:33:54+00:00",
+ "updated_at": "2026-11-26T11:04:45+00:00",
  "channel": "https://t.me/RaqibEmploi",
  "sources": [
   {
@@ -9,12 +9,68 @@
   }
  ],
  "stats": {
-  "open": 81,
-  "posted_total": 84,
-  "stage_posts_total": 23,
-  "followed": 320
+  "open": 84,
+  "posted_total": 87,
+  "stage_posts_total": 27,
+  "followed": 327
  },
  "concours": [
+  {
+   "id": "ep:815255d2-cc4b-47a7-a014-db0782441604",
+   "code": "C 44936/26",
+   "administration": "صورياد القناة الثانية 2M",
+   "grade": "مصور فيديو متعدد المهام – المكاتب الجهوية",
+   "specialty": null,
+   "posts": 1,
+   "deadline": "2026-12-11",
+   "exam_date": null,
+   "city": null,
+   "logo": null,
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/815255d2-cc4b-47a7-a014-db0782441604",
+   "tags": [],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-26T11:04:45+00:00"
+  },
+  {
+   "id": "ep:78b01302-86ea-4fb1-9556-a3ad8818ced4",
+   "code": "C 44935/26",
+   "administration": "صورياد القناة الثانية 2M",
+   "grade": "مصور فيديو",
+   "specialty": null,
+   "posts": 2,
+   "deadline": "2026-12-11",
+   "exam_date": null,
+   "city": null,
+   "logo": null,
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/78b01302-86ea-4fb1-9556-a3ad8818ced4",
+   "tags": [],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-26T11:04:41+00:00"
+  },
+  {
+   "id": "ep:87771aba-7e04-4a17-9562-533af23e2dc1",
+   "code": "C 44934/26",
+   "administration": "صورياد القناة الثانية 2M",
+   "grade": "تقني في الديكور",
+   "specialty": null,
+   "posts": 1,
+   "deadline": "2026-12-11",
+   "exam_date": null,
+   "city": null,
+   "logo": null,
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/87771aba-7e04-4a17-9562-533af23e2dc1",
+   "tags": [
+    "تقني"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-26T11:04:36+00:00"
+  },
   {
    "id": "ep:e5581f88-1243-48b2-b6ff-ae135246c4f6",
    "code": "C 44933/26",
@@ -139,7 +195,7 @@
    "posted_at": "2026-11-26T00:05:38+00:00"
   },
   {
-   "id": "ep:98f8f5aa-a77c-4571-8490-2ecfd8f0404f",
+   "id": "ep:2fef0122-6371-4de3-af5f-54385044d832",
    "code": "C 44716/26",
    "administration": "الوكالة الوطنية للدعم الاجتماعي",
    "grade": "تقني متخصص في البناء",
@@ -206,7 +262,7 @@
    "posted_at": "2026-11-25T19:35:28+00:00"
   },
   {
-   "id": "ep:8a811d71-5f0c-4516-a54b-cdd421929da1",
+   "id": "ep:593d3e98-64cc-4a18-99b5-56564e510a9a",
    "code": "C 44916/26",
    "administration": "إقليم تاونات",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -329,7 +385,7 @@
    "posted_at": "2026-11-25T19:34:47+00:00"
   },
   {
-   "id": "ep:ccb9b405-58f7-453e-bb03-72ff84e5c365",
+   "id": "ep:d166cff5-6eae-4e33-bca9-65950874b2df",
    "code": "C 44897/26",
    "administration": "إقليم الحاجب - اكوراي",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -389,7 +445,7 @@
    "posted_at": "2026-11-25T19:34:32+00:00"
   },
   {
-   "id": "ep:d520bc73-bcf0-4974-af85-7b6af7c7c40f",
+   "id": "ep:3f6d3934-2b54-4ccb-934e-67ec66e7f762",
    "code": "C 44884/26",
    "administration": "إقليم تازة - تازة",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -449,7 +505,7 @@
    "posted_at": "2026-11-25T19:03:47+00:00"
   },
   {
-   "id": "ep:3d0d7c43-34b5-4e4b-ba57-02da6200dbd0",
+   "id": "ep:a7c4e6a7-7c33-4ec3-a00e-97c83892d659",
    "code": "C 44870/26",
    "administration": "إقليم برشيد - برشيد",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -1467,7 +1523,7 @@
    "posted_at": "2026-11-25T04:47:00+00:00"
   },
   {
-   "id": "ep:a308f369-e882-4c42-871d-acb07d5c6d2e",
+   "id": "ep:aa40ad09-1cb6-4408-b1a7-7507ee9673ed",
    "code": "C 44679/26",
    "administration": "جامعة شعيب الدكالي - الجديدة",
    "grade": "Technicien de 3ème grade",
@@ -1539,7 +1595,7 @@
    "posted_at": "2026-11-25T04:47:00+00:00"
   },
   {
-   "id": "ep:f13bac44-60cc-4ed5-897a-905111afbeb2",
+   "id": "ep:b7f02f9d-4b66-4dcd-8365-f3b1001009c1",
    "code": "C 44743/26",
    "administration": "وزارة العدل",
    "grade": "محرر قضائي من الدرجة الرابعة - سُلمْ 8",
@@ -1725,6 +1781,54 @@
   }
  ],
  "updates": [
+  {
+   "id": "ep:25a54781-06d9-46b2-bde8-c38d754121f6",
+   "stage": "CONVOQUES",
+   "administration": "جامعة الحسن الثاني - الدارالبيضاء",
+   "grade": "متصرف من الدرجة الثالثة بكلية العلوم القانونية والاقتصادية والاجتماعية عين الشق",
+   "exam_date": "2026-11-29",
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/48fd46eb3d360ebccadcbcff69793732.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques/25a54781-06d9-46b2-bde8-c38d754121f6",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/25a54781-06d9-46b2-bde8-c38d754121f6",
+   "posted_at": "2026-11-26T11:04:27+00:00"
+  },
+  {
+   "id": "ep:18ddfeee-6114-4dc5-b266-503297e24986",
+   "stage": "CONVOQUES_ORAL",
+   "administration": "جامعة ابن زهر - أكادير",
+   "grade": "أستاذ محاضر بكلية العلوم التطبيقية بورزازات informatique",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/673d4e683bf65fbf906fa190831359e7.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/18ddfeee-6114-4dc5-b266-503297e24986",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/18ddfeee-6114-4dc5-b266-503297e24986",
+   "posted_at": "2026-11-26T11:04:22+00:00"
+  },
+  {
+   "id": "ep:37af20d8-4c62-4ab8-8f9a-0a4fdaa50bc2",
+   "stage": "CONVOQUES",
+   "administration": "جامعة الحسن الثاني - الدارالبيضاء",
+   "grade": "متصرف من الدرجة الثانية بكلية العلوم القانونية والاقتصادية والاجتماعية عين الشق",
+   "exam_date": "2026-11-29",
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/48fd46eb3d360ebccadcbcff69793732.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques/37af20d8-4c62-4ab8-8f9a-0a4fdaa50bc2",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/37af20d8-4c62-4ab8-8f9a-0a4fdaa50bc2",
+   "posted_at": "2026-11-26T11:04:16+00:00"
+  },
+  {
+   "id": "ep:6d02a944-2496-470f-9050-31490790adbd",
+   "stage": "CONVOQUES",
+   "administration": "جامعة الحسن الثاني - الدارالبيضاء",
+   "grade": "توظيف متصرف من الدرجة الثالثة بكلية العلوم القانونية والاقتصادية والاجتماعية عين السبع",
+   "exam_date": "2026-11-29",
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/logo-386.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques/6d02a944-2496-470f-9050-31490790adbd",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/6d02a944-2496-470f-9050-31490790adbd",
+   "posted_at": "2026-11-26T11:04:07+00:00"
+  },
   {
    "id": "ep:a5751294-dbfb-40fa-b0b9-31d3bf8109d4",
    "stage": "RESULTATS",
