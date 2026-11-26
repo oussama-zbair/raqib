@@ -2192,6 +2192,42 @@
       "city": null,
       "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/673d4e683bf65fbf906fa190831359e7.png",
       "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/5b04d48a-fc64-4b3c-8368-971ac881c580"
+    },
+    {
+      "id": "C 44974/26",
+      "reference_code": "C 44974/26",
+      "administration": "صورياد القناة الثانية 2M",
+      "grade": "مخرج",
+      "post_count": 2,
+      "deadline": "2026-12-11",
+      "exam_date": null,
+      "urls": [
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/8243cd99-75f7-481b-84fb-ce7fbdb89c74"
+      ],
+      "telegram_message_id": 170,
+      "posted_at": "2026-11-26T14:37:47+00:00",
+      "specialty": null,
+      "city": null,
+      "logo_url": null,
+      "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/8243cd99-75f7-481b-84fb-ce7fbdb89c74"
+    },
+    {
+      "id": "C 44976/26",
+      "reference_code": "C 44976/26",
+      "administration": "صورياد القناة الثانية 2M",
+      "grade": "مخرج إذاعي",
+      "post_count": 1,
+      "deadline": "2026-12-11",
+      "exam_date": null,
+      "urls": [
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/29522e88-8319-4552-a322-2c83aa39d2e2"
+      ],
+      "telegram_message_id": 171,
+      "posted_at": "2026-11-26T14:37:52+00:00",
+      "specialty": null,
+      "city": null,
+      "logo_url": null,
+      "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/29522e88-8319-4552-a322-2c83aa39d2e2"
     }
   ],
   "stages": [
@@ -6539,6 +6575,34 @@
       "exam_date": "2026-11-29",
       "city": null,
       "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/673d4e683bf65fbf906fa190831359e7.png"
+    },
+    {
+      "key": "ep:6d50ce30-8d14-4208-893a-727a16d828a3#CONVOQUES",
+      "reference_code": "C 44382/26",
+      "stage": "CONVOQUES",
+      "administration": "جامعة ابن طفيل - القنيطرة",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/6d50ce30-8d14-4208-893a-727a16d828a3",
+      "telegram_message_id": 168,
+      "posted_at": "2026-11-26T14:37:33+00:00",
+      "grade": "مهندس معماري من الدرجة الأولى - سُلمْ 11",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques/6d50ce30-8d14-4208-893a-727a16d828a3",
+      "exam_date": "2026-11-29",
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/218f2d5a3f70794b1d12c73b0bd2d191.png"
+    },
+    {
+      "key": "ep:64194e96-bc55-4817-8ddd-c9b0e5d0d6d1#CONVOQUES_ORAL",
+      "reference_code": "C 44292/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "المكتب الجهوي للاستثمار الفلاحي لسوس ماسة",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/64194e96-bc55-4817-8ddd-c9b0e5d0d6d1",
+      "telegram_message_id": 169,
+      "posted_at": "2026-11-26T14:37:38+00:00",
+      "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/64194e96-bc55-4817-8ddd-c9b0e5d0d6d1",
+      "exam_date": null,
+      "city": null,
+      "logo_url": null
     }
   ],
   "seeded_sources": [
@@ -7990,6 +8054,18 @@
     "ep:8df273a1-db4b-4949-a8dc-efa0deae0da0": {
       "added": "2026-11-26",
       "checked": "2026-11-26T14:07:09+00:00"
+    },
+    "ep:29522e88-8319-4552-a322-2c83aa39d2e2": {
+      "added": "2026-11-26",
+      "checked": "2026-11-26T14:35:31+00:00"
+    },
+    "ep:8243cd99-75f7-481b-84fb-ce7fbdb89c74": {
+      "added": "2026-11-26",
+      "checked": "2026-11-26T14:35:31+00:00"
+    },
+    "ep:6d50ce30-8d14-4208-893a-727a16d828a3": {
+      "added": "2026-11-26",
+      "checked": "2026-11-26T14:35:42+00:00"
     }
   },
   "last_discovery": "2026-11-26",

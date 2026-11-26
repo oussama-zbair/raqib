@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-26T14:12:30+00:00",
+ "updated_at": "2026-11-26T14:37:52+00:00",
  "channel": "https://t.me/RaqibEmploi",
  "sources": [
   {
@@ -9,12 +9,54 @@
   }
  ],
  "stats": {
-  "open": 113,
-  "posted_total": 116,
-  "stage_posts_total": 35,
-  "followed": 361
+  "open": 115,
+  "posted_total": 118,
+  "stage_posts_total": 37,
+  "followed": 364
  },
  "concours": [
+  {
+   "id": "ep:29522e88-8319-4552-a322-2c83aa39d2e2",
+   "code": "C 44976/26",
+   "administration": "صورياد القناة الثانية 2M",
+   "grade": "مخرج إذاعي",
+   "title": "مخرج إذاعي",
+   "family": "مخرج",
+   "scale": null,
+   "specialty": null,
+   "posts": 1,
+   "deadline": "2026-12-11",
+   "exam_date": null,
+   "city": null,
+   "logo": null,
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/29522e88-8319-4552-a322-2c83aa39d2e2",
+   "tags": [],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-26T14:37:52+00:00"
+  },
+  {
+   "id": "ep:8243cd99-75f7-481b-84fb-ce7fbdb89c74",
+   "code": "C 44974/26",
+   "administration": "صورياد القناة الثانية 2M",
+   "grade": "مخرج",
+   "title": "مخرج",
+   "family": "مخرج",
+   "scale": null,
+   "specialty": null,
+   "posts": 2,
+   "deadline": "2026-12-11",
+   "exam_date": null,
+   "city": null,
+   "logo": null,
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/8243cd99-75f7-481b-84fb-ce7fbdb89c74",
+   "tags": [],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-26T14:37:47+00:00"
+  },
   {
    "id": "ep:5b04d48a-fc64-4b3c-8368-971ac881c580",
    "code": "C 44970/26",
@@ -1087,7 +1129,7 @@
    "posted_at": "2026-11-25T19:34:47+00:00"
   },
   {
-   "id": "ep:d166cff5-6eae-4e33-bca9-65950874b2df",
+   "id": "ep:a5b90bf5-4086-434c-b948-8880d9adb947",
    "code": "C 44897/26",
    "administration": "إقليم الحاجب - اكوراي",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -1225,7 +1267,7 @@
    "posted_at": "2026-11-25T19:03:47+00:00"
   },
   {
-   "id": "ep:3d0d7c43-34b5-4e4b-ba57-02da6200dbd0",
+   "id": "ep:a7c4e6a7-7c33-4ec3-a00e-97c83892d659",
    "code": "C 44870/26",
    "administration": "إقليم برشيد - برشيد",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -1271,7 +1313,7 @@
    "posted_at": "2026-11-25T19:03:38+00:00"
   },
   {
-   "id": "ep:35a928ed-d8e5-4555-8daf-fa89a806a698",
+   "id": "ep:c7259a97-09c2-4050-893a-c2226569266d",
    "code": "C 44868/26",
    "administration": "إقليم الخميسات - الزحيلكة",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -2477,7 +2519,7 @@
    "posted_at": "2026-11-25T04:47:00+00:00"
   },
   {
-   "id": "ep:f13bac44-60cc-4ed5-897a-905111afbeb2",
+   "id": "ep:b7f02f9d-4b66-4dcd-8365-f3b1001009c1",
    "code": "C 44743/26",
    "administration": "وزارة العدل",
    "grade": "محرر قضائي من الدرجة الرابعة - سُلمْ 8",
@@ -2525,7 +2567,7 @@
    "posted_at": "2026-11-25T04:47:00+00:00"
   },
   {
-   "id": "ep:06f2df84-0753-47a3-95b9-4aa040df8c72",
+   "id": "ep:254a4ccc-b3d1-43d0-8b7d-a23d818766b2",
    "code": "C 44886/26",
    "administration": "وزارة الصحة والحماية الاجتماعية",
    "grade": "مساعد تقني من الدرجة الثانية",
@@ -2548,7 +2590,7 @@
    "posted_at": "2026-11-25T04:47:00+00:00"
   },
   {
-   "id": "ep:06f2df84-0753-47a3-95b9-4aa040df8c72",
+   "id": "ep:254a4ccc-b3d1-43d0-8b7d-a23d818766b2",
    "code": "C 44887/26",
    "administration": "وزارة الصحة والحماية الاجتماعية",
    "grade": "مساعد تقني من الدرجة الثانية",
@@ -2690,6 +2732,34 @@
   }
  ],
  "updates": [
+  {
+   "id": "ep:64194e96-bc55-4817-8ddd-c9b0e5d0d6d1",
+   "stage": "CONVOQUES_ORAL",
+   "administration": "المكتب الجهوي للاستثمار الفلاحي لسوس ماسة",
+   "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
+   "title": "تقني",
+   "family": "تقني",
+   "exam_date": null,
+   "city": null,
+   "logo": null,
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/64194e96-bc55-4817-8ddd-c9b0e5d0d6d1",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/64194e96-bc55-4817-8ddd-c9b0e5d0d6d1",
+   "posted_at": "2026-11-26T14:37:38+00:00"
+  },
+  {
+   "id": "ep:6d50ce30-8d14-4208-893a-727a16d828a3",
+   "stage": "CONVOQUES",
+   "administration": "جامعة ابن طفيل - القنيطرة",
+   "grade": "مهندس معماري من الدرجة الأولى - سُلمْ 11",
+   "title": "مهندس معماري",
+   "family": "مهندس",
+   "exam_date": "2026-11-29",
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/218f2d5a3f70794b1d12c73b0bd2d191.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques/6d50ce30-8d14-4208-893a-727a16d828a3",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/6d50ce30-8d14-4208-893a-727a16d828a3",
+   "posted_at": "2026-11-26T14:37:33+00:00"
+  },
   {
    "id": "ep:7e329cb9-9cea-48db-bdd5-84eec9e683f4",
    "stage": "CONVOQUES",
