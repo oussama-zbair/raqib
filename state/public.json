@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-25T23:32:22+00:00",
+ "updated_at": "2026-11-26T00:05:38+00:00",
  "channel": "https://t.me/RaqibEmploi",
  "sources": [
   {
@@ -10,11 +10,78 @@
  ],
  "stats": {
   "open": 76,
-  "posted_total": 76,
-  "stage_posts_total": 4,
-  "followed": 312
+  "posted_total": 79,
+  "stage_posts_total": 16,
+  "followed": 313
  },
  "concours": [
+  {
+   "id": "ep:36772c93-6f04-4bc0-9735-3047873ab2c8",
+   "code": "C 44715/26",
+   "administration": "الوكالة الوطنية للدعم الاجتماعي",
+   "grade": "مكلفين بالدعم متعدد المهام بالتمثيليتين الترابيتين سيدي قاسم و تاونات",
+   "specialty": null,
+   "posts": 2,
+   "deadline": "2026-11-26",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/88a388b9b43fb306e5dec4d97eaff13c.png",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/36772c93-6f04-4bc0-9735-3047873ab2c8",
+   "tags": [],
+   "stages": [
+    "AVIS",
+    "CONVOQUES",
+    "CONVOQUES_ORAL",
+    "RESULTATS"
+   ],
+   "posted_at": "2026-11-26T00:05:38+00:00"
+  },
+  {
+   "id": "ep:98f8f5aa-a77c-4571-8490-2ecfd8f0404f",
+   "code": "C 44716/26",
+   "administration": "الوكالة الوطنية للدعم الاجتماعي",
+   "grade": "تقني متخصص في البناء",
+   "specialty": null,
+   "posts": 1,
+   "deadline": "2026-11-26",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/88a388b9b43fb306e5dec4d97eaff13c.png",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/98f8f5aa-a77c-4571-8490-2ecfd8f0404f",
+   "tags": [
+    "تقني"
+   ],
+   "stages": [
+    "AVIS",
+    "CONVOQUES",
+    "CONVOQUES_ORAL",
+    "RESULTATS"
+   ],
+   "posted_at": "2026-11-26T00:05:33+00:00"
+  },
+  {
+   "id": "ep:6889432a-3c29-4c7a-a903-b8d321b07009",
+   "code": "C 44717/26",
+   "administration": "الوكالة الوطنية للدعم الاجتماعي",
+   "grade": "اطار محاسبي و مالي",
+   "specialty": null,
+   "posts": 1,
+   "deadline": "2026-11-26",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/88a388b9b43fb306e5dec4d97eaff13c.png",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/6889432a-3c29-4c7a-a903-b8d321b07009",
+   "tags": [
+    "مالية"
+   ],
+   "stages": [
+    "AVIS",
+    "CONVOQUES",
+    "CONVOQUES_ORAL",
+    "RESULTATS"
+   ],
+   "posted_at": "2026-11-26T00:05:27+00:00"
+  },
   {
    "id": "ep:8a811d71-5f0c-4516-a54b-cdd421929da1",
    "code": "C 44917/26",
@@ -37,7 +104,7 @@
    "posted_at": "2026-11-25T19:35:28+00:00"
   },
   {
-   "id": "ep:593d3e98-64cc-4a18-99b5-56564e510a9a",
+   "id": "ep:8a811d71-5f0c-4516-a54b-cdd421929da1",
    "code": "C 44916/26",
    "administration": "إقليم تاونات",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -864,7 +931,7 @@
    "posted_at": "2026-11-25T18:24:59+00:00"
   },
   {
-   "id": "ep:7ba78629-d145-41b6-b873-e1202bf0e3be",
+   "id": "ep:48737302-a809-41b9-a23d-03980d4b9460",
    "code": "C 44889/26",
    "administration": "شركة المنشآت الرياضية لطنجة ش.م",
    "grade": "تقني تيار قوي",
@@ -1556,6 +1623,150 @@
   }
  ],
  "updates": [
+  {
+   "id": "ep:2fef0122-6371-4de3-af5f-54385044d832",
+   "stage": "CONVOQUES",
+   "administration": "الوكالة الوطنية للدعم الاجتماعي",
+   "grade": "تقني متخصص في السمعي البصري و اللوجيستيك",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/88a388b9b43fb306e5dec4d97eaff13c.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques/2fef0122-6371-4de3-af5f-54385044d832",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/2fef0122-6371-4de3-af5f-54385044d832",
+   "posted_at": "2026-11-26T00:05:19+00:00"
+  },
+  {
+   "id": "ep:36772c93-6f04-4bc0-9735-3047873ab2c8",
+   "stage": "CONVOQUES",
+   "administration": "الوكالة الوطنية للدعم الاجتماعي",
+   "grade": "مكلفين بالدعم متعدد المهام بالتمثيليتين الترابيتين سيدي قاسم و تاونات",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/88a388b9b43fb306e5dec4d97eaff13c.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques/36772c93-6f04-4bc0-9735-3047873ab2c8",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/36772c93-6f04-4bc0-9735-3047873ab2c8",
+   "posted_at": "2026-11-26T00:05:13+00:00"
+  },
+  {
+   "id": "ep:98f8f5aa-a77c-4571-8490-2ecfd8f0404f",
+   "stage": "CONVOQUES",
+   "administration": "الوكالة الوطنية للدعم الاجتماعي",
+   "grade": "تقني متخصص في البناء",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/88a388b9b43fb306e5dec4d97eaff13c.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques/98f8f5aa-a77c-4571-8490-2ecfd8f0404f",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/98f8f5aa-a77c-4571-8490-2ecfd8f0404f",
+   "posted_at": "2026-11-26T00:05:00+00:00"
+  },
+  {
+   "id": "ep:6889432a-3c29-4c7a-a903-b8d321b07009",
+   "stage": "CONVOQUES",
+   "administration": "الوكالة الوطنية للدعم الاجتماعي",
+   "grade": "اطار محاسبي و مالي",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/88a388b9b43fb306e5dec4d97eaff13c.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques/6889432a-3c29-4c7a-a903-b8d321b07009",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/6889432a-3c29-4c7a-a903-b8d321b07009",
+   "posted_at": "2026-11-26T00:04:54+00:00"
+  },
+  {
+   "id": "ep:2fef0122-6371-4de3-af5f-54385044d832",
+   "stage": "CONVOQUES_ORAL",
+   "administration": "الوكالة الوطنية للدعم الاجتماعي",
+   "grade": "تقني متخصص في السمعي البصري و اللوجيستيك",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/88a388b9b43fb306e5dec4d97eaff13c.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/2fef0122-6371-4de3-af5f-54385044d832",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/2fef0122-6371-4de3-af5f-54385044d832",
+   "posted_at": "2026-11-26T00:04:48+00:00"
+  },
+  {
+   "id": "ep:36772c93-6f04-4bc0-9735-3047873ab2c8",
+   "stage": "CONVOQUES_ORAL",
+   "administration": "الوكالة الوطنية للدعم الاجتماعي",
+   "grade": "مكلفين بالدعم متعدد المهام بالتمثيليتين الترابيتين سيدي قاسم و تاونات",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/88a388b9b43fb306e5dec4d97eaff13c.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/36772c93-6f04-4bc0-9735-3047873ab2c8",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/36772c93-6f04-4bc0-9735-3047873ab2c8",
+   "posted_at": "2026-11-26T00:04:43+00:00"
+  },
+  {
+   "id": "ep:98f8f5aa-a77c-4571-8490-2ecfd8f0404f",
+   "stage": "CONVOQUES_ORAL",
+   "administration": "الوكالة الوطنية للدعم الاجتماعي",
+   "grade": "تقني متخصص في البناء",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/88a388b9b43fb306e5dec4d97eaff13c.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/98f8f5aa-a77c-4571-8490-2ecfd8f0404f",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/98f8f5aa-a77c-4571-8490-2ecfd8f0404f",
+   "posted_at": "2026-11-26T00:04:37+00:00"
+  },
+  {
+   "id": "ep:6889432a-3c29-4c7a-a903-b8d321b07009",
+   "stage": "CONVOQUES_ORAL",
+   "administration": "الوكالة الوطنية للدعم الاجتماعي",
+   "grade": "اطار محاسبي و مالي",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/88a388b9b43fb306e5dec4d97eaff13c.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/6889432a-3c29-4c7a-a903-b8d321b07009",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/6889432a-3c29-4c7a-a903-b8d321b07009",
+   "posted_at": "2026-11-26T00:04:32+00:00"
+  },
+  {
+   "id": "ep:2fef0122-6371-4de3-af5f-54385044d832",
+   "stage": "RESULTATS",
+   "administration": "الوكالة الوطنية للدعم الاجتماعي",
+   "grade": "تقني متخصص في السمعي البصري و اللوجيستيك",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/88a388b9b43fb306e5dec4d97eaff13c.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_resultats/2fef0122-6371-4de3-af5f-54385044d832",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/2fef0122-6371-4de3-af5f-54385044d832",
+   "posted_at": "2026-11-26T00:04:26+00:00"
+  },
+  {
+   "id": "ep:36772c93-6f04-4bc0-9735-3047873ab2c8",
+   "stage": "RESULTATS",
+   "administration": "الوكالة الوطنية للدعم الاجتماعي",
+   "grade": "مكلفين بالدعم متعدد المهام بالتمثيليتين الترابيتين سيدي قاسم و تاونات",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/88a388b9b43fb306e5dec4d97eaff13c.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_resultats/36772c93-6f04-4bc0-9735-3047873ab2c8",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/36772c93-6f04-4bc0-9735-3047873ab2c8",
+   "posted_at": "2026-11-26T00:04:21+00:00"
+  },
+  {
+   "id": "ep:98f8f5aa-a77c-4571-8490-2ecfd8f0404f",
+   "stage": "RESULTATS",
+   "administration": "الوكالة الوطنية للدعم الاجتماعي",
+   "grade": "تقني متخصص في البناء",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/88a388b9b43fb306e5dec4d97eaff13c.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_resultats/98f8f5aa-a77c-4571-8490-2ecfd8f0404f",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/98f8f5aa-a77c-4571-8490-2ecfd8f0404f",
+   "posted_at": "2026-11-26T00:04:15+00:00"
+  },
+  {
+   "id": "ep:6889432a-3c29-4c7a-a903-b8d321b07009",
+   "stage": "RESULTATS",
+   "administration": "الوكالة الوطنية للدعم الاجتماعي",
+   "grade": "اطار محاسبي و مالي",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/88a388b9b43fb306e5dec4d97eaff13c.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_resultats/6889432a-3c29-4c7a-a903-b8d321b07009",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/6889432a-3c29-4c7a-a903-b8d321b07009",
+   "posted_at": "2026-11-26T00:04:10+00:00"
+  },
   {
    "id": "ep:54822069-1e94-4705-8964-f81d8987d880",
    "stage": "CONVOQUES_ORAL",
