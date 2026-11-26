@@ -1524,6 +1524,24 @@
       "city": null,
       "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/88a388b9b43fb306e5dec4d97eaff13c.png",
       "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/36772c93-6f04-4bc0-9735-3047873ab2c8"
+    },
+    {
+      "id": "C 44713/26",
+      "reference_code": "C 44713/26",
+      "administration": "الوكالة الوطنية للدعم الاجتماعي",
+      "grade": "تقني متخصص في السمعي البصري و اللوجيستيك",
+      "post_count": 1,
+      "deadline": "2026-11-26",
+      "exam_date": null,
+      "urls": [
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/2fef0122-6371-4de3-af5f-54385044d832"
+      ],
+      "telegram_message_id": 105,
+      "posted_at": "2026-11-26T00:32:11+00:00",
+      "specialty": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/88a388b9b43fb306e5dec4d97eaff13c.png",
+      "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/2fef0122-6371-4de3-af5f-54385044d832"
     }
   ],
   "stages": [
@@ -4665,6 +4683,256 @@
       "exam_date": null,
       "city": null,
       "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/88a388b9b43fb306e5dec4d97eaff13c.png"
+    },
+    {
+      "key": "ep:d74a173d-3f2f-4449-889c-51205723e6ee#CONVOQUES",
+      "reference_code": "C 44219/26",
+      "stage": "CONVOQUES",
+      "administration": "الوكالة الوطنية لإنعاش الشغل والكفاءات",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/d74a173d-3f2f-4449-889c-51205723e6ee",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T00:31:31+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:ff547336-ba4e-40ab-8e14-0fd612e64c70#CONVOQUES",
+      "reference_code": "C 44218/26",
+      "stage": "CONVOQUES",
+      "administration": "الوكالة الوطنية لإنعاش الشغل والكفاءات",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/ff547336-ba4e-40ab-8e14-0fd612e64c70",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T00:31:33+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:532fb079-28b5-4a07-9f13-145387fc6435#CONVOQUES",
+      "reference_code": "C 44216/26",
+      "stage": "CONVOQUES",
+      "administration": "الوكالة الوطنية لإنعاش الشغل والكفاءات",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/532fb079-28b5-4a07-9f13-145387fc6435",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T00:31:34+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:9b724ec1-30a5-4ca6-a901-3e7d8bd73759#CONVOQUES",
+      "reference_code": "C 44215/26",
+      "stage": "CONVOQUES",
+      "administration": "الوكالة الوطنية لإنعاش الشغل والكفاءات",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/9b724ec1-30a5-4ca6-a901-3e7d8bd73759",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T00:31:35+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:3775f95f-310e-454f-9590-6be1203afb27#CONVOQUES",
+      "reference_code": "C 44213/26",
+      "stage": "CONVOQUES",
+      "administration": "الوكالة الوطنية لإنعاش الشغل والكفاءات",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/3775f95f-310e-454f-9590-6be1203afb27",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T00:31:36+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:9049f3fa-06b2-49dd-878b-2243d11a2fdc#CONVOQUES",
+      "reference_code": "C 44212/26",
+      "stage": "CONVOQUES",
+      "administration": "الوكالة الوطنية لإنعاش الشغل والكفاءات",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/9049f3fa-06b2-49dd-878b-2243d11a2fdc",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T00:31:38+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:84bb3e89-b215-4c1b-85d6-77b30c1ee97e#CONVOQUES",
+      "reference_code": "C 44211/26",
+      "stage": "CONVOQUES",
+      "administration": "الوكالة الوطنية لإنعاش الشغل والكفاءات",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/84bb3e89-b215-4c1b-85d6-77b30c1ee97e",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T00:31:39+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:cfc41be9-2555-4066-be1b-22b291e39867#CONVOQUES",
+      "reference_code": "C 44210/26",
+      "stage": "CONVOQUES",
+      "administration": "الوكالة الوطنية لإنعاش الشغل والكفاءات",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/cfc41be9-2555-4066-be1b-22b291e39867",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T00:31:40+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:05387e20-b564-4ae9-97e8-a60f4bf0d54f#CONVOQUES",
+      "reference_code": "C 44206/26",
+      "stage": "CONVOQUES",
+      "administration": "غرفة التجارة والصناعة والخدمات للدار البيضاء سطات",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/05387e20-b564-4ae9-97e8-a60f4bf0d54f",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T00:31:42+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:a6dc257b-84ec-4446-bb4f-788527d1756d#CONVOQUES",
+      "reference_code": "C 44205/26",
+      "stage": "CONVOQUES",
+      "administration": "غرفة التجارة والصناعة والخدمات للدار البيضاء سطات",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/a6dc257b-84ec-4446-bb4f-788527d1756d",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T00:31:43+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:8e8e59be-bbe2-49fc-95eb-29ce1bb8fa41#CONVOQUES",
+      "reference_code": "C 44204/26",
+      "stage": "CONVOQUES",
+      "administration": "الوكالة الوطنية لإنعاش الشغل والكفاءات",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/8e8e59be-bbe2-49fc-95eb-29ce1bb8fa41",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T00:31:45+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:943cc6a6-858c-4c4c-bec1-c232bbbebd4d#CONVOQUES",
+      "reference_code": "C 44203/26",
+      "stage": "CONVOQUES",
+      "administration": "جامعة الحسن الثاني - الدارالبيضاء",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/943cc6a6-858c-4c4c-bec1-c232bbbebd4d",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T00:31:46+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:2c25eb0a-ad01-444a-8e85-9dbc85d09de8#CONVOQUES",
+      "reference_code": "C 44202/26",
+      "stage": "CONVOQUES",
+      "administration": "الوكالة الوطنية لإنعاش الشغل والكفاءات",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/2c25eb0a-ad01-444a-8e85-9dbc85d09de8",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T00:31:47+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:28d54b19-a231-408d-be77-25f2991fe292#CONVOQUES",
+      "reference_code": "C 44201/26",
+      "stage": "CONVOQUES",
+      "administration": "الوكالة الوطنية لإنعاش الشغل والكفاءات",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/28d54b19-a231-408d-be77-25f2991fe292",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T00:31:49+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:c2128889-c05b-4ddb-b82d-bfa6af7ec3e8#CONVOQUES",
+      "reference_code": "C 44198/26",
+      "stage": "CONVOQUES",
+      "administration": "الوكالة الوطنية لإنعاش الشغل والكفاءات",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/c2128889-c05b-4ddb-b82d-bfa6af7ec3e8",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T00:31:50+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:4e7ccd79-017c-4878-9383-46c2a8e34123#CONVOQUES",
+      "reference_code": "C 44197/26",
+      "stage": "CONVOQUES",
+      "administration": "الوكالة الوطنية لإنعاش الشغل والكفاءات",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/4e7ccd79-017c-4878-9383-46c2a8e34123",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T00:31:52+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:b185d242-97b1-41d5-83ed-74581eb0d4c8#CONVOQUES",
+      "reference_code": "C 44196/26",
+      "stage": "CONVOQUES",
+      "administration": "الوكالة الوطنية لإنعاش الشغل والكفاءات",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/b185d242-97b1-41d5-83ed-74581eb0d4c8",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T00:31:53+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:33646dc2-9c85-4fbd-94d9-8e7411b76163#CONVOQUES",
+      "reference_code": "C 44195/26",
+      "stage": "CONVOQUES",
+      "administration": "الوكالة الوطنية لإنعاش الشغل والكفاءات",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/33646dc2-9c85-4fbd-94d9-8e7411b76163",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T00:31:54+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:231dfedf-0959-4ac8-b1c6-70d8169c50cb#CONVOQUES",
+      "reference_code": "C 44194/26",
+      "stage": "CONVOQUES",
+      "administration": "الوكالة الوطنية لإنعاش الشغل والكفاءات",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/231dfedf-0959-4ac8-b1c6-70d8169c50cb",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T00:31:56+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:90238c3f-6d16-4e90-a08b-3b4355e6339e#CONVOQUES",
+      "reference_code": "C 44190/26",
+      "stage": "CONVOQUES",
+      "administration": "الوكالة الوطنية لإنعاش الشغل والكفاءات",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/90238c3f-6d16-4e90-a08b-3b4355e6339e",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T00:31:57+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:51dc7dbd-7551-4120-9117-73951863ee01#CONVOQUES",
+      "reference_code": "C 44186/26",
+      "stage": "CONVOQUES",
+      "administration": "المؤسسة الوطنية للمتاحف",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/51dc7dbd-7551-4120-9117-73951863ee01",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T00:31:58+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:af53c7ac-9324-4023-b5b8-bf1ae5d0c322#CONVOQUES",
+      "reference_code": "C 44177/26",
+      "stage": "CONVOQUES",
+      "administration": "جامعة ابن زهر - أكادير",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/af53c7ac-9324-4023-b5b8-bf1ae5d0c322",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T00:32:00+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:469fb823-9c5e-4d60-aed8-ec73b6995feb#CONVOQUES",
+      "reference_code": "C 44176/26",
+      "stage": "CONVOQUES",
+      "administration": "جامعة ابن زهر - أكادير",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/469fb823-9c5e-4d60-aed8-ec73b6995feb",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T00:32:01+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:39f0bc2e-fa1c-431f-8f97-b4ffe675d6f3#CONVOQUES",
+      "reference_code": "C 44175/26",
+      "stage": "CONVOQUES",
+      "administration": "جامعة ابن زهر - أكادير",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/39f0bc2e-fa1c-431f-8f97-b4ffe675d6f3",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T00:32:03+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:914963de-62ff-48a3-bb80-4bd82061fa1e#CONVOQUES",
+      "reference_code": "C 44174/26",
+      "stage": "CONVOQUES",
+      "administration": "جامعة ابن زهر - أكادير",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/914963de-62ff-48a3-bb80-4bd82061fa1e",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T00:32:04+00:00",
+      "seeded": true
     }
   ],
   "seeded_sources": [
@@ -5699,103 +5967,103 @@
     },
     "ep:d74a173d-3f2f-4449-889c-51205723e6ee": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-26T00:31:31+00:00"
     },
     "ep:ff547336-ba4e-40ab-8e14-0fd612e64c70": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-26T00:31:33+00:00"
     },
     "ep:532fb079-28b5-4a07-9f13-145387fc6435": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-26T00:31:34+00:00"
     },
     "ep:9b724ec1-30a5-4ca6-a901-3e7d8bd73759": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-26T00:31:35+00:00"
     },
     "ep:3775f95f-310e-454f-9590-6be1203afb27": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-26T00:31:36+00:00"
     },
     "ep:9049f3fa-06b2-49dd-878b-2243d11a2fdc": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-26T00:31:38+00:00"
     },
     "ep:84bb3e89-b215-4c1b-85d6-77b30c1ee97e": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-26T00:31:39+00:00"
     },
     "ep:cfc41be9-2555-4066-be1b-22b291e39867": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-26T00:31:40+00:00"
     },
     "ep:05387e20-b564-4ae9-97e8-a60f4bf0d54f": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-26T00:31:42+00:00"
     },
     "ep:a6dc257b-84ec-4446-bb4f-788527d1756d": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-26T00:31:43+00:00"
     },
     "ep:8e8e59be-bbe2-49fc-95eb-29ce1bb8fa41": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-26T00:31:45+00:00"
     },
     "ep:943cc6a6-858c-4c4c-bec1-c232bbbebd4d": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-26T00:31:46+00:00"
     },
     "ep:2c25eb0a-ad01-444a-8e85-9dbc85d09de8": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-26T00:31:47+00:00"
     },
     "ep:28d54b19-a231-408d-be77-25f2991fe292": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-26T00:31:49+00:00"
     },
     "ep:c2128889-c05b-4ddb-b82d-bfa6af7ec3e8": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-26T00:31:50+00:00"
     },
     "ep:4e7ccd79-017c-4878-9383-46c2a8e34123": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-26T00:31:52+00:00"
     },
     "ep:b185d242-97b1-41d5-83ed-74581eb0d4c8": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-26T00:31:53+00:00"
     },
     "ep:33646dc2-9c85-4fbd-94d9-8e7411b76163": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-26T00:31:54+00:00"
     },
     "ep:231dfedf-0959-4ac8-b1c6-70d8169c50cb": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-26T00:31:56+00:00"
     },
     "ep:90238c3f-6d16-4e90-a08b-3b4355e6339e": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-26T00:31:57+00:00"
     },
     "ep:51dc7dbd-7551-4120-9117-73951863ee01": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-26T00:31:58+00:00"
     },
     "ep:af53c7ac-9324-4023-b5b8-bf1ae5d0c322": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-26T00:32:00+00:00"
     },
     "ep:469fb823-9c5e-4d60-aed8-ec73b6995feb": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-26T00:32:01+00:00"
     },
     "ep:39f0bc2e-fa1c-431f-8f97-b4ffe675d6f3": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-26T00:32:03+00:00"
     },
     "ep:914963de-62ff-48a3-bb80-4bd82061fa1e": {
       "added": "2026-11-25",
-      "checked": null
+      "checked": "2026-11-26T00:32:04+00:00"
     },
     "ep:0a576536-9f2d-4dd4-b995-f12947453d27": {
       "added": "2026-11-25",

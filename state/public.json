@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-26T00:05:38+00:00",
+ "updated_at": "2026-11-26T00:32:11+00:00",
  "channel": "https://t.me/RaqibEmploi",
  "sources": [
   {
@@ -9,12 +9,35 @@
   }
  ],
  "stats": {
-  "open": 76,
-  "posted_total": 79,
+  "open": 77,
+  "posted_total": 80,
   "stage_posts_total": 16,
   "followed": 313
  },
  "concours": [
+  {
+   "id": "ep:2fef0122-6371-4de3-af5f-54385044d832",
+   "code": "C 44713/26",
+   "administration": "الوكالة الوطنية للدعم الاجتماعي",
+   "grade": "تقني متخصص في السمعي البصري و اللوجيستيك",
+   "specialty": null,
+   "posts": 1,
+   "deadline": "2026-11-26",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/88a388b9b43fb306e5dec4d97eaff13c.png",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/2fef0122-6371-4de3-af5f-54385044d832",
+   "tags": [
+    "تقني"
+   ],
+   "stages": [
+    "AVIS",
+    "CONVOQUES",
+    "CONVOQUES_ORAL",
+    "RESULTATS"
+   ],
+   "posted_at": "2026-11-26T00:32:11+00:00"
+  },
   {
    "id": "ep:36772c93-6f04-4bc0-9735-3047873ab2c8",
    "code": "C 44715/26",
@@ -104,7 +127,7 @@
    "posted_at": "2026-11-25T19:35:28+00:00"
   },
   {
-   "id": "ep:8a811d71-5f0c-4516-a54b-cdd421929da1",
+   "id": "ep:593d3e98-64cc-4a18-99b5-56564e510a9a",
    "code": "C 44916/26",
    "administration": "إقليم تاونات",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -287,7 +310,7 @@
    "posted_at": "2026-11-25T19:34:32+00:00"
   },
   {
-   "id": "ep:d520bc73-bcf0-4974-af85-7b6af7c7c40f",
+   "id": "ep:3f6d3934-2b54-4ccb-934e-67ec66e7f762",
    "code": "C 44884/26",
    "administration": "إقليم تازة - تازة",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -387,7 +410,7 @@
    "posted_at": "2026-11-25T19:03:38+00:00"
   },
   {
-   "id": "ep:c7259a97-09c2-4050-893a-c2226569266d",
+   "id": "ep:35a928ed-d8e5-4555-8daf-fa89a806a698",
    "code": "C 44868/26",
    "administration": "إقليم الخميسات - الزحيلكة",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -1437,7 +1460,7 @@
    "posted_at": "2026-11-25T04:47:00+00:00"
   },
   {
-   "id": "ep:b7f02f9d-4b66-4dcd-8365-f3b1001009c1",
+   "id": "ep:f13bac44-60cc-4ed5-897a-905111afbeb2",
    "code": "C 44743/26",
    "administration": "وزارة العدل",
    "grade": "محرر قضائي من الدرجة الرابعة - سُلمْ 8",
