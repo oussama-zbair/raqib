@@ -9,6 +9,9 @@ export interface Concours {
   code: string | null;
   administration: string | null;
   grade: string | null;
+  title: string | null;
+  family: string | null;
+  scale: number | null;
   specialty: string | null;
   posts: number | null;
   deadline: string | null;
@@ -26,6 +29,8 @@ export interface StageUpdate {
   stage: Stage;
   administration: string | null;
   grade: string | null;
+  title: string | null;
+  family: string | null;
   exam_date: string | null;
   city: string | null;
   logo: string | null;
