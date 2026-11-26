@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-26T15:37:53+00:00",
+ "updated_at": "2026-11-26T16:08:48+00:00",
  "channel": "https://t.me/RaqibEmploi",
  "sources": [
   {
@@ -9,12 +9,79 @@
   }
  ],
  "stats": {
-  "open": 121,
-  "posted_total": 124,
-  "stage_posts_total": 42,
-  "followed": 374
+  "open": 124,
+  "posted_total": 127,
+  "stage_posts_total": 44,
+  "followed": 377
  },
  "concours": [
+  {
+   "id": "ep:ac58a3f5-0868-4453-805a-9317a92452a7",
+   "code": "C 44988/26",
+   "administration": "مجموعة التهيئة العمران",
+   "grade": "(02) رؤساء مشاريع (F/H) لشركة العمران منطقة الشرق",
+   "title": "(02) رؤساء مشاريع (F/H)",
+   "family": "(02)",
+   "scale": null,
+   "specialty": null,
+   "posts": 2,
+   "deadline": "2026-12-11",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/f6d0d7335b70a8d93d15c4403113695b.png",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/ac58a3f5-0868-4453-805a-9317a92452a7",
+   "tags": [],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-26T16:08:48+00:00"
+  },
+  {
+   "id": "ep:8423070b-356a-4265-ac2b-5fef4a2ab114",
+   "code": "C 44987/26",
+   "administration": "غرفة الصناعة التقليدية بجهة وادي الذهب - لكويرة",
+   "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
+   "title": "تقني",
+   "family": "تقني",
+   "scale": 9,
+   "specialty": null,
+   "posts": 1,
+   "deadline": "2026-12-11",
+   "exam_date": "2026-12-14",
+   "city": null,
+   "logo": null,
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/8423070b-356a-4265-ac2b-5fef4a2ab114",
+   "tags": [
+    "تقني"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-26T16:08:13+00:00"
+  },
+  {
+   "id": "ep:f32382b7-bdab-4e1d-a8cc-2170c6d88478",
+   "code": "C 44986/26",
+   "administration": "غرفة الصناعة التقليدية بجهة وادي الذهب - لكويرة",
+   "grade": "متصرف من الدرجة الثالثة - سُلمْ 10",
+   "title": "متصرف",
+   "family": "متصرف",
+   "scale": 10,
+   "specialty": null,
+   "posts": 1,
+   "deadline": "2026-12-11",
+   "exam_date": "2026-12-14",
+   "city": null,
+   "logo": null,
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/f32382b7-bdab-4e1d-a8cc-2170c6d88478",
+   "tags": [
+    "إدارة"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-26T16:08:08+00:00"
+  },
   {
    "id": "ep:f0c4818a-b0b6-4f52-9d6c-f2bcaeb0e48e",
    "code": "C 44985/26",
@@ -1045,7 +1112,7 @@
    "posted_at": "2026-11-26T00:05:38+00:00"
   },
   {
-   "id": "ep:2fef0122-6371-4de3-af5f-54385044d832",
+   "id": "ep:98f8f5aa-a77c-4571-8490-2ecfd8f0404f",
    "code": "C 44716/26",
    "administration": "الوكالة الوطنية للدعم الاجتماعي",
    "grade": "تقني متخصص في البناء",
@@ -1262,7 +1329,7 @@
    "posted_at": "2026-11-25T19:34:47+00:00"
   },
   {
-   "id": "ep:a5b90bf5-4086-434c-b948-8880d9adb947",
+   "id": "ep:ccb9b405-58f7-453e-bb03-72ff84e5c365",
    "code": "C 44897/26",
    "administration": "إقليم الحاجب - اكوراي",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -1400,7 +1467,7 @@
    "posted_at": "2026-11-25T19:03:47+00:00"
   },
   {
-   "id": "ep:a7c4e6a7-7c33-4ec3-a00e-97c83892d659",
+   "id": "ep:3d0d7c43-34b5-4e4b-ba57-02da6200dbd0",
    "code": "C 44870/26",
    "administration": "إقليم برشيد - برشيد",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -1446,7 +1513,7 @@
    "posted_at": "2026-11-25T19:03:38+00:00"
   },
   {
-   "id": "ep:35a928ed-d8e5-4555-8daf-fa89a806a698",
+   "id": "ep:c7259a97-09c2-4050-893a-c2226569266d",
    "code": "C 44868/26",
    "administration": "إقليم الخميسات - الزحيلكة",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -2071,7 +2138,7 @@
    "posted_at": "2026-11-25T18:24:59+00:00"
   },
   {
-   "id": "ep:48737302-a809-41b9-a23d-03980d4b9460",
+   "id": "ep:aa5a7bf0-c8ed-4221-bff0-de210c2b0d44",
    "code": "C 44889/26",
    "administration": "شركة المنشآت الرياضية لطنجة ش.م",
    "grade": "تقني تيار قوي",
@@ -2571,7 +2638,7 @@
    "posted_at": "2026-11-25T04:47:00+00:00"
   },
   {
-   "id": "ep:a308f369-e882-4c42-871d-acb07d5c6d2e",
+   "id": "ep:aa40ad09-1cb6-4408-b1a7-7507ee9673ed",
    "code": "C 44679/26",
    "administration": "جامعة شعيب الدكالي - الجديدة",
    "grade": "Technicien de 3ème grade",
@@ -2652,7 +2719,7 @@
    "posted_at": "2026-11-25T04:47:00+00:00"
   },
   {
-   "id": "ep:f13bac44-60cc-4ed5-897a-905111afbeb2",
+   "id": "ep:b7f02f9d-4b66-4dcd-8365-f3b1001009c1",
    "code": "C 44743/26",
    "administration": "وزارة العدل",
    "grade": "محرر قضائي من الدرجة الرابعة - سُلمْ 8",
@@ -2700,7 +2767,7 @@
    "posted_at": "2026-11-25T04:47:00+00:00"
   },
   {
-   "id": "ep:06f2df84-0753-47a3-95b9-4aa040df8c72",
+   "id": "ep:254a4ccc-b3d1-43d0-8b7d-a23d818766b2",
    "code": "C 44886/26",
    "administration": "وزارة الصحة والحماية الاجتماعية",
    "grade": "مساعد تقني من الدرجة الثانية",
@@ -2723,7 +2790,7 @@
    "posted_at": "2026-11-25T04:47:00+00:00"
   },
   {
-   "id": "ep:06f2df84-0753-47a3-95b9-4aa040df8c72",
+   "id": "ep:254a4ccc-b3d1-43d0-8b7d-a23d818766b2",
    "code": "C 44887/26",
    "administration": "وزارة الصحة والحماية الاجتماعية",
    "grade": "مساعد تقني من الدرجة الثانية",
@@ -2865,6 +2932,34 @@
   }
  ],
  "updates": [
+  {
+   "id": "ep:467d114e-6936-4e22-b519-10877a5182ae",
+   "stage": "RESULTATS",
+   "administration": "إقليم شيشاوة - إمنتانوت",
+   "grade": "تقني من الدرجة الرابعة - سُلمْ 8",
+   "title": "تقني",
+   "family": "تقني",
+   "exam_date": null,
+   "city": "شيشاوة",
+   "logo": null,
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_resultats/467d114e-6936-4e22-b519-10877a5182ae",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/467d114e-6936-4e22-b519-10877a5182ae",
+   "posted_at": "2026-11-26T16:07:58+00:00"
+  },
+  {
+   "id": "ep:f067dfd5-8609-428a-959b-4dae04f014b7",
+   "stage": "CONVOQUES_ORAL",
+   "administration": "عمالة المضيق الفنيدق - مرتيل",
+   "grade": "ممرض من الدرجة الأولى - سُلمْ 10",
+   "title": "ممرض",
+   "family": "ممرض",
+   "exam_date": null,
+   "city": "المضيق الفنيدق",
+   "logo": null,
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/f067dfd5-8609-428a-959b-4dae04f014b7",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/f067dfd5-8609-428a-959b-4dae04f014b7",
+   "posted_at": "2026-11-26T16:07:53+00:00"
+  },
   {
    "id": "ep:2538c1c9-540a-4b18-9722-da90496dc946",
    "stage": "CONVOQUES",

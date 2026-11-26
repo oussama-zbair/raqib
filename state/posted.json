@@ -2338,6 +2338,60 @@
       "city": null,
       "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/86b56d3d9570a74cdf88941c970c0079.png",
       "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/f0c4818a-b0b6-4f52-9d6c-f2bcaeb0e48e"
+    },
+    {
+      "id": "C 44986/26",
+      "reference_code": "C 44986/26",
+      "administration": "غرفة الصناعة التقليدية بجهة وادي الذهب - لكويرة",
+      "grade": "متصرف من الدرجة الثالثة - سُلمْ 10",
+      "post_count": 1,
+      "deadline": "2026-12-11",
+      "exam_date": "2026-12-14",
+      "urls": [
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/f32382b7-bdab-4e1d-a8cc-2170c6d88478"
+      ],
+      "telegram_message_id": 185,
+      "posted_at": "2026-11-26T16:08:08+00:00",
+      "specialty": null,
+      "city": null,
+      "logo_url": null,
+      "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/f32382b7-bdab-4e1d-a8cc-2170c6d88478"
+    },
+    {
+      "id": "C 44987/26",
+      "reference_code": "C 44987/26",
+      "administration": "غرفة الصناعة التقليدية بجهة وادي الذهب - لكويرة",
+      "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
+      "post_count": 1,
+      "deadline": "2026-12-11",
+      "exam_date": "2026-12-14",
+      "urls": [
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/8423070b-356a-4265-ac2b-5fef4a2ab114"
+      ],
+      "telegram_message_id": 186,
+      "posted_at": "2026-11-26T16:08:13+00:00",
+      "specialty": null,
+      "city": null,
+      "logo_url": null,
+      "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/8423070b-356a-4265-ac2b-5fef4a2ab114"
+    },
+    {
+      "id": "C 44988/26",
+      "reference_code": "C 44988/26",
+      "administration": "مجموعة التهيئة العمران",
+      "grade": "(02) رؤساء مشاريع (F/H) لشركة العمران منطقة الشرق",
+      "post_count": 2,
+      "deadline": "2026-12-11",
+      "exam_date": null,
+      "urls": [
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/ac58a3f5-0868-4453-805a-9317a92452a7"
+      ],
+      "telegram_message_id": 187,
+      "posted_at": "2026-11-26T16:08:48+00:00",
+      "specialty": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/f6d0d7335b70a8d93d15c4403113695b.png",
+      "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/ac58a3f5-0868-4453-805a-9317a92452a7"
     }
   ],
   "stages": [
@@ -6803,6 +6857,44 @@
       "exam_date": "2026-12-04",
       "city": null,
       "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/64280d4f367737d6d772fce221eb7af4.png"
+    },
+    {
+      "key": "ep:f067dfd5-8609-428a-959b-4dae04f014b7#CONVOQUES",
+      "reference_code": "C 41198/26",
+      "stage": "CONVOQUES",
+      "administration": "عمالة المضيق الفنيدق - مرتيل",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/f067dfd5-8609-428a-959b-4dae04f014b7",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-26T16:07:46+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:f067dfd5-8609-428a-959b-4dae04f014b7#CONVOQUES_ORAL",
+      "reference_code": "C 41198/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "عمالة المضيق الفنيدق - مرتيل",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/f067dfd5-8609-428a-959b-4dae04f014b7",
+      "telegram_message_id": 183,
+      "posted_at": "2026-11-26T16:07:53+00:00",
+      "grade": "ممرض من الدرجة الأولى - سُلمْ 10",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/f067dfd5-8609-428a-959b-4dae04f014b7",
+      "exam_date": null,
+      "city": "المضيق الفنيدق",
+      "logo_url": null
+    },
+    {
+      "key": "ep:467d114e-6936-4e22-b519-10877a5182ae#RESULTATS",
+      "reference_code": "C 43278/26",
+      "stage": "RESULTATS",
+      "administration": "إقليم شيشاوة - إمنتانوت",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/467d114e-6936-4e22-b519-10877a5182ae",
+      "telegram_message_id": 184,
+      "posted_at": "2026-11-26T16:07:58+00:00",
+      "grade": "تقني من الدرجة الرابعة - سُلمْ 8",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_resultats/467d114e-6936-4e22-b519-10877a5182ae",
+      "exam_date": null,
+      "city": "شيشاوة",
+      "logo_url": null
     }
   ],
   "seeded_sources": [
@@ -7378,10 +7470,6 @@
     "ep:180e1e5d-472d-4cea-a00e-a623beecf83c": {
       "added": "2026-11-25",
       "checked": "2026-11-25T22:02:03+00:00"
-    },
-    "ep:467d114e-6936-4e22-b519-10877a5182ae": {
-      "added": "2026-11-25",
-      "checked": "2026-11-25T22:02:07+00:00"
     },
     "ep:300cc312-ec81-48ff-ad12-134584efc6f5": {
       "added": "2026-11-25",
@@ -8306,6 +8394,22 @@
     "ep:886423e1-2944-452e-9a5c-7e1d4f66b8ce": {
       "added": "2026-11-26",
       "checked": "2026-11-26T15:35:24+00:00"
+    },
+    "ep:ac58a3f5-0868-4453-805a-9317a92452a7": {
+      "added": "2026-11-26",
+      "checked": "2026-11-26T16:03:58+00:00"
+    },
+    "ep:8423070b-356a-4265-ac2b-5fef4a2ab114": {
+      "added": "2026-11-26",
+      "checked": "2026-11-26T16:03:58+00:00"
+    },
+    "ep:f32382b7-bdab-4e1d-a8cc-2170c6d88478": {
+      "added": "2026-11-26",
+      "checked": "2026-11-26T16:03:58+00:00"
+    },
+    "ep:f067dfd5-8609-428a-959b-4dae04f014b7": {
+      "added": "2026-11-26",
+      "checked": "2026-11-26T16:07:46+00:00"
     }
   },
   "last_discovery": "2026-11-26",
