@@ -14,7 +14,6 @@ from __future__ import annotations
 
 import logging
 from datetime import date, datetime, timedelta, timezone
-from zoneinfo import ZoneInfo
 
 from app.jobs.dedup import canonical_url, url_keys
 from app.jobs.posted_state import PostedState
