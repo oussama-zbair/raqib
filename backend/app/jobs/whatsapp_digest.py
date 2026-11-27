@@ -1,10 +1,8 @@
 """WhatsApp digest: a ready-to-paste summary sent to the owner on Telegram.
 
 WhatsApp has no API to post to a Channel, so the job prepares the post and the owner
-pastes it (one tap copies a Telegram code block). Twice a day, Morocco time:
-
-* from 09:00: everything published since the previous digest (the night's items);
-* from 18:00: everything published during the day.
+pastes it. Three times a day, Morocco time: from 09:00 (morning), 15:00 (evening)
+and 21:00 (night). Each digest covers everything published since the previous one.
 
 A slot that was missed (no run, Telegram down) is sent by the next run. Nothing new
 means no message. WhatsApp formatting: *bold*, plain links (Telegram links are useless
@@ -47,7 +45,7 @@ def morocco_tz():
 
 
 TZ = morocco_tz()
-MORNING_HOUR, EVENING_HOUR = 9, 18
+MORNING_HOUR, EVENING_HOUR, NIGHT_HOUR = 9, 15, 21  # Morocco time
 FIRST_DIGEST_HOURS = 12  # the very first digest covers the last 12 hours
 PART_LIMIT = 3500  # Telegram allows 4096 characters per message
 OFFICIAL = "https://www.emploi-public.ma/fr/concours/details/{uuid}"
@@ -59,14 +57,23 @@ STAGE_SECTIONS = [
 ]
 
 
+# (start hour in Morocco, slot id, label). Change the hours here to move a digest.
+SLOTS = [(MORNING_HOUR, "am", "الصباح"), (EVENING_HOUR, "pm", "المساء"), (NIGHT_HOUR, "night", "الليل")]
+
+
 def due_slot(now: datetime) -> str:
     """The latest digest slot that has started, e.g. '2026-11-26-am'."""
     local = now.astimezone(TZ)
-    if local.hour >= EVENING_HOUR:
-        return f"{local.date().isoformat()}-pm"
-    if local.hour >= MORNING_HOUR:
-        return f"{local.date().isoformat()}-am"
-    return f"{(local.date() - timedelta(days=1)).isoformat()}-pm"
+    started = [(h, sid) for h, sid, _ in SLOTS if local.hour >= h]
+    if started:
+        return f"{local.date().isoformat()}-{started[-1][1]}"
+    return f"{(local.date() - timedelta(days=1)).isoformat()}-{SLOTS[-1][1]}"
+
+
+def slot_label(now: datetime) -> str:
+    local = now.astimezone(TZ)
+    started = [label for h, _, label in SLOTS if local.hour >= h]
+    return started[-1] if started else SLOTS[-1][2]
 
 
 def _link(urls) -> str | None:
@@ -157,7 +164,7 @@ def build_parts(state: PostedState, since: str, now: datetime, site: str, telegr
         return []
 
     local = now.astimezone(TZ)
-    moment = "الصباح" if local.hour < EVENING_HOUR else "المساء"
+    moment = slot_label(now)
     header = (f"👁 *رقيب | ملخص المباريات*\n"
               f"📅 {AR_DAYS[local.weekday()]} {local.day} {AR_MONTHS[local.month - 1]} "
               f"{local.year} · {moment}")

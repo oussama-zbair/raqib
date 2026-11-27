@@ -38,11 +38,29 @@ def _local(y, m, d, h, mi=0):
     return datetime(y, m, d, h, mi, tzinfo=TZ).astimezone(timezone.utc)
 
 
-def test_slots_follow_morocco_local_time():
-    assert due_slot(_local(2026, 11, 26, 8, 59)) == "2026-11-25-pm"
+def test_three_slots_follow_morocco_local_time():
+    assert due_slot(_local(2026, 11, 26, 8, 59)) == "2026-11-25-night"
     assert due_slot(_local(2026, 11, 26, 9, 0)) == "2026-11-26-am"
-    assert due_slot(_local(2026, 11, 26, 17, 59)) == "2026-11-26-am"
-    assert due_slot(_local(2026, 11, 26, 18, 0)) == "2026-11-26-pm"
+    assert due_slot(_local(2026, 11, 26, 14, 59)) == "2026-11-26-am"
+    assert due_slot(_local(2026, 11, 26, 15, 0)) == "2026-11-26-pm"
+    assert due_slot(_local(2026, 11, 26, 20, 59)) == "2026-11-26-pm"
+    assert due_slot(_local(2026, 11, 26, 21, 0)) == "2026-11-26-night"
+    assert due_slot(_local(2026, 11, 26, 23, 59)) == "2026-11-26-night"
+
+
+def test_each_slot_sends_once_with_only_what_is_new(tmp_path):
+    s = _state(tmp_path, posted_at=_local(2026, 11, 26, 8, 0).isoformat())
+    got: list = []
+
+    def sender(chat, cards, closing):
+        got.append(len(cards))
+
+    assert maybe_send(s, "1", SITE, TG, now=_local(2026, 11, 26, 9, 5), sender=sender) == 2
+    s.posted.append(dict(s.posted[0], id="later", posted_at=_local(2026, 11, 26, 12, 0).isoformat(),
+                         urls=["https://www.emploi-public.ma/ar/x/bbbbbbbb-1111-2222-3333-444444444444"]))
+    assert maybe_send(s, "1", SITE, TG, now=_local(2026, 11, 26, 15, 5), sender=sender) == 1
+    assert maybe_send(s, "1", SITE, TG, now=_local(2026, 11, 26, 21, 5), sender=sender) == 0
+    assert got == [2, 1]  # morning: 2 cards, evening: only the one added since, night: none
 
 
 def test_offset_comes_from_the_official_rules_or_the_override(monkeypatch):
@@ -91,7 +109,7 @@ def test_sent_once_per_slot_and_never_empty(tmp_path):
     morning = _local(2026, 11, 26, 9, 30)
     assert maybe_send(s, "123", SITE, TG, now=morning, sender=sender) == 2  # 1 new + 1 list
     assert maybe_send(s, "123", SITE, TG, now=morning + timedelta(minutes=30), sender=sender) == 0
-    evening = _local(2026, 11, 26, 18, 5)
+    evening = _local(2026, 11, 26, 15, 5)
     assert maybe_send(s, "123", SITE, TG, now=evening, sender=sender) == 0
     assert len(sent) == 1  # nothing new since the morning: no empty digest
     assert PostedState(tmp_path / "s.json").last_digest_slot == "2026-11-26-pm"
