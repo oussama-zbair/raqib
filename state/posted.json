@@ -2682,6 +2682,24 @@
       "city": null,
       "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/f6d0d7335b70a8d93d15c4403113695b.png",
       "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/342b15da-7895-45ba-b122-5a52a83cde9d"
+    },
+    {
+      "id": "C 44996/26",
+      "reference_code": "C 44996/26",
+      "administration": "جامعة محمد الأول - وجدة",
+      "grade": "أستاذ محاضر لفائدة المدرسة العليا للتربية والتكوين وجدة.",
+      "post_count": 1,
+      "deadline": "2026-12-12",
+      "exam_date": "2026-12-18",
+      "urls": [
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/a85ded0c-df8c-4beb-be8f-ea0d420f104d"
+      ],
+      "telegram_message_id": 248,
+      "posted_at": "2026-11-27T12:34:01+00:00",
+      "specialty": "Physique",
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/8baabd444e8ecb551c7b0e0008439d9e.png",
+      "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/a85ded0c-df8c-4beb-be8f-ea0d420f104d"
     }
   ],
   "stages": [
@@ -7789,6 +7807,158 @@
       "exam_date": null,
       "city": null,
       "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/4492a9a171d6b4ee4cd3e748a2921183.png"
+    },
+    {
+      "key": "ep:e97fab9f-69c9-4d4a-b633-936310b1c728#CONVOQUES",
+      "reference_code": "C 43903/26",
+      "stage": "CONVOQUES",
+      "administration": "الوكالة الحضرية لطنجة",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/e97fab9f-69c9-4d4a-b633-936310b1c728",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-27T12:32:23+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:e97fab9f-69c9-4d4a-b633-936310b1c728#CONVOQUES_ORAL",
+      "reference_code": "C 43903/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "الوكالة الحضرية لطنجة",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/e97fab9f-69c9-4d4a-b633-936310b1c728",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-27T12:32:23+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:fc0e29a8-cfa6-4458-8a14-52eb6b389e54#CONVOQUES",
+      "reference_code": "C 41070/26",
+      "stage": "CONVOQUES",
+      "administration": "إقليم تازة - بوحلو",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/fc0e29a8-cfa6-4458-8a14-52eb6b389e54",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-27T12:33:02+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:7197aefa-9dba-4a40-ab19-56e706fb1da2#CONVOQUES",
+      "reference_code": "C 40793/26",
+      "stage": "CONVOQUES",
+      "administration": "إقليم الفقيه بن صالح - الفقيه بن صالح",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/7197aefa-9dba-4a40-ab19-56e706fb1da2",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-27T12:33:07+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:22f1e2b1-f003-47b6-93c3-9d8505d33329#CONVOQUES_ORAL",
+      "reference_code": "C 40398/25",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "إقليم وادي الذهب",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/22f1e2b1-f003-47b6-93c3-9d8505d33329",
+      "telegram_message_id": 240,
+      "posted_at": "2026-11-27T12:33:12+00:00",
+      "grade": "طبيب من الدرجة الأولى - سُلمْ 11",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/22f1e2b1-f003-47b6-93c3-9d8505d33329",
+      "exam_date": null,
+      "city": "وادي الذهب",
+      "logo_url": null
+    },
+    {
+      "key": "ep:8e53ea92-a389-4f24-ae28-b7400b2354ca#CONVOQUES_ORAL",
+      "reference_code": "C 40399/25",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "إقليم وادي الذهب",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/8e53ea92-a389-4f24-ae28-b7400b2354ca",
+      "telegram_message_id": 241,
+      "posted_at": "2026-11-27T12:33:17+00:00",
+      "grade": "طبيب بيطري من الدرجة الأولى - سُلمْ 11",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/8e53ea92-a389-4f24-ae28-b7400b2354ca",
+      "exam_date": null,
+      "city": "وادي الذهب",
+      "logo_url": null
+    },
+    {
+      "key": "ep:6ad97dca-9840-4ba1-a0a7-279037f5e2a1#CONVOQUES_ORAL",
+      "reference_code": "C 40401/25",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "إقليم وادي الذهب",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/6ad97dca-9840-4ba1-a0a7-279037f5e2a1",
+      "telegram_message_id": 242,
+      "posted_at": "2026-11-27T12:33:22+00:00",
+      "grade": "تقني الصحة من الدرجة الأولى - سُلمْ 10",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/6ad97dca-9840-4ba1-a0a7-279037f5e2a1",
+      "exam_date": null,
+      "city": "وادي الذهب",
+      "logo_url": null
+    },
+    {
+      "key": "ep:7197aefa-9dba-4a40-ab19-56e706fb1da2#CONVOQUES_ORAL",
+      "reference_code": "C 40793/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "إقليم الفقيه بن صالح - الفقيه بن صالح",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/7197aefa-9dba-4a40-ab19-56e706fb1da2",
+      "telegram_message_id": 243,
+      "posted_at": "2026-11-27T12:33:27+00:00",
+      "grade": "طبيب من الدرجة الأولى - سُلمْ 11",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/7197aefa-9dba-4a40-ab19-56e706fb1da2",
+      "exam_date": null,
+      "city": "الفقيه بن صالح",
+      "logo_url": null
+    },
+    {
+      "key": "ep:fc0e29a8-cfa6-4458-8a14-52eb6b389e54#CONVOQUES_ORAL",
+      "reference_code": "C 41070/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "إقليم تازة - بوحلو",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/fc0e29a8-cfa6-4458-8a14-52eb6b389e54",
+      "telegram_message_id": 244,
+      "posted_at": "2026-11-27T12:33:32+00:00",
+      "grade": "تقني من الدرجة الرابعة - سُلمْ 8",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/fc0e29a8-cfa6-4458-8a14-52eb6b389e54",
+      "exam_date": null,
+      "city": "تازة",
+      "logo_url": null
+    },
+    {
+      "key": "ep:f63ac64b-42ef-4f35-a766-fe427e22be70#RESULTATS",
+      "reference_code": "C 41727/26",
+      "stage": "RESULTATS",
+      "administration": "إقليم افران",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/f63ac64b-42ef-4f35-a766-fe427e22be70",
+      "telegram_message_id": 245,
+      "posted_at": "2026-11-27T12:33:37+00:00",
+      "grade": "مهندس دولة من الدرجة الأولى - سُلمْ 11",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_resultats/f63ac64b-42ef-4f35-a766-fe427e22be70",
+      "exam_date": null,
+      "city": "افران",
+      "logo_url": null
+    },
+    {
+      "key": "ep:ac2c00c5-b037-4b08-9724-430284d0039b#RESULTATS",
+      "reference_code": "C 41728/26",
+      "stage": "RESULTATS",
+      "administration": "إقليم افران",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/ac2c00c5-b037-4b08-9724-430284d0039b",
+      "telegram_message_id": 246,
+      "posted_at": "2026-11-27T12:33:41+00:00",
+      "grade": "ممرض من الدرجة الأولى - سُلمْ 10",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_resultats/ac2c00c5-b037-4b08-9724-430284d0039b",
+      "exam_date": null,
+      "city": "افران",
+      "logo_url": null
+    },
+    {
+      "key": "ep:e97fab9f-69c9-4d4a-b633-936310b1c728#RESULTATS",
+      "reference_code": "C 43903/26",
+      "stage": "RESULTATS",
+      "administration": "الوكالة الحضرية لطنجة",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/e97fab9f-69c9-4d4a-b633-936310b1c728",
+      "telegram_message_id": 247,
+      "posted_at": "2026-11-27T12:33:48+00:00",
+      "grade": "تقني متخصص في الهندسة المعمارية والتعمير",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_resultats/e97fab9f-69c9-4d4a-b633-936310b1c728",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/54cec0e4a0df9edcbb6ab0603e241f47.png"
     }
   ],
   "seeded_sources": [
@@ -9101,14 +9271,6 @@
       "added": "2026-11-26",
       "checked": "2026-11-26T11:34:32+00:00"
     },
-    "ep:ac2c00c5-b037-4b08-9724-430284d0039b": {
-      "added": "2026-11-26",
-      "checked": "2026-11-26T11:37:04+00:00"
-    },
-    "ep:f63ac64b-42ef-4f35-a766-fe427e22be70": {
-      "added": "2026-11-26",
-      "checked": "2026-11-26T11:37:07+00:00"
-    },
     "ep:fcdb7488-f38a-4951-8eba-e492c31e8981": {
       "added": "2026-11-26",
       "checked": "2026-11-26T12:03:27+00:00"
@@ -9436,6 +9598,30 @@
     "ep:b10baa00-399d-42c9-ab45-c8a4a66dfade": {
       "added": "2026-11-27",
       "checked": "2026-11-27T12:02:36+00:00"
+    },
+    "ep:a85ded0c-df8c-4beb-be8f-ea0d420f104d": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T12:32:13+00:00"
+    },
+    "ep:fc0e29a8-cfa6-4458-8a14-52eb6b389e54": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T12:33:02+00:00"
+    },
+    "ep:7197aefa-9dba-4a40-ab19-56e706fb1da2": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T12:33:07+00:00"
+    },
+    "ep:6ad97dca-9840-4ba1-a0a7-279037f5e2a1": {
+      "added": "2026-11-27",
+      "checked": null
+    },
+    "ep:8e53ea92-a389-4f24-ae28-b7400b2354ca": {
+      "added": "2026-11-27",
+      "checked": null
+    },
+    "ep:22f1e2b1-f003-47b6-93c3-9d8505d33329": {
+      "added": "2026-11-27",
+      "checked": null
     }
   },
   "last_discovery": "2026-11-27",

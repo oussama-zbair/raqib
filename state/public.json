@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-27T12:03:49+00:00",
+ "updated_at": "2026-11-27T12:34:01+00:00",
  "channel": "https://t.me/RaqibEmploi",
  "sources": [
   {
@@ -9,12 +9,35 @@
   }
  ],
  "stats": {
-  "open": 128,
-  "posted_total": 143,
-  "stage_posts_total": 80,
-  "followed": 410
+  "open": 129,
+  "posted_total": 144,
+  "stage_posts_total": 88,
+  "followed": 414
  },
  "concours": [
+  {
+   "id": "ep:a85ded0c-df8c-4beb-be8f-ea0d420f104d",
+   "code": "C 44996/26",
+   "administration": "جامعة محمد الأول - وجدة",
+   "grade": "أستاذ محاضر لفائدة المدرسة العليا للتربية والتكوين وجدة.",
+   "title": "أستاذ محاضر",
+   "family": "أستاذ",
+   "scale": null,
+   "specialty": "Physique",
+   "posts": 1,
+   "deadline": "2026-12-12",
+   "exam_date": "2026-12-18",
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/8baabd444e8ecb551c7b0e0008439d9e.png",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/a85ded0c-df8c-4beb-be8f-ea0d420f104d",
+   "tags": [
+    "تعليم"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-27T12:34:01+00:00"
+  },
   {
    "id": "ep:342b15da-7895-45ba-b122-5a52a83cde9d",
    "code": "C 44992/26",
@@ -251,7 +274,7 @@
    "posted_at": "2026-11-26T17:33:10+00:00"
   },
   {
-   "id": "ep:baf06523-83ae-45a3-bb1a-3144e273d7e5",
+   "id": "ep:ace1070f-f3a5-46df-947c-0372143baeb4",
    "code": "C 44983/26",
    "administration": "إقليم الحوز",
    "grade": "تقني من الدرجة الرابعة - سُلمْ 8",
@@ -1318,7 +1341,7 @@
    "posted_at": "2026-11-26T11:04:41+00:00"
   },
   {
-   "id": "ep:87771aba-7e04-4a17-9562-533af23e2dc1",
+   "id": "ep:1e96ae25-71ea-46b8-8867-53ac0ce6201f",
    "code": "C 44934/26",
    "administration": "صورياد القناة الثانية 2M",
    "grade": "تقني في الديكور",
@@ -1558,7 +1581,7 @@
    "posted_at": "2026-11-25T19:35:28+00:00"
   },
   {
-   "id": "ep:8a811d71-5f0c-4516-a54b-cdd421929da1",
+   "id": "ep:593d3e98-64cc-4a18-99b5-56564e510a9a",
    "code": "C 44916/26",
    "administration": "إقليم تاونات",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -1699,7 +1722,7 @@
    "posted_at": "2026-11-25T19:34:47+00:00"
   },
   {
-   "id": "ep:d166cff5-6eae-4e33-bca9-65950874b2df",
+   "id": "ep:ccb9b405-58f7-453e-bb03-72ff84e5c365",
    "code": "C 44897/26",
    "administration": "إقليم الحاجب - اكوراي",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -1837,7 +1860,7 @@
    "posted_at": "2026-11-25T19:03:47+00:00"
   },
   {
-   "id": "ep:3d0d7c43-34b5-4e4b-ba57-02da6200dbd0",
+   "id": "ep:a7c4e6a7-7c33-4ec3-a00e-97c83892d659",
    "code": "C 44870/26",
    "administration": "إقليم برشيد - برشيد",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -1883,7 +1906,7 @@
    "posted_at": "2026-11-25T19:03:38+00:00"
   },
   {
-   "id": "ep:c7259a97-09c2-4050-893a-c2226569266d",
+   "id": "ep:35a928ed-d8e5-4555-8daf-fa89a806a698",
    "code": "C 44868/26",
    "administration": "إقليم الخميسات - الزحيلكة",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -3302,6 +3325,118 @@
   }
  ],
  "updates": [
+  {
+   "id": "ep:e97fab9f-69c9-4d4a-b633-936310b1c728",
+   "stage": "RESULTATS",
+   "administration": "الوكالة الحضرية لطنجة",
+   "grade": "تقني متخصص في الهندسة المعمارية والتعمير",
+   "title": "تقني متخصص في الهندسة",
+   "family": "تقني",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/54cec0e4a0df9edcbb6ab0603e241f47.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_resultats/e97fab9f-69c9-4d4a-b633-936310b1c728",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/e97fab9f-69c9-4d4a-b633-936310b1c728",
+   "posted_at": "2026-11-27T12:33:48+00:00"
+  },
+  {
+   "id": "ep:ac2c00c5-b037-4b08-9724-430284d0039b",
+   "stage": "RESULTATS",
+   "administration": "إقليم افران",
+   "grade": "ممرض من الدرجة الأولى - سُلمْ 10",
+   "title": "ممرض",
+   "family": "ممرض",
+   "exam_date": null,
+   "city": "افران",
+   "logo": null,
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_resultats/ac2c00c5-b037-4b08-9724-430284d0039b",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/ac2c00c5-b037-4b08-9724-430284d0039b",
+   "posted_at": "2026-11-27T12:33:41+00:00"
+  },
+  {
+   "id": "ep:f63ac64b-42ef-4f35-a766-fe427e22be70",
+   "stage": "RESULTATS",
+   "administration": "إقليم افران",
+   "grade": "مهندس دولة من الدرجة الأولى - سُلمْ 11",
+   "title": "مهندس دولة",
+   "family": "مهندس",
+   "exam_date": null,
+   "city": "افران",
+   "logo": null,
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_resultats/f63ac64b-42ef-4f35-a766-fe427e22be70",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/f63ac64b-42ef-4f35-a766-fe427e22be70",
+   "posted_at": "2026-11-27T12:33:37+00:00"
+  },
+  {
+   "id": "ep:fc0e29a8-cfa6-4458-8a14-52eb6b389e54",
+   "stage": "CONVOQUES_ORAL",
+   "administration": "إقليم تازة - بوحلو",
+   "grade": "تقني من الدرجة الرابعة - سُلمْ 8",
+   "title": "تقني",
+   "family": "تقني",
+   "exam_date": null,
+   "city": "تازة",
+   "logo": null,
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/fc0e29a8-cfa6-4458-8a14-52eb6b389e54",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/fc0e29a8-cfa6-4458-8a14-52eb6b389e54",
+   "posted_at": "2026-11-27T12:33:32+00:00"
+  },
+  {
+   "id": "ep:7197aefa-9dba-4a40-ab19-56e706fb1da2",
+   "stage": "CONVOQUES_ORAL",
+   "administration": "إقليم الفقيه بن صالح - الفقيه بن صالح",
+   "grade": "طبيب من الدرجة الأولى - سُلمْ 11",
+   "title": "طبيب",
+   "family": "طبيب",
+   "exam_date": null,
+   "city": "الفقيه بن صالح",
+   "logo": null,
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/7197aefa-9dba-4a40-ab19-56e706fb1da2",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/7197aefa-9dba-4a40-ab19-56e706fb1da2",
+   "posted_at": "2026-11-27T12:33:27+00:00"
+  },
+  {
+   "id": "ep:6ad97dca-9840-4ba1-a0a7-279037f5e2a1",
+   "stage": "CONVOQUES_ORAL",
+   "administration": "إقليم وادي الذهب",
+   "grade": "تقني الصحة من الدرجة الأولى - سُلمْ 10",
+   "title": "تقني الصحة",
+   "family": "تقني",
+   "exam_date": null,
+   "city": "وادي الذهب",
+   "logo": null,
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/6ad97dca-9840-4ba1-a0a7-279037f5e2a1",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/6ad97dca-9840-4ba1-a0a7-279037f5e2a1",
+   "posted_at": "2026-11-27T12:33:22+00:00"
+  },
+  {
+   "id": "ep:8e53ea92-a389-4f24-ae28-b7400b2354ca",
+   "stage": "CONVOQUES_ORAL",
+   "administration": "إقليم وادي الذهب",
+   "grade": "طبيب بيطري من الدرجة الأولى - سُلمْ 11",
+   "title": "طبيب بيطري",
+   "family": "طبيب",
+   "exam_date": null,
+   "city": "وادي الذهب",
+   "logo": null,
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/8e53ea92-a389-4f24-ae28-b7400b2354ca",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/8e53ea92-a389-4f24-ae28-b7400b2354ca",
+   "posted_at": "2026-11-27T12:33:17+00:00"
+  },
+  {
+   "id": "ep:22f1e2b1-f003-47b6-93c3-9d8505d33329",
+   "stage": "CONVOQUES_ORAL",
+   "administration": "إقليم وادي الذهب",
+   "grade": "طبيب من الدرجة الأولى - سُلمْ 11",
+   "title": "طبيب",
+   "family": "طبيب",
+   "exam_date": null,
+   "city": "وادي الذهب",
+   "logo": null,
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/22f1e2b1-f003-47b6-93c3-9d8505d33329",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/22f1e2b1-f003-47b6-93c3-9d8505d33329",
+   "posted_at": "2026-11-27T12:33:12+00:00"
+  },
   {
    "id": "ep:d63baebe-afbb-4ede-9e52-00efec75fbc2",
    "stage": "CONVOQUES_ORAL",
