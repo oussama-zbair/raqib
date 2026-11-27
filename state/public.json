@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-27T10:34:30+00:00",
+ "updated_at": "2026-11-27T11:04:32+00:00",
  "channel": "https://t.me/RaqibEmploi",
  "sources": [
   {
@@ -11,8 +11,8 @@
  "stats": {
   "open": 128,
   "posted_total": 143,
-  "stage_posts_total": 70,
-  "followed": 403
+  "stage_posts_total": 75,
+  "followed": 407
  },
  "concours": [
   {
@@ -295,7 +295,7 @@
    "posted_at": "2026-11-26T17:04:42+00:00"
   },
   {
-   "id": "ep:bd7643c2-1ee8-4a5c-8b93-577068cc6814",
+   "id": "ep:dc5dba52-bc56-45e1-9d30-504dbf5832eb",
    "code": "C 44941/26",
    "administration": "إقليم بولمان - الرميلة",
    "grade": "تقني من الدرجة الرابعة - سُلمْ 8",
@@ -1482,7 +1482,7 @@
    "posted_at": "2026-11-26T00:05:38+00:00"
   },
   {
-   "id": "ep:2fef0122-6371-4de3-af5f-54385044d832",
+   "id": "ep:98f8f5aa-a77c-4571-8490-2ecfd8f0404f",
    "code": "C 44716/26",
    "administration": "الوكالة الوطنية للدعم الاجتماعي",
    "grade": "تقني متخصص في البناء",
@@ -1699,7 +1699,7 @@
    "posted_at": "2026-11-25T19:34:47+00:00"
   },
   {
-   "id": "ep:d166cff5-6eae-4e33-bca9-65950874b2df",
+   "id": "ep:a7e52309-7e1c-4474-b637-1f5cf0e47b4c",
    "code": "C 44897/26",
    "administration": "إقليم الحاجب - اكوراي",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -1837,7 +1837,7 @@
    "posted_at": "2026-11-25T19:03:47+00:00"
   },
   {
-   "id": "ep:3d0d7c43-34b5-4e4b-ba57-02da6200dbd0",
+   "id": "ep:a7c4e6a7-7c33-4ec3-a00e-97c83892d659",
    "code": "C 44870/26",
    "administration": "إقليم برشيد - برشيد",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -2508,7 +2508,7 @@
    "posted_at": "2026-11-25T18:24:59+00:00"
   },
   {
-   "id": "ep:48737302-a809-41b9-a23d-03980d4b9460",
+   "id": "ep:7ba78629-d145-41b6-b873-e1202bf0e3be",
    "code": "C 44889/26",
    "administration": "شركة المنشآت الرياضية لطنجة ش.م",
    "grade": "تقني تيار قوي",
@@ -3008,7 +3008,7 @@
    "posted_at": "2026-11-25T04:47:00+00:00"
   },
   {
-   "id": "ep:aa40ad09-1cb6-4408-b1a7-7507ee9673ed",
+   "id": "ep:a308f369-e882-4c42-871d-acb07d5c6d2e",
    "code": "C 44679/26",
    "administration": "جامعة شعيب الدكالي - الجديدة",
    "grade": "Technicien de 3ème grade",
@@ -3089,7 +3089,7 @@
    "posted_at": "2026-11-25T04:47:00+00:00"
   },
   {
-   "id": "ep:b7f02f9d-4b66-4dcd-8365-f3b1001009c1",
+   "id": "ep:f13bac44-60cc-4ed5-897a-905111afbeb2",
    "code": "C 44743/26",
    "administration": "وزارة العدل",
    "grade": "محرر قضائي من الدرجة الرابعة - سُلمْ 8",
@@ -3302,6 +3302,76 @@
   }
  ],
  "updates": [
+  {
+   "id": "ep:ff0a2c82-6414-4841-9a45-db164cd3ec1c",
+   "stage": "RESULTATS",
+   "administration": "جامعة السلطان مولاي سليمان -بني ملال",
+   "grade": "أستاذ محاضر من الدرجة أ - سُلمْ 11",
+   "title": "أستاذ محاضر",
+   "family": "أستاذ",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/9397644930e285785a8ddfaf3ae517c4.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_resultats/ff0a2c82-6414-4841-9a45-db164cd3ec1c",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/ff0a2c82-6414-4841-9a45-db164cd3ec1c",
+   "posted_at": "2026-11-27T11:04:28+00:00"
+  },
+  {
+   "id": "ep:649c4a6c-6eff-4116-a2c9-07ab591d9a58",
+   "stage": "CONVOQUES_ORAL",
+   "administration": "الوكالة الحضرية بني ملال",
+   "grade": "مهندس معماري",
+   "title": "مهندس معماري",
+   "family": "مهندس",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/0c55f0e75801b6dcbe1d9f785d1bfc5a.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/649c4a6c-6eff-4116-a2c9-07ab591d9a58",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/649c4a6c-6eff-4116-a2c9-07ab591d9a58",
+   "posted_at": "2026-11-27T11:04:21+00:00"
+  },
+  {
+   "id": "ep:c74fd975-8344-45f4-9ad8-d78f3f370c10",
+   "stage": "CONVOQUES_ORAL",
+   "administration": "الوكالة الحضرية بني ملال",
+   "grade": "تقني متخصص في الهندسة المعمارية والتعمير",
+   "title": "تقني متخصص في الهندسة",
+   "family": "تقني",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/0c55f0e75801b6dcbe1d9f785d1bfc5a.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/c74fd975-8344-45f4-9ad8-d78f3f370c10",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/c74fd975-8344-45f4-9ad8-d78f3f370c10",
+   "posted_at": "2026-11-27T11:04:11+00:00"
+  },
+  {
+   "id": "ep:1463eca2-688c-47c1-863a-38c6e65e58a7",
+   "stage": "CONVOQUES_ORAL",
+   "administration": "الوكالة الحضرية بني ملال",
+   "grade": "إطار عال في القانون العقاري و/أو قانون التعمير",
+   "title": "إطار عال في القانون",
+   "family": "إطار",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/0c55f0e75801b6dcbe1d9f785d1bfc5a.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/1463eca2-688c-47c1-863a-38c6e65e58a7",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/1463eca2-688c-47c1-863a-38c6e65e58a7",
+   "posted_at": "2026-11-27T11:04:05+00:00"
+  },
+  {
+   "id": "ep:8fac8886-5c87-44e3-a6ba-7098be3eed7f",
+   "stage": "CONVOQUES",
+   "administration": "جامعة شعيب الدكالي - الجديدة",
+   "grade": "متصرف من الدرجة الثانية لفائدة كلية الآداب و العلوم الانسانية بالجديدة",
+   "title": "متصرف",
+   "family": "متصرف",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/logo-349.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques/8fac8886-5c87-44e3-a6ba-7098be3eed7f",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/8fac8886-5c87-44e3-a6ba-7098be3eed7f",
+   "posted_at": "2026-11-27T11:03:59+00:00"
+  },
   {
    "id": "ep:e09feb19-c9cb-4e4c-ba21-c689856b9f75",
    "stage": "CONVOQUES_ORAL",

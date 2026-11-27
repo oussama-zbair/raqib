@@ -7599,6 +7599,116 @@
       "exam_date": null,
       "city": null,
       "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/87425aa5b1c57f6e44880cdb6828d23e.png"
+    },
+    {
+      "key": "ep:649c4a6c-6eff-4116-a2c9-07ab591d9a58#CONVOQUES",
+      "reference_code": "C 42822/26",
+      "stage": "CONVOQUES",
+      "administration": "الوكالة الحضرية بني ملال",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/649c4a6c-6eff-4116-a2c9-07ab591d9a58",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-27T11:02:53+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:c74fd975-8344-45f4-9ad8-d78f3f370c10#CONVOQUES",
+      "reference_code": "C 42823/26",
+      "stage": "CONVOQUES",
+      "administration": "الوكالة الحضرية بني ملال",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/c74fd975-8344-45f4-9ad8-d78f3f370c10",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-27T11:02:56+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:ff0a2c82-6414-4841-9a45-db164cd3ec1c#CONVOQUES_ORAL",
+      "reference_code": "C 42703/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "جامعة السلطان مولاي سليمان -بني ملال",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/ff0a2c82-6414-4841-9a45-db164cd3ec1c",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-27T11:02:58+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:1463eca2-688c-47c1-863a-38c6e65e58a7#CONVOQUES",
+      "reference_code": "C 42824/26",
+      "stage": "CONVOQUES",
+      "administration": "الوكالة الحضرية بني ملال",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/1463eca2-688c-47c1-863a-38c6e65e58a7",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-27T11:02:59+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:8fac8886-5c87-44e3-a6ba-7098be3eed7f#CONVOQUES",
+      "reference_code": "C 44654/26",
+      "stage": "CONVOQUES",
+      "administration": "جامعة شعيب الدكالي - الجديدة",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/8fac8886-5c87-44e3-a6ba-7098be3eed7f",
+      "telegram_message_id": 230,
+      "posted_at": "2026-11-27T11:03:59+00:00",
+      "grade": "متصرف من الدرجة الثانية لفائدة كلية الآداب و العلوم الانسانية بالجديدة",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques/8fac8886-5c87-44e3-a6ba-7098be3eed7f",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/logo-349.png"
+    },
+    {
+      "key": "ep:1463eca2-688c-47c1-863a-38c6e65e58a7#CONVOQUES_ORAL",
+      "reference_code": "C 42824/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "الوكالة الحضرية بني ملال",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/1463eca2-688c-47c1-863a-38c6e65e58a7",
+      "telegram_message_id": 231,
+      "posted_at": "2026-11-27T11:04:05+00:00",
+      "grade": "إطار عال في القانون العقاري و/أو قانون التعمير",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/1463eca2-688c-47c1-863a-38c6e65e58a7",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/0c55f0e75801b6dcbe1d9f785d1bfc5a.png"
+    },
+    {
+      "key": "ep:c74fd975-8344-45f4-9ad8-d78f3f370c10#CONVOQUES_ORAL",
+      "reference_code": "C 42823/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "الوكالة الحضرية بني ملال",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/c74fd975-8344-45f4-9ad8-d78f3f370c10",
+      "telegram_message_id": 232,
+      "posted_at": "2026-11-27T11:04:11+00:00",
+      "grade": "تقني متخصص في الهندسة المعمارية والتعمير",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/c74fd975-8344-45f4-9ad8-d78f3f370c10",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/0c55f0e75801b6dcbe1d9f785d1bfc5a.png"
+    },
+    {
+      "key": "ep:649c4a6c-6eff-4116-a2c9-07ab591d9a58#CONVOQUES_ORAL",
+      "reference_code": "C 42822/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "الوكالة الحضرية بني ملال",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/649c4a6c-6eff-4116-a2c9-07ab591d9a58",
+      "telegram_message_id": 233,
+      "posted_at": "2026-11-27T11:04:21+00:00",
+      "grade": "مهندس معماري",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/649c4a6c-6eff-4116-a2c9-07ab591d9a58",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/0c55f0e75801b6dcbe1d9f785d1bfc5a.png"
+    },
+    {
+      "key": "ep:ff0a2c82-6414-4841-9a45-db164cd3ec1c#RESULTATS",
+      "reference_code": "C 42703/26",
+      "stage": "RESULTATS",
+      "administration": "جامعة السلطان مولاي سليمان -بني ملال",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/ff0a2c82-6414-4841-9a45-db164cd3ec1c",
+      "telegram_message_id": 234,
+      "posted_at": "2026-11-27T11:04:28+00:00",
+      "grade": "أستاذ محاضر من الدرجة أ - سُلمْ 11",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_resultats/ff0a2c82-6414-4841-9a45-db164cd3ec1c",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/9397644930e285785a8ddfaf3ae517c4.png"
     }
   ],
   "seeded_sources": [
@@ -9218,6 +9328,22 @@
     "ep:1d725a1c-c5de-4d7c-ba83-43020d98616f": {
       "added": "2026-11-27",
       "checked": "2026-11-27T10:32:59+00:00"
+    },
+    "ep:649c4a6c-6eff-4116-a2c9-07ab591d9a58": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T11:02:53+00:00"
+    },
+    "ep:c74fd975-8344-45f4-9ad8-d78f3f370c10": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T11:02:56+00:00"
+    },
+    "ep:1463eca2-688c-47c1-863a-38c6e65e58a7": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T11:02:59+00:00"
+    },
+    "ep:8fac8886-5c87-44e3-a6ba-7098be3eed7f": {
+      "added": "2026-11-27",
+      "checked": null
     }
   },
   "last_discovery": "2026-11-27",
