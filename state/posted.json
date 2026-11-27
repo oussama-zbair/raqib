@@ -7451,6 +7451,20 @@
       "telegram_message_id": null,
       "posted_at": "2026-11-27T00:31:42+00:00",
       "seeded": true
+    },
+    {
+      "key": "ep:4218b02d-4361-49c2-a38f-1504600ad12e#CONVOQUES_ORAL",
+      "reference_code": "C 43592/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "جامعة ابن زهر - أكادير",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/4218b02d-4361-49c2-a38f-1504600ad12e",
+      "telegram_message_id": 220,
+      "posted_at": "2026-11-27T04:32:06+00:00",
+      "grade": "أستاذ محاضر بالمدرسة الوطنية العليا للصناعة الغذائية والبيوتكنولوجيا بأكادير تخصص Microbiologie alimentaire et biosécurité",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/4218b02d-4361-49c2-a38f-1504600ad12e",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/673d4e683bf65fbf906fa190831359e7.png"
     }
   ],
   "seeded_sources": [
@@ -9030,6 +9044,10 @@
     "ep:f8f30b81-fa9e-4860-a317-b7bb53ce8eec": {
       "added": "2026-11-27",
       "checked": "2026-11-27T00:31:42+00:00"
+    },
+    "ep:4218b02d-4361-49c2-a38f-1504600ad12e": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T04:31:33+00:00"
     }
   },
   "last_discovery": "2026-11-27",
