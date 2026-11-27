@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-27T16:32:51+00:00",
+ "updated_at": "2026-11-27T17:04:43+00:00",
  "channel": "https://t.me/RaqibEmploi",
  "sources": [
   {
@@ -9,12 +9,152 @@
   }
  ],
  "stats": {
-  "open": 136,
-  "posted_total": 151,
-  "stage_posts_total": 109,
-  "followed": 435
+  "open": 142,
+  "posted_total": 157,
+  "stage_posts_total": 113,
+  "followed": 443
  },
  "concours": [
+  {
+   "id": "ep:49bb8e7e-0d32-463f-a837-728c339a73ef",
+   "code": "C 44726/26",
+   "administration": "جامعة سيدي محمد بن عبد الله -فاس-",
+   "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
+   "title": "تقني",
+   "family": "تقني",
+   "scale": 9,
+   "specialty": "Audio-visuel",
+   "posts": 1,
+   "deadline": "2026-11-27",
+   "exam_date": "2026-12-02",
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/3594e48789e2a5929f096ef6d133a51c.jpg",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/49bb8e7e-0d32-463f-a837-728c339a73ef",
+   "tags": [
+    "تقني"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-27T17:04:43+00:00"
+  },
+  {
+   "id": "ep:36aca71b-f098-4e87-87a2-a63132113cf7",
+   "code": "C 44692/26",
+   "administration": "المركز الجهوي للاستثمار لجهة سوس ماسة",
+   "grade": "مكلّف(ة) بتتبع مشاريع الاستثمار",
+   "title": "مكلف",
+   "family": "مكلف",
+   "scale": null,
+   "specialty": null,
+   "posts": 1,
+   "deadline": "2026-11-27",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/692941267de9eed04e1ece7b3f22dfd8.png",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/36aca71b-f098-4e87-87a2-a63132113cf7",
+   "tags": [],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-27T17:04:36+00:00"
+  },
+  {
+   "id": "ep:50970372-6b8d-4c0b-bf49-d5fc017f744e",
+   "code": "C 44659/26",
+   "administration": "إقليم شيشاوة",
+   "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
+   "title": "تقني",
+   "family": "تقني",
+   "scale": 9,
+   "specialty": "DEVELOPPEMENT INFORMATIQUE - SYSTEM D INFORMATIQUE - RESEAUX INFORMATIQUE",
+   "posts": 1,
+   "deadline": "2026-11-27",
+   "exam_date": "2026-12-06",
+   "city": "شيشاوة",
+   "logo": null,
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/50970372-6b8d-4c0b-bf49-d5fc017f744e",
+   "tags": [
+    "معلوميات",
+    "تقني"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-27T17:04:29+00:00"
+  },
+  {
+   "id": "ep:fc65d62a-03c0-4619-9272-d197c0685433",
+   "code": "C 44407/26",
+   "administration": "إقليم برشيد",
+   "grade": "تقني الصحة من الدرجة الأولى - سُلمْ 10",
+   "title": "تقني الصحة",
+   "family": "تقني",
+   "scale": 10,
+   "specialty": "الصحة والبيئة",
+   "posts": 1,
+   "deadline": "2026-11-27",
+   "exam_date": "2026-12-08",
+   "city": "برشيد",
+   "logo": null,
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/fc65d62a-03c0-4619-9272-d197c0685433",
+   "tags": [
+    "صحة",
+    "تقني"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-27T17:04:24+00:00"
+  },
+  {
+   "id": "ep:7e420de1-8966-4368-90fb-d80f4e230cd0",
+   "code": "C 45002/26",
+   "administration": "المجلس الأعلى للسلطة القضائية",
+   "grade": "ملحق قضائي - سُلمْ 10",
+   "title": "ملحق قضائي",
+   "family": "ملحق",
+   "scale": 10,
+   "specialty": "القضاء العادي",
+   "posts": 300,
+   "deadline": "2026-12-18",
+   "exam_date": "2027-01-29",
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/logo-561.png",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/7e420de1-8966-4368-90fb-d80f4e230cd0",
+   "tags": [
+    "قضاء",
+    "إدارة"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-27T17:04:19+00:00"
+  },
+  {
+   "id": "ep:1590b95f-0f1f-4a26-adcc-4a8fd67eba9f",
+   "code": "C 44993/26",
+   "administration": "إقليم تازة - غياتة الغربية",
+   "grade": "تقني من الدرجة الرابعة - سُلمْ 8",
+   "title": "تقني",
+   "family": "تقني",
+   "scale": 8,
+   "specialty": "تقني في الكهرباء / المعلوميات (الصيانة وشبكة المعلوميات) / الميكانيك",
+   "posts": 4,
+   "deadline": "2026-12-23",
+   "exam_date": "2027-01-24",
+   "city": "تازة",
+   "logo": null,
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/1590b95f-0f1f-4a26-adcc-4a8fd67eba9f",
+   "tags": [
+    "معلوميات",
+    "تقني"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-27T17:04:12+00:00"
+  },
   {
    "id": "ep:a73ebb23-0b83-4f5a-a44a-88842e778055",
    "code": "C 45001/26",
@@ -476,7 +616,7 @@
    "posted_at": "2026-11-26T17:04:42+00:00"
   },
   {
-   "id": "ep:bd7643c2-1ee8-4a5c-8b93-577068cc6814",
+   "id": "ep:dc5dba52-bc56-45e1-9d30-504dbf5832eb",
    "code": "C 44941/26",
    "administration": "إقليم بولمان - الرميلة",
    "grade": "تقني من الدرجة الرابعة - سُلمْ 8",
@@ -1499,7 +1639,7 @@
    "posted_at": "2026-11-26T11:04:41+00:00"
   },
   {
-   "id": "ep:87771aba-7e04-4a17-9562-533af23e2dc1",
+   "id": "ep:1e96ae25-71ea-46b8-8867-53ac0ce6201f",
    "code": "C 44934/26",
    "administration": "صورياد القناة الثانية 2M",
    "grade": "تقني في الديكور",
@@ -1880,7 +2020,7 @@
    "posted_at": "2026-11-25T19:34:47+00:00"
   },
   {
-   "id": "ep:ccb9b405-58f7-453e-bb03-72ff84e5c365",
+   "id": "ep:d166cff5-6eae-4e33-bca9-65950874b2df",
    "code": "C 44897/26",
    "administration": "إقليم الحاجب - اكوراي",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -1949,7 +2089,7 @@
    "posted_at": "2026-11-25T19:34:32+00:00"
   },
   {
-   "id": "ep:3f6d3934-2b54-4ccb-934e-67ec66e7f762",
+   "id": "ep:d520bc73-bcf0-4974-af85-7b6af7c7c40f",
    "code": "C 44884/26",
    "administration": "إقليم تازة - تازة",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -3318,7 +3458,7 @@
    "posted_at": "2026-11-25T04:47:00+00:00"
   },
   {
-   "id": "ep:06f2df84-0753-47a3-95b9-4aa040df8c72",
+   "id": "ep:254a4ccc-b3d1-43d0-8b7d-a23d818766b2",
    "code": "C 44886/26",
    "administration": "وزارة الصحة والحماية الاجتماعية",
    "grade": "مساعد تقني من الدرجة الثانية",
@@ -3341,7 +3481,7 @@
    "posted_at": "2026-11-25T04:47:00+00:00"
   },
   {
-   "id": "ep:06f2df84-0753-47a3-95b9-4aa040df8c72",
+   "id": "ep:254a4ccc-b3d1-43d0-8b7d-a23d818766b2",
    "code": "C 44887/26",
    "administration": "وزارة الصحة والحماية الاجتماعية",
    "grade": "مساعد تقني من الدرجة الثانية",
@@ -3483,6 +3623,62 @@
   }
  ],
  "updates": [
+  {
+   "id": "ep:db97e14c-cddf-4814-af20-696ed5321a78",
+   "stage": "RESULTATS",
+   "administration": "وكالة تنمية الأطلس الكبير",
+   "grade": "مهندس الدولة",
+   "title": "مهندس الدولة",
+   "family": "مهندس",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/c9f0f895fb98ab9159f51fd0297e236d-20250923115858.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_resultats/db97e14c-cddf-4814-af20-696ed5321a78",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/db97e14c-cddf-4814-af20-696ed5321a78",
+   "posted_at": "2026-11-27T17:04:01+00:00"
+  },
+  {
+   "id": "ep:7c53345f-107d-432b-91af-51a51f8fa9ee",
+   "stage": "CONVOQUES_ORAL",
+   "administration": "جامعة ابن زهر - أكادير",
+   "grade": "أستاذ محاضر بالمدرسة الوطنية للتجارة والتسيير بالداخلة تخصص Gestion",
+   "title": "أستاذ محاضر",
+   "family": "أستاذ",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/logo-385.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/7c53345f-107d-432b-91af-51a51f8fa9ee",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/7c53345f-107d-432b-91af-51a51f8fa9ee",
+   "posted_at": "2026-11-27T17:03:54+00:00"
+  },
+  {
+   "id": "ep:9ccca16e-da45-42c2-85ec-ba3c67eb824c",
+   "stage": "CONVOQUES_ORAL",
+   "administration": "جامعة ابن زهر - أكادير",
+   "grade": "أستاذ محاضر بالمدرسة الوطنية للتجارة والتسيير بالداخلة تخصص Entrepreneuriat",
+   "title": "أستاذ محاضر",
+   "family": "أستاذ",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/logo-385.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/9ccca16e-da45-42c2-85ec-ba3c67eb824c",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/9ccca16e-da45-42c2-85ec-ba3c67eb824c",
+   "posted_at": "2026-11-27T17:03:48+00:00"
+  },
+  {
+   "id": "ep:1ea2d79f-0aa6-4766-bd8a-e487bd173c46",
+   "stage": "CONVOQUES_ORAL",
+   "administration": "جامعة ابن زهر - أكادير",
+   "grade": "أستاذ محاضر بالمدرسة الوطنية للتجارة والتسيير بالداخلة تخصص Droit privé",
+   "title": "أستاذ محاضر",
+   "family": "أستاذ",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/logo-385.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/1ea2d79f-0aa6-4766-bd8a-e487bd173c46",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/1ea2d79f-0aa6-4766-bd8a-e487bd173c46",
+   "posted_at": "2026-11-27T17:03:42+00:00"
+  },
   {
    "id": "ep:5f822675-7577-4c68-afed-350b0dfc7e2d",
    "stage": "RESULTATS",

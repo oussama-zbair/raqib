@@ -2827,6 +2827,114 @@
       "city": null,
       "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/12fb9c40f55707a51a0b8aaabff7a220.png",
       "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/a73ebb23-0b83-4f5a-a44a-88842e778055"
+    },
+    {
+      "id": "C 44993/26",
+      "reference_code": "C 44993/26",
+      "administration": "إقليم تازة - غياتة الغربية",
+      "grade": "تقني من الدرجة الرابعة - سُلمْ 8",
+      "post_count": 4,
+      "deadline": "2026-12-23",
+      "exam_date": "2027-01-24",
+      "urls": [
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/1590b95f-0f1f-4a26-adcc-4a8fd67eba9f"
+      ],
+      "telegram_message_id": 281,
+      "posted_at": "2026-11-27T17:04:12+00:00",
+      "specialty": "تقني في الكهرباء / المعلوميات (الصيانة وشبكة المعلوميات) / الميكانيك",
+      "city": "تازة",
+      "logo_url": null,
+      "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/1590b95f-0f1f-4a26-adcc-4a8fd67eba9f"
+    },
+    {
+      "id": "C 45002/26",
+      "reference_code": "C 45002/26",
+      "administration": "المجلس الأعلى للسلطة القضائية",
+      "grade": "ملحق قضائي - سُلمْ 10",
+      "post_count": 300,
+      "deadline": "2026-12-18",
+      "exam_date": "2027-01-29",
+      "urls": [
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/7e420de1-8966-4368-90fb-d80f4e230cd0"
+      ],
+      "telegram_message_id": 282,
+      "posted_at": "2026-11-27T17:04:19+00:00",
+      "specialty": "القضاء العادي",
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/logo-561.png",
+      "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/7e420de1-8966-4368-90fb-d80f4e230cd0"
+    },
+    {
+      "id": "C 44407/26",
+      "reference_code": "C 44407/26",
+      "administration": "إقليم برشيد",
+      "grade": "تقني الصحة من الدرجة الأولى - سُلمْ 10",
+      "post_count": 1,
+      "deadline": "2026-11-27",
+      "exam_date": "2026-12-08",
+      "urls": [
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/fc65d62a-03c0-4619-9272-d197c0685433"
+      ],
+      "telegram_message_id": 283,
+      "posted_at": "2026-11-27T17:04:24+00:00",
+      "specialty": "الصحة والبيئة",
+      "city": "برشيد",
+      "logo_url": null,
+      "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/fc65d62a-03c0-4619-9272-d197c0685433"
+    },
+    {
+      "id": "C 44659/26",
+      "reference_code": "C 44659/26",
+      "administration": "إقليم شيشاوة",
+      "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
+      "post_count": 1,
+      "deadline": "2026-11-27",
+      "exam_date": "2026-12-06",
+      "urls": [
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/50970372-6b8d-4c0b-bf49-d5fc017f744e"
+      ],
+      "telegram_message_id": 284,
+      "posted_at": "2026-11-27T17:04:29+00:00",
+      "specialty": "DEVELOPPEMENT INFORMATIQUE - SYSTEM D INFORMATIQUE - RESEAUX INFORMATIQUE",
+      "city": "شيشاوة",
+      "logo_url": null,
+      "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/50970372-6b8d-4c0b-bf49-d5fc017f744e"
+    },
+    {
+      "id": "C 44692/26",
+      "reference_code": "C 44692/26",
+      "administration": "المركز الجهوي للاستثمار لجهة سوس ماسة",
+      "grade": "مكلّف(ة) بتتبع مشاريع الاستثمار",
+      "post_count": 1,
+      "deadline": "2026-11-27",
+      "exam_date": null,
+      "urls": [
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/36aca71b-f098-4e87-87a2-a63132113cf7"
+      ],
+      "telegram_message_id": 285,
+      "posted_at": "2026-11-27T17:04:36+00:00",
+      "specialty": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/692941267de9eed04e1ece7b3f22dfd8.png",
+      "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/36aca71b-f098-4e87-87a2-a63132113cf7"
+    },
+    {
+      "id": "C 44726/26",
+      "reference_code": "C 44726/26",
+      "administration": "جامعة سيدي محمد بن عبد الله -فاس-",
+      "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
+      "post_count": 1,
+      "deadline": "2026-11-27",
+      "exam_date": "2026-12-02",
+      "urls": [
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/49bb8e7e-0d32-463f-a837-728c339a73ef"
+      ],
+      "telegram_message_id": 286,
+      "posted_at": "2026-11-27T17:04:43+00:00",
+      "specialty": "Audio-visuel",
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/3594e48789e2a5929f096ef6d133a51c.jpg",
+      "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/49bb8e7e-0d32-463f-a837-728c339a73ef"
     }
   ],
   "stages": [
@@ -8510,6 +8618,62 @@
       "exam_date": null,
       "city": null,
       "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/6f59685b4fe2992cd891e3fc14452b3c.png"
+    },
+    {
+      "key": "ep:1ea2d79f-0aa6-4766-bd8a-e487bd173c46#CONVOQUES_ORAL",
+      "reference_code": "C 44338/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "جامعة ابن زهر - أكادير",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/1ea2d79f-0aa6-4766-bd8a-e487bd173c46",
+      "telegram_message_id": 277,
+      "posted_at": "2026-11-27T17:03:42+00:00",
+      "grade": "أستاذ محاضر بالمدرسة الوطنية للتجارة والتسيير بالداخلة تخصص Droit privé",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/1ea2d79f-0aa6-4766-bd8a-e487bd173c46",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/logo-385.png"
+    },
+    {
+      "key": "ep:9ccca16e-da45-42c2-85ec-ba3c67eb824c#CONVOQUES_ORAL",
+      "reference_code": "C 44340/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "جامعة ابن زهر - أكادير",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/9ccca16e-da45-42c2-85ec-ba3c67eb824c",
+      "telegram_message_id": 278,
+      "posted_at": "2026-11-27T17:03:48+00:00",
+      "grade": "أستاذ محاضر بالمدرسة الوطنية للتجارة والتسيير بالداخلة تخصص Entrepreneuriat",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/9ccca16e-da45-42c2-85ec-ba3c67eb824c",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/logo-385.png"
+    },
+    {
+      "key": "ep:7c53345f-107d-432b-91af-51a51f8fa9ee#CONVOQUES_ORAL",
+      "reference_code": "C 44341/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "جامعة ابن زهر - أكادير",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/7c53345f-107d-432b-91af-51a51f8fa9ee",
+      "telegram_message_id": 279,
+      "posted_at": "2026-11-27T17:03:54+00:00",
+      "grade": "أستاذ محاضر بالمدرسة الوطنية للتجارة والتسيير بالداخلة تخصص Gestion",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/7c53345f-107d-432b-91af-51a51f8fa9ee",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/logo-385.png"
+    },
+    {
+      "key": "ep:db97e14c-cddf-4814-af20-696ed5321a78#RESULTATS",
+      "reference_code": "C 44188/26",
+      "stage": "RESULTATS",
+      "administration": "وكالة تنمية الأطلس الكبير",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/db97e14c-cddf-4814-af20-696ed5321a78",
+      "telegram_message_id": 280,
+      "posted_at": "2026-11-27T17:04:01+00:00",
+      "grade": "مهندس الدولة",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_resultats/db97e14c-cddf-4814-af20-696ed5321a78",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/c9f0f895fb98ab9159f51fd0297e236d-20250923115858.png"
     }
   ],
   "seeded_sources": [
@@ -9233,10 +9397,6 @@
     "ep:7cf24989-fe26-4c24-80d6-7f055911bca3": {
       "added": "2026-11-25",
       "checked": "2026-11-25T23:01:32+00:00"
-    },
-    "ep:db97e14c-cddf-4814-af20-696ed5321a78": {
-      "added": "2026-11-25",
-      "checked": "2026-11-25T23:01:34+00:00"
     },
     "ep:cb5b25aa-c848-4e0e-9c89-4ce664cc81af": {
       "added": "2026-11-25",
@@ -10257,6 +10417,42 @@
     "ep:14bf7664-bcb4-49b0-b0a3-ca439c55b2de": {
       "added": "2026-11-27",
       "checked": "2026-11-27T16:06:43+00:00"
+    },
+    "ep:49bb8e7e-0d32-463f-a837-728c339a73ef": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T17:02:29+00:00"
+    },
+    "ep:36aca71b-f098-4e87-87a2-a63132113cf7": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T17:02:29+00:00"
+    },
+    "ep:50970372-6b8d-4c0b-bf49-d5fc017f744e": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T17:02:29+00:00"
+    },
+    "ep:fc65d62a-03c0-4619-9272-d197c0685433": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T17:02:29+00:00"
+    },
+    "ep:7e420de1-8966-4368-90fb-d80f4e230cd0": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T17:02:29+00:00"
+    },
+    "ep:1590b95f-0f1f-4a26-adcc-4a8fd67eba9f": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T17:02:29+00:00"
+    },
+    "ep:7c53345f-107d-432b-91af-51a51f8fa9ee": {
+      "added": "2026-11-27",
+      "checked": null
+    },
+    "ep:9ccca16e-da45-42c2-85ec-ba3c67eb824c": {
+      "added": "2026-11-27",
+      "checked": null
+    },
+    "ep:1ea2d79f-0aa6-4766-bd8a-e487bd173c46": {
+      "added": "2026-11-27",
+      "checked": null
     }
   },
   "last_discovery": "2026-11-27",
