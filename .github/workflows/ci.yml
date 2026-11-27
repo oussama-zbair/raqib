@@ -21,7 +21,16 @@ jobs:
           cache-dependency-path: backend/requirements.txt
       - run: pip install -r requirements.txt
       - name: Run tests
-        run: python -m pytest -q
+        # Failing tests are also printed as annotations, readable on the run page
+        # (and through the API) without opening the full log.
+        run: |
+          set +e
+          python -m pytest -q -rf --tb=line 2>&1 | tee pytest.out
+          status=${PIPESTATUS[0]}
+          grep -E "^(FAILED|ERROR)|^/.*:[0-9]+: " pytest.out | head -20 | while IFS= read -r line; do
+            echo "::error title=pytest::${line}"
+          done
+          exit $status
 
   web-build:
     runs-on: ubuntu-latest
