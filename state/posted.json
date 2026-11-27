@@ -2809,6 +2809,24 @@
       "city": "بولمان",
       "logo_url": null,
       "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/f3df1016-e330-426b-ad2e-d0c4d66e84a5"
+    },
+    {
+      "id": "C 45001/26",
+      "reference_code": "C 45001/26",
+      "administration": "المركز الاستشفائي الحسن الثاني",
+      "grade": "ممرض من الدرجة الأولى - سُلمْ 10",
+      "post_count": 199,
+      "deadline": "2026-12-11",
+      "exam_date": "2026-12-13",
+      "urls": [
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/a73ebb23-0b83-4f5a-a44a-88842e778055"
+      ],
+      "telegram_message_id": 274,
+      "posted_at": "2026-11-27T16:08:18+00:00",
+      "specialty": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/12fb9c40f55707a51a0b8aaabff7a220.png",
+      "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/a73ebb23-0b83-4f5a-a44a-88842e778055"
     }
   ],
   "stages": [
@@ -8382,6 +8400,48 @@
       "exam_date": null,
       "city": null,
       "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/9397644930e285785a8ddfaf3ae517c4.png"
+    },
+    {
+      "key": "ep:14bf7664-bcb4-49b0-b0a3-ca439c55b2de#CONVOQUES_ORAL",
+      "reference_code": "C 43935/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "جامعة القاضي عياض",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/14bf7664-bcb4-49b0-b0a3-ca439c55b2de",
+      "telegram_message_id": 271,
+      "posted_at": "2026-11-27T16:07:52+00:00",
+      "grade": "أستاذ محاضر من الدرجة أ - سُلمْ 11",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/14bf7664-bcb4-49b0-b0a3-ca439c55b2de",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/87425aa5b1c57f6e44880cdb6828d23e.png"
+    },
+    {
+      "key": "ep:26f311b2-d3c3-4ff9-8d85-2ce13d871d91#CONVOQUES_ORAL",
+      "reference_code": "C 43934/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "جامعة القاضي عياض",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/26f311b2-d3c3-4ff9-8d85-2ce13d871d91",
+      "telegram_message_id": 272,
+      "posted_at": "2026-11-27T16:07:58+00:00",
+      "grade": "أستاذ محاضر من الدرجة أ - سُلمْ 11",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/26f311b2-d3c3-4ff9-8d85-2ce13d871d91",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/87425aa5b1c57f6e44880cdb6828d23e.png"
+    },
+    {
+      "key": "ep:61489eda-a574-4d77-8903-16478329c712#CONVOQUES_ORAL",
+      "reference_code": "C 43933/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "جامعة القاضي عياض",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/61489eda-a574-4d77-8903-16478329c712",
+      "telegram_message_id": 273,
+      "posted_at": "2026-11-27T16:08:04+00:00",
+      "grade": "أستاذ محاضر من الدرجة أ - سُلمْ 11",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/61489eda-a574-4d77-8903-16478329c712",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/87425aa5b1c57f6e44880cdb6828d23e.png"
     }
   ],
   "seeded_sources": [
@@ -10113,6 +10173,22 @@
     "ep:d73255b4-6346-48f8-bf89-760901e26b1d": {
       "added": "2026-11-27",
       "checked": "2026-11-27T15:33:45+00:00"
+    },
+    "ep:a73ebb23-0b83-4f5a-a44a-88842e778055": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T16:05:19+00:00"
+    },
+    "ep:61489eda-a574-4d77-8903-16478329c712": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T16:06:29+00:00"
+    },
+    "ep:26f311b2-d3c3-4ff9-8d85-2ce13d871d91": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T16:06:32+00:00"
+    },
+    "ep:14bf7664-bcb4-49b0-b0a3-ca439c55b2de": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T16:06:43+00:00"
     }
   },
   "last_discovery": "2026-11-27",
