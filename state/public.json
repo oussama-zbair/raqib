@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-27T10:03:38+00:00",
+ "updated_at": "2026-11-27T10:34:30+00:00",
  "channel": "https://t.me/RaqibEmploi",
  "sources": [
   {
@@ -9,12 +9,54 @@
   }
  ],
  "stats": {
-  "open": 126,
-  "posted_total": 141,
-  "stage_posts_total": 68,
-  "followed": 399
+  "open": 128,
+  "posted_total": 143,
+  "stage_posts_total": 70,
+  "followed": 403
  },
  "concours": [
+  {
+   "id": "ep:342b15da-7895-45ba-b122-5a52a83cde9d",
+   "code": "C 44992/26",
+   "administration": "مجموعة التهيئة العمران",
+   "grade": "(01) مسؤول/مسؤولة علاقات صحفية وإعلامية لهولدينغ العمران الرباط",
+   "title": "(01) مسؤول/مسؤولة علاقات صحفية",
+   "family": "(01)",
+   "scale": null,
+   "specialty": null,
+   "posts": 1,
+   "deadline": "2026-12-12",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/f6d0d7335b70a8d93d15c4403113695b.png",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/342b15da-7895-45ba-b122-5a52a83cde9d",
+   "tags": [],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-27T10:34:30+00:00"
+  },
+  {
+   "id": "ep:42756640-cd08-4d23-8033-9afa02a2dcac",
+   "code": "C 44991/26",
+   "administration": "مجموعة التهيئة العمران",
+   "grade": "(01) مدير محتوى: المحتوى التحريري والرقمي (F/H) لهولدينغ العمران الرباط",
+   "title": "(01) مدير محتوى: المحتوى",
+   "family": "(01)",
+   "scale": null,
+   "specialty": null,
+   "posts": 1,
+   "deadline": "2026-12-12",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/f6d0d7335b70a8d93d15c4403113695b.png",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/42756640-cd08-4d23-8033-9afa02a2dcac",
+   "tags": [],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-27T10:34:25+00:00"
+  },
   {
    "id": "ep:aa9e8733-c793-4189-8f0f-dd9ffc49e838",
    "code": "C 44723/26",
@@ -209,7 +251,7 @@
    "posted_at": "2026-11-26T17:33:10+00:00"
   },
   {
-   "id": "ep:baf06523-83ae-45a3-bb1a-3144e273d7e5",
+   "id": "ep:ace1070f-f3a5-46df-947c-0372143baeb4",
    "code": "C 44983/26",
    "administration": "إقليم الحوز",
    "grade": "تقني من الدرجة الرابعة - سُلمْ 8",
@@ -253,7 +295,7 @@
    "posted_at": "2026-11-26T17:04:42+00:00"
   },
   {
-   "id": "ep:dc5dba52-bc56-45e1-9d30-504dbf5832eb",
+   "id": "ep:bd7643c2-1ee8-4a5c-8b93-577068cc6814",
    "code": "C 44941/26",
    "administration": "إقليم بولمان - الرميلة",
    "grade": "تقني من الدرجة الرابعة - سُلمْ 8",
@@ -1276,7 +1318,7 @@
    "posted_at": "2026-11-26T11:04:41+00:00"
   },
   {
-   "id": "ep:1e96ae25-71ea-46b8-8867-53ac0ce6201f",
+   "id": "ep:87771aba-7e04-4a17-9562-533af23e2dc1",
    "code": "C 44934/26",
    "administration": "صورياد القناة الثانية 2M",
    "grade": "تقني في الديكور",
@@ -1440,7 +1482,7 @@
    "posted_at": "2026-11-26T00:05:38+00:00"
   },
   {
-   "id": "ep:98f8f5aa-a77c-4571-8490-2ecfd8f0404f",
+   "id": "ep:2fef0122-6371-4de3-af5f-54385044d832",
    "code": "C 44716/26",
    "administration": "الوكالة الوطنية للدعم الاجتماعي",
    "grade": "تقني متخصص في البناء",
@@ -1516,7 +1558,7 @@
    "posted_at": "2026-11-25T19:35:28+00:00"
   },
   {
-   "id": "ep:593d3e98-64cc-4a18-99b5-56564e510a9a",
+   "id": "ep:8a811d71-5f0c-4516-a54b-cdd421929da1",
    "code": "C 44916/26",
    "administration": "إقليم تاونات",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -1657,7 +1699,7 @@
    "posted_at": "2026-11-25T19:34:47+00:00"
   },
   {
-   "id": "ep:a5b90bf5-4086-434c-b948-8880d9adb947",
+   "id": "ep:d166cff5-6eae-4e33-bca9-65950874b2df",
    "code": "C 44897/26",
    "administration": "إقليم الحاجب - اكوراي",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -1795,7 +1837,7 @@
    "posted_at": "2026-11-25T19:03:47+00:00"
   },
   {
-   "id": "ep:a7c4e6a7-7c33-4ec3-a00e-97c83892d659",
+   "id": "ep:3d0d7c43-34b5-4e4b-ba57-02da6200dbd0",
    "code": "C 44870/26",
    "administration": "إقليم برشيد - برشيد",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -2966,7 +3008,7 @@
    "posted_at": "2026-11-25T04:47:00+00:00"
   },
   {
-   "id": "ep:a308f369-e882-4c42-871d-acb07d5c6d2e",
+   "id": "ep:aa40ad09-1cb6-4408-b1a7-7507ee9673ed",
    "code": "C 44679/26",
    "administration": "جامعة شعيب الدكالي - الجديدة",
    "grade": "Technicien de 3ème grade",
@@ -3047,7 +3089,7 @@
    "posted_at": "2026-11-25T04:47:00+00:00"
   },
   {
-   "id": "ep:f13bac44-60cc-4ed5-897a-905111afbeb2",
+   "id": "ep:b7f02f9d-4b66-4dcd-8365-f3b1001009c1",
    "code": "C 44743/26",
    "administration": "وزارة العدل",
    "grade": "محرر قضائي من الدرجة الرابعة - سُلمْ 8",
@@ -3095,7 +3137,7 @@
    "posted_at": "2026-11-25T04:47:00+00:00"
   },
   {
-   "id": "ep:254a4ccc-b3d1-43d0-8b7d-a23d818766b2",
+   "id": "ep:06f2df84-0753-47a3-95b9-4aa040df8c72",
    "code": "C 44886/26",
    "administration": "وزارة الصحة والحماية الاجتماعية",
    "grade": "مساعد تقني من الدرجة الثانية",
@@ -3118,7 +3160,7 @@
    "posted_at": "2026-11-25T04:47:00+00:00"
   },
   {
-   "id": "ep:254a4ccc-b3d1-43d0-8b7d-a23d818766b2",
+   "id": "ep:06f2df84-0753-47a3-95b9-4aa040df8c72",
    "code": "C 44887/26",
    "administration": "وزارة الصحة والحماية الاجتماعية",
    "grade": "مساعد تقني من الدرجة الثانية",
@@ -3260,6 +3302,34 @@
   }
  ],
  "updates": [
+  {
+   "id": "ep:e09feb19-c9cb-4e4c-ba21-c689856b9f75",
+   "stage": "CONVOQUES_ORAL",
+   "administration": "جامعة القاضي عياض",
+   "grade": "أستاذ محاضر من الدرجة أ - سُلمْ 11",
+   "title": "أستاذ محاضر",
+   "family": "أستاذ",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/87425aa5b1c57f6e44880cdb6828d23e.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/e09feb19-c9cb-4e4c-ba21-c689856b9f75",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/e09feb19-c9cb-4e4c-ba21-c689856b9f75",
+   "posted_at": "2026-11-27T10:34:14+00:00"
+  },
+  {
+   "id": "ep:1d725a1c-c5de-4d7c-ba83-43020d98616f",
+   "stage": "CONVOQUES",
+   "administration": "جامعة عبد المالك السعدي - تطوان",
+   "grade": "أستاذ محاضر بكلية العلوم تطوان دورة 14 أكتوبر 2026",
+   "title": "أستاذ محاضر",
+   "family": "أستاذ",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/60d71cd85f96347bdf633b168ecd10fe.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques/1d725a1c-c5de-4d7c-ba83-43020d98616f",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/1d725a1c-c5de-4d7c-ba83-43020d98616f",
+   "posted_at": "2026-11-27T10:34:09+00:00"
+  },
   {
    "id": "ep:7a4c17c1-a3c8-4843-b65c-5d4baed63938",
    "stage": "CONVOQUES_ORAL",

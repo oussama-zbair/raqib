@@ -2646,6 +2646,42 @@
       "city": null,
       "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/538235c11267006838377d4673c17e9d.png",
       "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/aa9e8733-c793-4189-8f0f-dd9ffc49e838"
+    },
+    {
+      "id": "C 44991/26",
+      "reference_code": "C 44991/26",
+      "administration": "مجموعة التهيئة العمران",
+      "grade": "(01) مدير محتوى: المحتوى التحريري والرقمي (F/H) لهولدينغ العمران الرباط",
+      "post_count": 1,
+      "deadline": "2026-12-12",
+      "exam_date": null,
+      "urls": [
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/42756640-cd08-4d23-8033-9afa02a2dcac"
+      ],
+      "telegram_message_id": 228,
+      "posted_at": "2026-11-27T10:34:25+00:00",
+      "specialty": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/f6d0d7335b70a8d93d15c4403113695b.png",
+      "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/42756640-cd08-4d23-8033-9afa02a2dcac"
+    },
+    {
+      "id": "C 44992/26",
+      "reference_code": "C 44992/26",
+      "administration": "مجموعة التهيئة العمران",
+      "grade": "(01) مسؤول/مسؤولة علاقات صحفية وإعلامية لهولدينغ العمران الرباط",
+      "post_count": 1,
+      "deadline": "2026-12-12",
+      "exam_date": null,
+      "urls": [
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/342b15da-7895-45ba-b122-5a52a83cde9d"
+      ],
+      "telegram_message_id": 229,
+      "posted_at": "2026-11-27T10:34:30+00:00",
+      "specialty": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/f6d0d7335b70a8d93d15c4403113695b.png",
+      "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/342b15da-7895-45ba-b122-5a52a83cde9d"
     }
   ],
   "stages": [
@@ -7535,6 +7571,34 @@
       "exam_date": null,
       "city": null,
       "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/673d4e683bf65fbf906fa190831359e7.png"
+    },
+    {
+      "key": "ep:1d725a1c-c5de-4d7c-ba83-43020d98616f#CONVOQUES",
+      "reference_code": "C 43812/26",
+      "stage": "CONVOQUES",
+      "administration": "جامعة عبد المالك السعدي - تطوان",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/1d725a1c-c5de-4d7c-ba83-43020d98616f",
+      "telegram_message_id": 226,
+      "posted_at": "2026-11-27T10:34:09+00:00",
+      "grade": "أستاذ محاضر بكلية العلوم تطوان دورة 14 أكتوبر 2026",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques/1d725a1c-c5de-4d7c-ba83-43020d98616f",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/60d71cd85f96347bdf633b168ecd10fe.png"
+    },
+    {
+      "key": "ep:e09feb19-c9cb-4e4c-ba21-c689856b9f75#CONVOQUES_ORAL",
+      "reference_code": "C 43929/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "جامعة القاضي عياض",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/e09feb19-c9cb-4e4c-ba21-c689856b9f75",
+      "telegram_message_id": 227,
+      "posted_at": "2026-11-27T10:34:14+00:00",
+      "grade": "أستاذ محاضر من الدرجة أ - سُلمْ 11",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/e09feb19-c9cb-4e4c-ba21-c689856b9f75",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/87425aa5b1c57f6e44880cdb6828d23e.png"
     }
   ],
   "seeded_sources": [
@@ -9138,6 +9202,22 @@
     "ep:b42d1110-98ce-4b1a-943e-7fa85c08ccf3": {
       "added": "2026-11-27",
       "checked": "2026-11-27T10:02:27+00:00"
+    },
+    "ep:342b15da-7895-45ba-b122-5a52a83cde9d": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T10:32:47+00:00"
+    },
+    "ep:42756640-cd08-4d23-8033-9afa02a2dcac": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T10:32:47+00:00"
+    },
+    "ep:e09feb19-c9cb-4e4c-ba21-c689856b9f75": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T10:32:58+00:00"
+    },
+    "ep:1d725a1c-c5de-4d7c-ba83-43020d98616f": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T10:32:59+00:00"
     }
   },
   "last_discovery": "2026-11-27",
