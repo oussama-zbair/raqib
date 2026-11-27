@@ -433,11 +433,19 @@ def run(
 
     if (not dry_run) or save_state:
         state.save()
+    digest_parts = 0
+    if not dry_run and sender is send_post:
+        from app.jobs import whatsapp_digest
+
+        digest_parts = _safe(errors, "whatsapp digest", 0, whatsapp_digest.maybe_send, state,
+                             settings.owner_chat_id.strip(), settings.website_url,
+                             f"https://t.me/{channel.lstrip('@')}")
     summary = {
         "sources": status,
         "posts": sent,
         "stage_posts": stage_sent,
         "updates": len(updates),
+        "whatsapp_digest_parts": digest_parts,
         "dry_run": dry_run,
     }
     if errors:

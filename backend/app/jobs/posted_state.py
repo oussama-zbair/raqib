@@ -43,6 +43,8 @@ class PostedState:
         self.tracked: dict[str, dict] = {}
         self.last_discovery: str | None = None
         self.send_failures: dict[str, int] = {}
+        self.last_digest_slot: str | None = None  # WhatsApp digest, e.g. "2026-11-26-am"
+        self.last_digest_at: str | None = None
         if self.path.exists() and self.path.read_text(encoding="utf-8").strip():
             data = json.loads(self.path.read_text(encoding="utf-8"))
             self.posted = data.get("posted", [])
@@ -52,6 +54,8 @@ class PostedState:
             self.tracked = data.get("tracked", {})
             self.last_discovery = data.get("last_discovery")
             self.send_failures = data.get("send_failures", {})
+            self.last_digest_slot = data.get("last_digest_slot")
+            self.last_digest_at = data.get("last_digest_at")
 
     # ---- send failures (a post Telegram refuses is retried, then dropped) -------------
     MAX_SEND_FAILURES = 3
@@ -233,6 +237,7 @@ class PostedState:
             {"version": 1, "posted": self.posted, "stages": self.stages,
              "seeded_sources": self.seeded_sources, "tracked": self.tracked,
              "last_discovery": self.last_discovery, "send_failures": self.send_failures,
+             "last_digest_slot": self.last_digest_slot, "last_digest_at": self.last_digest_at,
              "rejected": self.rejected},
             ensure_ascii=False,
             indent=2,

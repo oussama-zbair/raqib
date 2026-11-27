@@ -38,3 +38,12 @@ def test_family(title, family):
 
 def test_count_word_is_dropped():
     assert job_title("منصبان (مهندس رئيس مشروع في البيئة وسائق)") == "مهندس رئيس مشروع"
+
+
+@pytest.mark.parametrize("grade,title", [
+    ("(01) مدير محتوى: المحتوى الرقمي", "مدير محتوى"),
+    ("(Chef de pôle Tourisme et Hôtellerie)", "Chef de pôle Tourisme"),
+    ("(01) مسؤول/مسؤولة علاقات صحفية", "مسؤول"),
+])
+def test_leading_counts_and_brackets(grade, title):
+    assert job_title(grade) == title

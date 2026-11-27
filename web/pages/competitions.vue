@@ -161,9 +161,14 @@ async function share(c: Concours) {
           📋 {{ t("competitions.tabUpdates") }}
         </button>
       </div>
-      <a :href="config.public.channelUrl as string" target="_blank" rel="noopener" class="btn btn-ghost cx-follow">
-        ✈️ {{ t("competitions.follow") }}
-      </a>
+      <div class="cx-follow-row">
+        <a :href="config.public.channelUrl as string" target="_blank" rel="noopener" class="btn btn-ghost cx-follow">
+          ✈️ Telegram
+        </a>
+        <a :href="config.public.whatsappUrl as string" target="_blank" rel="noopener" class="btn btn-whatsapp cx-follow">
+          💬 WhatsApp
+        </a>
+      </div>
     </div>
 
     <!-- search -->

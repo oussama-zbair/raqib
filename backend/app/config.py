@@ -37,6 +37,12 @@ class Settings(BaseSettings):
     # Publisher: false = post every concours (IT ones get a hashtag), true = IT only
     publish_it_only: bool = False
 
+    # WhatsApp digest: the bot sends a ready-to-paste digest to this Telegram chat
+    # (the owner's numeric id). Empty = no digest.
+    owner_chat_id: str = ""
+    whatsapp_channel_url: str = "https://whatsapp.com/channel/0029VbEJN8rIXnlxFgLlea1w"
+    website_url: str = "https://raqib-emploi.pages.dev"
+
     # Scraping
     http_user_agent: str = "RaqibBot/0.1 (+https://t.me/RaqibEmploi; https://github.com/oussama-zbair/raqib)"
     request_timeout_seconds: int = 30

@@ -651,3 +651,7 @@ html[dir="rtl"] .tg-time { text-align: left; }
 .future-grid { grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
 .preview-wrap { justify-content: center; }
 .demo-tags { color: var(--brand-2); }
+
+.btn-whatsapp { background: #25D366; color: #0b2e1a; border: 1px solid #25D366; font-weight: 700; }
+.btn-whatsapp:hover { background: #1ebe5a; border-color: #1ebe5a; color: #06210f; }
+.cx-follow-row { display: flex; gap: 8px; flex-wrap: wrap; }

@@ -34,6 +34,9 @@ export default defineNuxtConfig({
         "https://raw.githubusercontent.com/oussama-zbair/raqib/main/state/public.json",
       channelUrl: process.env.NUXT_PUBLIC_CHANNEL_URL ?? "https://t.me/RaqibEmploi",
       discussionUrl: process.env.NUXT_PUBLIC_DISCUSSION_URL ?? "https://t.me/RaqibDiscussion",
+      whatsappUrl:
+        process.env.NUXT_PUBLIC_WHATSAPP_URL ??
+        "https://whatsapp.com/channel/0029VbEJN8rIXnlxFgLlea1w",
       telegramBotUrl: process.env.NUXT_PUBLIC_TELEGRAM_BOT_URL ?? "https://t.me/RaqibMaBot",
       ownerUrl: process.env.NUXT_PUBLIC_OWNER_URL ?? "https://oussamazbair.engineer",
     },

@@ -34,6 +34,7 @@ def scale_of(grade: str | None) -> int | None:
     return n if 5 <= n <= 13 else None
 
 
+_LEADING = re.compile(r"^(?:\(\s*\d+\s*\)|\d+\s*[-.)]|[(\[«\"'\s])+")
 _COUNT_WORD = re.compile(r"^(?:\d+\s+)?(?:منصبان|منصبا|مناصب|منصب)\s*\(?", re.IGNORECASE)
 
 
@@ -60,6 +61,7 @@ def job_title(grade: str | None) -> str | None:
     text = " ".join(_DIACRITICS.sub("", grade or "").split())
     text = _PREFIX.sub("", text)
     text = _COUNT_WORD.sub("", text).rstrip(")")  # "منصبان (مهندس رئيس مشروع)"
+    text = _LEADING.sub("", text)  # "(01) مدير محتوى", "(Chef de pôle ...)"
     if not text:
         return None
     m = _CUT.search(text)

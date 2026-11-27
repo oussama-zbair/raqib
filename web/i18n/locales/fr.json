@@ -15,7 +15,8 @@
     "ctaSecondary": "Voir les concours ouverts",
     "live": "{open} concours ouverts · mis à jour {when}",
     "liveLoading": "Chargement des données en direct…",
-    "positioning": "Les autres annuaires montrent les annonces. Raqib suit chaque concours jusqu'au bout : annonce, convocation à l'écrit, à l'oral, puis résultats."
+    "positioning": "Les autres annuaires montrent les annonces. Raqib suit chaque concours jusqu'au bout : annonce, convocation à l'écrit, à l'oral, puis résultats.",
+    "ctaWhatsapp": "Suivre sur WhatsApp"
   },
   "problem": {
     "title": "Le problème",
@@ -232,7 +233,8 @@
     "status": "État des sources",
     "rights": "Projet indépendant, non affilié à l'administration.",
     "madeBy": "Développé par",
-    "privacyNote": "Les données affichées sont publiques et proviennent du portail officiel emploi-public.ma."
+    "privacyNote": "Les données affichées sont publiques et proviennent du portail officiel emploi-public.ma.",
+    "whatsapp": "Chaîne WhatsApp"
   },
   "error": {
     "title": "Page introuvable",

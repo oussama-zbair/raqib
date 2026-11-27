@@ -27,6 +27,7 @@ const year = new Date().getFullYear();
       <div>
         <h5>{{ t("footer.community") }}</h5>
         <a :href="config.public.channelUrl as string" target="_blank" rel="noopener">📢 {{ t("footer.channel") }}</a>
+        <a :href="config.public.whatsappUrl as string" target="_blank" rel="noopener">🟢 {{ t("footer.whatsapp") }}</a>
         <a :href="config.public.discussionUrl as string" target="_blank" rel="noopener">💬 {{ t("footer.discussion") }}</a>
         <a :href="config.public.telegramBotUrl as string" target="_blank" rel="noopener">🤖 {{ t("nav.openBot") }}</a>
       </div>

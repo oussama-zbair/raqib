@@ -6,6 +6,7 @@ const { data } = useRaqibData();
 const { ago } = useFormat();
 
 const channelUrl = config.public.channelUrl as string;
+const whatsappUrl = config.public.whatsappUrl as string;
 
 const problems = ["missed", "fragmented", "misleading", "silent", "window"];
 const problemIcons: Record<string, string> = {
@@ -49,6 +50,9 @@ const convocationRows = [
           <div class="cta-row">
             <a :href="channelUrl" target="_blank" rel="noopener" class="btn btn-primary">
               ✈️ {{ t("hero.ctaPrimary") }}
+            </a>
+            <a :href="whatsappUrl" target="_blank" rel="noopener" class="btn btn-whatsapp">
+              💬 {{ t("hero.ctaWhatsapp") }}
             </a>
             <NuxtLink to="/competitions" class="btn btn-ghost">{{ t("hero.ctaSecondary") }}</NuxtLink>
           </div>
@@ -153,6 +157,7 @@ const convocationRows = [
       </div>
       <div class="cta-row" style="justify-content: center; margin-top: 28px">
         <a :href="channelUrl" target="_blank" rel="noopener" class="btn btn-primary">✈️ {{ t("hero.ctaPrimary") }}</a>
+        <a :href="whatsappUrl" target="_blank" rel="noopener" class="btn btn-whatsapp">💬 {{ t("hero.ctaWhatsapp") }}</a>
       </div>
     </section>
 
