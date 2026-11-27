@@ -11170,13 +11170,13 @@
     },
     "ep:59b1863d-029f-4137-8e2c-af2f65068c93": {
       "added": "2026-11-27",
-      "checked": null
+      "checked": "2026-11-27T22:02:09+00:00"
     }
   },
   "last_discovery": "2026-11-27",
   "send_failures": {},
-  "last_digest_slot": "2026-11-27-pm",
-  "last_digest_at": "2026-11-27T18:03:25+00:00",
+  "last_digest_slot": "2026-11-27-night",
+  "last_digest_at": "2026-11-27T22:03:01+00:00",
   "rejected": {
     "https://www.emploi-public.ma/fr/concours/details/03905d86-bfa2-4e5f-9173-f46289658267": "2026-11-25",
     "https://www.dreamjob.ma/emploi-public/resultats-concours/resultats-definitifs-concours-ministere-de-la-sante-2026-50-postes-a-dakhla-oued-eddahab/": "2026-11-25",
