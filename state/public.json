@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-27T22:32:37+00:00",
+ "updated_at": "2026-11-27T23:03:43+00:00",
  "channel": "https://t.me/RaqibEmploi",
  "sources": [
   {
@@ -11,8 +11,8 @@
  "stats": {
   "open": 157,
   "posted_total": 172,
-  "stage_posts_total": 132,
-  "followed": 467
+  "stage_posts_total": 134,
+  "followed": 469
  },
  "concours": [
   {
@@ -906,7 +906,7 @@
    "posted_at": "2026-11-26T17:33:10+00:00"
   },
   {
-   "id": "ep:ace1070f-f3a5-46df-947c-0372143baeb4",
+   "id": "ep:baf06523-83ae-45a3-bb1a-3144e273d7e5",
    "code": "C 44983/26",
    "administration": "إقليم الحوز",
    "grade": "تقني من الدرجة الرابعة - سُلمْ 8",
@@ -950,7 +950,7 @@
    "posted_at": "2026-11-26T17:04:42+00:00"
   },
   {
-   "id": "ep:dc5dba52-bc56-45e1-9d30-504dbf5832eb",
+   "id": "ep:bd7643c2-1ee8-4a5c-8b93-577068cc6814",
    "code": "C 44941/26",
    "administration": "إقليم بولمان - الرميلة",
    "grade": "تقني من الدرجة الرابعة - سُلمْ 8",
@@ -1973,7 +1973,7 @@
    "posted_at": "2026-11-26T11:04:41+00:00"
   },
   {
-   "id": "ep:87771aba-7e04-4a17-9562-533af23e2dc1",
+   "id": "ep:72ab927f-ed00-4aa4-a2f0-bd7609355ff1",
    "code": "C 44934/26",
    "administration": "صورياد القناة الثانية 2M",
    "grade": "تقني في الديكور",
@@ -2040,7 +2040,7 @@
    "posted_at": "2026-11-26T10:05:29+00:00"
   },
   {
-   "id": "ep:9c94d268-16e7-4f46-9c9d-b1a429f8ea50",
+   "id": "ep:770a12fe-e1a1-4bb9-8a7d-f6ca4c8152fb",
    "code": "C 44931/26",
    "administration": "جامعة مولاي اسماعيل - مكناس",
    "grade": "أستاذ محاضر من الدرجة أ - سُلمْ 11",
@@ -2213,7 +2213,7 @@
    "posted_at": "2026-11-25T19:35:28+00:00"
   },
   {
-   "id": "ep:593d3e98-64cc-4a18-99b5-56564e510a9a",
+   "id": "ep:8a811d71-5f0c-4516-a54b-cdd421929da1",
    "code": "C 44916/26",
    "administration": "إقليم تاونات",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -2354,7 +2354,7 @@
    "posted_at": "2026-11-25T19:34:47+00:00"
   },
   {
-   "id": "ep:d166cff5-6eae-4e33-bca9-65950874b2df",
+   "id": "ep:a7e52309-7e1c-4474-b637-1f5cf0e47b4c",
    "code": "C 44897/26",
    "administration": "إقليم الحاجب - اكوراي",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -2423,7 +2423,7 @@
    "posted_at": "2026-11-25T19:34:32+00:00"
   },
   {
-   "id": "ep:d520bc73-bcf0-4974-af85-7b6af7c7c40f",
+   "id": "ep:3f6d3934-2b54-4ccb-934e-67ec66e7f762",
    "code": "C 44884/26",
    "administration": "إقليم تازة - تازة",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -2492,7 +2492,7 @@
    "posted_at": "2026-11-25T19:03:47+00:00"
   },
   {
-   "id": "ep:a7c4e6a7-7c33-4ec3-a00e-97c83892d659",
+   "id": "ep:3d0d7c43-34b5-4e4b-ba57-02da6200dbd0",
    "code": "C 44870/26",
    "administration": "إقليم برشيد - برشيد",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -2538,7 +2538,7 @@
    "posted_at": "2026-11-25T19:03:38+00:00"
   },
   {
-   "id": "ep:35a928ed-d8e5-4555-8daf-fa89a806a698",
+   "id": "ep:c7259a97-09c2-4050-893a-c2226569266d",
    "code": "C 44868/26",
    "administration": "إقليم الخميسات - الزحيلكة",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -3957,6 +3957,34 @@
   }
  ],
  "updates": [
+  {
+   "id": "ep:30acc324-24f1-4a1d-a49c-5f99eb36ad76",
+   "stage": "CONVOQUES",
+   "administration": "جامعة ابن زهر - أكادير",
+   "grade": "أستاذ محاضر بالمدرسة الوطنية للتجارة والتسيير بالداخلة تخصص Audit",
+   "title": "أستاذ محاضر",
+   "family": "أستاذ",
+   "exam_date": "2026-11-30",
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/673d4e683bf65fbf906fa190831359e7.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques/30acc324-24f1-4a1d-a49c-5f99eb36ad76",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/30acc324-24f1-4a1d-a49c-5f99eb36ad76",
+   "posted_at": "2026-11-27T23:03:37+00:00"
+  },
+  {
+   "id": "ep:157ca714-c3fd-466d-a2bd-dc61ac28d968",
+   "stage": "CONVOQUES",
+   "administration": "جامعة ابن زهر - أكادير",
+   "grade": "أستاذ محاضر بالمدرسة الوطنية للتجارة والتسيير بالداخلة تخصص Gestion-Economie",
+   "title": "أستاذ محاضر",
+   "family": "أستاذ",
+   "exam_date": "2026-11-30",
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/673d4e683bf65fbf906fa190831359e7.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques/157ca714-c3fd-466d-a2bd-dc61ac28d968",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/157ca714-c3fd-466d-a2bd-dc61ac28d968",
+   "posted_at": "2026-11-27T23:03:31+00:00"
+  },
   {
    "id": "ep:402b2997-0464-4c79-93c7-c4a918d05b34",
    "stage": "RESULTATS",

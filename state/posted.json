@@ -9320,6 +9320,34 @@
       "exam_date": null,
       "city": null,
       "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/eaaec5e6de1d7599e1e7fe015f19d1fd.png"
+    },
+    {
+      "key": "ep:157ca714-c3fd-466d-a2bd-dc61ac28d968#CONVOQUES",
+      "reference_code": "C 44618/26",
+      "stage": "CONVOQUES",
+      "administration": "جامعة ابن زهر - أكادير",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/157ca714-c3fd-466d-a2bd-dc61ac28d968",
+      "telegram_message_id": 321,
+      "posted_at": "2026-11-27T23:03:31+00:00",
+      "grade": "أستاذ محاضر بالمدرسة الوطنية للتجارة والتسيير بالداخلة تخصص Gestion-Economie",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques/157ca714-c3fd-466d-a2bd-dc61ac28d968",
+      "exam_date": "2026-11-30",
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/673d4e683bf65fbf906fa190831359e7.png"
+    },
+    {
+      "key": "ep:30acc324-24f1-4a1d-a49c-5f99eb36ad76#CONVOQUES",
+      "reference_code": "C 44616/26",
+      "stage": "CONVOQUES",
+      "administration": "جامعة ابن زهر - أكادير",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/30acc324-24f1-4a1d-a49c-5f99eb36ad76",
+      "telegram_message_id": 322,
+      "posted_at": "2026-11-27T23:03:37+00:00",
+      "grade": "أستاذ محاضر بالمدرسة الوطنية للتجارة والتسيير بالداخلة تخصص Audit",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques/30acc324-24f1-4a1d-a49c-5f99eb36ad76",
+      "exam_date": "2026-11-30",
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/673d4e683bf65fbf906fa190831359e7.png"
     }
   ],
   "seeded_sources": [
@@ -11195,6 +11223,14 @@
     "ep:764e7f8d-1133-4f7c-a874-adf5b4450042": {
       "added": "2026-11-27",
       "checked": "2026-11-27T22:31:46+00:00"
+    },
+    "ep:30acc324-24f1-4a1d-a49c-5f99eb36ad76": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T23:02:15+00:00"
+    },
+    "ep:157ca714-c3fd-466d-a2bd-dc61ac28d968": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T23:02:17+00:00"
     }
   },
   "last_discovery": "2026-11-27",
