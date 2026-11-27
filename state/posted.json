@@ -3097,6 +3097,60 @@
       "city": null,
       "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/f5b3dde49d66f60bf0a8ee3728874d49.png",
       "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/80cbfdb9-241a-4dc0-a888-8970632157d7"
+    },
+    {
+      "id": "C 45012/26",
+      "reference_code": "C 45012/26",
+      "administration": "المركز الجهوي للاستثمار لجهة درعة تافيلالت",
+      "grade": "مكلف(ة) بالمواكبة والتطوير",
+      "post_count": 1,
+      "deadline": "2026-12-11",
+      "exam_date": null,
+      "urls": [
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/9dcf7406-1442-41c8-8758-a504626fcaf1"
+      ],
+      "telegram_message_id": 305,
+      "posted_at": "2026-11-27T20:02:58+00:00",
+      "specialty": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/e653066e8ef21bdadce0e76716ad0272.png",
+      "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/9dcf7406-1442-41c8-8758-a504626fcaf1"
+    },
+    {
+      "id": "C 45013/26",
+      "reference_code": "C 45013/26",
+      "administration": "المركز الجهوي للاستثمار لجهة درعة تافيلالت",
+      "grade": "مكلف(ة) بتدبير آلية دعم المقاولات الصغيرة جداً والصغرى والمتوسطة",
+      "post_count": 1,
+      "deadline": "2026-12-11",
+      "exam_date": null,
+      "urls": [
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/25dd5c80-8764-4cd8-bdf0-1a6889701ddd"
+      ],
+      "telegram_message_id": 306,
+      "posted_at": "2026-11-27T20:03:03+00:00",
+      "specialty": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/e653066e8ef21bdadce0e76716ad0272.png",
+      "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/25dd5c80-8764-4cd8-bdf0-1a6889701ddd"
+    },
+    {
+      "id": "C 45014/26",
+      "reference_code": "C 45014/26",
+      "administration": "المركز الجهوي للاستثمار لجهة درعة تافيلالت",
+      "grade": "مكلف(ة) بصيانة واستغلال نظم المعلومات",
+      "post_count": 1,
+      "deadline": "2026-12-11",
+      "exam_date": null,
+      "urls": [
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/b42a8d7e-f491-4db0-9800-36181dda11f0"
+      ],
+      "telegram_message_id": 307,
+      "posted_at": "2026-11-27T20:03:08+00:00",
+      "specialty": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/e653066e8ef21bdadce0e76716ad0272.png",
+      "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/b42a8d7e-f491-4db0-9800-36181dda11f0"
     }
   ],
   "stages": [
@@ -10861,6 +10915,18 @@
     "ep:80cbfdb9-241a-4dc0-a888-8970632157d7": {
       "added": "2026-11-27",
       "checked": "2026-11-27T19:32:34+00:00"
+    },
+    "ep:b42a8d7e-f491-4db0-9800-36181dda11f0": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T20:02:02+00:00"
+    },
+    "ep:25dd5c80-8764-4cd8-bdf0-1a6889701ddd": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T20:02:02+00:00"
+    },
+    "ep:9dcf7406-1442-41c8-8758-a504626fcaf1": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T20:02:02+00:00"
     }
   },
   "last_discovery": "2026-11-27",

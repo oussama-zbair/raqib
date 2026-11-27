@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-27T19:33:51+00:00",
+ "updated_at": "2026-11-27T20:03:08+00:00",
  "channel": "https://t.me/RaqibEmploi",
  "sources": [
   {
@@ -9,12 +9,77 @@
   }
  ],
  "stats": {
-  "open": 151,
-  "posted_total": 166,
+  "open": 154,
+  "posted_total": 169,
   "stage_posts_total": 122,
-  "followed": 453
+  "followed": 456
  },
  "concours": [
+  {
+   "id": "ep:b42a8d7e-f491-4db0-9800-36181dda11f0",
+   "code": "C 45014/26",
+   "administration": "المركز الجهوي للاستثمار لجهة درعة تافيلالت",
+   "grade": "مكلف(ة) بصيانة واستغلال نظم المعلومات",
+   "title": "مكلف",
+   "family": "مكلف",
+   "scale": null,
+   "specialty": null,
+   "posts": 1,
+   "deadline": "2026-12-11",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/e653066e8ef21bdadce0e76716ad0272.png",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/b42a8d7e-f491-4db0-9800-36181dda11f0",
+   "tags": [
+    "معلوميات"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-27T20:03:08+00:00"
+  },
+  {
+   "id": "ep:25dd5c80-8764-4cd8-bdf0-1a6889701ddd",
+   "code": "C 45013/26",
+   "administration": "المركز الجهوي للاستثمار لجهة درعة تافيلالت",
+   "grade": "مكلف(ة) بتدبير آلية دعم المقاولات الصغيرة جداً والصغرى والمتوسطة",
+   "title": "مكلف",
+   "family": "مكلف",
+   "scale": null,
+   "specialty": null,
+   "posts": 1,
+   "deadline": "2026-12-11",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/e653066e8ef21bdadce0e76716ad0272.png",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/25dd5c80-8764-4cd8-bdf0-1a6889701ddd",
+   "tags": [],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-27T20:03:03+00:00"
+  },
+  {
+   "id": "ep:9dcf7406-1442-41c8-8758-a504626fcaf1",
+   "code": "C 45012/26",
+   "administration": "المركز الجهوي للاستثمار لجهة درعة تافيلالت",
+   "grade": "مكلف(ة) بالمواكبة والتطوير",
+   "title": "مكلف",
+   "family": "مكلف",
+   "scale": null,
+   "specialty": null,
+   "posts": 1,
+   "deadline": "2026-12-11",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/e653066e8ef21bdadce0e76716ad0272.png",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/9dcf7406-1442-41c8-8758-a504626fcaf1",
+   "tags": [],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-27T20:02:58+00:00"
+  },
   {
    "id": "ep:80cbfdb9-241a-4dc0-a888-8970632157d7",
    "code": "C 45011/26",
@@ -1227,7 +1292,7 @@
    "posted_at": "2026-11-26T14:12:12+00:00"
   },
   {
-   "id": "ep:a85ded0c-df8c-4beb-be8f-ea0d420f104d",
+   "id": "ep:9533bf08-01f6-43d8-a4ec-22554f0dc3e3",
    "code": "C 44966/26",
    "administration": "جامعة محمد الأول - وجدة",
    "grade": "أستاذ محاضر لفائدة المدرسة العليا للتربية والتكوين وجدة.",
@@ -1845,7 +1910,7 @@
    "posted_at": "2026-11-26T11:04:41+00:00"
   },
   {
-   "id": "ep:1e96ae25-71ea-46b8-8867-53ac0ce6201f",
+   "id": "ep:72ab927f-ed00-4aa4-a2f0-bd7609355ff1",
    "code": "C 44934/26",
    "administration": "صورياد القناة الثانية 2M",
    "grade": "تقني في الديكور",
@@ -1912,7 +1977,7 @@
    "posted_at": "2026-11-26T10:05:29+00:00"
   },
   {
-   "id": "ep:9c94d268-16e7-4f46-9c9d-b1a429f8ea50",
+   "id": "ep:770a12fe-e1a1-4bb9-8a7d-f6ca4c8152fb",
    "code": "C 44931/26",
    "administration": "جامعة مولاي اسماعيل - مكناس",
    "grade": "أستاذ محاضر من الدرجة أ - سُلمْ 11",
@@ -2009,7 +2074,7 @@
    "posted_at": "2026-11-26T00:05:38+00:00"
   },
   {
-   "id": "ep:2fef0122-6371-4de3-af5f-54385044d832",
+   "id": "ep:98f8f5aa-a77c-4571-8490-2ecfd8f0404f",
    "code": "C 44716/26",
    "administration": "الوكالة الوطنية للدعم الاجتماعي",
    "grade": "تقني متخصص في البناء",
@@ -2085,7 +2150,7 @@
    "posted_at": "2026-11-25T19:35:28+00:00"
   },
   {
-   "id": "ep:8a811d71-5f0c-4516-a54b-cdd421929da1",
+   "id": "ep:593d3e98-64cc-4a18-99b5-56564e510a9a",
    "code": "C 44916/26",
    "administration": "إقليم تاونات",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -2226,7 +2291,7 @@
    "posted_at": "2026-11-25T19:34:47+00:00"
   },
   {
-   "id": "ep:ccb9b405-58f7-453e-bb03-72ff84e5c365",
+   "id": "ep:a7e52309-7e1c-4474-b637-1f5cf0e47b4c",
    "code": "C 44897/26",
    "administration": "إقليم الحاجب - اكوراي",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -2295,7 +2360,7 @@
    "posted_at": "2026-11-25T19:34:32+00:00"
   },
   {
-   "id": "ep:3f6d3934-2b54-4ccb-934e-67ec66e7f762",
+   "id": "ep:d520bc73-bcf0-4974-af85-7b6af7c7c40f",
    "code": "C 44884/26",
    "administration": "إقليم تازة - تازة",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -2364,7 +2429,7 @@
    "posted_at": "2026-11-25T19:03:47+00:00"
   },
   {
-   "id": "ep:3d0d7c43-34b5-4e4b-ba57-02da6200dbd0",
+   "id": "ep:a7c4e6a7-7c33-4ec3-a00e-97c83892d659",
    "code": "C 44870/26",
    "administration": "إقليم برشيد - برشيد",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -2410,7 +2475,7 @@
    "posted_at": "2026-11-25T19:03:38+00:00"
   },
   {
-   "id": "ep:c7259a97-09c2-4050-893a-c2226569266d",
+   "id": "ep:35a928ed-d8e5-4555-8daf-fa89a806a698",
    "code": "C 44868/26",
    "administration": "إقليم الخميسات - الزحيلكة",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -3035,7 +3100,7 @@
    "posted_at": "2026-11-25T18:24:59+00:00"
   },
   {
-   "id": "ep:48737302-a809-41b9-a23d-03980d4b9460",
+   "id": "ep:aa5a7bf0-c8ed-4221-bff0-de210c2b0d44",
    "code": "C 44889/26",
    "administration": "شركة المنشآت الرياضية لطنجة ش.م",
    "grade": "تقني تيار قوي",
@@ -3616,7 +3681,7 @@
    "posted_at": "2026-11-25T04:47:00+00:00"
   },
   {
-   "id": "ep:f13bac44-60cc-4ed5-897a-905111afbeb2",
+   "id": "ep:b7f02f9d-4b66-4dcd-8365-f3b1001009c1",
    "code": "C 44743/26",
    "administration": "وزارة العدل",
    "grade": "محرر قضائي من الدرجة الرابعة - سُلمْ 8",
