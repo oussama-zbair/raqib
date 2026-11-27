@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-27T16:08:18+00:00",
+ "updated_at": "2026-11-27T16:32:51+00:00",
  "channel": "https://t.me/RaqibEmploi",
  "sources": [
   {
@@ -11,7 +11,7 @@
  "stats": {
   "open": 136,
   "posted_total": 151,
-  "stage_posts_total": 107,
+  "stage_posts_total": 109,
   "followed": 435
  },
  "concours": [
@@ -476,7 +476,7 @@
    "posted_at": "2026-11-26T17:04:42+00:00"
   },
   {
-   "id": "ep:dc5dba52-bc56-45e1-9d30-504dbf5832eb",
+   "id": "ep:bd7643c2-1ee8-4a5c-8b93-577068cc6814",
    "code": "C 44941/26",
    "administration": "إقليم بولمان - الرميلة",
    "grade": "تقني من الدرجة الرابعة - سُلمْ 8",
@@ -1663,7 +1663,7 @@
    "posted_at": "2026-11-26T00:05:38+00:00"
   },
   {
-   "id": "ep:2fef0122-6371-4de3-af5f-54385044d832",
+   "id": "ep:98f8f5aa-a77c-4571-8490-2ecfd8f0404f",
    "code": "C 44716/26",
    "administration": "الوكالة الوطنية للدعم الاجتماعي",
    "grade": "تقني متخصص في البناء",
@@ -1880,7 +1880,7 @@
    "posted_at": "2026-11-25T19:34:47+00:00"
   },
   {
-   "id": "ep:a7e52309-7e1c-4474-b637-1f5cf0e47b4c",
+   "id": "ep:ccb9b405-58f7-453e-bb03-72ff84e5c365",
    "code": "C 44897/26",
    "administration": "إقليم الحاجب - اكوراي",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -1949,7 +1949,7 @@
    "posted_at": "2026-11-25T19:34:32+00:00"
   },
   {
-   "id": "ep:d520bc73-bcf0-4974-af85-7b6af7c7c40f",
+   "id": "ep:3f6d3934-2b54-4ccb-934e-67ec66e7f762",
    "code": "C 44884/26",
    "administration": "إقليم تازة - تازة",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -2018,7 +2018,7 @@
    "posted_at": "2026-11-25T19:03:47+00:00"
   },
   {
-   "id": "ep:3d0d7c43-34b5-4e4b-ba57-02da6200dbd0",
+   "id": "ep:a7c4e6a7-7c33-4ec3-a00e-97c83892d659",
    "code": "C 44870/26",
    "administration": "إقليم برشيد - برشيد",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -2064,7 +2064,7 @@
    "posted_at": "2026-11-25T19:03:38+00:00"
   },
   {
-   "id": "ep:35a928ed-d8e5-4555-8daf-fa89a806a698",
+   "id": "ep:c7259a97-09c2-4050-893a-c2226569266d",
    "code": "C 44868/26",
    "administration": "إقليم الخميسات - الزحيلكة",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -2689,7 +2689,7 @@
    "posted_at": "2026-11-25T18:24:59+00:00"
   },
   {
-   "id": "ep:7ba78629-d145-41b6-b873-e1202bf0e3be",
+   "id": "ep:48737302-a809-41b9-a23d-03980d4b9460",
    "code": "C 44889/26",
    "administration": "شركة المنشآت الرياضية لطنجة ش.م",
    "grade": "تقني تيار قوي",
@@ -3270,7 +3270,7 @@
    "posted_at": "2026-11-25T04:47:00+00:00"
   },
   {
-   "id": "ep:b7f02f9d-4b66-4dcd-8365-f3b1001009c1",
+   "id": "ep:f13bac44-60cc-4ed5-897a-905111afbeb2",
    "code": "C 44743/26",
    "administration": "وزارة العدل",
    "grade": "محرر قضائي من الدرجة الرابعة - سُلمْ 8",
@@ -3483,6 +3483,34 @@
   }
  ],
  "updates": [
+  {
+   "id": "ep:5f822675-7577-4c68-afed-350b0dfc7e2d",
+   "stage": "RESULTATS",
+   "administration": "وكالة المغرب العربي للأنباء",
+   "grade": "مكلف بمكتب الضبط والتدبير الإلكتروني للوثائق",
+   "title": "مكلف بمكتب الضبط والتدبير",
+   "family": "مكلف",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/6f59685b4fe2992cd891e3fc14452b3c.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_resultats/5f822675-7577-4c68-afed-350b0dfc7e2d",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/5f822675-7577-4c68-afed-350b0dfc7e2d",
+   "posted_at": "2026-11-27T16:32:46+00:00"
+  },
+  {
+   "id": "ep:84e6a32b-d4e2-4148-9cc9-23086791ee8d",
+   "stage": "RESULTATS",
+   "administration": "المكتب الوطني للسكك الحديدية",
+   "grade": "التقنيون المتخصصون والتقنيون العاليون (باك+2)",
+   "title": "التقنيون المتخصصون والتقنيون العاليون",
+   "family": "تقني",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/b9c87ecb33fad31e8fe0f778cc5f7ade.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_resultats/84e6a32b-d4e2-4148-9cc9-23086791ee8d",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/84e6a32b-d4e2-4148-9cc9-23086791ee8d",
+   "posted_at": "2026-11-27T16:32:41+00:00"
+  },
   {
    "id": "ep:61489eda-a574-4d77-8903-16478329c712",
    "stage": "CONVOQUES_ORAL",

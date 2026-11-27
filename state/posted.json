@@ -8442,6 +8442,74 @@
       "exam_date": null,
       "city": null,
       "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/87425aa5b1c57f6e44880cdb6828d23e.png"
+    },
+    {
+      "key": "ep:5f822675-7577-4c68-afed-350b0dfc7e2d#CONVOQUES",
+      "reference_code": "C 43898/26",
+      "stage": "CONVOQUES",
+      "administration": "وكالة المغرب العربي للأنباء",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/5f822675-7577-4c68-afed-350b0dfc7e2d",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-27T16:32:02+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:5f822675-7577-4c68-afed-350b0dfc7e2d#CONVOQUES_ORAL",
+      "reference_code": "C 43898/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "وكالة المغرب العربي للأنباء",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/5f822675-7577-4c68-afed-350b0dfc7e2d",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-27T16:32:02+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:84e6a32b-d4e2-4148-9cc9-23086791ee8d#CONVOQUES",
+      "reference_code": "C 43405/26",
+      "stage": "CONVOQUES",
+      "administration": "المكتب الوطني للسكك الحديدية",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/84e6a32b-d4e2-4148-9cc9-23086791ee8d",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-27T16:32:04+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:84e6a32b-d4e2-4148-9cc9-23086791ee8d#CONVOQUES_ORAL",
+      "reference_code": "C 43405/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "المكتب الوطني للسكك الحديدية",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/84e6a32b-d4e2-4148-9cc9-23086791ee8d",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-27T16:32:04+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:84e6a32b-d4e2-4148-9cc9-23086791ee8d#RESULTATS",
+      "reference_code": "C 43405/26",
+      "stage": "RESULTATS",
+      "administration": "المكتب الوطني للسكك الحديدية",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/84e6a32b-d4e2-4148-9cc9-23086791ee8d",
+      "telegram_message_id": 275,
+      "posted_at": "2026-11-27T16:32:41+00:00",
+      "grade": "التقنيون المتخصصون والتقنيون العاليون (باك+2)",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_resultats/84e6a32b-d4e2-4148-9cc9-23086791ee8d",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/b9c87ecb33fad31e8fe0f778cc5f7ade.png"
+    },
+    {
+      "key": "ep:5f822675-7577-4c68-afed-350b0dfc7e2d#RESULTATS",
+      "reference_code": "C 43898/26",
+      "stage": "RESULTATS",
+      "administration": "وكالة المغرب العربي للأنباء",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/5f822675-7577-4c68-afed-350b0dfc7e2d",
+      "telegram_message_id": 276,
+      "posted_at": "2026-11-27T16:32:46+00:00",
+      "grade": "مكلف بمكتب الضبط والتدبير الإلكتروني للوثائق",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_resultats/5f822675-7577-4c68-afed-350b0dfc7e2d",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/6f59685b4fe2992cd891e3fc14452b3c.png"
     }
   ],
   "seeded_sources": [
