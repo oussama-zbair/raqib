@@ -37,6 +37,9 @@ jobs:
           TELEGRAM_CHANNEL_ID: "@RaqibEmploi"
           # Your own Telegram numeric id: the WhatsApp digest is sent to you only.
           OWNER_CHAT_ID: ${{ secrets.OWNER_CHAT_ID }}
+          # Optional emergency override of Morocco's UTC offset ("0" or "1"). Leave unset:
+          # the job follows the official time zone rules by itself.
+          MOROCCO_UTC_OFFSET: ${{ vars.MOROCCO_UTC_OFFSET || secrets.MOROCCO_UTC_OFFSET }}
           # The Cloudflare cron sends dry_run as the string "false", the UI sends a boolean.
           DRY_RUN_FLAG: ${{ github.event_name == 'workflow_dispatch' && (inputs.dry_run == true || inputs.dry_run == 'true') && '--dry-run' || '' }}
         run: python -m app.jobs.publish_channel $DRY_RUN_FLAG
