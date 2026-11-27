@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-27T12:34:01+00:00",
+ "updated_at": "2026-11-27T13:05:06+00:00",
  "channel": "https://t.me/RaqibEmploi",
  "sources": [
   {
@@ -9,12 +9,33 @@
   }
  ],
  "stats": {
-  "open": 129,
-  "posted_total": 144,
-  "stage_posts_total": 88,
-  "followed": 414
+  "open": 130,
+  "posted_total": 145,
+  "stage_posts_total": 91,
+  "followed": 417
  },
  "concours": [
+  {
+   "id": "ep:43f7b331-67c4-484d-8666-580632bd3934",
+   "code": "C 44997/26",
+   "administration": "الوكالة الحضرية للعرائش",
+   "grade": "كاتبة",
+   "title": "كاتبة",
+   "family": "كاتبة",
+   "scale": null,
+   "specialty": null,
+   "posts": 1,
+   "deadline": "2026-12-14",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/9019fa91690c04f196e5f0bf3c771e40.png",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/43f7b331-67c4-484d-8666-580632bd3934",
+   "tags": [],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-27T13:05:06+00:00"
+  },
   {
    "id": "ep:a85ded0c-df8c-4beb-be8f-ea0d420f104d",
    "code": "C 44996/26",
@@ -274,7 +295,7 @@
    "posted_at": "2026-11-26T17:33:10+00:00"
   },
   {
-   "id": "ep:ace1070f-f3a5-46df-947c-0372143baeb4",
+   "id": "ep:baf06523-83ae-45a3-bb1a-3144e273d7e5",
    "code": "C 44983/26",
    "administration": "إقليم الحوز",
    "grade": "تقني من الدرجة الرابعة - سُلمْ 8",
@@ -723,7 +744,7 @@
    "posted_at": "2026-11-26T14:12:12+00:00"
   },
   {
-   "id": "ep:9533bf08-01f6-43d8-a4ec-22554f0dc3e3",
+   "id": "ep:a85ded0c-df8c-4beb-be8f-ea0d420f104d",
    "code": "C 44966/26",
    "administration": "جامعة محمد الأول - وجدة",
    "grade": "أستاذ محاضر لفائدة المدرسة العليا للتربية والتكوين وجدة.",
@@ -1722,7 +1743,7 @@
    "posted_at": "2026-11-25T19:34:47+00:00"
   },
   {
-   "id": "ep:ccb9b405-58f7-453e-bb03-72ff84e5c365",
+   "id": "ep:a7e52309-7e1c-4474-b637-1f5cf0e47b4c",
    "code": "C 44897/26",
    "administration": "إقليم الحاجب - اكوراي",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -1791,7 +1812,7 @@
    "posted_at": "2026-11-25T19:34:32+00:00"
   },
   {
-   "id": "ep:3f6d3934-2b54-4ccb-934e-67ec66e7f762",
+   "id": "ep:d520bc73-bcf0-4974-af85-7b6af7c7c40f",
    "code": "C 44884/26",
    "administration": "إقليم تازة - تازة",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -1906,7 +1927,7 @@
    "posted_at": "2026-11-25T19:03:38+00:00"
   },
   {
-   "id": "ep:35a928ed-d8e5-4555-8daf-fa89a806a698",
+   "id": "ep:c7259a97-09c2-4050-893a-c2226569266d",
    "code": "C 44868/26",
    "administration": "إقليم الخميسات - الزحيلكة",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -2531,7 +2552,7 @@
    "posted_at": "2026-11-25T18:24:59+00:00"
   },
   {
-   "id": "ep:7ba78629-d145-41b6-b873-e1202bf0e3be",
+   "id": "ep:aa5a7bf0-c8ed-4221-bff0-de210c2b0d44",
    "code": "C 44889/26",
    "administration": "شركة المنشآت الرياضية لطنجة ش.م",
    "grade": "تقني تيار قوي",
@@ -3325,6 +3346,48 @@
   }
  ],
  "updates": [
+  {
+   "id": "ep:e9727a3b-3fbb-4881-9d42-a1ebb5c76370",
+   "stage": "RESULTATS",
+   "administration": "جامعة محمد الأول - وجدة",
+   "grade": "أستاذ محاضر لفائدة كلية الاقتصاد والتدبير الناضور",
+   "title": "أستاذ محاضر",
+   "family": "أستاذ",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/8baabd444e8ecb551c7b0e0008439d9e.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_resultats/e9727a3b-3fbb-4881-9d42-a1ebb5c76370",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/e9727a3b-3fbb-4881-9d42-a1ebb5c76370",
+   "posted_at": "2026-11-27T13:04:54+00:00"
+  },
+  {
+   "id": "ep:ee457511-2cf7-4178-bcb7-b09cd1638bca",
+   "stage": "CONVOQUES",
+   "administration": "شركة خريبكة للتهيئة والتنمية (KADEV)",
+   "grade": "إطار إداري ومالي (رجل/امرأة)",
+   "title": "إطار إداري ومالي",
+   "family": "إطار",
+   "exam_date": null,
+   "city": null,
+   "logo": null,
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques/ee457511-2cf7-4178-bcb7-b09cd1638bca",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/ee457511-2cf7-4178-bcb7-b09cd1638bca",
+   "posted_at": "2026-11-27T13:04:48+00:00"
+  },
+  {
+   "id": "ep:b98caad7-0b72-4930-b2ce-e05e02fc53e7",
+   "stage": "CONVOQUES",
+   "administration": "الوكالة الوطنية لتنمية تربية الأحياء البحرية",
+   "grade": "إطار عالٍ مكلف بالمالية والمحاسبة / إطار مكلف بالخزينة والأداءات /سائق-ساعي",
+   "title": "إطار عال مكلف",
+   "family": "إطار",
+   "exam_date": "2026-11-28",
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/d7539137cdea3ce72faff13c27204dfe.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques/b98caad7-0b72-4930-b2ce-e05e02fc53e7",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/b98caad7-0b72-4930-b2ce-e05e02fc53e7",
+   "posted_at": "2026-11-27T13:04:43+00:00"
+  },
   {
    "id": "ep:e97fab9f-69c9-4d4a-b633-936310b1c728",
    "stage": "RESULTATS",

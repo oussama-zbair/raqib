@@ -2132,7 +2132,8 @@
       "deadline": "2026-12-12",
       "exam_date": "2026-12-18",
       "urls": [
-        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/9533bf08-01f6-43d8-a4ec-22554f0dc3e3"
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/9533bf08-01f6-43d8-a4ec-22554f0dc3e3",
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/a85ded0c-df8c-4beb-be8f-ea0d420f104d"
       ],
       "telegram_message_id": 164,
       "posted_at": "2026-11-26T14:12:07+00:00",
@@ -2700,6 +2701,24 @@
       "city": null,
       "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/8baabd444e8ecb551c7b0e0008439d9e.png",
       "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/a85ded0c-df8c-4beb-be8f-ea0d420f104d"
+    },
+    {
+      "id": "C 44997/26",
+      "reference_code": "C 44997/26",
+      "administration": "الوكالة الحضرية للعرائش",
+      "grade": "كاتبة",
+      "post_count": 1,
+      "deadline": "2026-12-14",
+      "exam_date": null,
+      "urls": [
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/43f7b331-67c4-484d-8666-580632bd3934"
+      ],
+      "telegram_message_id": 252,
+      "posted_at": "2026-11-27T13:05:06+00:00",
+      "specialty": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/9019fa91690c04f196e5f0bf3c771e40.png",
+      "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/43f7b331-67c4-484d-8666-580632bd3934"
     }
   ],
   "stages": [
@@ -7959,6 +7978,88 @@
       "exam_date": null,
       "city": null,
       "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/54cec0e4a0df9edcbb6ab0603e241f47.png"
+    },
+    {
+      "key": "ep:6ad97dca-9840-4ba1-a0a7-279037f5e2a1#CONVOQUES",
+      "reference_code": "C 40401/25",
+      "stage": "CONVOQUES",
+      "administration": "إقليم وادي الذهب",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/6ad97dca-9840-4ba1-a0a7-279037f5e2a1",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-27T13:03:18+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:8e53ea92-a389-4f24-ae28-b7400b2354ca#CONVOQUES",
+      "reference_code": "C 40399/25",
+      "stage": "CONVOQUES",
+      "administration": "إقليم وادي الذهب",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/8e53ea92-a389-4f24-ae28-b7400b2354ca",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-27T13:03:36+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:22f1e2b1-f003-47b6-93c3-9d8505d33329#CONVOQUES",
+      "reference_code": "C 40398/25",
+      "stage": "CONVOQUES",
+      "administration": "إقليم وادي الذهب",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/22f1e2b1-f003-47b6-93c3-9d8505d33329",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-27T13:03:40+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:e9727a3b-3fbb-4881-9d42-a1ebb5c76370#CONVOQUES_ORAL",
+      "reference_code": "C 43240/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "جامعة محمد الأول - وجدة",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/e9727a3b-3fbb-4881-9d42-a1ebb5c76370",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-27T13:03:50+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:b98caad7-0b72-4930-b2ce-e05e02fc53e7#CONVOQUES",
+      "reference_code": "C 44324/26",
+      "stage": "CONVOQUES",
+      "administration": "الوكالة الوطنية لتنمية تربية الأحياء البحرية",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/b98caad7-0b72-4930-b2ce-e05e02fc53e7",
+      "telegram_message_id": 249,
+      "posted_at": "2026-11-27T13:04:43+00:00",
+      "grade": "إطار عالٍ مكلف بالمالية والمحاسبة / إطار مكلف بالخزينة والأداءات /سائق-ساعي",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques/b98caad7-0b72-4930-b2ce-e05e02fc53e7",
+      "exam_date": "2026-11-28",
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/d7539137cdea3ce72faff13c27204dfe.png"
+    },
+    {
+      "key": "ep:ee457511-2cf7-4178-bcb7-b09cd1638bca#CONVOQUES",
+      "reference_code": "C 43918/26",
+      "stage": "CONVOQUES",
+      "administration": "شركة خريبكة للتهيئة والتنمية (KADEV)",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/ee457511-2cf7-4178-bcb7-b09cd1638bca",
+      "telegram_message_id": 250,
+      "posted_at": "2026-11-27T13:04:48+00:00",
+      "grade": "إطار إداري ومالي (رجل/امرأة)",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques/ee457511-2cf7-4178-bcb7-b09cd1638bca",
+      "exam_date": null,
+      "city": null,
+      "logo_url": null
+    },
+    {
+      "key": "ep:e9727a3b-3fbb-4881-9d42-a1ebb5c76370#RESULTATS",
+      "reference_code": "C 43240/26",
+      "stage": "RESULTATS",
+      "administration": "جامعة محمد الأول - وجدة",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/e9727a3b-3fbb-4881-9d42-a1ebb5c76370",
+      "telegram_message_id": 251,
+      "posted_at": "2026-11-27T13:04:54+00:00",
+      "grade": "أستاذ محاضر لفائدة كلية الاقتصاد والتدبير الناضور",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_resultats/e9727a3b-3fbb-4881-9d42-a1ebb5c76370",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/8baabd444e8ecb551c7b0e0008439d9e.png"
     }
   ],
   "seeded_sources": [
@@ -9613,15 +9714,27 @@
     },
     "ep:6ad97dca-9840-4ba1-a0a7-279037f5e2a1": {
       "added": "2026-11-27",
-      "checked": null
+      "checked": "2026-11-27T13:03:18+00:00"
     },
     "ep:8e53ea92-a389-4f24-ae28-b7400b2354ca": {
       "added": "2026-11-27",
-      "checked": null
+      "checked": "2026-11-27T13:03:36+00:00"
     },
     "ep:22f1e2b1-f003-47b6-93c3-9d8505d33329": {
       "added": "2026-11-27",
-      "checked": null
+      "checked": "2026-11-27T13:03:40+00:00"
+    },
+    "ep:43f7b331-67c4-484d-8666-580632bd3934": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T13:03:10+00:00"
+    },
+    "ep:ee457511-2cf7-4178-bcb7-b09cd1638bca": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T13:03:48+00:00"
+    },
+    "ep:b98caad7-0b72-4930-b2ce-e05e02fc53e7": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T13:03:52+00:00"
     }
   },
   "last_discovery": "2026-11-27",
