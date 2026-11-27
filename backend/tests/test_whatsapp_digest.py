@@ -46,7 +46,8 @@ def test_digest_content(tmp_path):
     assert "🟢 *مباريات جديدة (1)*" in text and "💼 *تقني* · إقليم تاونات" in text
     assert "⏳ آخر أجل: 16 دجنبر · 👥 3 مناصب · 📍 تاونات" in text
     assert "https://www.emploi-public.ma/fr/concours/details/" in text  # short official link
-    assert "📋 *لوائح المدعوين للكتابي* (1)" in text and "📅 تاريخ الاختبار: 29 نونبر" in text
+    assert "📋 *لوائح المدعوين للكتابي* (1)" in text
+    assert "🏛 جامعة ابن طفيل · *متصرف* · 📅 29 نونبر" in text
     assert "🏆" not in text  # seeded stages are never in a digest
     assert "t.me/RaqibEmploi" in text and "raqib-emploi.pages.dev/competitions" in text
     assert "\u2014" not in text
@@ -55,8 +56,10 @@ def test_digest_content(tmp_path):
 def test_long_digest_is_split_into_paste_sized_parts(tmp_path):
     parts = build_parts(_state(tmp_path, n_new=40), "2026-11-26T00:00:00+00:00",
                         _utc(2026, 11, 26, 8, 30), SITE, TG)
-    assert len(parts) > 1 and all(len(p) <= PART_LIMIT for p in parts)
-    assert sum(p.count("💼") for p in parts) == 40  # nothing lost between parts
+    assert all(len(p) <= PART_LIMIT for p in parts)
+    text = "\n".join(parts)
+    assert text.count("💼") == 8  # a readable post; the rest is on the website
+    assert "➕ و32 أخرى: https://raqib-emploi.pages.dev/competitions" in text
 
 
 def test_sent_once_per_slot_and_never_empty(tmp_path):
@@ -75,3 +78,16 @@ def test_sent_once_per_slot_and_never_empty(tmp_path):
 def test_no_owner_id_means_no_digest(tmp_path):
     assert maybe_send(_state(tmp_path), "", SITE, TG, now=_utc(2026, 11, 26, 8, 30),
                       sender=lambda c, p: 1 / 0) == 0
+
+
+def test_each_concours_appears_once_at_its_latest_stage(tmp_path):
+    s = _state(tmp_path)
+    url = s.posted[0]["urls"][0]
+    key = "ep:" + url.rsplit("/", 1)[1]
+    at = "2026-11-26T08:00:00+00:00"
+    for stage in ("CONVOQUES", "CONVOQUES_ORAL"):
+        s.stages.append({"key": f"{key}#{stage}", "stage": stage, "administration": "إقليم تاونات",
+                         "grade": "تقني", "telegram_message_id": 5, "url": url, "posted_at": at})
+    text = "\n".join(build_parts(s, "2026-11-26T00:00:00+00:00", _utc(2026, 11, 26, 8, 30), SITE, TG))
+    assert "🟢" not in text  # its list is out: no longer a new concours
+    assert text.count("إقليم تاونات") == 1 and "🎤" in text  # shown once, at the oral stage

@@ -12,7 +12,6 @@ to people without Telegram, so every line points to the official concours page).
 """
 from __future__ import annotations
 
-import html
 import logging
 from datetime import date, datetime, timedelta, timezone
 from zoneinfo import ZoneInfo
@@ -85,24 +84,45 @@ def _stage_block(s: dict) -> str:
     title = job_title(s.get("grade")) or _one_line(s.get("grade"))
     first = f"🏛 {_one_line(s.get('administration'))}"
     if title:
-        first += f" · {title}"
-    lines = [first]
+        first += f" · *{title}*"
     if s.get("exam_date") and s.get("stage") != "RESULTATS":
-        lines.append(f"📅 تاريخ الاختبار: {_short_date(s['exam_date'])}")
+        first += f" · 📅 {_short_date(s['exam_date'])}"
+    lines = [first]
     link = _link([s.get("url")] if s.get("url") else [])
     if link:
         lines.append(f"🔗 {link}")
     return "\n".join(lines)
 
 
+STAGE_RANK = {"CONVOQUES": 1, "CONVOQUES_ORAL": 2, "RESULTATS": 3}
+MAX_PER_SECTION = 8  # a WhatsApp post people actually read; the rest is on the website
+
+
+def _concours_key(urls) -> str | None:
+    return next((k for k in url_keys(urls) if k.startswith("ep:")), None)
+
+
 def build_parts(state: PostedState, since: str, now: datetime, site: str, telegram: str) -> list[str]:
-    """Digest text split into paste-sized parts. Empty list when nothing is new."""
+    """Digest text split into paste-sized parts. Empty list when nothing is new.
+
+    Each concours appears once, at its most advanced stage (a concours whose list of
+    invited candidates is already out is no longer "new"). Long sections are cut and
+    point to the website for the rest.
+    """
     today = now.astimezone(TZ).date().isoformat()
+    latest: dict[str, dict] = {}
+    for s in state.stages:
+        if s.get("seeded") or s.get("telegram_message_id") is None:
+            continue
+        if (s.get("posted_at") or "") <= since:
+            continue
+        key = s["key"].split("#")[0]
+        if key not in latest or STAGE_RANK.get(s["stage"], 0) > STAGE_RANK.get(latest[key]["stage"], 0):
+            latest[key] = s
+    stages = list(latest.values())
     new = [e for e in state.posted
-           if (e.get("posted_at") or "") > since and (e.get("deadline") or "9999") >= today]
-    stages = [s for s in state.stages
-              if not s.get("seeded") and s.get("telegram_message_id") is not None
-              and (s.get("posted_at") or "") > since]
+           if (e.get("posted_at") or "") > since and (e.get("deadline") or "9999") >= today
+           and _concours_key(e.get("urls", [])) not in latest]
     if not new and not stages:
         return []
     new.sort(key=lambda e: e.get("deadline") or "9999")  # closing soonest first
@@ -119,12 +139,17 @@ def build_parts(state: PostedState, since: str, now: datetime, site: str, telegr
     blocks: list[str] = []
     if new:
         blocks.append(f"🟢 *مباريات جديدة ({len(new)})*")
-        blocks += [_announcement_block(e) for e in new]
+        blocks += [_announcement_block(e) for e in new[:MAX_PER_SECTION]]
+        if len(new) > MAX_PER_SECTION:
+            blocks.append(f"➕ و{len(new) - MAX_PER_SECTION} أخرى: {site}/competitions")
     for stage, title in STAGE_SECTIONS:
         items = [s for s in stages if s.get("stage") == stage]
         if items:
             blocks.append(f"{title} ({len(items)})")
-            blocks += [_stage_block(s) for s in items]
+            blocks += [_stage_block(s) for s in items[:MAX_PER_SECTION]]
+            if len(items) > MAX_PER_SECTION:
+                blocks.append(f"➕ و{len(items) - MAX_PER_SECTION} أخرى: "
+                              f"{site}/competitions?tab=updates")
 
     parts: list[list[str]] = [[header]]
     size = len(header)
@@ -139,16 +164,24 @@ def build_parts(state: PostedState, since: str, now: datetime, site: str, telegr
 
 
 def _send(chat_id: str, parts: list[str]) -> None:
+    """One short instruction, then each part as a plain message.
+
+    Plain text (no code block): it reads right-to-left like the real post, and
+    "Copy" on the message copies exactly what goes into WhatsApp, *bold* marks included.
+    """
     from app.notify.channel import _request
 
     total = len(parts)
+    how = (f"📲 <b>ملخص واتساب جاهز</b> ({total} {'رسالة' if total == 1 else 'رسائل'})\n"
+           "اضغط مطولا على الرسالة التالية ← <b>نسخ</b>، ثم الصقها في قناة واتساب.\n"
+           "على الحاسوب: زر الفأرة الأيمن ← Copy Text.")
+    _request("sendMessage", {"chat_id": chat_id, "parse_mode": "HTML", "text": how})
     for i, part in enumerate(parts, 1):
-        intro = ("📲 <b>ملخص واتساب</b>" + (f" ({i}/{total})" if total > 1 else "")
-                 + "\nانسخ النص أسفله والصقه في قناة واتساب.")
+        if total > 1:
+            _request("sendMessage", {"chat_id": chat_id, "text": f"⬇️ {i}/{total}"})
         _request("sendMessage", {
             "chat_id": chat_id,
-            "parse_mode": "HTML",
-            "text": f"{intro}\n\n<pre>{html.escape(part, quote=False)}</pre>",
+            "text": part,  # no parse_mode: the * stay as WhatsApp bold marks
             "link_preview_options": {"is_disabled": True},
         })
 
