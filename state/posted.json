@@ -7709,6 +7709,34 @@
       "exam_date": null,
       "city": null,
       "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/9397644930e285785a8ddfaf3ae517c4.png"
+    },
+    {
+      "key": "ep:c392e86e-afb9-4920-9a4f-4735dffb7e21#CONVOQUES_ORAL",
+      "reference_code": "C 43578/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "جامعة ابن زهر - أكادير",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/c392e86e-afb9-4920-9a4f-4735dffb7e21",
+      "telegram_message_id": 235,
+      "posted_at": "2026-11-27T11:33:43+00:00",
+      "grade": "أستاذ محاضر بالمدرسة الوطنية للتكنولوجيات المتقدمة بالداخلة تخصص Mathématiques Appliquées",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/c392e86e-afb9-4920-9a4f-4735dffb7e21",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/673d4e683bf65fbf906fa190831359e7.png"
+    },
+    {
+      "key": "ep:6211f661-ec45-49cd-909b-a3caea180325#CONVOQUES_ORAL",
+      "reference_code": "C 43569/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "جامعة ابن زهر - أكادير",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/6211f661-ec45-49cd-909b-a3caea180325",
+      "telegram_message_id": 236,
+      "posted_at": "2026-11-27T11:33:53+00:00",
+      "grade": "أستاذ محاضر بالمدرسة الوطنية للتكنولوجيات المتقدمة بالعيون تخصص Mathématiques Appliquées",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/6211f661-ec45-49cd-909b-a3caea180325",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/673d4e683bf65fbf906fa190831359e7.png"
     }
   ],
   "seeded_sources": [
@@ -9343,7 +9371,15 @@
     },
     "ep:8fac8886-5c87-44e3-a6ba-7098be3eed7f": {
       "added": "2026-11-27",
-      "checked": null
+      "checked": "2026-11-27T11:32:34+00:00"
+    },
+    "ep:6211f661-ec45-49cd-909b-a3caea180325": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T11:32:55+00:00"
+    },
+    "ep:c392e86e-afb9-4920-9a4f-4735dffb7e21": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T11:32:57+00:00"
     }
   },
   "last_discovery": "2026-11-27",
