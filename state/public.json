@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-27T20:03:08+00:00",
+ "updated_at": "2026-11-27T20:33:42+00:00",
  "channel": "https://t.me/RaqibEmploi",
  "sources": [
   {
@@ -9,12 +9,75 @@
   }
  ],
  "stats": {
-  "open": 154,
-  "posted_total": 169,
-  "stage_posts_total": 122,
-  "followed": 456
+  "open": 157,
+  "posted_total": 172,
+  "stage_posts_total": 123,
+  "followed": 459
  },
  "concours": [
+  {
+   "id": "ep:9c32f98a-c3fa-493d-b4bc-f147495c215c",
+   "code": "C 45017/26",
+   "administration": "المركز الجهوي للاستثمار لجهة درعة تافيلالت",
+   "grade": "عون تنفيذ (سائق)",
+   "title": "عون تنفيذ",
+   "family": "عون",
+   "scale": null,
+   "specialty": null,
+   "posts": 1,
+   "deadline": "2026-12-11",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/e653066e8ef21bdadce0e76716ad0272.png",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/9c32f98a-c3fa-493d-b4bc-f147495c215c",
+   "tags": [],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-27T20:33:42+00:00"
+  },
+  {
+   "id": "ep:7700474f-fc0c-4f80-b866-47fda7e42120",
+   "code": "C 45016/26",
+   "administration": "المركز الجهوي للاستثمار لجهة درعة تافيلالت",
+   "grade": "مكلف(ة) بمناخ الأعمال",
+   "title": "مكلف",
+   "family": "مكلف",
+   "scale": null,
+   "specialty": null,
+   "posts": 1,
+   "deadline": "2026-12-11",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/e653066e8ef21bdadce0e76716ad0272.png",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/7700474f-fc0c-4f80-b866-47fda7e42120",
+   "tags": [],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-27T20:33:37+00:00"
+  },
+  {
+   "id": "ep:a70afe39-4faa-45c3-acd2-9527b899a4c9",
+   "code": "C 45015/26",
+   "administration": "المركز الجهوي للاستثمار لجهة درعة تافيلالت",
+   "grade": "مكلف(ة) بالتطوير والاستقطاب وتعزيز العلاقات مع المستثمرين",
+   "title": "مكلف",
+   "family": "مكلف",
+   "scale": null,
+   "specialty": null,
+   "posts": 1,
+   "deadline": "2026-12-11",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/e653066e8ef21bdadce0e76716ad0272.png",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/a70afe39-4faa-45c3-acd2-9527b899a4c9",
+   "tags": [],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-27T20:33:28+00:00"
+  },
   {
    "id": "ep:b42a8d7e-f491-4db0-9800-36181dda11f0",
    "code": "C 45014/26",
@@ -843,7 +906,7 @@
    "posted_at": "2026-11-26T17:33:10+00:00"
   },
   {
-   "id": "ep:ace1070f-f3a5-46df-947c-0372143baeb4",
+   "id": "ep:baf06523-83ae-45a3-bb1a-3144e273d7e5",
    "code": "C 44983/26",
    "administration": "إقليم الحوز",
    "grade": "تقني من الدرجة الرابعة - سُلمْ 8",
@@ -1910,7 +1973,7 @@
    "posted_at": "2026-11-26T11:04:41+00:00"
   },
   {
-   "id": "ep:72ab927f-ed00-4aa4-a2f0-bd7609355ff1",
+   "id": "ep:1e96ae25-71ea-46b8-8867-53ac0ce6201f",
    "code": "C 44934/26",
    "administration": "صورياد القناة الثانية 2M",
    "grade": "تقني في الديكور",
@@ -1977,7 +2040,7 @@
    "posted_at": "2026-11-26T10:05:29+00:00"
   },
   {
-   "id": "ep:770a12fe-e1a1-4bb9-8a7d-f6ca4c8152fb",
+   "id": "ep:9c94d268-16e7-4f46-9c9d-b1a429f8ea50",
    "code": "C 44931/26",
    "administration": "جامعة مولاي اسماعيل - مكناس",
    "grade": "أستاذ محاضر من الدرجة أ - سُلمْ 11",
@@ -2150,7 +2213,7 @@
    "posted_at": "2026-11-25T19:35:28+00:00"
   },
   {
-   "id": "ep:593d3e98-64cc-4a18-99b5-56564e510a9a",
+   "id": "ep:8a811d71-5f0c-4516-a54b-cdd421929da1",
    "code": "C 44916/26",
    "administration": "إقليم تاونات",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -2291,7 +2354,7 @@
    "posted_at": "2026-11-25T19:34:47+00:00"
   },
   {
-   "id": "ep:a7e52309-7e1c-4474-b637-1f5cf0e47b4c",
+   "id": "ep:d166cff5-6eae-4e33-bca9-65950874b2df",
    "code": "C 44897/26",
    "administration": "إقليم الحاجب - اكوراي",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -2360,7 +2423,7 @@
    "posted_at": "2026-11-25T19:34:32+00:00"
   },
   {
-   "id": "ep:d520bc73-bcf0-4974-af85-7b6af7c7c40f",
+   "id": "ep:3f6d3934-2b54-4ccb-934e-67ec66e7f762",
    "code": "C 44884/26",
    "administration": "إقليم تازة - تازة",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -2429,7 +2492,7 @@
    "posted_at": "2026-11-25T19:03:47+00:00"
   },
   {
-   "id": "ep:a7c4e6a7-7c33-4ec3-a00e-97c83892d659",
+   "id": "ep:3d0d7c43-34b5-4e4b-ba57-02da6200dbd0",
    "code": "C 44870/26",
    "administration": "إقليم برشيد - برشيد",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -3600,7 +3663,7 @@
    "posted_at": "2026-11-25T04:47:00+00:00"
   },
   {
-   "id": "ep:a308f369-e882-4c42-871d-acb07d5c6d2e",
+   "id": "ep:aa40ad09-1cb6-4408-b1a7-7507ee9673ed",
    "code": "C 44679/26",
    "administration": "جامعة شعيب الدكالي - الجديدة",
    "grade": "Technicien de 3ème grade",
@@ -3681,7 +3744,7 @@
    "posted_at": "2026-11-25T04:47:00+00:00"
   },
   {
-   "id": "ep:b7f02f9d-4b66-4dcd-8365-f3b1001009c1",
+   "id": "ep:f13bac44-60cc-4ed5-897a-905111afbeb2",
    "code": "C 44743/26",
    "administration": "وزارة العدل",
    "grade": "محرر قضائي من الدرجة الرابعة - سُلمْ 8",
@@ -3729,7 +3792,7 @@
    "posted_at": "2026-11-25T04:47:00+00:00"
   },
   {
-   "id": "ep:06f2df84-0753-47a3-95b9-4aa040df8c72",
+   "id": "ep:254a4ccc-b3d1-43d0-8b7d-a23d818766b2",
    "code": "C 44886/26",
    "administration": "وزارة الصحة والحماية الاجتماعية",
    "grade": "مساعد تقني من الدرجة الثانية",
@@ -3752,7 +3815,7 @@
    "posted_at": "2026-11-25T04:47:00+00:00"
   },
   {
-   "id": "ep:06f2df84-0753-47a3-95b9-4aa040df8c72",
+   "id": "ep:254a4ccc-b3d1-43d0-8b7d-a23d818766b2",
    "code": "C 44887/26",
    "administration": "وزارة الصحة والحماية الاجتماعية",
    "grade": "مساعد تقني من الدرجة الثانية",
@@ -3894,6 +3957,20 @@
   }
  ],
  "updates": [
+  {
+   "id": "ep:e36df18c-514f-4898-bec3-abf252b721a3",
+   "stage": "RESULTATS",
+   "administration": "الوكالة الوطنية لتنمية مناطق الواحات وشجر الأركان",
+   "grade": "إطاران إثنان (2) في المعلوميات بالمديرية الإدارية و المالية للوكالة الوطنية لتنمية مناطق الواحات وشجر الأركان",
+   "title": "إطاران إثنان",
+   "family": "إطاران",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/e5d28ca417a48a39c75df6aad3b956bf.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_resultats/e36df18c-514f-4898-bec3-abf252b721a3",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/e36df18c-514f-4898-bec3-abf252b721a3",
+   "posted_at": "2026-11-27T20:33:17+00:00"
+  },
   {
    "id": "ep:72ed0218-c625-44ef-ad36-0ddf1450d8b7",
    "stage": "RESULTATS",

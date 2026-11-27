@@ -3151,6 +3151,60 @@
       "city": null,
       "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/e653066e8ef21bdadce0e76716ad0272.png",
       "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/b42a8d7e-f491-4db0-9800-36181dda11f0"
+    },
+    {
+      "id": "C 45015/26",
+      "reference_code": "C 45015/26",
+      "administration": "المركز الجهوي للاستثمار لجهة درعة تافيلالت",
+      "grade": "مكلف(ة) بالتطوير والاستقطاب وتعزيز العلاقات مع المستثمرين",
+      "post_count": 1,
+      "deadline": "2026-12-11",
+      "exam_date": null,
+      "urls": [
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/a70afe39-4faa-45c3-acd2-9527b899a4c9"
+      ],
+      "telegram_message_id": 309,
+      "posted_at": "2026-11-27T20:33:28+00:00",
+      "specialty": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/e653066e8ef21bdadce0e76716ad0272.png",
+      "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/a70afe39-4faa-45c3-acd2-9527b899a4c9"
+    },
+    {
+      "id": "C 45016/26",
+      "reference_code": "C 45016/26",
+      "administration": "المركز الجهوي للاستثمار لجهة درعة تافيلالت",
+      "grade": "مكلف(ة) بمناخ الأعمال",
+      "post_count": 1,
+      "deadline": "2026-12-11",
+      "exam_date": null,
+      "urls": [
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/7700474f-fc0c-4f80-b866-47fda7e42120"
+      ],
+      "telegram_message_id": 310,
+      "posted_at": "2026-11-27T20:33:37+00:00",
+      "specialty": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/e653066e8ef21bdadce0e76716ad0272.png",
+      "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/7700474f-fc0c-4f80-b866-47fda7e42120"
+    },
+    {
+      "id": "C 45017/26",
+      "reference_code": "C 45017/26",
+      "administration": "المركز الجهوي للاستثمار لجهة درعة تافيلالت",
+      "grade": "عون تنفيذ (سائق)",
+      "post_count": 1,
+      "deadline": "2026-12-11",
+      "exam_date": null,
+      "urls": [
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/9c32f98a-c3fa-493d-b4bc-f147495c215c"
+      ],
+      "telegram_message_id": 311,
+      "posted_at": "2026-11-27T20:33:42+00:00",
+      "specialty": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/e653066e8ef21bdadce0e76716ad0272.png",
+      "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/9c32f98a-c3fa-493d-b4bc-f147495c215c"
     }
   ],
   "stages": [
@@ -9096,6 +9150,40 @@
       "exam_date": null,
       "city": "مراكش",
       "logo_url": null
+    },
+    {
+      "key": "ep:e36df18c-514f-4898-bec3-abf252b721a3#CONVOQUES",
+      "reference_code": "C 44019/26",
+      "stage": "CONVOQUES",
+      "administration": "الوكالة الوطنية لتنمية مناطق الواحات وشجر الأركان",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/e36df18c-514f-4898-bec3-abf252b721a3",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-27T20:32:14+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:e36df18c-514f-4898-bec3-abf252b721a3#CONVOQUES_ORAL",
+      "reference_code": "C 44019/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "الوكالة الوطنية لتنمية مناطق الواحات وشجر الأركان",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/e36df18c-514f-4898-bec3-abf252b721a3",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-27T20:32:14+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:e36df18c-514f-4898-bec3-abf252b721a3#RESULTATS",
+      "reference_code": "C 44019/26",
+      "stage": "RESULTATS",
+      "administration": "الوكالة الوطنية لتنمية مناطق الواحات وشجر الأركان",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/e36df18c-514f-4898-bec3-abf252b721a3",
+      "telegram_message_id": 308,
+      "posted_at": "2026-11-27T20:33:17+00:00",
+      "grade": "إطاران إثنان (2) في المعلوميات بالمديرية الإدارية و المالية للوكالة الوطنية لتنمية مناطق الواحات وشجر الأركان",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_resultats/e36df18c-514f-4898-bec3-abf252b721a3",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/e5d28ca417a48a39c75df6aad3b956bf.png"
     }
   ],
   "seeded_sources": [
@@ -10927,6 +11015,18 @@
     "ep:9dcf7406-1442-41c8-8758-a504626fcaf1": {
       "added": "2026-11-27",
       "checked": "2026-11-27T20:02:02+00:00"
+    },
+    "ep:9c32f98a-c3fa-493d-b4bc-f147495c215c": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T20:32:07+00:00"
+    },
+    "ep:7700474f-fc0c-4f80-b866-47fda7e42120": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T20:32:07+00:00"
+    },
+    "ep:a70afe39-4faa-45c3-acd2-9527b899a4c9": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T20:32:07+00:00"
     }
   },
   "last_discovery": "2026-11-27",

@@ -1,10 +1,10 @@
 {
-  "finished_at": "2026-11-27T20:03:08+00:00",
+  "finished_at": "2026-11-27T20:33:42+00:00",
   "sources": {
     "emploi-public.ma": "ok (359 items)"
   },
-  "posts": 3,
-  "stage_posts": 0,
+  "posts": 4,
+  "stage_posts": 1,
   "updates": 0,
   "whatsapp_digest_parts": 0,
   "dry_run": false,
