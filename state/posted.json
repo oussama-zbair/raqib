@@ -9226,6 +9226,76 @@
       "exam_date": "2026-12-13",
       "city": "العرائش",
       "logo_url": null
+    },
+    {
+      "key": "ep:59b1863d-029f-4137-8e2c-af2f65068c93#CONVOQUES",
+      "reference_code": "C 44411/26",
+      "stage": "CONVOQUES",
+      "administration": "إقليم العرائش - العرائش",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/59b1863d-029f-4137-8e2c-af2f65068c93",
+      "telegram_message_id": 315,
+      "posted_at": "2026-11-27T21:33:59+00:00",
+      "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques/59b1863d-029f-4137-8e2c-af2f65068c93",
+      "exam_date": "2026-12-13",
+      "city": "العرائش",
+      "logo_url": null
+    },
+    {
+      "key": "ep:b6d0aebc-c67b-4408-a42e-5932dd4c5680#CONVOQUES",
+      "reference_code": "C 44408/26",
+      "stage": "CONVOQUES",
+      "administration": "إقليم العرائش",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/b6d0aebc-c67b-4408-a42e-5932dd4c5680",
+      "telegram_message_id": 316,
+      "posted_at": "2026-11-27T21:34:04+00:00",
+      "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques/b6d0aebc-c67b-4408-a42e-5932dd4c5680",
+      "exam_date": "2026-12-13",
+      "city": "العرائش",
+      "logo_url": null
+    },
+    {
+      "key": "ep:c334d9fd-f462-40f9-a191-435e964cdf8d#CONVOQUES",
+      "reference_code": "C 44405/26",
+      "stage": "CONVOQUES",
+      "administration": "إقليم العرائش",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/c334d9fd-f462-40f9-a191-435e964cdf8d",
+      "telegram_message_id": 317,
+      "posted_at": "2026-11-27T21:34:09+00:00",
+      "grade": "طبيب بيطري من الدرجة الأولى - سُلمْ 11",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques/c334d9fd-f462-40f9-a191-435e964cdf8d",
+      "exam_date": "2026-12-13",
+      "city": "العرائش",
+      "logo_url": null
+    },
+    {
+      "key": "ep:3e76be8a-f7e7-4048-b028-45f892318264#CONVOQUES",
+      "reference_code": "C 44404/26",
+      "stage": "CONVOQUES",
+      "administration": "إقليم العرائش",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/3e76be8a-f7e7-4048-b028-45f892318264",
+      "telegram_message_id": 318,
+      "posted_at": "2026-11-27T21:34:14+00:00",
+      "grade": "مهندس معماري من الدرجة الأولى - سُلمْ 11",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques/3e76be8a-f7e7-4048-b028-45f892318264",
+      "exam_date": "2026-12-13",
+      "city": "العرائش",
+      "logo_url": null
+    },
+    {
+      "key": "ep:2f871006-f473-44f3-ae8d-56ce1f20af7b#CONVOQUES",
+      "reference_code": "C 44403/26",
+      "stage": "CONVOQUES",
+      "administration": "إقليم العرائش",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/2f871006-f473-44f3-ae8d-56ce1f20af7b",
+      "telegram_message_id": 319,
+      "posted_at": "2026-11-27T21:34:19+00:00",
+      "grade": "مهندس دولة من الدرجة الأولى - سُلمْ 11",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques/2f871006-f473-44f3-ae8d-56ce1f20af7b",
+      "exam_date": "2026-12-13",
+      "city": "العرائش",
+      "logo_url": null
     }
   ],
   "seeded_sources": [
@@ -11081,6 +11151,26 @@
     "ep:3d333fc8-4782-4a6b-a15d-373586ac0548": {
       "added": "2026-11-27",
       "checked": "2026-11-27T21:02:49+00:00"
+    },
+    "ep:2f871006-f473-44f3-ae8d-56ce1f20af7b": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T21:32:45+00:00"
+    },
+    "ep:3e76be8a-f7e7-4048-b028-45f892318264": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T21:32:46+00:00"
+    },
+    "ep:c334d9fd-f462-40f9-a191-435e964cdf8d": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T21:32:56+00:00"
+    },
+    "ep:b6d0aebc-c67b-4408-a42e-5932dd4c5680": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T21:32:58+00:00"
+    },
+    "ep:59b1863d-029f-4137-8e2c-af2f65068c93": {
+      "added": "2026-11-27",
+      "checked": null
     }
   },
   "last_discovery": "2026-11-27",
