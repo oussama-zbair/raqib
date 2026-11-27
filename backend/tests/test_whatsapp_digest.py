@@ -4,7 +4,7 @@ from __future__ import annotations
 from datetime import date, datetime, timedelta, timezone
 
 from app.jobs.posted_state import PostedState
-from app.jobs.whatsapp_digest import PART_LIMIT, build_parts, due_slot, maybe_send
+from app.jobs.whatsapp_digest import PART_LIMIT, TZ, build_parts, due_slot, maybe_send
 
 SITE, TG = "https://raqib-emploi.pages.dev", "https://t.me/RaqibEmploi"
 UUID = "aaaaaaaa-1111-2222-3333-444444444444"
@@ -31,15 +31,32 @@ def _state(tmp_path, n_new=1, posted_at="2026-11-26T08:00:00+00:00"):
     return s
 
 
-def test_slots_follow_morocco_time():
-    # Morocco is UTC+1 in late November.
-    assert due_slot(_utc(2026, 11, 26, 7, 30)) == "2026-11-25-pm"  # 08:30 local
-    assert due_slot(_utc(2026, 11, 26, 8, 0)) == "2026-11-26-am"   # 09:00 local
-    assert due_slot(_utc(2026, 11, 26, 17, 0)) == "2026-11-26-pm"  # 18:00 local
+def _local(y, m, d, h, mi=0):
+    """A Morocco wall-clock time, as UTC (whatever the current offset is)."""
+    return datetime(y, m, d, h, mi, tzinfo=TZ).astimezone(timezone.utc)
+
+
+def test_slots_follow_morocco_local_time():
+    assert due_slot(_local(2026, 11, 26, 8, 59)) == "2026-11-25-pm"
+    assert due_slot(_local(2026, 11, 26, 9, 0)) == "2026-11-26-am"
+    assert due_slot(_local(2026, 11, 26, 17, 59)) == "2026-11-26-am"
+    assert due_slot(_local(2026, 11, 26, 18, 0)) == "2026-11-26-pm"
+
+
+def test_offset_comes_from_the_official_rules_or_the_override(monkeypatch):
+    from app.jobs import whatsapp_digest as wd
+    monkeypatch.delenv("MOROCCO_UTC_OFFSET", raising=False)
+    assert str(wd.morocco_tz()) == "Africa/Casablanca"  # follows every official change
+    monkeypatch.setenv("MOROCCO_UTC_OFFSET", "1")
+    assert wd.morocco_tz().utcoffset(None) == timedelta(hours=1)
+    monkeypatch.setenv("MOROCCO_UTC_OFFSET", "0")
+    assert wd.morocco_tz().utcoffset(None) == timedelta(0)
+    monkeypatch.setenv("MOROCCO_UTC_OFFSET", "nonsense")
+    assert str(wd.morocco_tz()) == "Africa/Casablanca"  # a bad override is ignored
 
 
 def test_digest_content(tmp_path):
-    parts = build_parts(_state(tmp_path), "2026-11-26T00:00:00+00:00", _utc(2026, 11, 26, 8, 30), SITE, TG)
+    parts = build_parts(_state(tmp_path), "2026-11-26T00:00:00+00:00", _local(2026, 11, 26, 9, 30), SITE, TG)
     assert len(parts) == 1
     text = parts[0]
     assert text.startswith("👁 *رقيب | ملخص المباريات*")
@@ -55,7 +72,7 @@ def test_digest_content(tmp_path):
 
 def test_long_digest_is_split_into_paste_sized_parts(tmp_path):
     parts = build_parts(_state(tmp_path, n_new=40), "2026-11-26T00:00:00+00:00",
-                        _utc(2026, 11, 26, 8, 30), SITE, TG)
+                        _local(2026, 11, 26, 9, 30), SITE, TG)
     assert all(len(p) <= PART_LIMIT for p in parts)
     text = "\n".join(parts)
     assert text.count("💼") == 8  # a readable post; the rest is on the website
@@ -65,18 +82,18 @@ def test_long_digest_is_split_into_paste_sized_parts(tmp_path):
 def test_sent_once_per_slot_and_never_empty(tmp_path):
     s = _state(tmp_path)
     sent: list = []
-    morning = _utc(2026, 11, 26, 8, 30)
+    morning = _local(2026, 11, 26, 9, 30)
     assert maybe_send(s, "123", SITE, TG, now=morning, sender=lambda c, p: sent.append(p)) == 1
     assert maybe_send(s, "123", SITE, TG, now=morning + timedelta(minutes=30),
                       sender=lambda c, p: sent.append(p)) == 0  # same slot
-    evening = _utc(2026, 11, 26, 17, 5)
+    evening = _local(2026, 11, 26, 18, 5)
     assert maybe_send(s, "123", SITE, TG, now=evening, sender=lambda c, p: sent.append(p)) == 0
     assert len(sent) == 1  # nothing new since the morning: no empty digest
     assert PostedState(tmp_path / "s.json").last_digest_slot == "2026-11-26-pm"
 
 
 def test_no_owner_id_means_no_digest(tmp_path):
-    assert maybe_send(_state(tmp_path), "", SITE, TG, now=_utc(2026, 11, 26, 8, 30),
+    assert maybe_send(_state(tmp_path), "", SITE, TG, now=_local(2026, 11, 26, 9, 30),
                       sender=lambda c, p: 1 / 0) == 0
 
 
@@ -88,6 +105,6 @@ def test_each_concours_appears_once_at_its_latest_stage(tmp_path):
     for stage in ("CONVOQUES", "CONVOQUES_ORAL"):
         s.stages.append({"key": f"{key}#{stage}", "stage": stage, "administration": "إقليم تاونات",
                          "grade": "تقني", "telegram_message_id": 5, "url": url, "posted_at": at})
-    text = "\n".join(build_parts(s, "2026-11-26T00:00:00+00:00", _utc(2026, 11, 26, 8, 30), SITE, TG))
+    text = "\n".join(build_parts(s, "2026-11-26T00:00:00+00:00", _local(2026, 11, 26, 9, 30), SITE, TG))
     assert "🟢" not in text  # its list is out: no longer a new concours
     assert text.count("إقليم تاونات") == 1 and "🎤" in text  # shown once, at the oral stage

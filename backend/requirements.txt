@@ -10,6 +10,7 @@ pypdf==5.0.1
 google-generativeai==0.8.3
 python-dateutil==2.9.0.post0
 tenacity==9.0.0
+tzdata  # unpinned on purpose: always the latest official time zone rules
 
 # dev / test
 pytest==8.3.3

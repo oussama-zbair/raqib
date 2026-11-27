@@ -13,7 +13,9 @@ to people without Telegram, so every line points to the official concours page).
 from __future__ import annotations
 
 import logging
+import os
 from datetime import date, datetime, timedelta, timezone
+from zoneinfo import ZoneInfo
 
 from app.jobs.dedup import canonical_url, url_keys
 from app.jobs.posted_state import PostedState
@@ -22,10 +24,29 @@ from app.notify.channel import AR_DAYS, AR_MONTHS, fmt_posts
 
 log = logging.getLogger("whatsapp_digest")
 
-# Morocco's legal time is UTC+1 (UTC+0 only during Ramadan). A fixed offset gives the
-# same answer on every machine: time zone databases differ between servers for
-# Africa/Casablanca, which moved the digest by an hour on GitHub's Linux runners.
-TZ = timezone(timedelta(hours=1), "Morocco")
+def morocco_tz():
+    """Morocco's current legal time, whatever the government decides.
+
+    1. ``MOROCCO_UTC_OFFSET`` (e.g. "0" or "1"), a manual override for emergencies.
+    2. The IANA database (``Africa/Casablanca``), which follows every official change
+       (UTC+0, UTC+1, Ramadan). ``tzdata`` is installed at its latest version on every
+       run, so a new decision reaches the job without a code change.
+    3. UTC+0 if no database is available at all.
+    """
+    raw = os.environ.get("MOROCCO_UTC_OFFSET", "").strip()
+    if raw:
+        try:
+            return timezone(timedelta(hours=float(raw)), "Morocco")
+        except ValueError:
+            log.warning("ignoring MOROCCO_UTC_OFFSET=%r", raw)
+    try:
+        return ZoneInfo("Africa/Casablanca")
+    except Exception:  # noqa: BLE001 (no time zone data on this machine)
+        log.warning("no time zone data, using UTC+0 for Morocco")
+        return timezone.utc
+
+
+TZ = morocco_tz()
 MORNING_HOUR, EVENING_HOUR = 9, 18
 FIRST_DIGEST_HOURS = 12  # the very first digest covers the last 12 hours
 PART_LIMIT = 3500  # Telegram allows 4096 characters per message
