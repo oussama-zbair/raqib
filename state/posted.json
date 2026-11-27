@@ -2719,6 +2719,24 @@
       "city": null,
       "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/9019fa91690c04f196e5f0bf3c771e40.png",
       "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/43f7b331-67c4-484d-8666-580632bd3934"
+    },
+    {
+      "id": "C 44998/26",
+      "reference_code": "C 44998/26",
+      "administration": "أطلس اون لاين/ الخطوط الملكية المغربية",
+      "grade": "مستشار الهاتف",
+      "post_count": 30,
+      "deadline": "2026-12-11",
+      "exam_date": null,
+      "urls": [
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/6a6b667c-b0bc-4788-b773-9bc4ffef342e"
+      ],
+      "telegram_message_id": 254,
+      "posted_at": "2026-11-27T13:34:11+00:00",
+      "specialty": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/6f6e17bf2c2017193a0160f2e2884154.png",
+      "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/6a6b667c-b0bc-4788-b773-9bc4ffef342e"
     }
   ],
   "stages": [
@@ -8060,6 +8078,30 @@
       "exam_date": null,
       "city": null,
       "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/8baabd444e8ecb551c7b0e0008439d9e.png"
+    },
+    {
+      "key": "ep:7a16b629-f483-4401-b81f-98470cd70599#CONVOQUES",
+      "reference_code": null,
+      "stage": "CONVOQUES",
+      "administration": "وزارة الصحة والحماية الاجتماعية",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/7a16b629-f483-4401-b81f-98470cd70599",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-27T13:32:42+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:0bc3b58e-cfd7-466e-9023-6faf53a94738#CONVOQUES_ORAL",
+      "reference_code": "C 44132/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "وزارة الداخلية -المديرية العامة للوقاية المدنية-",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/0bc3b58e-cfd7-466e-9023-6faf53a94738",
+      "telegram_message_id": 253,
+      "posted_at": "2026-11-27T13:33:59+00:00",
+      "grade": "التلاميذ الضباط - سُلمْ 10",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/0bc3b58e-cfd7-466e-9023-6faf53a94738",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/df91f79f3873fe39bc7d3bd139d495c6.png"
     }
   ],
   "seeded_sources": [
@@ -9735,6 +9777,14 @@
     "ep:b98caad7-0b72-4930-b2ce-e05e02fc53e7": {
       "added": "2026-11-27",
       "checked": "2026-11-27T13:03:52+00:00"
+    },
+    "ep:6a6b667c-b0bc-4788-b773-9bc4ffef342e": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T13:32:44+00:00"
+    },
+    "ep:7a16b629-f483-4401-b81f-98470cd70599": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T13:32:57+00:00"
     }
   },
   "last_discovery": "2026-11-27",
