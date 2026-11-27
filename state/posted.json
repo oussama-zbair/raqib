@@ -8900,6 +8900,78 @@
       "exam_date": null,
       "city": null,
       "logo_url": null
+    },
+    {
+      "key": "ep:7f79a7c0-37f4-4253-a26d-38dd458afc9e#CONVOQUES_ORAL",
+      "reference_code": "C 42942/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "شركة التنمية الجهوية \"خدمات الشرق\"",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/7f79a7c0-37f4-4253-a26d-38dd458afc9e",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-27T18:32:48+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:e5ae5c69-47f0-433b-a151-4dbf6e4b6b28#CONVOQUES_ORAL",
+      "reference_code": "C 42943/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "شركة التنمية الجهوية \"خدمات الشرق\"",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/e5ae5c69-47f0-433b-a151-4dbf6e4b6b28",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-27T18:32:49+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:6be09424-2bea-4cb7-a29d-dda109c347fb#CONVOQUES_ORAL",
+      "reference_code": "C 42944/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "شركة التنمية الجهوية \"خدمات الشرق\"",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/6be09424-2bea-4cb7-a29d-dda109c347fb",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-27T18:32:51+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:6be09424-2bea-4cb7-a29d-dda109c347fb#RESULTATS",
+      "reference_code": "C 42944/26",
+      "stage": "RESULTATS",
+      "administration": "شركة التنمية الجهوية \"خدمات الشرق\"",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/6be09424-2bea-4cb7-a29d-dda109c347fb",
+      "telegram_message_id": 298,
+      "posted_at": "2026-11-27T18:33:32+00:00",
+      "grade": "التشحيم",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_resultats/6be09424-2bea-4cb7-a29d-dda109c347fb",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/cd62178df2cfd8adc6adc86d1e72ff10.png"
+    },
+    {
+      "key": "ep:e5ae5c69-47f0-433b-a151-4dbf6e4b6b28#RESULTATS",
+      "reference_code": "C 42943/26",
+      "stage": "RESULTATS",
+      "administration": "شركة التنمية الجهوية \"خدمات الشرق\"",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/e5ae5c69-47f0-433b-a151-4dbf6e4b6b28",
+      "telegram_message_id": 299,
+      "posted_at": "2026-11-27T18:33:38+00:00",
+      "grade": "حارس",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_resultats/e5ae5c69-47f0-433b-a151-4dbf6e4b6b28",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/cd62178df2cfd8adc6adc86d1e72ff10.png"
+    },
+    {
+      "key": "ep:7f79a7c0-37f4-4253-a26d-38dd458afc9e#RESULTATS",
+      "reference_code": "C 42942/26",
+      "stage": "RESULTATS",
+      "administration": "شركة التنمية الجهوية \"خدمات الشرق\"",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/7f79a7c0-37f4-4253-a26d-38dd458afc9e",
+      "telegram_message_id": 300,
+      "posted_at": "2026-11-27T18:33:43+00:00",
+      "grade": "سائق ضاغطة",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_resultats/7f79a7c0-37f4-4253-a26d-38dd458afc9e",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/cd62178df2cfd8adc6adc86d1e72ff10.png"
     }
   ],
   "seeded_sources": [

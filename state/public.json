@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-27T18:03:27+00:00",
+ "updated_at": "2026-11-27T18:33:48+00:00",
  "channel": "https://t.me/RaqibEmploi",
  "sources": [
   {
@@ -11,7 +11,7 @@
  "stats": {
   "open": 150,
   "posted_total": 165,
-  "stage_posts_total": 116,
+  "stage_posts_total": 119,
   "followed": 452
  },
  "concours": [
@@ -1203,7 +1203,7 @@
    "posted_at": "2026-11-26T14:12:12+00:00"
   },
   {
-   "id": "ep:a85ded0c-df8c-4beb-be8f-ea0d420f104d",
+   "id": "ep:9533bf08-01f6-43d8-a4ec-22554f0dc3e3",
    "code": "C 44966/26",
    "administration": "جامعة محمد الأول - وجدة",
    "grade": "أستاذ محاضر لفائدة المدرسة العليا للتربية والتكوين وجدة.",
@@ -1821,7 +1821,7 @@
    "posted_at": "2026-11-26T11:04:41+00:00"
   },
   {
-   "id": "ep:87771aba-7e04-4a17-9562-533af23e2dc1",
+   "id": "ep:72ab927f-ed00-4aa4-a2f0-bd7609355ff1",
    "code": "C 44934/26",
    "administration": "صورياد القناة الثانية 2M",
    "grade": "تقني في الديكور",
@@ -1888,7 +1888,7 @@
    "posted_at": "2026-11-26T10:05:29+00:00"
   },
   {
-   "id": "ep:770a12fe-e1a1-4bb9-8a7d-f6ca4c8152fb",
+   "id": "ep:9c94d268-16e7-4f46-9c9d-b1a429f8ea50",
    "code": "C 44931/26",
    "administration": "جامعة مولاي اسماعيل - مكناس",
    "grade": "أستاذ محاضر من الدرجة أ - سُلمْ 11",
@@ -2202,7 +2202,7 @@
    "posted_at": "2026-11-25T19:34:47+00:00"
   },
   {
-   "id": "ep:a5b90bf5-4086-434c-b948-8880d9adb947",
+   "id": "ep:a7e52309-7e1c-4474-b637-1f5cf0e47b4c",
    "code": "C 44897/26",
    "administration": "إقليم الحاجب - اكوراي",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -2271,7 +2271,7 @@
    "posted_at": "2026-11-25T19:34:32+00:00"
   },
   {
-   "id": "ep:3f6d3934-2b54-4ccb-934e-67ec66e7f762",
+   "id": "ep:d520bc73-bcf0-4974-af85-7b6af7c7c40f",
    "code": "C 44884/26",
    "administration": "إقليم تازة - تازة",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -3640,7 +3640,7 @@
    "posted_at": "2026-11-25T04:47:00+00:00"
   },
   {
-   "id": "ep:254a4ccc-b3d1-43d0-8b7d-a23d818766b2",
+   "id": "ep:06f2df84-0753-47a3-95b9-4aa040df8c72",
    "code": "C 44886/26",
    "administration": "وزارة الصحة والحماية الاجتماعية",
    "grade": "مساعد تقني من الدرجة الثانية",
@@ -3663,7 +3663,7 @@
    "posted_at": "2026-11-25T04:47:00+00:00"
   },
   {
-   "id": "ep:254a4ccc-b3d1-43d0-8b7d-a23d818766b2",
+   "id": "ep:06f2df84-0753-47a3-95b9-4aa040df8c72",
    "code": "C 44887/26",
    "administration": "وزارة الصحة والحماية الاجتماعية",
    "grade": "مساعد تقني من الدرجة الثانية",
@@ -3805,6 +3805,48 @@
   }
  ],
  "updates": [
+  {
+   "id": "ep:7f79a7c0-37f4-4253-a26d-38dd458afc9e",
+   "stage": "RESULTATS",
+   "administration": "شركة التنمية الجهوية \"خدمات الشرق\"",
+   "grade": "سائق ضاغطة",
+   "title": "سائق ضاغطة",
+   "family": "سائق",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/cd62178df2cfd8adc6adc86d1e72ff10.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_resultats/7f79a7c0-37f4-4253-a26d-38dd458afc9e",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/7f79a7c0-37f4-4253-a26d-38dd458afc9e",
+   "posted_at": "2026-11-27T18:33:43+00:00"
+  },
+  {
+   "id": "ep:e5ae5c69-47f0-433b-a151-4dbf6e4b6b28",
+   "stage": "RESULTATS",
+   "administration": "شركة التنمية الجهوية \"خدمات الشرق\"",
+   "grade": "حارس",
+   "title": "حارس",
+   "family": "حارس",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/cd62178df2cfd8adc6adc86d1e72ff10.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_resultats/e5ae5c69-47f0-433b-a151-4dbf6e4b6b28",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/e5ae5c69-47f0-433b-a151-4dbf6e4b6b28",
+   "posted_at": "2026-11-27T18:33:38+00:00"
+  },
+  {
+   "id": "ep:6be09424-2bea-4cb7-a29d-dda109c347fb",
+   "stage": "RESULTATS",
+   "administration": "شركة التنمية الجهوية \"خدمات الشرق\"",
+   "grade": "التشحيم",
+   "title": "التشحيم",
+   "family": "تشحيم",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/cd62178df2cfd8adc6adc86d1e72ff10.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_resultats/6be09424-2bea-4cb7-a29d-dda109c347fb",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/6be09424-2bea-4cb7-a29d-dda109c347fb",
+   "posted_at": "2026-11-27T18:33:32+00:00"
+  },
   {
    "id": "ep:dea455f7-faac-4f92-8111-7641aace8bb2",
    "stage": "RESULTATS",
