@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-27T20:33:42+00:00",
+ "updated_at": "2026-11-27T21:04:14+00:00",
  "channel": "https://t.me/RaqibEmploi",
  "sources": [
   {
@@ -11,8 +11,8 @@
  "stats": {
   "open": 157,
   "posted_total": 172,
-  "stage_posts_total": 123,
-  "followed": 459
+  "stage_posts_total": 126,
+  "followed": 462
  },
  "concours": [
   {
@@ -1355,7 +1355,7 @@
    "posted_at": "2026-11-26T14:12:12+00:00"
   },
   {
-   "id": "ep:9533bf08-01f6-43d8-a4ec-22554f0dc3e3",
+   "id": "ep:a85ded0c-df8c-4beb-be8f-ea0d420f104d",
    "code": "C 44966/26",
    "administration": "جامعة محمد الأول - وجدة",
    "grade": "أستاذ محاضر لفائدة المدرسة العليا للتربية والتكوين وجدة.",
@@ -2213,7 +2213,7 @@
    "posted_at": "2026-11-25T19:35:28+00:00"
   },
   {
-   "id": "ep:8a811d71-5f0c-4516-a54b-cdd421929da1",
+   "id": "ep:593d3e98-64cc-4a18-99b5-56564e510a9a",
    "code": "C 44916/26",
    "administration": "إقليم تاونات",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -2538,7 +2538,7 @@
    "posted_at": "2026-11-25T19:03:38+00:00"
   },
   {
-   "id": "ep:35a928ed-d8e5-4555-8daf-fa89a806a698",
+   "id": "ep:c7259a97-09c2-4050-893a-c2226569266d",
    "code": "C 44868/26",
    "administration": "إقليم الخميسات - الزحيلكة",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -3163,7 +3163,7 @@
    "posted_at": "2026-11-25T18:24:59+00:00"
   },
   {
-   "id": "ep:aa5a7bf0-c8ed-4221-bff0-de210c2b0d44",
+   "id": "ep:48737302-a809-41b9-a23d-03980d4b9460",
    "code": "C 44889/26",
    "administration": "شركة المنشآت الرياضية لطنجة ش.م",
    "grade": "تقني تيار قوي",
@@ -3663,7 +3663,7 @@
    "posted_at": "2026-11-25T04:47:00+00:00"
   },
   {
-   "id": "ep:aa40ad09-1cb6-4408-b1a7-7507ee9673ed",
+   "id": "ep:a308f369-e882-4c42-871d-acb07d5c6d2e",
    "code": "C 44679/26",
    "administration": "جامعة شعيب الدكالي - الجديدة",
    "grade": "Technicien de 3ème grade",
@@ -3744,7 +3744,7 @@
    "posted_at": "2026-11-25T04:47:00+00:00"
   },
   {
-   "id": "ep:f13bac44-60cc-4ed5-897a-905111afbeb2",
+   "id": "ep:b7f02f9d-4b66-4dcd-8365-f3b1001009c1",
    "code": "C 44743/26",
    "administration": "وزارة العدل",
    "grade": "محرر قضائي من الدرجة الرابعة - سُلمْ 8",
@@ -3792,7 +3792,7 @@
    "posted_at": "2026-11-25T04:47:00+00:00"
   },
   {
-   "id": "ep:254a4ccc-b3d1-43d0-8b7d-a23d818766b2",
+   "id": "ep:06f2df84-0753-47a3-95b9-4aa040df8c72",
    "code": "C 44886/26",
    "administration": "وزارة الصحة والحماية الاجتماعية",
    "grade": "مساعد تقني من الدرجة الثانية",
@@ -3815,7 +3815,7 @@
    "posted_at": "2026-11-25T04:47:00+00:00"
   },
   {
-   "id": "ep:254a4ccc-b3d1-43d0-8b7d-a23d818766b2",
+   "id": "ep:06f2df84-0753-47a3-95b9-4aa040df8c72",
    "code": "C 44887/26",
    "administration": "وزارة الصحة والحماية الاجتماعية",
    "grade": "مساعد تقني من الدرجة الثانية",
@@ -3957,6 +3957,48 @@
   }
  ],
  "updates": [
+  {
+   "id": "ep:6d48f869-9ee5-44da-a519-2d12f44ce599",
+   "stage": "CONVOQUES",
+   "administration": "إقليم العرائش",
+   "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
+   "title": "تقني",
+   "family": "تقني",
+   "exam_date": "2026-12-13",
+   "city": "العرائش",
+   "logo": null,
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques/6d48f869-9ee5-44da-a519-2d12f44ce599",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/6d48f869-9ee5-44da-a519-2d12f44ce599",
+   "posted_at": "2026-11-27T21:04:10+00:00"
+  },
+  {
+   "id": "ep:1ac1b686-dc7d-4261-b1da-a6a673f2b6b9",
+   "stage": "CONVOQUES",
+   "administration": "إقليم العرائش",
+   "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
+   "title": "تقني",
+   "family": "تقني",
+   "exam_date": "2026-12-13",
+   "city": "العرائش",
+   "logo": null,
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques/1ac1b686-dc7d-4261-b1da-a6a673f2b6b9",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/1ac1b686-dc7d-4261-b1da-a6a673f2b6b9",
+   "posted_at": "2026-11-27T21:04:05+00:00"
+  },
+  {
+   "id": "ep:3d333fc8-4782-4a6b-a15d-373586ac0548",
+   "stage": "CONVOQUES",
+   "administration": "جامعة ابن زهر - أكادير",
+   "grade": "متصرف من الدرجة الثالثة بكلية العلوم الإنسانية و الإجتماعية بالسمارة تخصص لغات أجنبية",
+   "title": "متصرف",
+   "family": "متصرف",
+   "exam_date": "2026-11-29",
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/673d4e683bf65fbf906fa190831359e7.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques/3d333fc8-4782-4a6b-a15d-373586ac0548",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/3d333fc8-4782-4a6b-a15d-373586ac0548",
+   "posted_at": "2026-11-27T21:04:01+00:00"
+  },
   {
    "id": "ep:e36df18c-514f-4898-bec3-abf252b721a3",
    "stage": "RESULTATS",

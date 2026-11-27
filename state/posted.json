@@ -9184,6 +9184,48 @@
       "exam_date": null,
       "city": null,
       "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/e5d28ca417a48a39c75df6aad3b956bf.png"
+    },
+    {
+      "key": "ep:3d333fc8-4782-4a6b-a15d-373586ac0548#CONVOQUES",
+      "reference_code": "C 44548/26",
+      "stage": "CONVOQUES",
+      "administration": "جامعة ابن زهر - أكادير",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/3d333fc8-4782-4a6b-a15d-373586ac0548",
+      "telegram_message_id": 312,
+      "posted_at": "2026-11-27T21:04:01+00:00",
+      "grade": "متصرف من الدرجة الثالثة بكلية العلوم الإنسانية و الإجتماعية بالسمارة تخصص لغات أجنبية",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques/3d333fc8-4782-4a6b-a15d-373586ac0548",
+      "exam_date": "2026-11-29",
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/673d4e683bf65fbf906fa190831359e7.png"
+    },
+    {
+      "key": "ep:1ac1b686-dc7d-4261-b1da-a6a673f2b6b9#CONVOQUES",
+      "reference_code": "C 44414/26",
+      "stage": "CONVOQUES",
+      "administration": "إقليم العرائش",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/1ac1b686-dc7d-4261-b1da-a6a673f2b6b9",
+      "telegram_message_id": 313,
+      "posted_at": "2026-11-27T21:04:05+00:00",
+      "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques/1ac1b686-dc7d-4261-b1da-a6a673f2b6b9",
+      "exam_date": "2026-12-13",
+      "city": "العرائش",
+      "logo_url": null
+    },
+    {
+      "key": "ep:6d48f869-9ee5-44da-a519-2d12f44ce599#CONVOQUES",
+      "reference_code": "C 44413/26",
+      "stage": "CONVOQUES",
+      "administration": "إقليم العرائش",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/6d48f869-9ee5-44da-a519-2d12f44ce599",
+      "telegram_message_id": 314,
+      "posted_at": "2026-11-27T21:04:10+00:00",
+      "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques/6d48f869-9ee5-44da-a519-2d12f44ce599",
+      "exam_date": "2026-12-13",
+      "city": "العرائش",
+      "logo_url": null
     }
   ],
   "seeded_sources": [
@@ -11027,6 +11069,18 @@
     "ep:a70afe39-4faa-45c3-acd2-9527b899a4c9": {
       "added": "2026-11-27",
       "checked": "2026-11-27T20:32:07+00:00"
+    },
+    "ep:6d48f869-9ee5-44da-a519-2d12f44ce599": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T21:02:39+00:00"
+    },
+    "ep:1ac1b686-dc7d-4261-b1da-a6a673f2b6b9": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T21:02:43+00:00"
+    },
+    "ep:3d333fc8-4782-4a6b-a15d-373586ac0548": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T21:02:49+00:00"
     }
   },
   "last_discovery": "2026-11-27",
