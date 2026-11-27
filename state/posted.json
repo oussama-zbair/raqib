@@ -2935,6 +2935,78 @@
       "city": null,
       "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/3594e48789e2a5929f096ef6d133a51c.jpg",
       "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/49bb8e7e-0d32-463f-a837-728c339a73ef"
+    },
+    {
+      "id": "C 45003/26",
+      "reference_code": "C 45003/26",
+      "administration": "غرفة التجارة والصناعة والخدمات لدرعة تافيلالت",
+      "grade": "متصرف من الدرجة الثالثة - سُلمْ 10",
+      "post_count": 1,
+      "deadline": "2026-12-11",
+      "exam_date": "2026-12-20",
+      "urls": [
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/51e82332-4cbd-4c8c-94cf-5ddd53bd21c1"
+      ],
+      "telegram_message_id": 288,
+      "posted_at": "2026-11-27T17:32:52+00:00",
+      "specialty": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/logo-535.png",
+      "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/51e82332-4cbd-4c8c-94cf-5ddd53bd21c1"
+    },
+    {
+      "id": "C 45004/26",
+      "reference_code": "C 45004/26",
+      "administration": "الوكالة الوطنية للسلامة الطرقية",
+      "grade": "متصرف من الدرجة الثانية - سُلمْ 11",
+      "post_count": 8,
+      "deadline": "2026-12-11",
+      "exam_date": "2026-12-20",
+      "urls": [
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/47766705-425e-4a10-a1bd-406204830b2c"
+      ],
+      "telegram_message_id": 289,
+      "posted_at": "2026-11-27T17:32:57+00:00",
+      "specialty": "القانون العام : المنازعات الإدارية / التدبير المالي والمحاسباتي / التدقيق ومراقبة التدبير / إدارة الأعمال",
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/7d02dc3f0371f622a4b0108c4058240e.png",
+      "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/47766705-425e-4a10-a1bd-406204830b2c"
+    },
+    {
+      "id": "C 45005/26",
+      "reference_code": "C 45005/26",
+      "administration": "غرفة التجارة والصناعة والخدمات لدرعة تافيلالت",
+      "grade": "متصرف من الدرجة الثانية - سُلمْ 11",
+      "post_count": 2,
+      "deadline": "2026-12-11",
+      "exam_date": "2026-12-20",
+      "urls": [
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/09471bd2-543a-4395-af95-a08c77531140"
+      ],
+      "telegram_message_id": 290,
+      "posted_at": "2026-11-27T17:33:03+00:00",
+      "specialty": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/a7546601b099ac6ff596b24be311d517.png",
+      "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/09471bd2-543a-4395-af95-a08c77531140"
+    },
+    {
+      "id": "C 45006/26",
+      "reference_code": "C 45006/26",
+      "administration": "الوكالة الوطنية للسلامة الطرقية",
+      "grade": "مهندس دولة من الدرجة الأولى - سُلمْ 11",
+      "post_count": 8,
+      "deadline": "2026-12-11",
+      "exam_date": "2026-12-20",
+      "urls": [
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/e70e4e8c-881d-4be3-92b2-88f427700bab"
+      ],
+      "telegram_message_id": 291,
+      "posted_at": "2026-11-27T17:33:08+00:00",
+      "specialty": "الميكانيك / الإلكتروميكانيك / الهندسة المدنية (الطرق / البنيات التحتية للنقل) / الهندسة المعلوماتية",
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/7d02dc3f0371f622a4b0108c4058240e.png",
+      "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/e70e4e8c-881d-4be3-92b2-88f427700bab"
     }
   ],
   "stages": [
@@ -8674,6 +8746,40 @@
       "exam_date": null,
       "city": null,
       "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/c9f0f895fb98ab9159f51fd0297e236d-20250923115858.png"
+    },
+    {
+      "key": "ep:8948db1d-e4d1-44c8-8995-9803ab6b3a6e#CONVOQUES",
+      "reference_code": "C 41886/26",
+      "stage": "CONVOQUES",
+      "administration": "الوكالة الوطنية للمحافظة العقارية والمسح العقاري والخرائطية",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/8948db1d-e4d1-44c8-8995-9803ab6b3a6e",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-27T17:31:59+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:8948db1d-e4d1-44c8-8995-9803ab6b3a6e#CONVOQUES_ORAL",
+      "reference_code": "C 41886/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "الوكالة الوطنية للمحافظة العقارية والمسح العقاري والخرائطية",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/8948db1d-e4d1-44c8-8995-9803ab6b3a6e",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-27T17:31:59+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:8948db1d-e4d1-44c8-8995-9803ab6b3a6e#RESULTATS",
+      "reference_code": "C 41886/26",
+      "stage": "RESULTATS",
+      "administration": "الوكالة الوطنية للمحافظة العقارية والمسح العقاري والخرائطية",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/8948db1d-e4d1-44c8-8995-9803ab6b3a6e",
+      "telegram_message_id": 287,
+      "posted_at": "2026-11-27T17:32:41+00:00",
+      "grade": "الإجازة في القانون الخاص",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_resultats/8948db1d-e4d1-44c8-8995-9803ab6b3a6e",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/4024fcce1d8fa75068009dc91ef4a580.png"
     }
   ],
   "seeded_sources": [
@@ -10444,15 +10550,31 @@
     },
     "ep:7c53345f-107d-432b-91af-51a51f8fa9ee": {
       "added": "2026-11-27",
-      "checked": null
+      "checked": "2026-11-27T17:31:46+00:00"
     },
     "ep:9ccca16e-da45-42c2-85ec-ba3c67eb824c": {
       "added": "2026-11-27",
-      "checked": null
+      "checked": "2026-11-27T17:31:48+00:00"
     },
     "ep:1ea2d79f-0aa6-4766-bd8a-e487bd173c46": {
       "added": "2026-11-27",
-      "checked": null
+      "checked": "2026-11-27T17:31:49+00:00"
+    },
+    "ep:e70e4e8c-881d-4be3-92b2-88f427700bab": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T17:31:45+00:00"
+    },
+    "ep:09471bd2-543a-4395-af95-a08c77531140": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T17:31:45+00:00"
+    },
+    "ep:47766705-425e-4a10-a1bd-406204830b2c": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T17:31:45+00:00"
+    },
+    "ep:51e82332-4cbd-4c8c-94cf-5ddd53bd21c1": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T17:31:45+00:00"
     }
   },
   "last_discovery": "2026-11-27",
