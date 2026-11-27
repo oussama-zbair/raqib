@@ -2737,6 +2737,24 @@
       "city": null,
       "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/6f6e17bf2c2017193a0160f2e2884154.png",
       "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/6a6b667c-b0bc-4788-b773-9bc4ffef342e"
+    },
+    {
+      "id": "C 44999/26",
+      "reference_code": "C 44999/26",
+      "administration": "وزارة الصحة والحماية الاجتماعية",
+      "grade": "طبيب من الدرجة الأولى - سُلمْ 11",
+      "post_count": 4,
+      "deadline": "2026-12-16",
+      "exam_date": "2026-12-20",
+      "urls": [
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/4a766760-a2c7-424b-be18-811cecb52459"
+      ],
+      "telegram_message_id": 257,
+      "posted_at": "2026-11-27T14:04:22+00:00",
+      "specialty": "أطباء",
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/eaaec5e6de1d7599e1e7fe015f19d1fd.png",
+      "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/4a766760-a2c7-424b-be18-811cecb52459"
     }
   ],
   "stages": [
@@ -8102,6 +8120,74 @@
       "exam_date": null,
       "city": null,
       "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/df91f79f3873fe39bc7d3bd139d495c6.png"
+    },
+    {
+      "key": "ep:daa29603-b18f-418d-b290-fa54d6096991#CONVOQUES",
+      "reference_code": "C 43808/26",
+      "stage": "CONVOQUES",
+      "administration": "الوكالة المغربية للأمن والسلامة في المجالين النووي والإشعاعي",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/daa29603-b18f-418d-b290-fa54d6096991",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-27T14:02:49+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:daa29603-b18f-418d-b290-fa54d6096991#CONVOQUES_ORAL",
+      "reference_code": "C 43808/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "الوكالة المغربية للأمن والسلامة في المجالين النووي والإشعاعي",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/daa29603-b18f-418d-b290-fa54d6096991",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-27T14:02:49+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:e8550710-3ecf-47f6-974f-313e8ec70bf4#CONVOQUES",
+      "reference_code": "C 43803/26",
+      "stage": "CONVOQUES",
+      "administration": "الوكالة المغربية للأمن والسلامة في المجالين النووي والإشعاعي",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/e8550710-3ecf-47f6-974f-313e8ec70bf4",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-27T14:02:51+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:e8550710-3ecf-47f6-974f-313e8ec70bf4#CONVOQUES_ORAL",
+      "reference_code": "C 43803/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "الوكالة المغربية للأمن والسلامة في المجالين النووي والإشعاعي",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/e8550710-3ecf-47f6-974f-313e8ec70bf4",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-27T14:02:51+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:e8550710-3ecf-47f6-974f-313e8ec70bf4#RESULTATS",
+      "reference_code": "C 43803/26",
+      "stage": "RESULTATS",
+      "administration": "الوكالة المغربية للأمن والسلامة في المجالين النووي والإشعاعي",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/e8550710-3ecf-47f6-974f-313e8ec70bf4",
+      "telegram_message_id": 255,
+      "posted_at": "2026-11-27T14:04:04+00:00",
+      "grade": "مهندس دولة من الدرجة الأولى - سُلمْ 11",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_resultats/e8550710-3ecf-47f6-974f-313e8ec70bf4",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/4492a9a171d6b4ee4cd3e748a2921183.png"
+    },
+    {
+      "key": "ep:daa29603-b18f-418d-b290-fa54d6096991#RESULTATS",
+      "reference_code": "C 43808/26",
+      "stage": "RESULTATS",
+      "administration": "الوكالة المغربية للأمن والسلامة في المجالين النووي والإشعاعي",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/daa29603-b18f-418d-b290-fa54d6096991",
+      "telegram_message_id": 256,
+      "posted_at": "2026-11-27T14:04:12+00:00",
+      "grade": "متصرف من الدرجة الثانية - سُلمْ 11",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_resultats/daa29603-b18f-418d-b290-fa54d6096991",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/4492a9a171d6b4ee4cd3e748a2921183.png"
     }
   ],
   "seeded_sources": [
@@ -9785,6 +9871,10 @@
     "ep:7a16b629-f483-4401-b81f-98470cd70599": {
       "added": "2026-11-27",
       "checked": "2026-11-27T13:32:57+00:00"
+    },
+    "ep:4a766760-a2c7-424b-be18-811cecb52459": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T14:02:40+00:00"
     }
   },
   "last_discovery": "2026-11-27",

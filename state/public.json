@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-27T13:34:11+00:00",
+ "updated_at": "2026-11-27T14:04:22+00:00",
  "channel": "https://t.me/RaqibEmploi",
  "sources": [
   {
@@ -9,12 +9,35 @@
   }
  ],
  "stats": {
-  "open": 131,
-  "posted_total": 146,
-  "stage_posts_total": 92,
-  "followed": 419
+  "open": 132,
+  "posted_total": 147,
+  "stage_posts_total": 94,
+  "followed": 420
  },
  "concours": [
+  {
+   "id": "ep:4a766760-a2c7-424b-be18-811cecb52459",
+   "code": "C 44999/26",
+   "administration": "وزارة الصحة والحماية الاجتماعية",
+   "grade": "طبيب من الدرجة الأولى - سُلمْ 11",
+   "title": "طبيب",
+   "family": "طبيب",
+   "scale": 11,
+   "specialty": "أطباء",
+   "posts": 4,
+   "deadline": "2026-12-16",
+   "exam_date": "2026-12-20",
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/eaaec5e6de1d7599e1e7fe015f19d1fd.png",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/4a766760-a2c7-424b-be18-811cecb52459",
+   "tags": [
+    "صحة"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-27T14:04:22+00:00"
+  },
   {
    "id": "ep:6a6b667c-b0bc-4788-b773-9bc4ffef342e",
    "code": "C 44998/26",
@@ -316,7 +339,7 @@
    "posted_at": "2026-11-26T17:33:10+00:00"
   },
   {
-   "id": "ep:baf06523-83ae-45a3-bb1a-3144e273d7e5",
+   "id": "ep:ace1070f-f3a5-46df-947c-0372143baeb4",
    "code": "C 44983/26",
    "administration": "إقليم الحوز",
    "grade": "تقني من الدرجة الرابعة - سُلمْ 8",
@@ -765,7 +788,7 @@
    "posted_at": "2026-11-26T14:12:12+00:00"
   },
   {
-   "id": "ep:a85ded0c-df8c-4beb-be8f-ea0d420f104d",
+   "id": "ep:9533bf08-01f6-43d8-a4ec-22554f0dc3e3",
    "code": "C 44966/26",
    "administration": "جامعة محمد الأول - وجدة",
    "grade": "أستاذ محاضر لفائدة المدرسة العليا للتربية والتكوين وجدة.",
@@ -1383,7 +1406,7 @@
    "posted_at": "2026-11-26T11:04:41+00:00"
   },
   {
-   "id": "ep:72ab927f-ed00-4aa4-a2f0-bd7609355ff1",
+   "id": "ep:87771aba-7e04-4a17-9562-533af23e2dc1",
    "code": "C 44934/26",
    "administration": "صورياد القناة الثانية 2M",
    "grade": "تقني في الديكور",
@@ -1547,7 +1570,7 @@
    "posted_at": "2026-11-26T00:05:38+00:00"
   },
   {
-   "id": "ep:2fef0122-6371-4de3-af5f-54385044d832",
+   "id": "ep:98f8f5aa-a77c-4571-8490-2ecfd8f0404f",
    "code": "C 44716/26",
    "administration": "الوكالة الوطنية للدعم الاجتماعي",
    "grade": "تقني متخصص في البناء",
@@ -1902,7 +1925,7 @@
    "posted_at": "2026-11-25T19:03:47+00:00"
   },
   {
-   "id": "ep:a7c4e6a7-7c33-4ec3-a00e-97c83892d659",
+   "id": "ep:3d0d7c43-34b5-4e4b-ba57-02da6200dbd0",
    "code": "C 44870/26",
    "administration": "إقليم برشيد - برشيد",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -1948,7 +1971,7 @@
    "posted_at": "2026-11-25T19:03:38+00:00"
   },
   {
-   "id": "ep:35a928ed-d8e5-4555-8daf-fa89a806a698",
+   "id": "ep:c7259a97-09c2-4050-893a-c2226569266d",
    "code": "C 44868/26",
    "administration": "إقليم الخميسات - الزحيلكة",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -2573,7 +2596,7 @@
    "posted_at": "2026-11-25T18:24:59+00:00"
   },
   {
-   "id": "ep:48737302-a809-41b9-a23d-03980d4b9460",
+   "id": "ep:aa5a7bf0-c8ed-4221-bff0-de210c2b0d44",
    "code": "C 44889/26",
    "administration": "شركة المنشآت الرياضية لطنجة ش.م",
    "grade": "تقني تيار قوي",
@@ -3202,7 +3225,7 @@
    "posted_at": "2026-11-25T04:47:00+00:00"
   },
   {
-   "id": "ep:06f2df84-0753-47a3-95b9-4aa040df8c72",
+   "id": "ep:254a4ccc-b3d1-43d0-8b7d-a23d818766b2",
    "code": "C 44886/26",
    "administration": "وزارة الصحة والحماية الاجتماعية",
    "grade": "مساعد تقني من الدرجة الثانية",
@@ -3225,7 +3248,7 @@
    "posted_at": "2026-11-25T04:47:00+00:00"
   },
   {
-   "id": "ep:06f2df84-0753-47a3-95b9-4aa040df8c72",
+   "id": "ep:254a4ccc-b3d1-43d0-8b7d-a23d818766b2",
    "code": "C 44887/26",
    "administration": "وزارة الصحة والحماية الاجتماعية",
    "grade": "مساعد تقني من الدرجة الثانية",
@@ -3367,6 +3390,34 @@
   }
  ],
  "updates": [
+  {
+   "id": "ep:daa29603-b18f-418d-b290-fa54d6096991",
+   "stage": "RESULTATS",
+   "administration": "الوكالة المغربية للأمن والسلامة في المجالين النووي والإشعاعي",
+   "grade": "متصرف من الدرجة الثانية - سُلمْ 11",
+   "title": "متصرف",
+   "family": "متصرف",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/4492a9a171d6b4ee4cd3e748a2921183.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_resultats/daa29603-b18f-418d-b290-fa54d6096991",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/daa29603-b18f-418d-b290-fa54d6096991",
+   "posted_at": "2026-11-27T14:04:12+00:00"
+  },
+  {
+   "id": "ep:e8550710-3ecf-47f6-974f-313e8ec70bf4",
+   "stage": "RESULTATS",
+   "administration": "الوكالة المغربية للأمن والسلامة في المجالين النووي والإشعاعي",
+   "grade": "مهندس دولة من الدرجة الأولى - سُلمْ 11",
+   "title": "مهندس دولة",
+   "family": "مهندس",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/4492a9a171d6b4ee4cd3e748a2921183.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_resultats/e8550710-3ecf-47f6-974f-313e8ec70bf4",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/e8550710-3ecf-47f6-974f-313e8ec70bf4",
+   "posted_at": "2026-11-27T14:04:04+00:00"
+  },
   {
    "id": "ep:0bc3b58e-cfd7-466e-9023-6faf53a94738",
    "stage": "CONVOQUES_ORAL",
