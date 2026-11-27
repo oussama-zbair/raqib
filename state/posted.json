@@ -7465,6 +7465,20 @@
       "exam_date": null,
       "city": null,
       "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/673d4e683bf65fbf906fa190831359e7.png"
+    },
+    {
+      "key": "ep:ec7de795-96d5-46d9-8cd1-dcc403c02512#CONVOQUES",
+      "reference_code": "C 44071/26",
+      "stage": "CONVOQUES",
+      "administration": "مكتب التكوين المهني وإنعاش الشغل",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/ec7de795-96d5-46d9-8cd1-dcc403c02512",
+      "telegram_message_id": 221,
+      "posted_at": "2026-11-27T09:32:42+00:00",
+      "grade": "(Chef de pôle Tourisme et Hôtellerie -Casablanca (RH 115/2026",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques/ec7de795-96d5-46d9-8cd1-dcc403c02512",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/605d517e550b20159d6828fa497cec47.png"
     }
   ],
   "seeded_sources": [
@@ -9048,6 +9062,10 @@
     "ep:4218b02d-4361-49c2-a38f-1504600ad12e": {
       "added": "2026-11-27",
       "checked": "2026-11-27T04:31:33+00:00"
+    },
+    "ep:ec7de795-96d5-46d9-8cd1-dcc403c02512": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T09:31:57+00:00"
     }
   },
   "last_discovery": "2026-11-27",
