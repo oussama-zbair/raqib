@@ -2791,6 +2791,24 @@
       "city": "بولمان",
       "logo_url": null,
       "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/d5644b13-1291-4ab3-9d6f-fe5f4641f911"
+    },
+    {
+      "id": "C 44994/26",
+      "reference_code": "C 44994/26",
+      "administration": "إقليم بولمان - تالزمت",
+      "grade": "تقني من الدرجة الرابعة - سُلمْ 8",
+      "post_count": 2,
+      "deadline": "2026-12-15",
+      "exam_date": "2027-01-17",
+      "urls": [
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/f3df1016-e330-426b-ad2e-d0c4d66e84a5"
+      ],
+      "telegram_message_id": 270,
+      "posted_at": "2026-11-27T15:35:02+00:00",
+      "specialty": "الهندسة المدنية او الاشغال العمومية او الاشغال الكبرى",
+      "city": "بولمان",
+      "logo_url": null,
+      "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/f3df1016-e330-426b-ad2e-d0c4d66e84a5"
     }
   ],
   "stages": [
@@ -8308,6 +8326,62 @@
       "exam_date": "2026-12-06",
       "city": null,
       "logo_url": null
+    },
+    {
+      "key": "ep:d73255b4-6346-48f8-bf89-760901e26b1d#CONVOQUES",
+      "reference_code": "C 42373/26",
+      "stage": "CONVOQUES",
+      "administration": "جامعة عبد المالك السعدي - تطوان",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/d73255b4-6346-48f8-bf89-760901e26b1d",
+      "telegram_message_id": 266,
+      "posted_at": "2026-11-27T15:34:34+00:00",
+      "grade": "أستاذ محاضر بالمدرسة العليا للتكنولوجيا تطوان تخصص Cyber Sécurité et Réseaux دورة 29 يونيو 2026",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques/d73255b4-6346-48f8-bf89-760901e26b1d",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/60d71cd85f96347bdf633b168ecd10fe.png"
+    },
+    {
+      "key": "ep:9eff3975-7c6e-476a-ab3e-858601e61182#CONVOQUES",
+      "reference_code": "C 44628/26",
+      "stage": "CONVOQUES",
+      "administration": "جامعة عبد المالك السعدي - تطوان",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/9eff3975-7c6e-476a-ab3e-858601e61182",
+      "telegram_message_id": 267,
+      "posted_at": "2026-11-27T15:34:40+00:00",
+      "grade": "تقني من الدرجة الثالثة دورة 02 دجنبر 2026",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques/9eff3975-7c6e-476a-ab3e-858601e61182",
+      "exam_date": "2026-12-02",
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/60d71cd85f96347bdf633b168ecd10fe.png"
+    },
+    {
+      "key": "ep:7316222c-27bf-4103-9193-004ee35721b7#CONVOQUES_ORAL",
+      "reference_code": "C 44371/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "جامعة السلطان مولاي سليمان -بني ملال",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/7316222c-27bf-4103-9193-004ee35721b7",
+      "telegram_message_id": 268,
+      "posted_at": "2026-11-27T15:34:46+00:00",
+      "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/7316222c-27bf-4103-9193-004ee35721b7",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/9397644930e285785a8ddfaf3ae517c4.png"
+    },
+    {
+      "key": "ep:378f8e6a-b532-45ae-826f-3982d2274007#CONVOQUES_ORAL",
+      "reference_code": "C 44375/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "جامعة السلطان مولاي سليمان -بني ملال",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/378f8e6a-b532-45ae-826f-3982d2274007",
+      "telegram_message_id": 269,
+      "posted_at": "2026-11-27T15:34:52+00:00",
+      "grade": "متصرف من الدرجة الثانية - سُلمْ 11",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/378f8e6a-b532-45ae-826f-3982d2274007",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/9397644930e285785a8ddfaf3ae517c4.png"
     }
   ],
   "seeded_sources": [
@@ -10027,6 +10101,18 @@
     "ep:9aa66c58-c13e-4380-b88b-9c614336e4fe": {
       "added": "2026-11-27",
       "checked": "2026-11-27T15:03:18+00:00"
+    },
+    "ep:f3df1016-e330-426b-ad2e-d0c4d66e84a5": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T15:33:23+00:00"
+    },
+    "ep:9eff3975-7c6e-476a-ab3e-858601e61182": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T15:33:43+00:00"
+    },
+    "ep:d73255b4-6346-48f8-bf89-760901e26b1d": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T15:33:45+00:00"
     }
   },
   "last_discovery": "2026-11-27",

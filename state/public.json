@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-27T15:04:33+00:00",
+ "updated_at": "2026-11-27T15:35:02+00:00",
  "channel": "https://t.me/RaqibEmploi",
  "sources": [
   {
@@ -9,12 +9,35 @@
   }
  ],
  "stats": {
-  "open": 134,
-  "posted_total": 149,
-  "stage_posts_total": 100,
-  "followed": 428
+  "open": 135,
+  "posted_total": 150,
+  "stage_posts_total": 104,
+  "followed": 431
  },
  "concours": [
+  {
+   "id": "ep:f3df1016-e330-426b-ad2e-d0c4d66e84a5",
+   "code": "C 44994/26",
+   "administration": "إقليم بولمان - تالزمت",
+   "grade": "تقني من الدرجة الرابعة - سُلمْ 8",
+   "title": "تقني",
+   "family": "تقني",
+   "scale": 8,
+   "specialty": "الهندسة المدنية او الاشغال العمومية او الاشغال الكبرى",
+   "posts": 2,
+   "deadline": "2026-12-15",
+   "exam_date": "2027-01-17",
+   "city": "بولمان",
+   "logo": null,
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/f3df1016-e330-426b-ad2e-d0c4d66e84a5",
+   "tags": [
+    "تقني"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-27T15:35:02+00:00"
+  },
   {
    "id": "ep:d5644b13-1291-4ab3-9d6f-fe5f4641f911",
    "code": "C 44995/26",
@@ -386,7 +409,7 @@
    "posted_at": "2026-11-26T17:33:10+00:00"
   },
   {
-   "id": "ep:ace1070f-f3a5-46df-947c-0372143baeb4",
+   "id": "ep:baf06523-83ae-45a3-bb1a-3144e273d7e5",
    "code": "C 44983/26",
    "administration": "إقليم الحوز",
    "grade": "تقني من الدرجة الرابعة - سُلمْ 8",
@@ -1453,7 +1476,7 @@
    "posted_at": "2026-11-26T11:04:41+00:00"
   },
   {
-   "id": "ep:87771aba-7e04-4a17-9562-533af23e2dc1",
+   "id": "ep:1e96ae25-71ea-46b8-8867-53ac0ce6201f",
    "code": "C 44934/26",
    "administration": "صورياد القناة الثانية 2M",
    "grade": "تقني في الديكور",
@@ -1617,7 +1640,7 @@
    "posted_at": "2026-11-26T00:05:38+00:00"
   },
   {
-   "id": "ep:2fef0122-6371-4de3-af5f-54385044d832",
+   "id": "ep:98f8f5aa-a77c-4571-8490-2ecfd8f0404f",
    "code": "C 44716/26",
    "administration": "الوكالة الوطنية للدعم الاجتماعي",
    "grade": "تقني متخصص في البناء",
@@ -1693,7 +1716,7 @@
    "posted_at": "2026-11-25T19:35:28+00:00"
   },
   {
-   "id": "ep:593d3e98-64cc-4a18-99b5-56564e510a9a",
+   "id": "ep:8a811d71-5f0c-4516-a54b-cdd421929da1",
    "code": "C 44916/26",
    "administration": "إقليم تاونات",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -1834,7 +1857,7 @@
    "posted_at": "2026-11-25T19:34:47+00:00"
   },
   {
-   "id": "ep:a5b90bf5-4086-434c-b948-8880d9adb947",
+   "id": "ep:ccb9b405-58f7-453e-bb03-72ff84e5c365",
    "code": "C 44897/26",
    "administration": "إقليم الحاجب - اكوراي",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -1903,7 +1926,7 @@
    "posted_at": "2026-11-25T19:34:32+00:00"
   },
   {
-   "id": "ep:d520bc73-bcf0-4974-af85-7b6af7c7c40f",
+   "id": "ep:3f6d3934-2b54-4ccb-934e-67ec66e7f762",
    "code": "C 44884/26",
    "administration": "إقليم تازة - تازة",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -1972,7 +1995,7 @@
    "posted_at": "2026-11-25T19:03:47+00:00"
   },
   {
-   "id": "ep:a7c4e6a7-7c33-4ec3-a00e-97c83892d659",
+   "id": "ep:3d0d7c43-34b5-4e4b-ba57-02da6200dbd0",
    "code": "C 44870/26",
    "administration": "إقليم برشيد - برشيد",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -2018,7 +2041,7 @@
    "posted_at": "2026-11-25T19:03:38+00:00"
   },
   {
-   "id": "ep:c7259a97-09c2-4050-893a-c2226569266d",
+   "id": "ep:35a928ed-d8e5-4555-8daf-fa89a806a698",
    "code": "C 44868/26",
    "administration": "إقليم الخميسات - الزحيلكة",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -2643,7 +2666,7 @@
    "posted_at": "2026-11-25T18:24:59+00:00"
   },
   {
-   "id": "ep:7ba78629-d145-41b6-b873-e1202bf0e3be",
+   "id": "ep:48737302-a809-41b9-a23d-03980d4b9460",
    "code": "C 44889/26",
    "administration": "شركة المنشآت الرياضية لطنجة ش.م",
    "grade": "تقني تيار قوي",
@@ -3437,6 +3460,62 @@
   }
  ],
  "updates": [
+  {
+   "id": "ep:378f8e6a-b532-45ae-826f-3982d2274007",
+   "stage": "CONVOQUES_ORAL",
+   "administration": "جامعة السلطان مولاي سليمان -بني ملال",
+   "grade": "متصرف من الدرجة الثانية - سُلمْ 11",
+   "title": "متصرف",
+   "family": "متصرف",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/9397644930e285785a8ddfaf3ae517c4.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/378f8e6a-b532-45ae-826f-3982d2274007",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/378f8e6a-b532-45ae-826f-3982d2274007",
+   "posted_at": "2026-11-27T15:34:52+00:00"
+  },
+  {
+   "id": "ep:7316222c-27bf-4103-9193-004ee35721b7",
+   "stage": "CONVOQUES_ORAL",
+   "administration": "جامعة السلطان مولاي سليمان -بني ملال",
+   "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
+   "title": "تقني",
+   "family": "تقني",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/9397644930e285785a8ddfaf3ae517c4.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/7316222c-27bf-4103-9193-004ee35721b7",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/7316222c-27bf-4103-9193-004ee35721b7",
+   "posted_at": "2026-11-27T15:34:46+00:00"
+  },
+  {
+   "id": "ep:9eff3975-7c6e-476a-ab3e-858601e61182",
+   "stage": "CONVOQUES",
+   "administration": "جامعة عبد المالك السعدي - تطوان",
+   "grade": "تقني من الدرجة الثالثة دورة 02 دجنبر 2026",
+   "title": "تقني",
+   "family": "تقني",
+   "exam_date": "2026-12-02",
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/60d71cd85f96347bdf633b168ecd10fe.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques/9eff3975-7c6e-476a-ab3e-858601e61182",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/9eff3975-7c6e-476a-ab3e-858601e61182",
+   "posted_at": "2026-11-27T15:34:40+00:00"
+  },
+  {
+   "id": "ep:d73255b4-6346-48f8-bf89-760901e26b1d",
+   "stage": "CONVOQUES",
+   "administration": "جامعة عبد المالك السعدي - تطوان",
+   "grade": "أستاذ محاضر بالمدرسة العليا للتكنولوجيا تطوان تخصص Cyber Sécurité et Réseaux دورة 29 يونيو 2026",
+   "title": "أستاذ محاضر",
+   "family": "أستاذ",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/60d71cd85f96347bdf633b168ecd10fe.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques/d73255b4-6346-48f8-bf89-760901e26b1d",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/d73255b4-6346-48f8-bf89-760901e26b1d",
+   "posted_at": "2026-11-27T15:34:34+00:00"
+  },
   {
    "id": "ep:c41931fa-4ef7-441e-9880-3953357a15b7",
    "stage": "CONVOQUES",
