@@ -2610,6 +2610,42 @@
       "city": null,
       "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/a9988cd3a6cbb6dc8344bbc81dd3d2b9.png",
       "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/bd7335ac-7717-405f-8948-ebcd3598acbc"
+    },
+    {
+      "id": "C 44553/26",
+      "reference_code": "C 44553/26",
+      "administration": "إقليم جرسيف",
+      "grade": "تقني من الدرجة الرابعة - سُلمْ 8",
+      "post_count": 1,
+      "deadline": "2026-11-27",
+      "exam_date": "2026-12-19",
+      "urls": [
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/bc713631-4f00-469f-8a0d-afbb4365335c"
+      ],
+      "telegram_message_id": 218,
+      "posted_at": "2026-11-27T00:32:37+00:00",
+      "specialty": "سياقة العربات وآليات الاشغال الكبرى مع التوفر على رخصة السياقة صنف C أو B",
+      "city": "جرسيف",
+      "logo_url": null,
+      "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/bc713631-4f00-469f-8a0d-afbb4365335c"
+    },
+    {
+      "id": "C 44723/26",
+      "reference_code": "C 44723/26",
+      "administration": "جامعة شعيب الدكالي - الجديدة",
+      "grade": "تقني من الدرجة الثالثة لفائدة رئاسة جامعة شعيب الدكالي بالجديدة",
+      "post_count": 1,
+      "deadline": "2026-11-27",
+      "exam_date": null,
+      "urls": [
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/aa9e8733-c793-4189-8f0f-dd9ffc49e838"
+      ],
+      "telegram_message_id": 219,
+      "posted_at": "2026-11-27T00:32:42+00:00",
+      "specialty": "Génie civil",
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/538235c11267006838377d4673c17e9d.png",
+      "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/aa9e8733-c793-4189-8f0f-dd9ffc49e838"
     }
   ],
   "stages": [
@@ -7405,6 +7441,16 @@
       "exam_date": null,
       "city": "جرسيف",
       "logo_url": null
+    },
+    {
+      "key": "ep:f8f30b81-fa9e-4860-a317-b7bb53ce8eec#CONVOQUES",
+      "reference_code": "C 44456/26",
+      "stage": "CONVOQUES",
+      "administration": "جامعة الحسن الثاني - الدارالبيضاء",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/f8f30b81-fa9e-4860-a317-b7bb53ce8eec",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-27T00:31:42+00:00",
+      "seeded": true
     }
   ],
   "seeded_sources": [
@@ -8983,7 +9029,7 @@
     },
     "ep:f8f30b81-fa9e-4860-a317-b7bb53ce8eec": {
       "added": "2026-11-27",
-      "checked": null
+      "checked": "2026-11-27T00:31:42+00:00"
     }
   },
   "last_discovery": "2026-11-27",
