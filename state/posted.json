@@ -2556,6 +2556,60 @@
       "city": null,
       "logo_url": null,
       "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/812bc9d6-ace9-47c1-905c-09e120da6ae2"
+    },
+    {
+      "id": "C 44708/26",
+      "reference_code": "C 44708/26",
+      "administration": "مكتب التكوين المهني وإنعاش الشغل",
+      "grade": "(Conseiller(ère) en Orientation-Al Hoceima – Bouarfa – Guelmim – Sidi Slimane – Taounate - Zagora (RH 179/2026",
+      "post_count": 6,
+      "deadline": "2026-11-28",
+      "exam_date": null,
+      "urls": [
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/06d52826-b77a-46fa-a104-9593ae1e01c2"
+      ],
+      "telegram_message_id": 215,
+      "posted_at": "2026-11-27T00:05:03+00:00",
+      "specialty": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/605d517e550b20159d6828fa497cec47.png",
+      "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/06d52826-b77a-46fa-a104-9593ae1e01c2"
+    },
+    {
+      "id": "C 44707/26",
+      "reference_code": "C 44707/26",
+      "administration": "مكتب التكوين المهني وإنعاش الشغل",
+      "grade": "(Chef de pôle Digital et Intelligence Artificielle - Marrakech (RH 178/2026",
+      "post_count": 1,
+      "deadline": "2026-11-28",
+      "exam_date": null,
+      "urls": [
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/d9ce7fcb-12f3-425b-99f7-e258f89285e5"
+      ],
+      "telegram_message_id": 216,
+      "posted_at": "2026-11-27T00:05:08+00:00",
+      "specialty": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/605d517e550b20159d6828fa497cec47.png",
+      "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/d9ce7fcb-12f3-425b-99f7-e258f89285e5"
+    },
+    {
+      "id": "C 44730/26",
+      "reference_code": "C 44730/26",
+      "administration": "أرشيف المغرب",
+      "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
+      "post_count": 1,
+      "deadline": "2026-11-27",
+      "exam_date": "2026-12-06",
+      "urls": [
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/bd7335ac-7717-405f-8948-ebcd3598acbc"
+      ],
+      "telegram_message_id": 217,
+      "posted_at": "2026-11-27T00:05:18+00:00",
+      "specialty": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/a9988cd3a6cbb6dc8344bbc81dd3d2b9.png",
+      "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/bd7335ac-7717-405f-8948-ebcd3598acbc"
     }
   ],
   "stages": [
@@ -7163,6 +7217,194 @@
       "exam_date": null,
       "city": null,
       "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/eaaec5e6de1d7599e1e7fe015f19d1fd.png"
+    },
+    {
+      "key": "ep:6543acce-19a1-4b46-bd60-0bdb209fd541#CONVOQUES",
+      "reference_code": "C 43396/26",
+      "stage": "CONVOQUES",
+      "administration": "إقليم بركان - السعيدية",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/6543acce-19a1-4b46-bd60-0bdb209fd541",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-27T00:03:38+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:6543acce-19a1-4b46-bd60-0bdb209fd541#CONVOQUES_ORAL",
+      "reference_code": "C 43396/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "إقليم بركان - السعيدية",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/6543acce-19a1-4b46-bd60-0bdb209fd541",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-27T00:03:38+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:06d52826-b77a-46fa-a104-9593ae1e01c2#CONVOQUES",
+      "reference_code": "C 44708/26",
+      "stage": "CONVOQUES",
+      "administration": "مكتب التكوين المهني وإنعاش الشغل",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/06d52826-b77a-46fa-a104-9593ae1e01c2",
+      "telegram_message_id": 203,
+      "posted_at": "2026-11-27T00:03:44+00:00",
+      "grade": "(Conseiller(ère) en Orientation-Al Hoceima – Bouarfa – Guelmim – Sidi Slimane – Taounate - Zagora (RH 179/2026",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques/06d52826-b77a-46fa-a104-9593ae1e01c2",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/605d517e550b20159d6828fa497cec47.png"
+    },
+    {
+      "key": "ep:d9ce7fcb-12f3-425b-99f7-e258f89285e5#CONVOQUES",
+      "reference_code": "C 44707/26",
+      "stage": "CONVOQUES",
+      "administration": "مكتب التكوين المهني وإنعاش الشغل",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/d9ce7fcb-12f3-425b-99f7-e258f89285e5",
+      "telegram_message_id": 204,
+      "posted_at": "2026-11-27T00:03:49+00:00",
+      "grade": "(Chef de pôle Digital et Intelligence Artificielle - Marrakech (RH 178/2026",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques/d9ce7fcb-12f3-425b-99f7-e258f89285e5",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/605d517e550b20159d6828fa497cec47.png"
+    },
+    {
+      "key": "ep:bd7335ac-7717-405f-8948-ebcd3598acbc#CONVOQUES",
+      "reference_code": "C 44730/26",
+      "stage": "CONVOQUES",
+      "administration": "أرشيف المغرب",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/bd7335ac-7717-405f-8948-ebcd3598acbc",
+      "telegram_message_id": 205,
+      "posted_at": "2026-11-27T00:03:54+00:00",
+      "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques/bd7335ac-7717-405f-8948-ebcd3598acbc",
+      "exam_date": "2026-12-06",
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/a9988cd3a6cbb6dc8344bbc81dd3d2b9.png"
+    },
+    {
+      "key": "ep:bc713631-4f00-469f-8a0d-afbb4365335c#CONVOQUES",
+      "reference_code": "C 44553/26",
+      "stage": "CONVOQUES",
+      "administration": "إقليم جرسيف",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/bc713631-4f00-469f-8a0d-afbb4365335c",
+      "telegram_message_id": 206,
+      "posted_at": "2026-11-27T00:03:59+00:00",
+      "grade": "تقني من الدرجة الرابعة - سُلمْ 8",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques/bc713631-4f00-469f-8a0d-afbb4365335c",
+      "exam_date": "2026-12-19",
+      "city": "جرسيف",
+      "logo_url": null
+    },
+    {
+      "key": "ep:06d52826-b77a-46fa-a104-9593ae1e01c2#CONVOQUES_ORAL",
+      "reference_code": "C 44708/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "مكتب التكوين المهني وإنعاش الشغل",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/06d52826-b77a-46fa-a104-9593ae1e01c2",
+      "telegram_message_id": 207,
+      "posted_at": "2026-11-27T00:04:04+00:00",
+      "grade": "(Conseiller(ère) en Orientation-Al Hoceima – Bouarfa – Guelmim – Sidi Slimane – Taounate - Zagora (RH 179/2026",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/06d52826-b77a-46fa-a104-9593ae1e01c2",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/605d517e550b20159d6828fa497cec47.png"
+    },
+    {
+      "key": "ep:d9ce7fcb-12f3-425b-99f7-e258f89285e5#CONVOQUES_ORAL",
+      "reference_code": "C 44707/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "مكتب التكوين المهني وإنعاش الشغل",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/d9ce7fcb-12f3-425b-99f7-e258f89285e5",
+      "telegram_message_id": 208,
+      "posted_at": "2026-11-27T00:04:10+00:00",
+      "grade": "(Chef de pôle Digital et Intelligence Artificielle - Marrakech (RH 178/2026",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/d9ce7fcb-12f3-425b-99f7-e258f89285e5",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/605d517e550b20159d6828fa497cec47.png"
+    },
+    {
+      "key": "ep:bd7335ac-7717-405f-8948-ebcd3598acbc#CONVOQUES_ORAL",
+      "reference_code": "C 44730/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "أرشيف المغرب",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/bd7335ac-7717-405f-8948-ebcd3598acbc",
+      "telegram_message_id": 209,
+      "posted_at": "2026-11-27T00:04:15+00:00",
+      "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/bd7335ac-7717-405f-8948-ebcd3598acbc",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/a9988cd3a6cbb6dc8344bbc81dd3d2b9.png"
+    },
+    {
+      "key": "ep:bc713631-4f00-469f-8a0d-afbb4365335c#CONVOQUES_ORAL",
+      "reference_code": "C 44553/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "إقليم جرسيف",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/bc713631-4f00-469f-8a0d-afbb4365335c",
+      "telegram_message_id": 210,
+      "posted_at": "2026-11-27T00:04:20+00:00",
+      "grade": "تقني من الدرجة الرابعة - سُلمْ 8",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/bc713631-4f00-469f-8a0d-afbb4365335c",
+      "exam_date": null,
+      "city": "جرسيف",
+      "logo_url": null
+    },
+    {
+      "key": "ep:06d52826-b77a-46fa-a104-9593ae1e01c2#RESULTATS",
+      "reference_code": "C 44708/26",
+      "stage": "RESULTATS",
+      "administration": "مكتب التكوين المهني وإنعاش الشغل",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/06d52826-b77a-46fa-a104-9593ae1e01c2",
+      "telegram_message_id": 211,
+      "posted_at": "2026-11-27T00:04:25+00:00",
+      "grade": "(Conseiller(ère) en Orientation-Al Hoceima – Bouarfa – Guelmim – Sidi Slimane – Taounate - Zagora (RH 179/2026",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_resultats/06d52826-b77a-46fa-a104-9593ae1e01c2",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/605d517e550b20159d6828fa497cec47.png"
+    },
+    {
+      "key": "ep:d9ce7fcb-12f3-425b-99f7-e258f89285e5#RESULTATS",
+      "reference_code": "C 44707/26",
+      "stage": "RESULTATS",
+      "administration": "مكتب التكوين المهني وإنعاش الشغل",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/d9ce7fcb-12f3-425b-99f7-e258f89285e5",
+      "telegram_message_id": 212,
+      "posted_at": "2026-11-27T00:04:30+00:00",
+      "grade": "(Chef de pôle Digital et Intelligence Artificielle - Marrakech (RH 178/2026",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_resultats/d9ce7fcb-12f3-425b-99f7-e258f89285e5",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/605d517e550b20159d6828fa497cec47.png"
+    },
+    {
+      "key": "ep:bd7335ac-7717-405f-8948-ebcd3598acbc#RESULTATS",
+      "reference_code": "C 44730/26",
+      "stage": "RESULTATS",
+      "administration": "أرشيف المغرب",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/bd7335ac-7717-405f-8948-ebcd3598acbc",
+      "telegram_message_id": 213,
+      "posted_at": "2026-11-27T00:04:48+00:00",
+      "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_resultats/bd7335ac-7717-405f-8948-ebcd3598acbc",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/a9988cd3a6cbb6dc8344bbc81dd3d2b9.png"
+    },
+    {
+      "key": "ep:bc713631-4f00-469f-8a0d-afbb4365335c#RESULTATS",
+      "reference_code": "C 44553/26",
+      "stage": "RESULTATS",
+      "administration": "إقليم جرسيف",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/bc713631-4f00-469f-8a0d-afbb4365335c",
+      "telegram_message_id": 214,
+      "posted_at": "2026-11-27T00:04:53+00:00",
+      "grade": "تقني من الدرجة الرابعة - سُلمْ 8",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_resultats/bc713631-4f00-469f-8a0d-afbb4365335c",
+      "exam_date": null,
+      "city": "جرسيف",
+      "logo_url": null
     }
   ],
   "seeded_sources": [
@@ -8722,9 +8964,29 @@
     "ep:812bc9d6-ace9-47c1-905c-09e120da6ae2": {
       "added": "2026-11-26",
       "checked": "2026-11-26T23:01:56+00:00"
+    },
+    "ep:9395394d-7ee1-4fc4-91b4-eaef7941978d": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T00:02:55+00:00"
+    },
+    "ep:622d5caa-33b1-45c2-91e3-3f872efa8207": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T00:02:57+00:00"
+    },
+    "ep:aa9e8733-c793-4189-8f0f-dd9ffc49e838": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T00:02:04+00:00"
+    },
+    "ep:281409c2-0a49-4ddd-a84d-1c94c45da65e": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T00:02:58+00:00"
+    },
+    "ep:f8f30b81-fa9e-4860-a317-b7bb53ce8eec": {
+      "added": "2026-11-27",
+      "checked": null
     }
   },
-  "last_discovery": "2026-11-26",
+  "last_discovery": "2026-11-27",
   "send_failures": {},
   "rejected": {
     "https://www.emploi-public.ma/fr/concours/details/03905d86-bfa2-4e5f-9173-f46289658267": "2026-11-25",
@@ -8741,6 +9003,9 @@
     "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/2ced7c08-b048-4323-9cc5-05e9340e5a9f": "2026-11-25",
     "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/06f5fbc2-5fde-438f-8a19-7382965fb536": "2026-11-25",
     "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/ccd521a4-dc1f-4976-9bb9-a963ade0c62d": "2026-11-25",
-    "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/87b605bb-dc49-4e5b-be91-0a2cd6cf4ce1": "2026-11-26"
+    "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/87b605bb-dc49-4e5b-be91-0a2cd6cf4ce1": "2026-11-26",
+    "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/9395394d-7ee1-4fc4-91b4-eaef7941978d": "2026-11-27",
+    "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/622d5caa-33b1-45c2-91e3-3f872efa8207": "2026-11-27",
+    "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/281409c2-0a49-4ddd-a84d-1c94c45da65e": "2026-11-27"
   }
 }
