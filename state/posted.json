@@ -8266,6 +8266,48 @@
       "exam_date": null,
       "city": null,
       "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/673d4e683bf65fbf906fa190831359e7.png"
+    },
+    {
+      "key": "ep:9aa66c58-c13e-4380-b88b-9c614336e4fe#CONVOQUES",
+      "reference_code": "C 44447/26",
+      "stage": "CONVOQUES",
+      "administration": "جامعة الحسن الثاني - الدارالبيضاء",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/9aa66c58-c13e-4380-b88b-9c614336e4fe",
+      "telegram_message_id": 263,
+      "posted_at": "2026-11-27T15:04:16+00:00",
+      "grade": "متصرف من الدرجة الثانية بكلية الاداب والعلوم الإنسانية بنمسيك",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques/9aa66c58-c13e-4380-b88b-9c614336e4fe",
+      "exam_date": "2026-11-29",
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/48fd46eb3d360ebccadcbcff69793732.png"
+    },
+    {
+      "key": "ep:1ba25023-baad-4544-b5e7-eceb44d3e0df#CONVOQUES",
+      "reference_code": "C 44396/26",
+      "stage": "CONVOQUES",
+      "administration": "غرفة الصناعة التقليدية لجهة الشرق",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/1ba25023-baad-4544-b5e7-eceb44d3e0df",
+      "telegram_message_id": 264,
+      "posted_at": "2026-11-27T15:04:21+00:00",
+      "grade": "متصرف من الدرجة الثالثة - سُلمْ 10",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques/1ba25023-baad-4544-b5e7-eceb44d3e0df",
+      "exam_date": "2026-12-06",
+      "city": null,
+      "logo_url": null
+    },
+    {
+      "key": "ep:c41931fa-4ef7-441e-9880-3953357a15b7#CONVOQUES",
+      "reference_code": "C 44395/26",
+      "stage": "CONVOQUES",
+      "administration": "غرفة الصناعة التقليدية لجهة الشرق",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/c41931fa-4ef7-441e-9880-3953357a15b7",
+      "telegram_message_id": 265,
+      "posted_at": "2026-11-27T15:04:26+00:00",
+      "grade": "تقني من الدرجة الرابعة - سُلمْ 8",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques/c41931fa-4ef7-441e-9880-3953357a15b7",
+      "exam_date": "2026-12-06",
+      "city": null,
+      "logo_url": null
     }
   ],
   "seeded_sources": [
@@ -9973,6 +10015,18 @@
     "ep:45a92a75-bf85-49b8-9822-c8ceb5f4378b": {
       "added": "2026-11-27",
       "checked": "2026-11-27T14:33:28+00:00"
+    },
+    "ep:c41931fa-4ef7-441e-9880-3953357a15b7": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T15:03:10+00:00"
+    },
+    "ep:1ba25023-baad-4544-b5e7-eceb44d3e0df": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T15:03:11+00:00"
+    },
+    "ep:9aa66c58-c13e-4380-b88b-9c614336e4fe": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T15:03:18+00:00"
     }
   },
   "last_discovery": "2026-11-27",
