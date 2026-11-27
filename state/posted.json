@@ -2755,6 +2755,42 @@
       "city": null,
       "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/eaaec5e6de1d7599e1e7fe015f19d1fd.png",
       "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/4a766760-a2c7-424b-be18-811cecb52459"
+    },
+    {
+      "id": "C 45000/26",
+      "reference_code": "C 45000/26",
+      "administration": "وزارة الصحة والحماية الاجتماعية",
+      "grade": "صيدلي من الدرجة الأولى - سُلمْ 11",
+      "post_count": 1,
+      "deadline": "2026-12-16",
+      "exam_date": "2026-12-20",
+      "urls": [
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/32478282-4603-43aa-954e-d392e3e2ff29"
+      ],
+      "telegram_message_id": 261,
+      "posted_at": "2026-11-27T14:35:04+00:00",
+      "specialty": "صيادلة",
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/logo-016.png",
+      "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/32478282-4603-43aa-954e-d392e3e2ff29"
+    },
+    {
+      "id": "C 44995/26",
+      "reference_code": "C 44995/26",
+      "administration": "إقليم بولمان",
+      "grade": "تقني من الدرجة الرابعة - سُلمْ 8",
+      "post_count": 7,
+      "deadline": "2026-12-18",
+      "exam_date": "2027-01-10",
+      "urls": [
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/d5644b13-1291-4ab3-9d6f-fe5f4641f911"
+      ],
+      "telegram_message_id": 262,
+      "posted_at": "2026-11-27T14:35:10+00:00",
+      "specialty": "الهندسة المدنية، التعمير،الاشغال الكبرى أو البناء / الاعلاميات التنمية المعلوماتية الشبكة المعلوماتية / كهرباء السيارات / الكهرباء العمومية أو كهرباء الصيانة الصناعية",
+      "city": "بولمان",
+      "logo_url": null,
+      "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/d5644b13-1291-4ab3-9d6f-fe5f4641f911"
     }
   ],
   "stages": [
@@ -8188,6 +8224,48 @@
       "exam_date": null,
       "city": null,
       "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/4492a9a171d6b4ee4cd3e748a2921183.png"
+    },
+    {
+      "key": "ep:fe8f8a20-95db-4c76-9aef-3535d5c2d5d9#CONVOQUES",
+      "reference_code": "C 44388/26",
+      "stage": "CONVOQUES",
+      "administration": "غرفة التجارة والصناعة والخدمات لجهة كلميم واد نون",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/fe8f8a20-95db-4c76-9aef-3535d5c2d5d9",
+      "telegram_message_id": 258,
+      "posted_at": "2026-11-27T14:34:42+00:00",
+      "grade": "متصرف من الدرجة الثانية - سُلمْ 11",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques/fe8f8a20-95db-4c76-9aef-3535d5c2d5d9",
+      "exam_date": "2026-12-06",
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/b6987e61255e0fc7c0f7eb026f19f317.png"
+    },
+    {
+      "key": "ep:45a92a75-bf85-49b8-9822-c8ceb5f4378b#CONVOQUES_ORAL",
+      "reference_code": "C 43600/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "جامعة ابن زهر - أكادير",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/45a92a75-bf85-49b8-9822-c8ceb5f4378b",
+      "telegram_message_id": 259,
+      "posted_at": "2026-11-27T14:34:47+00:00",
+      "grade": "أستاذ محاضر بكلية العلوم والتقنيات بكلميم تخصص Physique",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/45a92a75-bf85-49b8-9822-c8ceb5f4378b",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/673d4e683bf65fbf906fa190831359e7.png"
+    },
+    {
+      "key": "ep:3171cfad-d092-4e93-8b82-697524c03427#CONVOQUES_ORAL",
+      "reference_code": "C 43602/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "جامعة ابن زهر - أكادير",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/3171cfad-d092-4e93-8b82-697524c03427",
+      "telegram_message_id": 260,
+      "posted_at": "2026-11-27T14:34:53+00:00",
+      "grade": "أستاذ محاضر بكلية العلوم والتقنيات بكلميم تخصص Electronique",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/3171cfad-d092-4e93-8b82-697524c03427",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/673d4e683bf65fbf906fa190831359e7.png"
     }
   ],
   "seeded_sources": [
@@ -9875,6 +9953,26 @@
     "ep:4a766760-a2c7-424b-be18-811cecb52459": {
       "added": "2026-11-27",
       "checked": "2026-11-27T14:02:40+00:00"
+    },
+    "ep:d5644b13-1291-4ab3-9d6f-fe5f4641f911": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T14:33:02+00:00"
+    },
+    "ep:32478282-4603-43aa-954e-d392e3e2ff29": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T14:33:02+00:00"
+    },
+    "ep:3171cfad-d092-4e93-8b82-697524c03427": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T14:33:19+00:00"
+    },
+    "ep:fe8f8a20-95db-4c76-9aef-3535d5c2d5d9": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T14:33:21+00:00"
+    },
+    "ep:45a92a75-bf85-49b8-9822-c8ceb5f4378b": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T14:33:28+00:00"
     }
   },
   "last_discovery": "2026-11-27",
