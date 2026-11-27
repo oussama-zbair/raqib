@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-27T19:03:13+00:00",
+ "updated_at": "2026-11-27T19:33:51+00:00",
  "channel": "https://t.me/RaqibEmploi",
  "sources": [
   {
@@ -9,12 +9,36 @@
   }
  ],
  "stats": {
-  "open": 150,
-  "posted_total": 165,
-  "stage_posts_total": 121,
+  "open": 151,
+  "posted_total": 166,
+  "stage_posts_total": 122,
   "followed": 453
  },
  "concours": [
+  {
+   "id": "ep:80cbfdb9-241a-4dc0-a888-8970632157d7",
+   "code": "C 45011/26",
+   "administration": "جامعة محمد الخامس",
+   "grade": "أستاذ محاضر عسكري بكلية الطب والصيدلة بالرباط",
+   "title": "أستاذ محاضر عسكري",
+   "family": "أستاذ",
+   "scale": null,
+   "specialty": null,
+   "posts": 1,
+   "deadline": "2026-12-15",
+   "exam_date": "2026-12-31",
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/f5b3dde49d66f60bf0a8ee3728874d49.png",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/80cbfdb9-241a-4dc0-a888-8970632157d7",
+   "tags": [
+    "صحة",
+    "تعليم"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-27T19:33:51+00:00"
+  },
   {
    "id": "ep:9be00ebf-522a-4446-a14b-52f163fd026f",
    "code": "C 45010/26",
@@ -1203,7 +1227,7 @@
    "posted_at": "2026-11-26T14:12:12+00:00"
   },
   {
-   "id": "ep:9533bf08-01f6-43d8-a4ec-22554f0dc3e3",
+   "id": "ep:a85ded0c-df8c-4beb-be8f-ea0d420f104d",
    "code": "C 44966/26",
    "administration": "جامعة محمد الأول - وجدة",
    "grade": "أستاذ محاضر لفائدة المدرسة العليا للتربية والتكوين وجدة.",
@@ -1821,7 +1845,7 @@
    "posted_at": "2026-11-26T11:04:41+00:00"
   },
   {
-   "id": "ep:87771aba-7e04-4a17-9562-533af23e2dc1",
+   "id": "ep:1e96ae25-71ea-46b8-8867-53ac0ce6201f",
    "code": "C 44934/26",
    "administration": "صورياد القناة الثانية 2M",
    "grade": "تقني في الديكور",
@@ -1888,7 +1912,7 @@
    "posted_at": "2026-11-26T10:05:29+00:00"
   },
   {
-   "id": "ep:770a12fe-e1a1-4bb9-8a7d-f6ca4c8152fb",
+   "id": "ep:9c94d268-16e7-4f46-9c9d-b1a429f8ea50",
    "code": "C 44931/26",
    "administration": "جامعة مولاي اسماعيل - مكناس",
    "grade": "أستاذ محاضر من الدرجة أ - سُلمْ 11",
@@ -2061,7 +2085,7 @@
    "posted_at": "2026-11-25T19:35:28+00:00"
   },
   {
-   "id": "ep:593d3e98-64cc-4a18-99b5-56564e510a9a",
+   "id": "ep:8a811d71-5f0c-4516-a54b-cdd421929da1",
    "code": "C 44916/26",
    "administration": "إقليم تاونات",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -2202,7 +2226,7 @@
    "posted_at": "2026-11-25T19:34:47+00:00"
   },
   {
-   "id": "ep:a7e52309-7e1c-4474-b637-1f5cf0e47b4c",
+   "id": "ep:ccb9b405-58f7-453e-bb03-72ff84e5c365",
    "code": "C 44897/26",
    "administration": "إقليم الحاجب - اكوراي",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -2340,7 +2364,7 @@
    "posted_at": "2026-11-25T19:03:47+00:00"
   },
   {
-   "id": "ep:a7c4e6a7-7c33-4ec3-a00e-97c83892d659",
+   "id": "ep:3d0d7c43-34b5-4e4b-ba57-02da6200dbd0",
    "code": "C 44870/26",
    "administration": "إقليم برشيد - برشيد",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -3511,7 +3535,7 @@
    "posted_at": "2026-11-25T04:47:00+00:00"
   },
   {
-   "id": "ep:aa40ad09-1cb6-4408-b1a7-7507ee9673ed",
+   "id": "ep:a308f369-e882-4c42-871d-acb07d5c6d2e",
    "code": "C 44679/26",
    "administration": "جامعة شعيب الدكالي - الجديدة",
    "grade": "Technicien de 3ème grade",
@@ -3640,7 +3664,7 @@
    "posted_at": "2026-11-25T04:47:00+00:00"
   },
   {
-   "id": "ep:254a4ccc-b3d1-43d0-8b7d-a23d818766b2",
+   "id": "ep:06f2df84-0753-47a3-95b9-4aa040df8c72",
    "code": "C 44886/26",
    "administration": "وزارة الصحة والحماية الاجتماعية",
    "grade": "مساعد تقني من الدرجة الثانية",
@@ -3663,7 +3687,7 @@
    "posted_at": "2026-11-25T04:47:00+00:00"
   },
   {
-   "id": "ep:254a4ccc-b3d1-43d0-8b7d-a23d818766b2",
+   "id": "ep:06f2df84-0753-47a3-95b9-4aa040df8c72",
    "code": "C 44887/26",
    "administration": "وزارة الصحة والحماية الاجتماعية",
    "grade": "مساعد تقني من الدرجة الثانية",
@@ -3805,6 +3829,20 @@
   }
  ],
  "updates": [
+  {
+   "id": "ep:72ed0218-c625-44ef-ad36-0ddf1450d8b7",
+   "stage": "RESULTATS",
+   "administration": "وزارة الداخلية -عمالة مراكش-",
+   "grade": "مهندس دولة من الدرجة الأولى - سُلمْ 11",
+   "title": "مهندس دولة",
+   "family": "مهندس",
+   "exam_date": null,
+   "city": "مراكش",
+   "logo": null,
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_resultats/72ed0218-c625-44ef-ad36-0ddf1450d8b7",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/72ed0218-c625-44ef-ad36-0ddf1450d8b7",
+   "posted_at": "2026-11-27T19:33:40+00:00"
+  },
   {
    "id": "ep:7729ec0b-7db1-4611-afee-5d67262de0ec",
    "stage": "RESULTATS",

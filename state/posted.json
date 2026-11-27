@@ -3079,6 +3079,24 @@
       "city": null,
       "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/cd62178df2cfd8adc6adc86d1e72ff10.png",
       "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/9be00ebf-522a-4446-a14b-52f163fd026f"
+    },
+    {
+      "id": "C 45011/26",
+      "reference_code": "C 45011/26",
+      "administration": "جامعة محمد الخامس",
+      "grade": "أستاذ محاضر عسكري بكلية الطب والصيدلة بالرباط",
+      "post_count": 1,
+      "deadline": "2026-12-15",
+      "exam_date": "2026-12-31",
+      "urls": [
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/80cbfdb9-241a-4dc0-a888-8970632157d7"
+      ],
+      "telegram_message_id": 304,
+      "posted_at": "2026-11-27T19:33:51+00:00",
+      "specialty": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/f5b3dde49d66f60bf0a8ee3728874d49.png",
+      "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/80cbfdb9-241a-4dc0-a888-8970632157d7"
     }
   ],
   "stages": [
@@ -9010,6 +9028,20 @@
       "exam_date": null,
       "city": null,
       "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/8baabd444e8ecb551c7b0e0008439d9e.png"
+    },
+    {
+      "key": "ep:72ed0218-c625-44ef-ad36-0ddf1450d8b7#RESULTATS",
+      "reference_code": "C 43076/26",
+      "stage": "RESULTATS",
+      "administration": "وزارة الداخلية -عمالة مراكش-",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/72ed0218-c625-44ef-ad36-0ddf1450d8b7",
+      "telegram_message_id": 303,
+      "posted_at": "2026-11-27T19:33:40+00:00",
+      "grade": "مهندس دولة من الدرجة الأولى - سُلمْ 11",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_resultats/72ed0218-c625-44ef-ad36-0ddf1450d8b7",
+      "exam_date": null,
+      "city": "مراكش",
+      "logo_url": null
     }
   ],
   "seeded_sources": [
@@ -9473,10 +9505,6 @@
     "ep:567a5bc9-61a3-486f-be9d-21a3919bdcca": {
       "added": "2026-11-25",
       "checked": "2026-11-25T21:31:48+00:00"
-    },
-    "ep:72ed0218-c625-44ef-ad36-0ddf1450d8b7": {
-      "added": "2026-11-25",
-      "checked": "2026-11-25T21:31:49+00:00"
     },
     "ep:1d56279d-bec7-4467-906d-4003286e1a05": {
       "added": "2026-11-25",
@@ -10829,6 +10857,10 @@
     "ep:08e9d1a6-9923-4184-adbc-6b2b8056e3af": {
       "added": "2026-11-27",
       "checked": "2026-11-27T19:02:12+00:00"
+    },
+    "ep:80cbfdb9-241a-4dc0-a888-8970632157d7": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T19:32:34+00:00"
     }
   },
   "last_discovery": "2026-11-27",
