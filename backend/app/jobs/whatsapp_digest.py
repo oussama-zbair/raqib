@@ -23,7 +23,10 @@ from app.notify.channel import AR_DAYS, AR_MONTHS, fmt_posts
 
 log = logging.getLogger("whatsapp_digest")
 
-TZ = ZoneInfo("Africa/Casablanca")
+# Morocco's legal time is UTC+1 (UTC+0 only during Ramadan). A fixed offset gives the
+# same answer on every machine: time zone databases differ between servers for
+# Africa/Casablanca, which moved the digest by an hour on GitHub's Linux runners.
+TZ = timezone(timedelta(hours=1), "Morocco")
 MORNING_HOUR, EVENING_HOUR = 9, 18
 FIRST_DIGEST_HOURS = 12  # the very first digest covers the last 12 hours
 PART_LIMIT = 3500  # Telegram allows 4096 characters per message
