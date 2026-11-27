@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-27T11:33:58+00:00",
+ "updated_at": "2026-11-27T12:03:49+00:00",
  "channel": "https://t.me/RaqibEmploi",
  "sources": [
   {
@@ -11,8 +11,8 @@
  "stats": {
   "open": 128,
   "posted_total": 143,
-  "stage_posts_total": 77,
-  "followed": 409
+  "stage_posts_total": 80,
+  "followed": 410
  },
  "concours": [
   {
@@ -20,8 +20,8 @@
    "code": "C 44992/26",
    "administration": "مجموعة التهيئة العمران",
    "grade": "(01) مسؤول/مسؤولة علاقات صحفية وإعلامية لهولدينغ العمران الرباط",
-   "title": "(01) مسؤول/مسؤولة علاقات صحفية",
-   "family": "(01)",
+   "title": "مسؤول",
+   "family": "مسؤول",
    "scale": null,
    "specialty": null,
    "posts": 1,
@@ -41,8 +41,8 @@
    "code": "C 44991/26",
    "administration": "مجموعة التهيئة العمران",
    "grade": "(01) مدير محتوى: المحتوى التحريري والرقمي (F/H) لهولدينغ العمران الرباط",
-   "title": "(01) مدير محتوى: المحتوى",
-   "family": "(01)",
+   "title": "مدير محتوى",
+   "family": "مدير",
    "scale": null,
    "specialty": null,
    "posts": 1,
@@ -137,8 +137,8 @@
    "code": "C 44707/26",
    "administration": "مكتب التكوين المهني وإنعاش الشغل",
    "grade": "(Chef de pôle Digital et Intelligence Artificielle - Marrakech (RH 178/2026",
-   "title": "(Chef de pôle Digital",
-   "family": "(Chef",
+   "title": "Chef de pôle Digital",
+   "family": "Chef",
    "scale": null,
    "specialty": null,
    "posts": 1,
@@ -163,8 +163,8 @@
    "code": "C 44708/26",
    "administration": "مكتب التكوين المهني وإنعاش الشغل",
    "grade": "(Conseiller(ère) en Orientation-Al Hoceima – Bouarfa – Guelmim – Sidi Slimane – Taounate - Zagora (RH 179/2026",
-   "title": "(Conseiller(ère) en Orientation-Al Hoceima",
-   "family": "(Conseiller(ère)",
+   "title": "Conseiller",
+   "family": "Conseiller",
    "scale": null,
    "specialty": null,
    "posts": 6,
@@ -390,8 +390,8 @@
    "code": "C 44988/26",
    "administration": "مجموعة التهيئة العمران",
    "grade": "(02) رؤساء مشاريع (F/H) لشركة العمران منطقة الشرق",
-   "title": "(02) رؤساء مشاريع (F/H)",
-   "family": "(02)",
+   "title": "رؤساء مشاريع",
+   "family": "رؤساء",
    "scale": null,
    "specialty": null,
    "posts": 2,
@@ -1318,7 +1318,7 @@
    "posted_at": "2026-11-26T11:04:41+00:00"
   },
   {
-   "id": "ep:1e96ae25-71ea-46b8-8867-53ac0ce6201f",
+   "id": "ep:87771aba-7e04-4a17-9562-533af23e2dc1",
    "code": "C 44934/26",
    "administration": "صورياد القناة الثانية 2M",
    "grade": "تقني في الديكور",
@@ -1385,7 +1385,7 @@
    "posted_at": "2026-11-26T10:05:29+00:00"
   },
   {
-   "id": "ep:770a12fe-e1a1-4bb9-8a7d-f6ca4c8152fb",
+   "id": "ep:9c94d268-16e7-4f46-9c9d-b1a429f8ea50",
    "code": "C 44931/26",
    "administration": "جامعة مولاي اسماعيل - مكناس",
    "grade": "أستاذ محاضر من الدرجة أ - سُلمْ 11",
@@ -1482,7 +1482,7 @@
    "posted_at": "2026-11-26T00:05:38+00:00"
   },
   {
-   "id": "ep:98f8f5aa-a77c-4571-8490-2ecfd8f0404f",
+   "id": "ep:2fef0122-6371-4de3-af5f-54385044d832",
    "code": "C 44716/26",
    "administration": "الوكالة الوطنية للدعم الاجتماعي",
    "grade": "تقني متخصص في البناء",
@@ -1699,7 +1699,7 @@
    "posted_at": "2026-11-25T19:34:47+00:00"
   },
   {
-   "id": "ep:a7e52309-7e1c-4474-b637-1f5cf0e47b4c",
+   "id": "ep:d166cff5-6eae-4e33-bca9-65950874b2df",
    "code": "C 44897/26",
    "administration": "إقليم الحاجب - اكوراي",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -2508,7 +2508,7 @@
    "posted_at": "2026-11-25T18:24:59+00:00"
   },
   {
-   "id": "ep:aa5a7bf0-c8ed-4221-bff0-de210c2b0d44",
+   "id": "ep:7ba78629-d145-41b6-b873-e1202bf0e3be",
    "code": "C 44889/26",
    "administration": "شركة المنشآت الرياضية لطنجة ش.م",
    "grade": "تقني تيار قوي",
@@ -3089,7 +3089,7 @@
    "posted_at": "2026-11-25T04:47:00+00:00"
   },
   {
-   "id": "ep:f13bac44-60cc-4ed5-897a-905111afbeb2",
+   "id": "ep:b7f02f9d-4b66-4dcd-8365-f3b1001009c1",
    "code": "C 44743/26",
    "administration": "وزارة العدل",
    "grade": "محرر قضائي من الدرجة الرابعة - سُلمْ 8",
@@ -3137,7 +3137,7 @@
    "posted_at": "2026-11-25T04:47:00+00:00"
   },
   {
-   "id": "ep:06f2df84-0753-47a3-95b9-4aa040df8c72",
+   "id": "ep:254a4ccc-b3d1-43d0-8b7d-a23d818766b2",
    "code": "C 44886/26",
    "administration": "وزارة الصحة والحماية الاجتماعية",
    "grade": "مساعد تقني من الدرجة الثانية",
@@ -3160,7 +3160,7 @@
    "posted_at": "2026-11-25T04:47:00+00:00"
   },
   {
-   "id": "ep:06f2df84-0753-47a3-95b9-4aa040df8c72",
+   "id": "ep:254a4ccc-b3d1-43d0-8b7d-a23d818766b2",
    "code": "C 44887/26",
    "administration": "وزارة الصحة والحماية الاجتماعية",
    "grade": "مساعد تقني من الدرجة الثانية",
@@ -3302,6 +3302,48 @@
   }
  ],
  "updates": [
+  {
+   "id": "ep:d63baebe-afbb-4ede-9e52-00efec75fbc2",
+   "stage": "CONVOQUES_ORAL",
+   "administration": "الوكالة المغربية للأمن والسلامة في المجالين النووي والإشعاعي",
+   "grade": "متصرف من الدرجة الثانية - سُلمْ 11",
+   "title": "متصرف",
+   "family": "متصرف",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/4492a9a171d6b4ee4cd3e748a2921183.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/d63baebe-afbb-4ede-9e52-00efec75fbc2",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/d63baebe-afbb-4ede-9e52-00efec75fbc2",
+   "posted_at": "2026-11-27T12:03:41+00:00"
+  },
+  {
+   "id": "ep:cc45d14a-e926-49f7-b246-e209c48f8411",
+   "stage": "CONVOQUES_ORAL",
+   "administration": "الوكالة المغربية للأمن والسلامة في المجالين النووي والإشعاعي",
+   "grade": "متصرف من الدرجة الثانية - سُلمْ 11",
+   "title": "متصرف",
+   "family": "متصرف",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/4492a9a171d6b4ee4cd3e748a2921183.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/cc45d14a-e926-49f7-b246-e209c48f8411",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/cc45d14a-e926-49f7-b246-e209c48f8411",
+   "posted_at": "2026-11-27T12:03:35+00:00"
+  },
+  {
+   "id": "ep:b10baa00-399d-42c9-ab45-c8a4a66dfade",
+   "stage": "CONVOQUES",
+   "administration": "إقليم وزان",
+   "grade": "تقني من الدرجة الرابعة - سُلمْ 8",
+   "title": "تقني",
+   "family": "تقني",
+   "exam_date": "2026-12-06",
+   "city": "وزان",
+   "logo": null,
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques/b10baa00-399d-42c9-ab45-c8a4a66dfade",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/b10baa00-399d-42c9-ab45-c8a4a66dfade",
+   "posted_at": "2026-11-27T12:03:29+00:00"
+  },
   {
    "id": "ep:6211f661-ec45-49cd-909b-a3caea180325",
    "stage": "CONVOQUES_ORAL",
@@ -3489,8 +3531,8 @@
    "stage": "CONVOQUES",
    "administration": "مكتب التكوين المهني وإنعاش الشغل",
    "grade": "(Chef de pôle Tourisme et Hôtellerie -Casablanca (RH 115/2026",
-   "title": "(Chef de pôle Tourisme",
-   "family": "(Chef",
+   "title": "Chef de pôle Tourisme",
+   "family": "Chef",
    "exam_date": null,
    "city": null,
    "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/605d517e550b20159d6828fa497cec47.png",
@@ -3545,8 +3587,8 @@
    "stage": "RESULTATS",
    "administration": "مكتب التكوين المهني وإنعاش الشغل",
    "grade": "(Chef de pôle Digital et Intelligence Artificielle - Marrakech (RH 178/2026",
-   "title": "(Chef de pôle Digital",
-   "family": "(Chef",
+   "title": "Chef de pôle Digital",
+   "family": "Chef",
    "exam_date": null,
    "city": null,
    "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/605d517e550b20159d6828fa497cec47.png",
@@ -3559,8 +3601,8 @@
    "stage": "RESULTATS",
    "administration": "مكتب التكوين المهني وإنعاش الشغل",
    "grade": "(Conseiller(ère) en Orientation-Al Hoceima – Bouarfa – Guelmim – Sidi Slimane – Taounate - Zagora (RH 179/2026",
-   "title": "(Conseiller(ère) en Orientation-Al Hoceima",
-   "family": "(Conseiller(ère)",
+   "title": "Conseiller",
+   "family": "Conseiller",
    "exam_date": null,
    "city": null,
    "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/605d517e550b20159d6828fa497cec47.png",
@@ -3601,8 +3643,8 @@
    "stage": "CONVOQUES_ORAL",
    "administration": "مكتب التكوين المهني وإنعاش الشغل",
    "grade": "(Chef de pôle Digital et Intelligence Artificielle - Marrakech (RH 178/2026",
-   "title": "(Chef de pôle Digital",
-   "family": "(Chef",
+   "title": "Chef de pôle Digital",
+   "family": "Chef",
    "exam_date": null,
    "city": null,
    "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/605d517e550b20159d6828fa497cec47.png",
@@ -3615,8 +3657,8 @@
    "stage": "CONVOQUES_ORAL",
    "administration": "مكتب التكوين المهني وإنعاش الشغل",
    "grade": "(Conseiller(ère) en Orientation-Al Hoceima – Bouarfa – Guelmim – Sidi Slimane – Taounate - Zagora (RH 179/2026",
-   "title": "(Conseiller(ère) en Orientation-Al Hoceima",
-   "family": "(Conseiller(ère)",
+   "title": "Conseiller",
+   "family": "Conseiller",
    "exam_date": null,
    "city": null,
    "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/605d517e550b20159d6828fa497cec47.png",
@@ -3657,8 +3699,8 @@
    "stage": "CONVOQUES",
    "administration": "مكتب التكوين المهني وإنعاش الشغل",
    "grade": "(Chef de pôle Digital et Intelligence Artificielle - Marrakech (RH 178/2026",
-   "title": "(Chef de pôle Digital",
-   "family": "(Chef",
+   "title": "Chef de pôle Digital",
+   "family": "Chef",
    "exam_date": null,
    "city": null,
    "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/605d517e550b20159d6828fa497cec47.png",
@@ -3671,8 +3713,8 @@
    "stage": "CONVOQUES",
    "administration": "مكتب التكوين المهني وإنعاش الشغل",
    "grade": "(Conseiller(ère) en Orientation-Al Hoceima – Bouarfa – Guelmim – Sidi Slimane – Taounate - Zagora (RH 179/2026",
-   "title": "(Conseiller(ère) en Orientation-Al Hoceima",
-   "family": "(Conseiller(ère)",
+   "title": "Conseiller",
+   "family": "Conseiller",
    "exam_date": null,
    "city": null,
    "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/605d517e550b20159d6828fa497cec47.png",

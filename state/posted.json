@@ -7737,6 +7737,58 @@
       "exam_date": null,
       "city": null,
       "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/673d4e683bf65fbf906fa190831359e7.png"
+    },
+    {
+      "key": "ep:ccb71da5-f31a-4c0c-b29f-68884ec9b5f5#CONVOQUES_ORAL",
+      "reference_code": "C 44044/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "الشركة الوطنية لإنجاز وتدبير المنشآت الرياضية",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/ccb71da5-f31a-4c0c-b29f-68884ec9b5f5",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-27T12:02:38+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:b10baa00-399d-42c9-ab45-c8a4a66dfade#CONVOQUES",
+      "reference_code": "C 44184/26",
+      "stage": "CONVOQUES",
+      "administration": "إقليم وزان",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/b10baa00-399d-42c9-ab45-c8a4a66dfade",
+      "telegram_message_id": 237,
+      "posted_at": "2026-11-27T12:03:29+00:00",
+      "grade": "تقني من الدرجة الرابعة - سُلمْ 8",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques/b10baa00-399d-42c9-ab45-c8a4a66dfade",
+      "exam_date": "2026-12-06",
+      "city": "وزان",
+      "logo_url": null
+    },
+    {
+      "key": "ep:cc45d14a-e926-49f7-b246-e209c48f8411#CONVOQUES_ORAL",
+      "reference_code": "C 43809/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "الوكالة المغربية للأمن والسلامة في المجالين النووي والإشعاعي",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/cc45d14a-e926-49f7-b246-e209c48f8411",
+      "telegram_message_id": 238,
+      "posted_at": "2026-11-27T12:03:35+00:00",
+      "grade": "متصرف من الدرجة الثانية - سُلمْ 11",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/cc45d14a-e926-49f7-b246-e209c48f8411",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/4492a9a171d6b4ee4cd3e748a2921183.png"
+    },
+    {
+      "key": "ep:d63baebe-afbb-4ede-9e52-00efec75fbc2#CONVOQUES_ORAL",
+      "reference_code": "C 43806/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "الوكالة المغربية للأمن والسلامة في المجالين النووي والإشعاعي",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/d63baebe-afbb-4ede-9e52-00efec75fbc2",
+      "telegram_message_id": 239,
+      "posted_at": "2026-11-27T12:03:41+00:00",
+      "grade": "متصرف من الدرجة الثانية - سُلمْ 11",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/d63baebe-afbb-4ede-9e52-00efec75fbc2",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/4492a9a171d6b4ee4cd3e748a2921183.png"
     }
   ],
   "seeded_sources": [
@@ -9380,10 +9432,16 @@
     "ep:c392e86e-afb9-4920-9a4f-4735dffb7e21": {
       "added": "2026-11-27",
       "checked": "2026-11-27T11:32:57+00:00"
+    },
+    "ep:b10baa00-399d-42c9-ab45-c8a4a66dfade": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T12:02:36+00:00"
     }
   },
   "last_discovery": "2026-11-27",
   "send_failures": {},
+  "last_digest_slot": "2026-11-27-am",
+  "last_digest_at": "2026-11-27T12:03:45+00:00",
   "rejected": {
     "https://www.emploi-public.ma/fr/concours/details/03905d86-bfa2-4e5f-9173-f46289658267": "2026-11-25",
     "https://www.dreamjob.ma/emploi-public/resultats-concours/resultats-definitifs-concours-ministere-de-la-sante-2026-50-postes-a-dakhla-oued-eddahab/": "2026-11-25",
