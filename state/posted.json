@@ -7479,6 +7479,62 @@
       "exam_date": null,
       "city": null,
       "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/605d517e550b20159d6828fa497cec47.png"
+    },
+    {
+      "key": "ep:b42d1110-98ce-4b1a-943e-7fa85c08ccf3#CONVOQUES_ORAL",
+      "reference_code": "C 43573/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "جامعة ابن زهر - أكادير",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/b42d1110-98ce-4b1a-943e-7fa85c08ccf3",
+      "telegram_message_id": 222,
+      "posted_at": "2026-11-27T10:03:16+00:00",
+      "grade": "أستاذ محاضر بالمدرسة الوطنية للتكنولوجيات المتقدمة بالعيون تخصص Physique des Matériaux et Énergies Renouvelables",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/b42d1110-98ce-4b1a-943e-7fa85c08ccf3",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/673d4e683bf65fbf906fa190831359e7.png"
+    },
+    {
+      "key": "ep:c47e59c6-9d3b-48df-9775-85c64c28bf7d#CONVOQUES_ORAL",
+      "reference_code": "C 43572/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "جامعة ابن زهر - أكادير",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/c47e59c6-9d3b-48df-9775-85c64c28bf7d",
+      "telegram_message_id": 223,
+      "posted_at": "2026-11-27T10:03:22+00:00",
+      "grade": "أستاذ محاضر بالمدرسة الوطنية للتكنولوجيات المتقدمة بالعيون تخصص Mécanique – Énergétique",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/c47e59c6-9d3b-48df-9775-85c64c28bf7d",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/673d4e683bf65fbf906fa190831359e7.png"
+    },
+    {
+      "key": "ep:ea26a08c-3fe0-4a3e-9a08-63987241b5c1#CONVOQUES_ORAL",
+      "reference_code": "C 43582/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "جامعة ابن زهر - أكادير",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/ea26a08c-3fe0-4a3e-9a08-63987241b5c1",
+      "telegram_message_id": 224,
+      "posted_at": "2026-11-27T10:03:28+00:00",
+      "grade": "أستاذ محاضر بالمدرسة الوطنية للتكنولوجيات المتقدمة بالداخلة تخصص Mécanique – Energétique",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/ea26a08c-3fe0-4a3e-9a08-63987241b5c1",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/673d4e683bf65fbf906fa190831359e7.png"
+    },
+    {
+      "key": "ep:7a4c17c1-a3c8-4843-b65c-5d4baed63938#CONVOQUES_ORAL",
+      "reference_code": "C 43583/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "جامعة ابن زهر - أكادير",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/7a4c17c1-a3c8-4843-b65c-5d4baed63938",
+      "telegram_message_id": 225,
+      "posted_at": "2026-11-27T10:03:34+00:00",
+      "grade": "أستاذ محاضر بالمدرسة الوطنية للتكنولوجيات المتقدمة بالداخلة تخصص Physique des Matériaux et Energies Renouvelables",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/7a4c17c1-a3c8-4843-b65c-5d4baed63938",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/673d4e683bf65fbf906fa190831359e7.png"
     }
   ],
   "seeded_sources": [
@@ -9066,6 +9122,22 @@
     "ep:ec7de795-96d5-46d9-8cd1-dcc403c02512": {
       "added": "2026-11-27",
       "checked": "2026-11-27T09:31:57+00:00"
+    },
+    "ep:7a4c17c1-a3c8-4843-b65c-5d4baed63938": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T10:02:21+00:00"
+    },
+    "ep:ea26a08c-3fe0-4a3e-9a08-63987241b5c1": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T10:02:23+00:00"
+    },
+    "ep:c47e59c6-9d3b-48df-9775-85c64c28bf7d": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T10:02:25+00:00"
+    },
+    "ep:b42d1110-98ce-4b1a-943e-7fa85c08ccf3": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T10:02:27+00:00"
     }
   },
   "last_discovery": "2026-11-27",

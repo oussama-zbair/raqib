@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-27T09:32:46+00:00",
+ "updated_at": "2026-11-27T10:03:38+00:00",
  "channel": "https://t.me/RaqibEmploi",
  "sources": [
   {
@@ -11,8 +11,8 @@
  "stats": {
   "open": 126,
   "posted_total": 141,
-  "stage_posts_total": 64,
-  "followed": 395
+  "stage_posts_total": 68,
+  "followed": 399
  },
  "concours": [
   {
@@ -209,7 +209,7 @@
    "posted_at": "2026-11-26T17:33:10+00:00"
   },
   {
-   "id": "ep:ace1070f-f3a5-46df-947c-0372143baeb4",
+   "id": "ep:baf06523-83ae-45a3-bb1a-3144e273d7e5",
    "code": "C 44983/26",
    "administration": "إقليم الحوز",
    "grade": "تقني من الدرجة الرابعة - سُلمْ 8",
@@ -1276,7 +1276,7 @@
    "posted_at": "2026-11-26T11:04:41+00:00"
   },
   {
-   "id": "ep:87771aba-7e04-4a17-9562-533af23e2dc1",
+   "id": "ep:1e96ae25-71ea-46b8-8867-53ac0ce6201f",
    "code": "C 44934/26",
    "administration": "صورياد القناة الثانية 2M",
    "grade": "تقني في الديكور",
@@ -1516,7 +1516,7 @@
    "posted_at": "2026-11-25T19:35:28+00:00"
   },
   {
-   "id": "ep:8a811d71-5f0c-4516-a54b-cdd421929da1",
+   "id": "ep:593d3e98-64cc-4a18-99b5-56564e510a9a",
    "code": "C 44916/26",
    "administration": "إقليم تاونات",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -1726,7 +1726,7 @@
    "posted_at": "2026-11-25T19:34:32+00:00"
   },
   {
-   "id": "ep:3f6d3934-2b54-4ccb-934e-67ec66e7f762",
+   "id": "ep:d520bc73-bcf0-4974-af85-7b6af7c7c40f",
    "code": "C 44884/26",
    "administration": "إقليم تازة - تازة",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -1795,7 +1795,7 @@
    "posted_at": "2026-11-25T19:03:47+00:00"
   },
   {
-   "id": "ep:3d0d7c43-34b5-4e4b-ba57-02da6200dbd0",
+   "id": "ep:a7c4e6a7-7c33-4ec3-a00e-97c83892d659",
    "code": "C 44870/26",
    "administration": "إقليم برشيد - برشيد",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -1841,7 +1841,7 @@
    "posted_at": "2026-11-25T19:03:38+00:00"
   },
   {
-   "id": "ep:c7259a97-09c2-4050-893a-c2226569266d",
+   "id": "ep:35a928ed-d8e5-4555-8daf-fa89a806a698",
    "code": "C 44868/26",
    "administration": "إقليم الخميسات - الزحيلكة",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -2966,7 +2966,7 @@
    "posted_at": "2026-11-25T04:47:00+00:00"
   },
   {
-   "id": "ep:aa40ad09-1cb6-4408-b1a7-7507ee9673ed",
+   "id": "ep:a308f369-e882-4c42-871d-acb07d5c6d2e",
    "code": "C 44679/26",
    "administration": "جامعة شعيب الدكالي - الجديدة",
    "grade": "Technicien de 3ème grade",
@@ -3047,7 +3047,7 @@
    "posted_at": "2026-11-25T04:47:00+00:00"
   },
   {
-   "id": "ep:b7f02f9d-4b66-4dcd-8365-f3b1001009c1",
+   "id": "ep:f13bac44-60cc-4ed5-897a-905111afbeb2",
    "code": "C 44743/26",
    "administration": "وزارة العدل",
    "grade": "محرر قضائي من الدرجة الرابعة - سُلمْ 8",
@@ -3260,6 +3260,62 @@
   }
  ],
  "updates": [
+  {
+   "id": "ep:7a4c17c1-a3c8-4843-b65c-5d4baed63938",
+   "stage": "CONVOQUES_ORAL",
+   "administration": "جامعة ابن زهر - أكادير",
+   "grade": "أستاذ محاضر بالمدرسة الوطنية للتكنولوجيات المتقدمة بالداخلة تخصص Physique des Matériaux et Energies Renouvelables",
+   "title": "أستاذ محاضر",
+   "family": "أستاذ",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/673d4e683bf65fbf906fa190831359e7.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/7a4c17c1-a3c8-4843-b65c-5d4baed63938",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/7a4c17c1-a3c8-4843-b65c-5d4baed63938",
+   "posted_at": "2026-11-27T10:03:34+00:00"
+  },
+  {
+   "id": "ep:ea26a08c-3fe0-4a3e-9a08-63987241b5c1",
+   "stage": "CONVOQUES_ORAL",
+   "administration": "جامعة ابن زهر - أكادير",
+   "grade": "أستاذ محاضر بالمدرسة الوطنية للتكنولوجيات المتقدمة بالداخلة تخصص Mécanique – Energétique",
+   "title": "أستاذ محاضر",
+   "family": "أستاذ",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/673d4e683bf65fbf906fa190831359e7.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/ea26a08c-3fe0-4a3e-9a08-63987241b5c1",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/ea26a08c-3fe0-4a3e-9a08-63987241b5c1",
+   "posted_at": "2026-11-27T10:03:28+00:00"
+  },
+  {
+   "id": "ep:c47e59c6-9d3b-48df-9775-85c64c28bf7d",
+   "stage": "CONVOQUES_ORAL",
+   "administration": "جامعة ابن زهر - أكادير",
+   "grade": "أستاذ محاضر بالمدرسة الوطنية للتكنولوجيات المتقدمة بالعيون تخصص Mécanique – Énergétique",
+   "title": "أستاذ محاضر",
+   "family": "أستاذ",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/673d4e683bf65fbf906fa190831359e7.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/c47e59c6-9d3b-48df-9775-85c64c28bf7d",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/c47e59c6-9d3b-48df-9775-85c64c28bf7d",
+   "posted_at": "2026-11-27T10:03:22+00:00"
+  },
+  {
+   "id": "ep:b42d1110-98ce-4b1a-943e-7fa85c08ccf3",
+   "stage": "CONVOQUES_ORAL",
+   "administration": "جامعة ابن زهر - أكادير",
+   "grade": "أستاذ محاضر بالمدرسة الوطنية للتكنولوجيات المتقدمة بالعيون تخصص Physique des Matériaux et Énergies Renouvelables",
+   "title": "أستاذ محاضر",
+   "family": "أستاذ",
+   "exam_date": null,
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/673d4e683bf65fbf906fa190831359e7.png",
+   "pdf": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/b42d1110-98ce-4b1a-943e-7fa85c08ccf3",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/b42d1110-98ce-4b1a-943e-7fa85c08ccf3",
+   "posted_at": "2026-11-27T10:03:16+00:00"
+  },
   {
    "id": "ep:ec7de795-96d5-46d9-8cd1-dcc403c02512",
    "stage": "CONVOQUES",
