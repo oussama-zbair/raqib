@@ -8972,6 +8972,44 @@
       "exam_date": null,
       "city": null,
       "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/cd62178df2cfd8adc6adc86d1e72ff10.png"
+    },
+    {
+      "key": "ep:7729ec0b-7db1-4611-afee-5d67262de0ec#CONVOQUES_ORAL",
+      "reference_code": "C 42574/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "جامعة محمد الأول - وجدة",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/7729ec0b-7db1-4611-afee-5d67262de0ec",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-27T19:02:10+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:08e9d1a6-9923-4184-adbc-6b2b8056e3af#CONVOQUES",
+      "reference_code": "C 44675/26",
+      "stage": "CONVOQUES",
+      "administration": "جامعة محمد الأول - وجدة",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/08e9d1a6-9923-4184-adbc-6b2b8056e3af",
+      "telegram_message_id": 301,
+      "posted_at": "2026-11-27T19:02:59+00:00",
+      "grade": "متصرف من الدرجة الثانية لفائدة كلية العلوم القانونية والسياسية الناضور",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques/08e9d1a6-9923-4184-adbc-6b2b8056e3af",
+      "exam_date": "2026-12-02",
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/8baabd444e8ecb551c7b0e0008439d9e.png"
+    },
+    {
+      "key": "ep:7729ec0b-7db1-4611-afee-5d67262de0ec#RESULTATS",
+      "reference_code": "C 42574/26",
+      "stage": "RESULTATS",
+      "administration": "جامعة محمد الأول - وجدة",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/7729ec0b-7db1-4611-afee-5d67262de0ec",
+      "telegram_message_id": 302,
+      "posted_at": "2026-11-27T19:03:05+00:00",
+      "grade": "أستاذ محاضر لفائدة المدرسة العليا للتربية والتكوين وجدة.",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_resultats/7729ec0b-7db1-4611-afee-5d67262de0ec",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/8baabd444e8ecb551c7b0e0008439d9e.png"
     }
   ],
   "seeded_sources": [
@@ -10787,6 +10825,10 @@
     "ep:db9e10ee-4898-455a-99ac-53edae5fdaef": {
       "added": "2026-11-27",
       "checked": "2026-11-27T18:02:08+00:00"
+    },
+    "ep:08e9d1a6-9923-4184-adbc-6b2b8056e3af": {
+      "added": "2026-11-27",
+      "checked": "2026-11-27T19:02:12+00:00"
     }
   },
   "last_discovery": "2026-11-27",
