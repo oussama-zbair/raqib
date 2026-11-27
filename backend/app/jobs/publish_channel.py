@@ -445,7 +445,7 @@ def run(
         "posts": sent,
         "stage_posts": stage_sent,
         "updates": len(updates),
-        "whatsapp_digest_parts": digest_parts,
+        "whatsapp_cards": digest_parts,
         "dry_run": dry_run,
     }
     if errors:

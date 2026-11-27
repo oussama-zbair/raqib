@@ -4,7 +4,9 @@ from __future__ import annotations
 from datetime import date, datetime, timedelta, timezone
 
 from app.jobs.posted_state import PostedState
-from app.jobs.whatsapp_digest import PART_LIMIT, TZ, build_parts, due_slot, maybe_send
+from app.jobs.whatsapp_digest import (
+    CAPTION_LIMIT, MAX_CARDS, PART_LIMIT, TZ, build_cards, build_parts, due_slot, maybe_send,
+)
 
 SITE, TG = "https://raqib-emploi.pages.dev", "https://t.me/RaqibEmploi"
 UUID = "aaaaaaaa-1111-2222-3333-444444444444"
@@ -82,14 +84,45 @@ def test_long_digest_is_split_into_paste_sized_parts(tmp_path):
 def test_sent_once_per_slot_and_never_empty(tmp_path):
     s = _state(tmp_path)
     sent: list = []
+
+    def sender(chat, cards, closing):
+        sent.append(cards)
+
     morning = _local(2026, 11, 26, 9, 30)
-    assert maybe_send(s, "123", SITE, TG, now=morning, sender=lambda c, p: sent.append(p)) == 1
-    assert maybe_send(s, "123", SITE, TG, now=morning + timedelta(minutes=30),
-                      sender=lambda c, p: sent.append(p)) == 0  # same slot
+    assert maybe_send(s, "123", SITE, TG, now=morning, sender=sender) == 2  # 1 new + 1 list
+    assert maybe_send(s, "123", SITE, TG, now=morning + timedelta(minutes=30), sender=sender) == 0
     evening = _local(2026, 11, 26, 18, 5)
-    assert maybe_send(s, "123", SITE, TG, now=evening, sender=lambda c, p: sent.append(p)) == 0
+    assert maybe_send(s, "123", SITE, TG, now=evening, sender=sender) == 0
     assert len(sent) == 1  # nothing new since the morning: no empty digest
     assert PostedState(tmp_path / "s.json").last_digest_slot == "2026-11-26-pm"
+
+
+def test_one_card_per_item_with_logo_and_whatsapp_caption(tmp_path):
+    s = _state(tmp_path)
+    s.posted[0]["logo_url"] = "https://e/logo.png"
+    s.posted[0]["specialty"] = "الهندسة المدنية / الاعلاميات"
+    cards, closing = build_cards(s, "2026-11-26T00:00:00+00:00", _local(2026, 11, 26, 9, 30), SITE, TG)
+    assert len(cards) == 2
+    new, stage = cards
+    assert stage["caption"].startswith("📋 *لوائح المدعوين لاجتياز الاختبار الكتابي*")
+    assert "🏛 *جامعة ابن طفيل*" in stage["caption"]
+    assert new["caption"].startswith("🟢 *مباراة جديدة*")
+    assert new["logo"] == "https://e/logo.png"
+    assert "🎓 الهندسة المدنية · الاعلاميات" in new["caption"]
+    assert "⏳ آخر أجل: *" in new["caption"] and "📝 الكتابي: سيعلن عنه لاحقا" in new["caption"]
+    assert "🔗 التفاصيل: https://www.emploi-public.ma/fr/concours/details/" in new["caption"]
+    assert "<" not in new["caption"]  # plain text, no HTML
+    assert "raqib-emploi.pages.dev/competitions" in closing
+
+
+def test_cards_fit_telegram_and_overflow_goes_to_the_website(tmp_path):
+    s = _state(tmp_path, n_new=30)
+    s.posted[0]["administration"] = "وزارة " * 300
+    s.posted[0]["specialty"] = " / ".join(f"تخصص {i}" for i in range(60))
+    cards, closing = build_cards(s, "2026-11-26T00:00:00+00:00", _local(2026, 11, 26, 9, 30), SITE, TG)
+    assert len(cards) == MAX_CARDS
+    assert all(len(c["caption"]) <= CAPTION_LIMIT for c in cards)
+    assert "➕ و11 أخرى" in closing  # 31 items, 20 cards
 
 
 def test_no_owner_id_means_no_digest(tmp_path):

@@ -125,12 +125,11 @@ def _concours_key(urls) -> str | None:
     return next((k for k in url_keys(urls) if k.startswith("ep:")), None)
 
 
-def build_parts(state: PostedState, since: str, now: datetime, site: str, telegram: str) -> list[str]:
-    """Digest text split into paste-sized parts. Empty list when nothing is new.
+def _select(state: PostedState, since: str, now: datetime) -> tuple[list[dict], list[dict]]:
+    """(new announcements, stage posts) since the last digest.
 
     Each concours appears once, at its most advanced stage (a concours whose list of
-    invited candidates is already out is no longer "new"). Long sections are cut and
-    point to the website for the rest.
+    invited candidates is already out is no longer "new").
     """
     today = now.astimezone(TZ).date().isoformat()
     latest: dict[str, dict] = {}
@@ -146,9 +145,16 @@ def build_parts(state: PostedState, since: str, now: datetime, site: str, telegr
     new = [e for e in state.posted
            if (e.get("posted_at") or "") > since and (e.get("deadline") or "9999") >= today
            and _concours_key(e.get("urls", [])) not in latest]
+    new.sort(key=lambda e: e.get("deadline") or "9999")  # closing soonest first
+    stages.sort(key=lambda s: STAGE_RANK.get(s.get("stage"), 0))
+    return new, stages
+
+
+def build_parts(state: PostedState, since: str, now: datetime, site: str, telegram: str) -> list[str]:
+    """One text digest split into paste-sized parts (kept for a text-only fallback)."""
+    new, stages = _select(state, since, now)
     if not new and not stages:
         return []
-    new.sort(key=lambda e: e.get("deadline") or "9999")  # closing soonest first
 
     local = now.astimezone(TZ)
     moment = "الصباح" if local.hour < EVENING_HOUR else "المساء"
@@ -186,6 +192,146 @@ def build_parts(state: PostedState, since: str, now: datetime, site: str, telegr
     return ["\n\n".join(p) for p in parts]
 
 
+# ---- one card per item: image + WhatsApp caption ----------------------------------
+MAX_CARDS = 20  # per digest; the rest is linked to the website
+CAPTION_LIMIT = 1000  # Telegram photo captions stop at 1024
+EXAM_TBD = "سيعلن عنه لاحقا"
+STAGE_TITLES = {
+    "CONVOQUES": "📋 *لوائح المدعوين لاجتياز الاختبار الكتابي*",
+    "CONVOQUES_ORAL": "🎤 *لوائح المدعوين لاجتياز الاختبار الشفوي*",
+    "RESULTATS": "🏆 *النتائج النهائية*",
+}
+
+
+def _long_date(iso: str) -> str:
+    d = date.fromisoformat(iso)
+    return f"{AR_DAYS[d.weekday()]} {d.day} {AR_MONTHS[d.month - 1]} {d.year}"
+
+
+def _specs(text: str | None, limit: int) -> str:
+    specs = [s.strip() for s in (text or "").split(" / ") if s.strip()]
+    if not specs or limit <= 0:
+        return ""
+    more = len(specs) - limit
+    return " · ".join(specs[:limit]) + (f" (+{more})" if more > 0 else "")
+
+
+def _cut(text: str | None, limit: int) -> str:
+    text = _one_line(text)
+    if text.count("(") != text.count(")"):  # the portal sometimes leaves brackets open
+        text = " ".join(text.replace("(", " ").replace(")", " ").split())
+    return text if len(text) <= limit else text[: limit - 1].rstrip() + "…"
+
+
+def _fit(build) -> str:
+    """Build a caption, dropping detail until it fits Telegram's caption limit."""
+    for specs, width in ((4, 400), (2, 400), (0, 250), (0, 120)):
+        text = build(specs, width)
+        if len(text) <= CAPTION_LIMIT:
+            return text
+    return text[:CAPTION_LIMIT]
+
+
+def announcement_card(e: dict) -> dict:
+    def build(specs: int, width: int) -> str:
+        lines = ["🟢 *مباراة جديدة*", "", f"🏛 *{_cut(e.get('administration'), width)}*"]
+        if e.get("grade"):
+            lines.append(f"💼 {_cut(e['grade'], width)}")
+        sp = _specs(e.get("specialty"), specs)
+        if sp:
+            lines.append(f"🎓 {_cut(sp, width)}")
+        facts = []
+        if e.get("post_count"):
+            facts.append(f"👥 {fmt_posts(e['post_count'], 'ar')}")
+        if e.get("city"):
+            facts.append(f"📍 {e['city']}")
+        if facts:
+            lines.append(" · ".join(facts))
+        lines.append("")
+        if e.get("deadline"):
+            lines.append(f"⏳ آخر أجل: *{_long_date(e['deadline'])}*")
+        exam = _long_date(e["exam_date"]) if e.get("exam_date") else EXAM_TBD
+        lines.append(f"📝 الكتابي: {exam}")
+        link = _link(e.get("urls", []))
+        if link:
+            lines += ["", f"🔗 التفاصيل: {link}"]
+        return "\n".join(lines)
+
+    return {"caption": _fit(build), "logo": e.get("logo_url")}
+
+
+def stage_card(s: dict, today: str) -> dict:
+    stage = s.get("stage")
+
+    def build(specs: int, width: int) -> str:
+        lines = [STAGE_TITLES.get(stage, "📋"), "", f"🏛 *{_cut(s.get('administration'), width)}*"]
+        if s.get("grade"):
+            lines.append(f"💼 {_cut(s['grade'], width)}")
+        if s.get("city"):
+            lines.append(f"📍 {s['city']}")
+        if stage == "RESULTATS":
+            lines += ["", "🎉 تهانينا للناجحين، وبالتوفيق للجميع"]
+        elif s.get("exam_date") and s["exam_date"] >= today:
+            lines += ["", f"📅 تاريخ الاختبار: *{_long_date(s['exam_date'])}*"]
+        link = s.get("list_pdf_url") or _link([s.get("url")] if s.get("url") else [])
+        if link:
+            lines += ["", f"📄 اللائحة: {link}"]
+        return "\n".join(lines)
+
+    return {"caption": _fit(build), "logo": s.get("logo_url")}
+
+
+def build_cards(state: PostedState, since: str, now: datetime, site: str,
+                telegram: str) -> tuple[list[dict], str]:
+    """(cards, closing text): new concours first, then lists and results."""
+    new, stages = _select(state, since, now)
+    today = now.astimezone(TZ).date().isoformat()
+    # New concours first: people can still apply. Lists and results fill the rest.
+    cards = [announcement_card(e) for e in new] + [stage_card(s, today) for s in stages]
+    extra = len(cards) - MAX_CARDS
+    closing = [f"🌐 كل المباريات مع البحث: {site}/competitions",
+               f"✈️ تيليجرام: {telegram}",
+               "🤝 شارك القناة مع من يبحث عن عمل"]
+    if extra > 0:
+        closing.insert(0, f"➕ و{extra} أخرى اليوم على الموقع: {site}/competitions")
+    return cards[:MAX_CARDS], "\n".join(closing)
+
+
+def _send_cards(chat_id: str, cards: list[dict], closing: str) -> None:
+    """A short how-to, then one photo per item with its WhatsApp caption, then the
+    closing text. Captions are plain text: the * stay as WhatsApp bold marks."""
+    import time
+
+    from app.notify.channel import TelegramError, _emblem, _request, fetch_image
+
+    how = (f"📲 <b>{len(cards)} بطاقة جاهزة لقناة واتساب</b>\n\n"
+           "لكل بطاقة:\n"
+           "1️⃣ اضغط مطولا على البطاقة ← <b>نسخ</b> (ينسخ النص)\n"
+           "2️⃣ افتح الصورة ← <b>مشاركة</b> ← واتساب ← قناة رقيب\n"
+           "3️⃣ الصق النص كتعليق على الصورة، ثم أرسل\n\n"
+           "على الحاسوب: زر الفأرة الأيمن على الصورة ← Copy Image، ثم Copy Text.")
+    _request("sendMessage", {"chat_id": chat_id, "parse_mode": "HTML", "text": how})
+    for card in cards:
+        sent = False
+        for image in (fetch_image(card.get("logo")), _emblem()):
+            if image is None:
+                continue
+            try:
+                _request("sendPhoto", {"chat_id": chat_id, "caption": card["caption"]},
+                         files={"photo": image})
+                sent = True
+                break
+            except TelegramError as exc:
+                if exc.status != 400:
+                    raise
+        if not sent:
+            _request("sendMessage", {"chat_id": chat_id, "text": card["caption"],
+                                     "link_preview_options": {"is_disabled": True}})
+        time.sleep(1.2)  # stay well under Telegram's per-chat rate limit
+    _request("sendMessage", {"chat_id": chat_id, "text": closing,
+                             "link_preview_options": {"is_disabled": True}})
+
+
 def _send(chat_id: str, parts: list[str]) -> None:
     """One short instruction, then each part as a plain message.
 
@@ -210,8 +356,8 @@ def _send(chat_id: str, parts: list[str]) -> None:
 
 
 def maybe_send(state: PostedState, chat_id: str, site: str, telegram: str,
-               now: datetime | None = None, sender=_send) -> int:
-    """Send the digest when a new slot has started. Returns the number of parts sent."""
+               now: datetime | None = None, sender=_send_cards) -> int:
+    """Send the digest cards when a new slot has started. Returns the number of cards."""
     if not chat_id:
         return 0
     now = now or datetime.now(timezone.utc)
@@ -220,15 +366,15 @@ def maybe_send(state: PostedState, chat_id: str, site: str, telegram: str,
         return 0
     since = state.last_digest_at or (now - timedelta(hours=FIRST_DIGEST_HOURS)).isoformat(
         timespec="seconds")
-    parts = build_parts(state, since, now, site, telegram)
-    if parts:
-        sender(chat_id, parts)
-        log.info("whatsapp digest sent: %d part(s)", len(parts))
+    cards, closing = build_cards(state, since, now, site, telegram)
+    if cards:
+        sender(chat_id, cards, closing)
+        log.info("whatsapp digest sent: %d card(s)", len(cards))
     # Advance even when empty: the next digest starts from here.
     state.last_digest_slot = slot
     state.last_digest_at = now.isoformat(timespec="seconds")
     state.save()
-    return len(parts)
+    return len(cards)
 
 
-__all__ = ["build_parts", "due_slot", "maybe_send", "canonical_url"]
+__all__ = ["build_cards", "build_parts", "due_slot", "maybe_send", "canonical_url"]
