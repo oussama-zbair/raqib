@@ -68,23 +68,6 @@ Cloudflare Worker (cron */30)          ← l'horloge, à l'heure
 Site (Cloudflare Pages)  ← le navigateur lit state/public.json directement sur GitHub
 ```
 
-**Choix techniques**
-
-- **Pas de base de données** : un seul écrivain, quelques milliers d'entrées par an, aucune donnée
-  utilisateur. Un fichier JSON dans Git suffit, ne coûte rien et garde tout l'historique.
-- **Une seule identité par concours** : sur le portail, l'annonce, les listes et les résultats partagent
-  le même identifiant. Pages FR et AR, toutes étapes : une seule clé, donc aucun doublon.
-- **Jamais deux fois** : la mémoire est enregistrée après chaque envoi, une seule exécution à la fois,
-  et l'envoi réel n'est possible que depuis GitHub Actions.
-- **Jamais bloqué** : une publication refusée par Telegram est sautée, réessayée trois fois puis
-  abandonnée. Chaque étape du job a son propre filet de sécurité.
-- **Aucune convocation manquée** : les listes ne sont pas triées par date sur le portail. Raqib combine
-  les dernières mises à jour de l'accueil, les premières pages et le suivi d'environ 370 concours actifs.
-- **Heure du Maroc officielle** : règles IANA (`Africa/Casablanca`) mises à jour à chaque exécution,
-  avec une variable `MOROCCO_UTC_OFFSET` en secours.
-- **Collecte respectueuse** : uniquement les pages autorisées par robots.txt, User-Agent identifié,
-  faible fréquence, lien vers la source officielle. Les sites qui bloquent les robots ne sont pas
-  contournés.
 
 ## 🛠️ Stack technique
 
