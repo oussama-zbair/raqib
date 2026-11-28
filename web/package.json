@@ -1,6 +1,7 @@
 {
   "name": "raqib-web",
   "private": true,
+  "license": "UNLICENSED",
   "type": "module",
   "description": "Raqib (رقيب): public site, concours and source status.",
   "scripts": {

@@ -11,7 +11,7 @@
 [![Chaîne WhatsApp](https://img.shields.io/badge/WhatsApp-Raqib-25D366?logo=whatsapp&logoColor=white)](https://whatsapp.com/channel/0029VbEJN8rIXnlxFgLlea1w)
 [![Site](https://img.shields.io/badge/Site-raqib--emploi.pages.dev-2563EB)](https://raqib-emploi.pages.dev)
 [![CI](https://github.com/oussama-zbair/raqib/actions/workflows/ci.yml/badge.svg)](https://github.com/oussama-zbair/raqib/actions/workflows/ci.yml)
-![License](https://img.shields.io/badge/license-MIT-2563EB)
+![License](https://img.shields.io/badge/license-All%20rights%20reserved-B91C1C)
 
 </div>
 
@@ -97,7 +97,12 @@ L'assistant personnel, en préparation :
 - Alerte quand une source tombe, déploiement automatique du site, sources officielles
   supplémentaires (uniquement celles qui autorisent la collecte).
 
-## ⚖️ Avertissement
+## ⚖️ Droits et avertissement
+
+© 2026 Oussama Zbair. **Tous droits réservés.** Le code est publié pour transparence uniquement :
+toute copie, modification, redistribution ou réutilisation du nom et du logo « Raqib » est
+interdite sans autorisation écrite. Voir [LICENSE](LICENSE).
+
 
 Projet indépendant, non affilié à l'administration. Les données sont publiques et proviennent du
 portail officiel [emploi-public.ma](https://www.emploi-public.ma). Vérifiez toujours l'annonce officielle
