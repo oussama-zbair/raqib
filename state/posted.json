@@ -3205,6 +3205,60 @@
       "city": null,
       "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/e653066e8ef21bdadce0e76716ad0272.png",
       "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/9c32f98a-c3fa-493d-b4bc-f147495c215c"
+    },
+    {
+      "id": "C 44736/26",
+      "reference_code": "C 44736/26",
+      "administration": "جامعة الحسن الثاني - الدارالبيضاء",
+      "grade": "أستاذ محاضر لفائدة كلية الطب ببني ملال",
+      "post_count": 2,
+      "deadline": "2026-11-29",
+      "exam_date": "2026-12-10",
+      "urls": [
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/7779f529-6e55-4b06-bebd-0976c1c2429d"
+      ],
+      "telegram_message_id": 335,
+      "posted_at": "2026-11-28T00:05:36+00:00",
+      "specialty": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/48fd46eb3d360ebccadcbcff69793732.png",
+      "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/7779f529-6e55-4b06-bebd-0976c1c2429d"
+    },
+    {
+      "id": "C 44711/26",
+      "reference_code": "C 44711/26",
+      "administration": "جامعة عبد المالك السعدي - تطوان",
+      "grade": "أستاذ محاضرا في الطب والصيدلة دورة 10 دجنبر 2026 كلية الطب والصيدلة طنجة",
+      "post_count": 17,
+      "deadline": "2026-11-29",
+      "exam_date": null,
+      "urls": [
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/debd09a4-a7a0-44e6-ab97-9b17ee80e6e1"
+      ],
+      "telegram_message_id": 336,
+      "posted_at": "2026-11-28T00:05:42+00:00",
+      "specialty": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/60d71cd85f96347bdf633b168ecd10fe.png",
+      "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/debd09a4-a7a0-44e6-ab97-9b17ee80e6e1"
+    },
+    {
+      "id": "C 44762/26",
+      "reference_code": "C 44762/26",
+      "administration": "جامعة ابن زهر - أكادير",
+      "grade": "أستاذ محاضر بكلية الاقتصاد والتدبير بتارودانت تخصص Mathématiques appliquées",
+      "post_count": 1,
+      "deadline": "2026-11-29",
+      "exam_date": "2026-12-08",
+      "urls": [
+        "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/a082b027-6772-43c0-b60e-e9437140229f"
+      ],
+      "telegram_message_id": 337,
+      "posted_at": "2026-11-28T00:05:47+00:00",
+      "specialty": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/673d4e683bf65fbf906fa190831359e7.png",
+      "official_url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/a082b027-6772-43c0-b60e-e9437140229f"
     }
   ],
   "stages": [
@@ -9348,6 +9402,224 @@
       "exam_date": "2026-11-30",
       "city": null,
       "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/673d4e683bf65fbf906fa190831359e7.png"
+    },
+    {
+      "key": "ep:7a507850-27d4-44d9-bc14-19272d9c31f1#CONVOQUES",
+      "reference_code": "C 43395/26",
+      "stage": "CONVOQUES",
+      "administration": "إقليم بركان - السعيدية",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/7a507850-27d4-44d9-bc14-19272d9c31f1",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-28T00:04:10+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:7a507850-27d4-44d9-bc14-19272d9c31f1#CONVOQUES_ORAL",
+      "reference_code": "C 43395/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "إقليم بركان - السعيدية",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/7a507850-27d4-44d9-bc14-19272d9c31f1",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-28T00:04:10+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:7d98f8e8-b7ef-4476-a7e5-af8f17e79319#CONVOQUES",
+      "reference_code": "C 43394/26",
+      "stage": "CONVOQUES",
+      "administration": "إقليم بركان - السعيدية",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/7d98f8e8-b7ef-4476-a7e5-af8f17e79319",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-28T00:04:12+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:7d98f8e8-b7ef-4476-a7e5-af8f17e79319#CONVOQUES_ORAL",
+      "reference_code": "C 43394/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "إقليم بركان - السعيدية",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/7d98f8e8-b7ef-4476-a7e5-af8f17e79319",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-28T00:04:12+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:8d0939b8-ee12-4281-8507-230affe85ec8#CONVOQUES",
+      "reference_code": "C 43389/26",
+      "stage": "CONVOQUES",
+      "administration": "إقليم شيشاوة - أداسيل",
+      "url": "https://www.emploi-public.ma/ar/تفاصيل/المباريات/8d0939b8-ee12-4281-8507-230affe85ec8",
+      "telegram_message_id": null,
+      "posted_at": "2026-11-28T00:04:14+00:00",
+      "seeded": true
+    },
+    {
+      "key": "ep:7779f529-6e55-4b06-bebd-0976c1c2429d#CONVOQUES",
+      "reference_code": "C 44736/26",
+      "stage": "CONVOQUES",
+      "administration": "جامعة الحسن الثاني - الدارالبيضاء",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/7779f529-6e55-4b06-bebd-0976c1c2429d",
+      "telegram_message_id": 323,
+      "posted_at": "2026-11-28T00:04:20+00:00",
+      "grade": "أستاذ محاضر لفائدة كلية الطب ببني ملال",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques/7779f529-6e55-4b06-bebd-0976c1c2429d",
+      "exam_date": "2026-12-10",
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/48fd46eb3d360ebccadcbcff69793732.png"
+    },
+    {
+      "key": "ep:debd09a4-a7a0-44e6-ab97-9b17ee80e6e1#CONVOQUES",
+      "reference_code": "C 44711/26",
+      "stage": "CONVOQUES",
+      "administration": "جامعة عبد المالك السعدي - تطوان",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/debd09a4-a7a0-44e6-ab97-9b17ee80e6e1",
+      "telegram_message_id": 324,
+      "posted_at": "2026-11-28T00:04:26+00:00",
+      "grade": "أستاذ محاضرا في الطب والصيدلة دورة 10 دجنبر 2026 كلية الطب والصيدلة طنجة",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques/debd09a4-a7a0-44e6-ab97-9b17ee80e6e1",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/60d71cd85f96347bdf633b168ecd10fe.png"
+    },
+    {
+      "key": "ep:a082b027-6772-43c0-b60e-e9437140229f#CONVOQUES",
+      "reference_code": "C 44762/26",
+      "stage": "CONVOQUES",
+      "administration": "جامعة ابن زهر - أكادير",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/a082b027-6772-43c0-b60e-e9437140229f",
+      "telegram_message_id": 325,
+      "posted_at": "2026-11-28T00:04:32+00:00",
+      "grade": "أستاذ محاضر بكلية الاقتصاد والتدبير بتارودانت تخصص Mathématiques appliquées",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques/a082b027-6772-43c0-b60e-e9437140229f",
+      "exam_date": "2026-12-08",
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/673d4e683bf65fbf906fa190831359e7.png"
+    },
+    {
+      "key": "ep:08b09353-5bd4-41ea-a636-890ac5fc5896#CONVOQUES",
+      "reference_code": "C 44761/26",
+      "stage": "CONVOQUES",
+      "administration": "جامعة ابن زهر - أكادير",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/08b09353-5bd4-41ea-a636-890ac5fc5896",
+      "telegram_message_id": 326,
+      "posted_at": "2026-11-28T00:04:37+00:00",
+      "grade": "أستاذ محاضر بكلية العلوم التطبيقية بورزازات تخصص Informatique",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques/08b09353-5bd4-41ea-a636-890ac5fc5896",
+      "exam_date": "2026-12-08",
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/673d4e683bf65fbf906fa190831359e7.png"
+    },
+    {
+      "key": "ep:7779f529-6e55-4b06-bebd-0976c1c2429d#CONVOQUES_ORAL",
+      "reference_code": "C 44736/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "جامعة الحسن الثاني - الدارالبيضاء",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/7779f529-6e55-4b06-bebd-0976c1c2429d",
+      "telegram_message_id": 327,
+      "posted_at": "2026-11-28T00:04:43+00:00",
+      "grade": "أستاذ محاضر لفائدة كلية الطب ببني ملال",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/7779f529-6e55-4b06-bebd-0976c1c2429d",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/48fd46eb3d360ebccadcbcff69793732.png"
+    },
+    {
+      "key": "ep:debd09a4-a7a0-44e6-ab97-9b17ee80e6e1#CONVOQUES_ORAL",
+      "reference_code": "C 44711/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "جامعة عبد المالك السعدي - تطوان",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/debd09a4-a7a0-44e6-ab97-9b17ee80e6e1",
+      "telegram_message_id": 328,
+      "posted_at": "2026-11-28T00:04:48+00:00",
+      "grade": "أستاذ محاضرا في الطب والصيدلة دورة 10 دجنبر 2026 كلية الطب والصيدلة طنجة",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/debd09a4-a7a0-44e6-ab97-9b17ee80e6e1",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/60d71cd85f96347bdf633b168ecd10fe.png"
+    },
+    {
+      "key": "ep:a082b027-6772-43c0-b60e-e9437140229f#CONVOQUES_ORAL",
+      "reference_code": "C 44762/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "جامعة ابن زهر - أكادير",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/a082b027-6772-43c0-b60e-e9437140229f",
+      "telegram_message_id": 329,
+      "posted_at": "2026-11-28T00:04:55+00:00",
+      "grade": "أستاذ محاضر بكلية الاقتصاد والتدبير بتارودانت تخصص Mathématiques appliquées",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/a082b027-6772-43c0-b60e-e9437140229f",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/673d4e683bf65fbf906fa190831359e7.png"
+    },
+    {
+      "key": "ep:08b09353-5bd4-41ea-a636-890ac5fc5896#CONVOQUES_ORAL",
+      "reference_code": "C 44761/26",
+      "stage": "CONVOQUES_ORAL",
+      "administration": "جامعة ابن زهر - أكادير",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/08b09353-5bd4-41ea-a636-890ac5fc5896",
+      "telegram_message_id": 330,
+      "posted_at": "2026-11-28T00:05:00+00:00",
+      "grade": "أستاذ محاضر بكلية العلوم التطبيقية بورزازات تخصص Informatique",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques_oral/08b09353-5bd4-41ea-a636-890ac5fc5896",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/673d4e683bf65fbf906fa190831359e7.png"
+    },
+    {
+      "key": "ep:7779f529-6e55-4b06-bebd-0976c1c2429d#RESULTATS",
+      "reference_code": "C 44736/26",
+      "stage": "RESULTATS",
+      "administration": "جامعة الحسن الثاني - الدارالبيضاء",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/7779f529-6e55-4b06-bebd-0976c1c2429d",
+      "telegram_message_id": 331,
+      "posted_at": "2026-11-28T00:05:09+00:00",
+      "grade": "أستاذ محاضر لفائدة كلية الطب ببني ملال",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_resultats/7779f529-6e55-4b06-bebd-0976c1c2429d",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/48fd46eb3d360ebccadcbcff69793732.png"
+    },
+    {
+      "key": "ep:debd09a4-a7a0-44e6-ab97-9b17ee80e6e1#RESULTATS",
+      "reference_code": "C 44711/26",
+      "stage": "RESULTATS",
+      "administration": "جامعة عبد المالك السعدي - تطوان",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/debd09a4-a7a0-44e6-ab97-9b17ee80e6e1",
+      "telegram_message_id": 332,
+      "posted_at": "2026-11-28T00:05:15+00:00",
+      "grade": "أستاذ محاضرا في الطب والصيدلة دورة 10 دجنبر 2026 كلية الطب والصيدلة طنجة",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_resultats/debd09a4-a7a0-44e6-ab97-9b17ee80e6e1",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/60d71cd85f96347bdf633b168ecd10fe.png"
+    },
+    {
+      "key": "ep:a082b027-6772-43c0-b60e-e9437140229f#RESULTATS",
+      "reference_code": "C 44762/26",
+      "stage": "RESULTATS",
+      "administration": "جامعة ابن زهر - أكادير",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/a082b027-6772-43c0-b60e-e9437140229f",
+      "telegram_message_id": 333,
+      "posted_at": "2026-11-28T00:05:20+00:00",
+      "grade": "أستاذ محاضر بكلية الاقتصاد والتدبير بتارودانت تخصص Mathématiques appliquées",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_resultats/a082b027-6772-43c0-b60e-e9437140229f",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/673d4e683bf65fbf906fa190831359e7.png"
+    },
+    {
+      "key": "ep:08b09353-5bd4-41ea-a636-890ac5fc5896#RESULTATS",
+      "reference_code": "C 44761/26",
+      "stage": "RESULTATS",
+      "administration": "جامعة ابن زهر - أكادير",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/08b09353-5bd4-41ea-a636-890ac5fc5896",
+      "telegram_message_id": 334,
+      "posted_at": "2026-11-28T00:05:26+00:00",
+      "grade": "أستاذ محاضر بكلية العلوم التطبيقية بورزازات تخصص Informatique",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_resultats/08b09353-5bd4-41ea-a636-890ac5fc5896",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/673d4e683bf65fbf906fa190831359e7.png"
     }
   ],
   "seeded_sources": [
@@ -11231,9 +11503,33 @@
     "ep:157ca714-c3fd-466d-a2bd-dc61ac28d968": {
       "added": "2026-11-27",
       "checked": "2026-11-27T23:02:17+00:00"
+    },
+    "ep:e23e4254-a36a-45e0-bd75-f3f062080744": {
+      "added": "2026-11-28",
+      "checked": "2026-11-28T00:02:28+00:00"
+    },
+    "ep:852b5339-b55a-4b21-b6cf-729907a8e15b": {
+      "added": "2026-11-28",
+      "checked": "2026-11-28T00:02:28+00:00"
+    },
+    "ep:931ca6b6-f55a-4940-b75a-29221c8a6947": {
+      "added": "2026-11-28",
+      "checked": "2026-11-28T00:02:28+00:00"
+    },
+    "ep:182599b2-d29b-4f0b-a4b5-a572598dfc96": {
+      "added": "2026-11-28",
+      "checked": "2026-11-28T00:02:28+00:00"
+    },
+    "ep:b81d00fe-15f7-45ee-a744-79a1ba07bfdc": {
+      "added": "2026-11-28",
+      "checked": null
+    },
+    "ep:b1d5b611-2d05-427b-9ba8-13e7a060f5a6": {
+      "added": "2026-11-28",
+      "checked": null
     }
   },
-  "last_discovery": "2026-11-27",
+  "last_discovery": "2026-11-28",
   "send_failures": {},
   "last_digest_slot": "2026-11-27-night",
   "last_digest_at": "2026-11-27T22:03:01+00:00",
