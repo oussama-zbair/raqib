@@ -53,22 +53,6 @@ la chaîne) et modère le groupe de discussion (liens supprimés, insultes : ave
 
 Gratuit, sans publicité, sans aucune donnée personnelle collectée.
 
-## ⚙️ Fonctionnement
-
-```
-Cloudflare Worker (cron */30)          ← l'horloge, à l'heure
-   └─► démarre le workflow GitHub "publish"
-          └─► GitHub Actions (machine Linux neuve)
-                1. lit emploi-public.ma (annonces, convocations, résultats)
-                2. compare avec state/posted.json (la mémoire)
-                3. publie le nouveau sur Telegram
-                4. prépare les cartes WhatsApp (3 fois par jour)
-                5. écrit state/public.json pour le site
-                6. commite state/ dans le dépôt
-Site (Cloudflare Pages)  ← le navigateur lit state/public.json directement sur GitHub
-```
-
-
 ## 🛠️ Stack technique
 
 | Composant | Technologie |
