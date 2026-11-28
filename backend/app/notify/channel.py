@@ -322,14 +322,52 @@ def fetch_image(url: str | None) -> tuple[str, bytes, str] | None:
 # Instead we draw them on a 16:9 card: enlarged at most MAX_UPSCALE times with a
 # high-quality filter, centred, with the green and red band of the emblem card.
 CARD_SIZE = (960, 540)
-LOGO_BOX = (0.78, 0.58)  # the logo may use this share of the card width and height
+LOGO_BOX = (0.78, 0.66)  # the logo may use this share of the logo area
 MAX_UPSCALE = 3.0
-BAND = ((0, 98, 51), (193, 39, 45))  # green, red
-BAND_HEIGHT = 12
+# Raqib identity band at the bottom of every card.
+BRAND_BAND_HEIGHT = 96
+BRAND_BG = (10, 15, 30)  # night navy (site background)
+BRAND_TEAL, BRAND_BLUE = (94, 234, 212), (37, 99, 235)
+BRAND_LINE = 5  # teal to blue line above the band
+BRAND_HANDLE = "t.me/RaqibEmploi"
+ASSETS = Path(__file__).parent / "assets"
+WORDMARK_PATH = ASSETS / "raqib-wordmark.png"
+_MOROCCO_BAND = 28  # the old emblem card ends with a 28 px green and red band
+
+
+def _brand_band(width: int):
+    """The bottom band: navy, a teal-to-blue line, the Raqib wordmark and the handle."""
+    from PIL import Image, ImageDraw, ImageFont
+
+    band = Image.new("RGB", (width, BRAND_BAND_HEIGHT), BRAND_BG)
+    draw = ImageDraw.Draw(band)
+    for x in range(width):  # gradient line
+        t = x / max(1, width - 1)
+        color = tuple(round(a + (b - a) * t) for a, b in zip(BRAND_TEAL, BRAND_BLUE))
+        draw.line([(x, 0), (x, BRAND_LINE - 1)], fill=color)
+    inner = BRAND_BAND_HEIGHT - BRAND_LINE
+    try:
+        mark = Image.open(WORDMARK_PATH).convert("RGBA")
+        mark = mark.crop(mark.getbbox() or (0, 0, *mark.size))
+        mh = round(inner * 0.62)
+        mark = mark.resize((round(mark.width * mh / mark.height), mh), Image.LANCZOS)
+        band.paste(mark, (28, BRAND_LINE + (inner - mh) // 2), mark)
+    except Exception:  # noqa: BLE001 (missing asset: the band still carries the handle)
+        pass
+    try:
+        font = ImageFont.load_default(size=30)
+    except TypeError:  # very old Pillow
+        font = ImageFont.load_default()
+    box = draw.textbbox((0, 0), BRAND_HANDLE, font=font)
+    tw, th = box[2] - box[0], box[3] - box[1]
+    draw.text((width - 28 - tw, BRAND_LINE + (inner - th) // 2 - box[1]), BRAND_HANDLE,
+              font=font, fill=BRAND_TEAL)
+    return band
 
 
 def logo_card(raw: bytes) -> bytes | None:
-    """PNG card with the logo centred and sharp. None if the image cannot be read."""
+    """Branded PNG card: the logo centred and sharp, the Raqib band at the bottom.
+    None if the image cannot be read."""
     try:
         from PIL import Image, ImageOps
     except ImportError:
@@ -342,22 +380,46 @@ def logo_card(raw: bytes) -> bytes | None:
     except Exception:  # noqa: BLE001 (broken or unusual file: send it as it is)
         return None
     w, h = CARD_SIZE
-    usable_h = h - 2 * BAND_HEIGHT
-    scale = min(LOGO_BOX[0] * w / logo.width, LOGO_BOX[1] * usable_h / logo.height, MAX_UPSCALE)
+    area_h = h - BRAND_BAND_HEIGHT
+    scale = min(LOGO_BOX[0] * w / logo.width, LOGO_BOX[1] * area_h / logo.height, MAX_UPSCALE)
     size = (max(1, round(logo.width * scale)), max(1, round(logo.height * scale)))
     if size != logo.size:
         logo = logo.resize(size, Image.LANCZOS)
     card = Image.new("RGB", CARD_SIZE, (255, 255, 255))
-    card.paste(logo, ((w - size[0]) // 2, (usable_h - size[1]) // 2), logo)
-    card.paste(BAND[0], (0, h - 2 * BAND_HEIGHT, w, h - BAND_HEIGHT))
-    card.paste(BAND[1], (0, h - BAND_HEIGHT, w, h))
+    card.paste(logo, ((w - size[0]) // 2, (area_h - size[1]) // 2), logo)
+    card.paste(_brand_band(w), (0, area_h))
     out = io.BytesIO()
     card.save(out, format="PNG", optimize=True)
     return out.getvalue()
 
 
+def emblem_card() -> bytes | None:
+    """The coat of arms on the same branded card (fallback when there is no logo)."""
+    try:
+        import io
+
+        from PIL import Image
+
+        src = Image.open(EMBLEM_PATH).convert("RGB")
+        src = src.crop((0, 0, src.width, src.height - _MOROCCO_BAND))
+        ink = Image.eval(src, lambda v: 255 - v).getbbox()  # the emblem without white margins
+        if ink:
+            src = src.crop(ink)
+        buf = io.BytesIO()
+        src.save(buf, format="PNG")
+        return logo_card(buf.getvalue())
+    except Exception:  # noqa: BLE001
+        return None
+
+
+_EMBLEM_CACHE: bytes | None = None
+
+
 def _emblem() -> tuple[str, bytes, str]:
-    return ("morocco.png", EMBLEM_PATH.read_bytes(), "image/png")
+    global _EMBLEM_CACHE
+    if _EMBLEM_CACHE is None:
+        _EMBLEM_CACHE = emblem_card() or EMBLEM_PATH.read_bytes()
+    return ("morocco.png", _EMBLEM_CACHE, "image/png")
 
 
 def _share_url(channel_id: str, message_id: int) -> str | None:

@@ -5,7 +5,7 @@ import io
 
 from PIL import Image
 
-from app.notify.channel import CARD_SIZE, MAX_UPSCALE, logo_card
+from app.notify.channel import BRAND_BAND_HEIGHT, CARD_SIZE, MAX_UPSCALE, emblem_card, logo_card
 
 
 def _png(w, h, mode="RGBA", color=(200, 30, 30, 255)):
@@ -16,7 +16,7 @@ def _png(w, h, mode="RGBA", color=(200, 30, 30, 255)):
 
 def _bbox(card_bytes):
     card = Image.open(io.BytesIO(card_bytes)).convert("RGB")
-    top = card.crop((0, 0, CARD_SIZE[0], CARD_SIZE[1] - 30))  # without the band
+    top = card.crop((0, 0, CARD_SIZE[0], CARD_SIZE[1] - BRAND_BAND_HEIGHT))  # without the band
     return card.size, Image.eval(top, lambda v: 255 - v).getbbox()
 
 
@@ -39,3 +39,12 @@ def test_transparent_and_jpeg_logos_work_and_garbage_is_refused():
     Image.new("RGB", (85, 85), (10, 100, 10)).save(jpg, format="JPEG")
     assert logo_card(jpg.getvalue())
     assert logo_card(b"not an image") is None
+
+
+def test_every_card_carries_the_raqib_band():
+    from PIL import Image as Img
+    for raw in (logo_card(_png(98, 85)), emblem_card()):
+        card = Img.open(io.BytesIO(raw)).convert("RGB")
+        assert card.size == CARD_SIZE
+        r, g, b = card.getpixel((CARD_SIZE[0] // 2, CARD_SIZE[1] - 10))
+        assert r < 40 and g < 40 and b < 60  # navy band at the bottom
