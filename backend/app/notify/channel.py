@@ -309,8 +309,51 @@ def fetch_image(url: str | None) -> tuple[str, bytes, str] | None:
         return None
     if not resp.content or len(resp.content) > MAX_IMAGE_BYTES:
         return None
+    card = logo_card(resp.content)
+    if card is not None:
+        return ("logo.png", card, "image/png")
     ext = {"image/png": "png", "image/jpeg": "jpg", "image/webp": "webp"}.get(ctype, "png")
     return (f"logo.{ext}", resp.content, ctype)
+
+
+# ---- card image -----------------------------------------------------------------------
+# The portal's logos are small thumbnails (most are 85 px tall). Sent as they are,
+# Telegram stretches them to the full card width (5 to 10 times) and they look blurry.
+# Instead we draw them on a 16:9 card: enlarged at most MAX_UPSCALE times with a
+# high-quality filter, centred, with the green and red band of the emblem card.
+CARD_SIZE = (960, 540)
+LOGO_BOX = (0.78, 0.58)  # the logo may use this share of the card width and height
+MAX_UPSCALE = 3.0
+BAND = ((0, 98, 51), (193, 39, 45))  # green, red
+BAND_HEIGHT = 12
+
+
+def logo_card(raw: bytes) -> bytes | None:
+    """PNG card with the logo centred and sharp. None if the image cannot be read."""
+    try:
+        from PIL import Image, ImageOps
+    except ImportError:
+        return None
+    try:
+        import io
+
+        logo = Image.open(io.BytesIO(raw))
+        logo = ImageOps.exif_transpose(logo).convert("RGBA")
+    except Exception:  # noqa: BLE001 (broken or unusual file: send it as it is)
+        return None
+    w, h = CARD_SIZE
+    usable_h = h - 2 * BAND_HEIGHT
+    scale = min(LOGO_BOX[0] * w / logo.width, LOGO_BOX[1] * usable_h / logo.height, MAX_UPSCALE)
+    size = (max(1, round(logo.width * scale)), max(1, round(logo.height * scale)))
+    if size != logo.size:
+        logo = logo.resize(size, Image.LANCZOS)
+    card = Image.new("RGB", CARD_SIZE, (255, 255, 255))
+    card.paste(logo, ((w - size[0]) // 2, (usable_h - size[1]) // 2), logo)
+    card.paste(BAND[0], (0, h - 2 * BAND_HEIGHT, w, h - BAND_HEIGHT))
+    card.paste(BAND[1], (0, h - BAND_HEIGHT, w, h))
+    out = io.BytesIO()
+    card.save(out, format="PNG", optimize=True)
+    return out.getvalue()
 
 
 def _emblem() -> tuple[str, bytes, str]:
