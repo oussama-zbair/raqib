@@ -9730,6 +9730,20 @@
       "telegram_message_id": null,
       "posted_at": "2026-11-28T00:32:04+00:00",
       "seeded": true
+    },
+    {
+      "key": "ep:aa9e8733-c793-4189-8f0f-dd9ffc49e838#CONVOQUES",
+      "reference_code": "C 44723/26",
+      "stage": "CONVOQUES",
+      "administration": "جامعة شعيب الدكالي - الجديدة",
+      "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/aa9e8733-c793-4189-8f0f-dd9ffc49e838",
+      "telegram_message_id": 344,
+      "posted_at": "2026-11-28T11:32:45+00:00",
+      "grade": "تقني من الدرجة الثالثة لفائدة رئاسة جامعة شعيب الدكالي بالجديدة",
+      "list_pdf_url": "https://www.emploi-public.ma/ar/تحميل/المباريات/list_convoques/aa9e8733-c793-4189-8f0f-dd9ffc49e838",
+      "exam_date": null,
+      "city": null,
+      "logo_url": "https://www.emploi-public.ma/backoffice/files/images/administrations/538235c11267006838377d4673c17e9d.png"
     }
   ],
   "seeded_sources": [
