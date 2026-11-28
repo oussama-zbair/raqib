@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-28T00:05:48+00:00",
+ "updated_at": "2026-11-28T00:33:24+00:00",
  "channel": "https://t.me/RaqibEmploi",
  "sources": [
   {
@@ -9,12 +9,128 @@
   }
  ],
  "stats": {
-  "open": 153,
-  "posted_total": 175,
+  "open": 158,
+  "posted_total": 180,
   "stage_posts_total": 146,
   "followed": 475
  },
  "concours": [
+  {
+   "id": "ep:e23e4254-a36a-45e0-bd75-f3f062080744",
+   "code": "C 44758/26",
+   "administration": "شركة المنشآت الرياضية للرباط - INSPORA",
+   "grade": "إطار في الخزينة (رجل/امرأة)",
+   "title": "إطار في الخزينة",
+   "family": "إطار",
+   "scale": null,
+   "specialty": null,
+   "posts": 1,
+   "deadline": "2026-11-28",
+   "exam_date": null,
+   "city": null,
+   "logo": null,
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/e23e4254-a36a-45e0-bd75-f3f062080744",
+   "tags": [],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-28T00:33:24+00:00"
+  },
+  {
+   "id": "ep:852b5339-b55a-4b21-b6cf-729907a8e15b",
+   "code": "C 44757/26",
+   "administration": "شركة المنشآت الرياضية للرباط - INSPORA",
+   "grade": "إطار في الموارد البشرية (رجل/امرأة)",
+   "title": "إطار في الموارد البشرية",
+   "family": "إطار",
+   "scale": null,
+   "specialty": null,
+   "posts": 1,
+   "deadline": "2026-11-28",
+   "exam_date": null,
+   "city": null,
+   "logo": null,
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/852b5339-b55a-4b21-b6cf-729907a8e15b",
+   "tags": [],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-28T00:33:19+00:00"
+  },
+  {
+   "id": "ep:931ca6b6-f55a-4940-b75a-29221c8a6947",
+   "code": "C 44756/26",
+   "administration": "شركة المنشآت الرياضية للرباط - INSPORA",
+   "grade": "متصرف في الأنظمة والشبكات والأمن المعلوماتي (رجل/امرأة)",
+   "title": "متصرف في الأنظمة والشبكات",
+   "family": "متصرف",
+   "scale": null,
+   "specialty": null,
+   "posts": 1,
+   "deadline": "2026-11-28",
+   "exam_date": null,
+   "city": null,
+   "logo": null,
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/931ca6b6-f55a-4940-b75a-29221c8a6947",
+   "tags": [
+    "معلوميات",
+    "أمن"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-28T00:33:13+00:00"
+  },
+  {
+   "id": "ep:182599b2-d29b-4f0b-a4b5-a572598dfc96",
+   "code": "C 44755/26",
+   "administration": "شركة المنشآت الرياضية للرباط - INSPORA",
+   "grade": "مهندس في الأشغال المعمارية (رجل/امرأة)",
+   "title": "مهندس في الأشغال المعمارية",
+   "family": "مهندس",
+   "scale": null,
+   "specialty": null,
+   "posts": 1,
+   "deadline": "2026-11-28",
+   "exam_date": null,
+   "city": null,
+   "logo": null,
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/182599b2-d29b-4f0b-a4b5-a572598dfc96",
+   "tags": [
+    "هندسة"
+   ],
+   "stages": [
+    "AVIS"
+   ],
+   "posted_at": "2026-11-28T00:33:08+00:00"
+  },
+  {
+   "id": "ep:08b09353-5bd4-41ea-a636-890ac5fc5896",
+   "code": "C 44761/26",
+   "administration": "جامعة ابن زهر - أكادير",
+   "grade": "أستاذ محاضر بكلية العلوم التطبيقية بورزازات تخصص Informatique",
+   "title": "أستاذ محاضر",
+   "family": "أستاذ",
+   "scale": null,
+   "specialty": null,
+   "posts": 1,
+   "deadline": "2026-11-29",
+   "exam_date": "2026-12-08",
+   "city": null,
+   "logo": "https://www.emploi-public.ma/backoffice/files/images/administrations/673d4e683bf65fbf906fa190831359e7.png",
+   "url": "https://www.emploi-public.ma/ar/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA/08b09353-5bd4-41ea-a636-890ac5fc5896",
+   "tags": [
+    "معلوميات",
+    "تعليم"
+   ],
+   "stages": [
+    "AVIS",
+    "CONVOQUES",
+    "CONVOQUES_ORAL",
+    "RESULTATS"
+   ],
+   "posted_at": "2026-11-28T00:33:03+00:00"
+  },
   {
    "id": "ep:a082b027-6772-43c0-b60e-e9437140229f",
    "code": "C 44762/26",
@@ -986,7 +1102,7 @@
    "posted_at": "2026-11-26T17:33:10+00:00"
   },
   {
-   "id": "ep:baf06523-83ae-45a3-bb1a-3144e273d7e5",
+   "id": "ep:ace1070f-f3a5-46df-947c-0372143baeb4",
    "code": "C 44983/26",
    "administration": "إقليم الحوز",
    "grade": "تقني من الدرجة الرابعة - سُلمْ 8",
@@ -1030,7 +1146,7 @@
    "posted_at": "2026-11-26T17:04:42+00:00"
   },
   {
-   "id": "ep:dc5dba52-bc56-45e1-9d30-504dbf5832eb",
+   "id": "ep:bd7643c2-1ee8-4a5c-8b93-577068cc6814",
    "code": "C 44941/26",
    "administration": "إقليم بولمان - الرميلة",
    "grade": "تقني من الدرجة الرابعة - سُلمْ 8",
@@ -1435,7 +1551,7 @@
    "posted_at": "2026-11-26T14:12:12+00:00"
   },
   {
-   "id": "ep:9533bf08-01f6-43d8-a4ec-22554f0dc3e3",
+   "id": "ep:a85ded0c-df8c-4beb-be8f-ea0d420f104d",
    "code": "C 44966/26",
    "administration": "جامعة محمد الأول - وجدة",
    "grade": "أستاذ محاضر لفائدة المدرسة العليا للتربية والتكوين وجدة.",
@@ -2053,7 +2169,7 @@
    "posted_at": "2026-11-26T11:04:41+00:00"
   },
   {
-   "id": "ep:87771aba-7e04-4a17-9562-533af23e2dc1",
+   "id": "ep:1e96ae25-71ea-46b8-8867-53ac0ce6201f",
    "code": "C 44934/26",
    "administration": "صورياد القناة الثانية 2M",
    "grade": "تقني في الديكور",
@@ -2120,7 +2236,7 @@
    "posted_at": "2026-11-26T10:05:29+00:00"
   },
   {
-   "id": "ep:770a12fe-e1a1-4bb9-8a7d-f6ca4c8152fb",
+   "id": "ep:9c94d268-16e7-4f46-9c9d-b1a429f8ea50",
    "code": "C 44931/26",
    "administration": "جامعة مولاي اسماعيل - مكناس",
    "grade": "أستاذ محاضر من الدرجة أ - سُلمْ 11",
@@ -2434,7 +2550,7 @@
    "posted_at": "2026-11-25T19:34:47+00:00"
   },
   {
-   "id": "ep:ccb9b405-58f7-453e-bb03-72ff84e5c365",
+   "id": "ep:a5b90bf5-4086-434c-b948-8880d9adb947",
    "code": "C 44897/26",
    "administration": "إقليم الحاجب - اكوراي",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -2503,7 +2619,7 @@
    "posted_at": "2026-11-25T19:34:32+00:00"
   },
   {
-   "id": "ep:d520bc73-bcf0-4974-af85-7b6af7c7c40f",
+   "id": "ep:3f6d3934-2b54-4ccb-934e-67ec66e7f762",
    "code": "C 44884/26",
    "administration": "إقليم تازة - تازة",
    "grade": "تقني من الدرجة الثالثة - سُلمْ 9",
@@ -3243,7 +3359,7 @@
    "posted_at": "2026-11-25T18:24:59+00:00"
   },
   {
-   "id": "ep:48737302-a809-41b9-a23d-03980d4b9460",
+   "id": "ep:7ba78629-d145-41b6-b873-e1202bf0e3be",
    "code": "C 44889/26",
    "administration": "شركة المنشآت الرياضية لطنجة ش.م",
    "grade": "تقني تيار قوي",
